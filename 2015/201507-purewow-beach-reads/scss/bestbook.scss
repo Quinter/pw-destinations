@@ -1,0 +1,125 @@
+// ==========
+// VENDOR LIBRARIES
+// ==========
+
+@import "lib/lib";
+
+// ==========
+// MIXINS & FUNCTIONS
+// ==========
+
+@import "helpers/mixins";
+@import "helpers/functions";
+
+// ==========
+// SHAME - For new style snippets that haven't been sorted and commented yet
+// ==========
+
+@import "shame";
+
+// ==========
+// CUSTOM FOR BOOKS DESTINATION
+// ==========
+body {background: url('../img/header-image-1.png') no-repeat;background-size: 100% 450px;
+	@include respond-to(handhelds) {background: url('../img/book-mobile-header-image.png') repeat-x;background-size: auto 350px;}
+}
+.title {
+	.title-container {
+		h1 {
+			font-size: 9.5em;
+			font-family: $manus;
+			color: #f2f2fd;
+			line-height: 0.7;
+			text-align: center;
+			margin:0.09em 0;
+				@include respond-to(handhelds) {font-size: 5em;margin-top:10px;margin-bottom: 20px;}
+				@include respond-to(inbtwn-screens) {font-size: 10em;}
+		}
+		h2 {
+			font-size: 1.18em;
+			font-family: $reg;
+			color: #e8e8fe;
+			text-transform: uppercase;
+			line-height: 1.4;
+			letter-spacing: 0.19em;
+			text-align: center;
+			span {font-size: 1.3em;}
+		}
+		span.big-num {font-size: 1.33em;}
+	}
+}
+
+.container__wrap {
+	@include respond-to(handhelds) {text-align: center; padding: 0px 10px;}
+	.btn-buy-container, .print-row {
+		text-align: left;padding-left:0.1em;
+		@include respond-to(handhelds) {text-align: center;}
+		.btn-buy, .btn-print-booklist {
+			border: 2px solid #406cfb;
+			background-color: rgb(255,255,255);
+			border-radius: 2px;
+			text-decoration: none;
+			padding: 12px 50px;
+			.btn-text {
+				font-size: 14.5px;
+				font-family: $bold;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+				color: #406cfb;
+			}
+			&:hover {
+				& .btn-text {color: #fff; transition: all 0.2s linear;}
+				background: #406cfb;
+				transition: all 0.2s linear;
+			} 
+		}
+		.btn-print-booklist {
+			div {display:inline-block;
+				.icon-print {
+					margin-right: 20px;
+				}
+				.print-text {vertical-align:25%;}
+			}
+		}
+	}
+	.number__col, .text__col {
+		margin-top: 6em;
+	}
+	.number__col {
+		position: relative;
+		top: -10px;
+		text-align: center;
+	}
+	h1 {
+		font-family: $light;
+		font-size: 3.06em;
+		color: #202020;
+		line-height: 1.1em;
+		letter-spacing: 0.13em;
+		text-transform: uppercase;
+	}
+	h2 {
+		font-family: $light;
+		font-size: 1em;
+		color: #202020;
+		line-height: 2.5em;
+		letter-spacing: 0.17em;
+		text-transform: uppercase;
+		margin-top: 3px;
+	}
+	.item-p {
+		font-family: 'AvenirLTStd-Book';
+		font-size: 1.13em;
+		color: #383838;
+		line-height: 1.85em;
+		margin-bottom: 40px;
+		& a{border-bottom: 1px solid;
+			&:hover{border:1px solid white;}			
+		}
+	}
+	img {
+		@include respond-to(handhelds) {margin: 0 auto;max-height: 100%;max-width: 100%;}
+	}
+	& .first {padding-top: 0px !important; margin-top: -65px !important;}
+	& .last {padding-top: 80px !important;}
+}

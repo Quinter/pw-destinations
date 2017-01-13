@@ -1,0 +1,174 @@
+
+/* 
+# ####################################################################
+# BEGIN: DO NOT MODIFY THESE LINES  
+# ####################################################################
+*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('webfonts/icomoon/icomoon.eot?-vfnd7i');
+	src:url('webfonts/icomoon/icomoon.eot?#iefix-vfnd7i') format('embedded-opentype'),
+		url('webfonts/icomoon/icomoon.woff?-vfnd7i') format('woff'),
+		url('webfonts/icomoon/icomoon.ttf?-vfnd7i') format('truetype'),
+		url('webfonts/icomoon/icomoon.svg?-vfnd7i#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	/* line-height: 1; */
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-15-26 {
+	font-size:15px;
+	line-height: 26px;
+}
+.icon-17-27 {
+	font-size:17px;
+	line-height: 27px;
+}
+.icon-22-27 {
+	font-size:22px;
+	line-height: 27px;
+}
+.icon-25-26 {
+	font-size:25px;
+	line-height: 26px;
+}
+/* 
+# ####################################################################
+# END: DO NOT MODIFY THESE LINES 
+# ####################################################################
+*/
+
+
+
+/* BEGIN: PASTE ICO-MOON GENERATED "ico-..." CSS CLASSES HERE  */
+.icon-check_mark:before {
+	content: "\e600";
+}
+.icon-youtube:before {
+	content: "\e601";
+}
+.icon-print:before {
+	content: "\e621";
+}
+.icon-arrow_left:before {
+	content: "\e602";
+}
+.icon-arrow_right:before {
+	content: "\e603";
+}
+.icon-arrows-directions:before {
+	content: "\e604";
+}
+.icon-beauty:before {
+	content: "\e605";
+}
+.icon-books:before {
+	content: "\e606";
+}
+.icon-clock-time:before {
+	content: "\e607";
+}
+.icon-culture:before {
+	content: "\e608";
+}
+.icon-email:before {
+	content: "\e609";
+}
+.icon-events:before {
+	content: "\e60a";
+}
+.icon-fashion:before {
+	content: "\e60b";
+}
+.icon-foodtravel:before {
+	content: "\e60c";
+}
+.icon-hamburger-menu:before {
+	content: "\e60d";
+}
+.icon-health:before {
+	content: "\e60e";
+}
+.icon-home:before {
+	content: "\e60f";
+}
+.icon-info:before {
+	content: "\e610";
+}
+.icon-linkedin:before {
+	content: "\e611";
+}
+.icon-money:before {
+	content: "\e612";
+}
+.icon-nearbynow:before {
+	content: "\e613";
+}
+.icon-linkedin2:before {
+	content: "\e622";
+}
+.icon-plussign:before {
+	content: "\e615";
+}
+.icon-recipebox:before {
+	content: "\e616";
+}
+.icon-recipebox-accountpage:before {
+	content: "\e617";
+}
+.icon-recipes:before {
+	content: "\e618";
+}
+.icon-search:before {
+	content: "\e619";
+}
+.icon-slideshow:before {
+	content: "\e61a";
+}
+.icon-stumbleupon:before {
+	content: "\e61b";
+}
+.icon-tech:before {
+	content: "\e61c";
+}
+.icon-travel:before {
+	content: "\e61d";
+}
+.icon-twitter:before {
+	content: "\e61e";
+}
+.icon-video:before {
+	content: "\e61f";
+}
+.icon-facebook:before {
+	content: "\e623";
+}
+.icon-instagram:before {
+	content: "\e624";
+}
+.icon-pinterest:before {
+	content: "\e625";
+}
+.icon-PW_logo:before {
+	content: "\e626";
+}
+.icon-search2:before {
+	content: "\e627";
+}
+.icon-stumbleupon2:before {
+	content: "\e628";
+}
+.icon-trending:before {
+	content: "\e629";
+}
+/* END: PASTE ICO-MOON GENERATED "ico-..." CSS CLASSES HERE  */

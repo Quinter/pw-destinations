@@ -1,0 +1,489 @@
+@font-face {
+	font-family: "Freeland";
+	src: url("../fonts/Freeland_400_normal_1452153385.eot");
+	src: url("../fonts/Freeland_400_normal_1452153385.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Freeland_400_normal_1452153385.svg#Freeland") format("svg"),
+		url("../fonts/Freeland_400_normal_1452153385.woff") format("woff"),
+		url("../fonts/Freeland_400_normal_1452153385.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Brandon Grotesque";
+	src: url("../fonts/BrandonGrotesque_500_normal_1452153991.eot");
+	src: url("../fonts/BrandonGrotesque_500_normal_1452153991.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BrandonGrotesque_500_normal_1452153991.svg#BrandonGrotesque") format("svg"),
+		url("../fonts/BrandonGrotesque_500_normal_1452153991.woff") format("woff"),
+		url("../fonts/BrandonGrotesque_500_normal_1452153991.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Brandon Grotesque";
+	src: url("../fonts/BrandonGrotesque_700_normal_1452153991.eot");
+	src: url("../fonts/BrandonGrotesque_700_normal_1452153991.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BrandonGrotesque_700_normal_1452153991.svg#BrandonGrotesque") format("svg"),
+		url("../fonts/BrandonGrotesque_700_normal_1452153991.woff") format("woff"),
+		url("../fonts/BrandonGrotesque_700_normal_1452153991.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Brandon Grotesque";
+	src: url("../fonts/BrandonGrotesque_300_normal_1452153991.eot");
+	src: url("../fonts/BrandonGrotesque_300_normal_1452153991.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BrandonGrotesque_300_normal_1452153991.svg#BrandonGrotesque") format("svg"),
+		url("../fonts/BrandonGrotesque_300_normal_1452153991.woff") format("woff"),
+		url("../fonts/BrandonGrotesque_300_normal_1452153991.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Brandon Grotesque";
+	src: url("../fonts/BrandonGrotesque_400_normal_1452153991.eot");
+	src: url("../fonts/BrandonGrotesque_400_normal_1452153991.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/BrandonGrotesque_400_normal_1452153991.svg#BrandonGrotesque") format("svg"),
+		url("../fonts/BrandonGrotesque_400_normal_1452153991.woff") format("woff"),
+		url("../fonts/BrandonGrotesque_400_normal_1452153991.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FreightDisp Pro";
+	src: url("../fonts/FreightDispPro_400_normal_1452154220.eot");
+	src: url("../fonts/FreightDispPro_400_normal_1452154220.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/FreightDispPro_400_normal_1452154220.svg#FreightDispPro") format("svg"),
+		url("../fonts/FreightDispPro_400_normal_1452154220.woff") format("woff"),
+		url("../fonts/FreightDispPro_400_normal_1452154220.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FreigTexPro";
+	src: url("../fonts/FreigTexPro_700_normal_1452154475.eot");
+	src: url("../fonts/FreigTexPro_700_normal_1452154475.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/FreigTexPro_700_normal_1452154475.svg#FreigTexPro") format("svg"),
+		url("../fonts/FreigTexPro_700_normal_1452154475.woff") format("woff"),
+		url("../fonts/FreigTexPro_700_normal_1452154475.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FreightText Pro";
+	src: url("fonts/FreigTexPro_400_normal_1452154475.eot");
+	src: url("fonts/FreigTexPro_400_normal_1452154475.eot?#iefix") format("embedded-opentype"),
+		url("fonts/FreigTexPro_400_normal_1452154475.svg#FreigTexPro") format("svg"),
+		url("fonts/FreigTexPro_400_normal_1452154475.woff") format("woff"),
+		url("fonts/FreigTexPro_400_normal_1452154475.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+/* ------------------------------------------------------------ *\
+	Shell
+\* ------------------------------------------------------------ */
+
+.hb-shell { padding: 0 70px; }
+
+/* ------------------------------------------------------------ *\
+	Icons
+\* ------------------------------------------------------------ */
+
+[class^="ico-"] { display: inline-block; vertical-align: middle; font-size: 0; line-height: 0; text-indent: -4000px; }
+
+.ico-play { background: url(../images/ico-play.png) no-repeat 0 0; width:271px; height: 271px; }
+
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+p {
+color: #181818 ;
+font-family: "FreightText Pro";
+font-weight: 400;
+font-size: 19px;
+letter-spacing: 0.25px;
+line-height: 1.55em;
+margin: 0 auto;
+-webkit-font-smoothing: antialiased;
+}
+
+.p-genevieve {
+   width: 750px;
+   color: #3F4045;
+   font-family: freight-text-pro;
+   font-weight: 400;
+   font-size: 16px;
+   letter-spacing: .25px;
+   line-height: 1.54em;
+}
+
+.hb-main .hb-main-head { text-align:center; max-width: 650px; margin: 0 auto; padding-bottom:90px; }
+.hb-main .hb-main-title { 
+	height: 230px;
+	width: 650px;
+	padding-top: 30px;
+	font-size: 200px;
+	font-family: "Freeland"; 
+	color: rgb(53, 192, 171); 
+	line-height: 1.846; 
+	text-align: center; 
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+.hb-main .hb-main-subtitle { 
+   margin-top: 100px;
+   font-size: 27px;
+   font-family: "Brandon Grotesque";
+   color: #1f1f1f ;
+   text-transform: uppercase;
+   line-height: .7;
+   text-align: center;
+   margin: 0;
+   letter-spacing: 14.5px;
+   font-weight: 400; 
+}
+.hb-main .hb-main-head p { 
+	max-width: 650px;
+	font-size: 16px; 
+	padding-top: 25px;
+	padding-bottom: 40px;
+	letter-spacing: 0;
+	font-family: "FreightDisp Pro", arial; 
+	color: #3f4045;
+	line-height: 1.54em; 
+	text-align: center; 
+}
+
+.hb-main .hb-main-body {
+	margin-top: -100px;
+}
+
+.hb-main .hb-main-body p {
+  letter-spacing: 0;
+   color: #3F4045 ;
+   font-family: "FreightText Pro"
+   font-weight: 400;
+   font-size: 16px;
+   letter-spacing: .25px;
+   line-height: 1.54em;
+}
+
+a.genevieve-link {
+	color: #181818;
+	font-family: "FreightText Pro";
+	font-weight: 600;
+	border-bottom: 1px solid #303D42;
+	font-size: 19px;
+	letter-spacing: 0.25px;
+	line-height: 1.55em;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	transition: all 0.5s ease;
+}
+
+a.genevieve-link:hover {
+	color: #35c0ab !important;
+	border-bottom: 0;
+}
+
+/* ------------------------------------------------------------ *\
+	Section Welcome
+\* ------------------------------------------------------------ */
+
+.hb-section-welcome { margin:0 auto; max-width: 970px;}
+.hb-section-welcome .hb-shell {padding: 0;}
+.hb-section-welcome .hb-section-media { position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0; margin-bottom: 0;}
+.hb-section-welcome .hb-section-media img { display:block; width:100%; }
+.hb-section-welcome .hb-section-media .hb-btn-play { display: inline-block; position: absolute; top:50%; left:50%; margin: -135px 0 0 -135px; z-index: 2; }
+.hb-section-welcome .hb-section-media iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+        display: block;
+}
+.hb-section-welcome .hb-section-body { 
+	max-width: 615px; 
+	font-size: 17.404px; 
+	font-family: "FreightText Pro"; 
+	color: rgb(53, 54, 57); 
+	line-height: 1.723; 
+	text-align: left; 
+        margin-bottom: 30px;
+}
+.hb-section-welcome .hb-section-title { 
+	font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Brandon Grotesque";
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 0.99;
+    letter-spacing: 6px;
+	color: #000;
+	text-align: left; 
+	-webkit-font-smoothing: antialiased;
+}
+
+/* ------------------------------------------------------------ *\
+	Section 
+\* ------------------------------------------------------------ */
+
+.hb-section {
+	margin-top: 100px;
+}
+
+.hb-section .hb-section-title { 
+	font-family: "FreightDisp Pro"; 
+	font-size: 40px; 
+	line-height: 39px;
+	letter-spacing: .25px; 
+	margin: 5px 0 30px 0;
+	margin-bottom: 45px;
+	margin-top: 10px;
+	color: #000;
+	-webkit-font-smoothing: antialiased;
+}
+.hb-section .hb-section-title:before { content:''; width:116px; height: 3px; display:block; background:#000; margin-bottom:15px; }
+
+/* ------------------------------------------------------------ *\
+	Products
+\* ------------------------------------------------------------ */
+
+.hb-products > ul { margin: 0 -20px; overflow: hidden; list-style:none; list-style-position: outside; padding: 0; }
+.hb-products > ul >li { width:33%; display: inline-block; padding: 0 20px; }
+.hb-products .hb-product a { display:block; }
+.hb-products .hb-product a img { display:block; width:100%; margin-bottom:7px; }
+.hb-products .hb-product h3 {
+	font-family: "Brandon Grotesque";
+	font-weight: 500;
+	font-size: .65em;
+	color: #333;
+	text-align: left;
+	line-height: 1.38em;
+	letter-spacing: .13em;
+	-webkit-font-smoothing: antialiased;
+	padding-top: 1em;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
+.hb-products .hb-product-body h4 {
+	padding-left: 2px;
+	padding-right: 2px;
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+	font-family: "FreightDisp Pro";
+	font-size: 20px !important;
+	font-weight: normal;
+	min-height: 50px;
+	padding-top: 0px;
+	text-align: left;
+	letter-spacing: 0;
+	text-transform: none;
+	margin: 0px;
+}
+
+/* ------------------------------------------------------------ *\
+	Slider
+\* ------------------------------------------------------------ */
+
+.hb-slider { position: relative; }
+.hb-slider .owl-prev,
+.hb-slider .owl-next { width:132px; height: 132px; font-size: 0; line-height: 0; text-indent: -4000px; position: absolute; top:50%; margin-top:-131px; }
+
+.hb-slider .owl-prev { background: url(../images/ico-arrow-left.png) no-repeat 0 0; left:35px; }
+.hb-slider .owl-next { background: url(../images/ico-arrow-right.png) no-repeat 0 0; right:35px; }
+
+.hb-slider .owl-item img {
+	opacity: 0.2; /* ideal when slider is working properly */
+	opacity: 1;
+}
+.hb-slider .owl-item.active img {
+	opacity:1;
+}
+
+.hb-slider .hb-slide-content h3 { 
+	color: #000;
+	text-transform: uppercase; 
+	font-family: "Brandon Grotesque"; 
+	font-size: 15px; 
+	font-weight: 600;
+	letter-spacing: 3px; 
+	text-align: left; 
+	line-height: 1.6; 
+	margin: 15px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.hb-slider .hb-slide-image { margin-bottom:30px; }
+.hb-slider .hb-slide-content { 
+	opacity: .2; /* ideallly this, but we are having issues w/ the carousel properly centering the 'active' slide on laptop screen sizes */
+	opacity: 1; /* intermediate fix - all slides will always be full opacity. at least this way, things are uniform. */
+	font-size: 17.5px; 
+	font-family: "FreightText Pro"; 
+	color: rgb(56, 56, 56); 
+	line-height: 1.771; 
+}
+.hb-slider .active .hb-slide-content  { opacity: 1; }
+
+
+/* ------------------------------------------------------------ *\
+	Ad
+\* ------------------------------------------------------------ */
+
+.hb-ad { background:#fafafa; text-decoration:none; text-align:center; padding: 40px 0; margin-bottom:70px; }
+.hb-ad img { max-width: 100%; display: inline-block; }
+
+/* ------------------------------------------------------------ *\
+	Media Queries
+\* ------------------------------------------------------------ */
+/* AC 1/20 - COPY PASTA THESE IN ADMIN TO TEST OUT BEFORE SENDING TO JOHN */
+@media (max-width: 767px){
+	.hb-shell { padding: 0 35px; }
+	.hb-ad { display:none; }
+
+	.ico-play { width:88px; height: 88px; background-size: 88px 88px; }
+
+	.hb-main .hb-main-title { 
+		font-size: 95px; 
+		height: 130px; 
+		width: auto; 
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
+	.hb-main .hb-main-subtitle { 
+		font-size: 18px;
+		font-weight: 500;
+		margin-top: 0;
+		letter-spacing: 11.5px;
+		height: 0;
+	}
+	.hb-main .hb-main-head { padding: 0 5px 45px 5px; }
+	.hb-main .hb-main-head p { 
+		display: none;
+	}
+
+	.hb-section-welcome .hb-section-title { 
+		font-size: 16px; 
+		line-height: 1.197; 
+		text-align: left; 
+		margin-bottom: 0;
+		height: 30px;
+	}
+	.hb-section-welcome .hb-section-body { 
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #181818;
+	font-family: "FreightText Pro";
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 0.25px;
+	line-height: 1.55em;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+	}
+
+	.hb-main .hb-main-body {
+		margin-top: 0;
+	}
+
+	
+	.hb-section {
+		margin-top: 0;
+	}
+
+	.hb-section-welcome p {
+		height: 288px;
+	}
+
+	.hb-section-welcome .hb-section-media .hb-btn-play { margin: -44px 0 0 -44px; }
+
+	.hb-section .hb-section-title { 
+		font-family: "FreightDisp Pro"; 
+		font-size: 40px; 
+		line-height: 39px;
+		letter-spacing: .25px; 
+		margin: 5px 0 30px 0; 
+		color: #000;
+		-webkit-font-smoothing: antialiased;
+		color: rgb(22, 22, 22); 
+		line-height: 1; 
+		text-align: left; 
+		margin-bottom: 15px;
+	}
+
+	.hb-slider { padding: 0 35px; margin-bottom:40px; }
+	.hb-slider .hb-slide-content { font-size: 18px; font-family: "Brandon Grotesque"; color: rgb(22, 22, 22); font-weight: bold; text-transform: uppercase; }
+	.hb-slider .hb-slide-content h3 {
+		margin-top: 9px;
+		margin-bottom: 4px;
+	}
+
+	.hb-slider .hb-slide-image {
+	 	margin-bottom:15px; 
+	 }
+
+	.hb-main .hb-main-head p { 
+		margin-bottom: 30px;
+	}
+
+	p {
+		font-size: 18px;
+		text-transform: none;
+	}
+
+	.p-genevieve {
+		width: 100%;
+	}
+
+	.hb-slider .hb-slide-content { }
+	
+	.hb-slider .owl-dots { 
+		display:block; 
+		width:100%; 
+		text-align:center;
+		margin-top: 0;
+	}
+
+	.hb-slider .owl-dots .owl-dot { 
+		border-radius: 50%; 
+		background-color: rgb(70, 70, 70); 
+		width: 8px; 
+		height: 8px; 
+		display: inline-block; 
+		vertical-align: middle; 
+		margin: 0 4px; 
+	}
+	.hb-slider .owl-dots .owl-dot.active { border-radius: 50%; background-color: rgb(234, 234, 234); }
+
+
+	.hb-products .hb-product h3 { 
+		padding-top: 0;
+		font-size: 11px;
+		font-family: "Brandon Grotesque";
+		color: rgb(0, 0, 0);
+		font-weight: 500;
+		text-transform: uppercase;
+		line-height: 0.661;
+		text-align: left;
+		letter-spacing: 3.5px;
+		-webkit-font-smoothing: antialiased;
+	}
+	.hb-products > ul { margin: 0; }
+	.hb-products > ul >li { float:none; width:100%; padding: 0; margin-bottom:15px; }
+
+	.hb-products .hb-product a img { margin-bottom: 8px; }
+}

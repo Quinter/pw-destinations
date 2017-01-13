@@ -1,0 +1,209 @@
+
+/* ------------------------------------------------------------ *\
+	Helpers
+\* ------------------------------------------------------------ */
+
+/* Clear */
+
+.intro-crt .list-names:after,
+.intro-crt .list-names li:after,
+.section-crt .section-aside h2:after,
+.section-crt .section-body:after,
+.section-testimonial-crt h1:after,
+.section-testimonial h1:after,
+.clear:after { content: ''; line-height: 0; display: table; clear: both; }
+
+/* Icons */
+
+.ico-map-point { background: url('../images/location-marker.png') no-repeat 0 0; width: 29px; height: 22px; display: inline-block; background-size: 29px 22px; }
+
+/* Container */
+
+.container-crt { max-width: 1584px; margin: 0 auto; padding: 0; }
+
+/* Intro */
+
+.intro-crt { background: url('../images/cartier-diamonds-header-desktop.jpg') no-repeat;}
+.intro-crt .intro-inner { padding: 150px 0; }
+.intro-crt .intro-entry { width: 62%; margin: 0 auto; }
+.intro-crt .intro-entry h1 strong { font-size: 90px; letter-spacing: .25px;font-family:'freight-display-pro'; -webkit-font-smoothing: antialiased; color: #000; text-transform: capitalize; font-weight: 400; margin: 0; margin-bottom: 20px; display: block; }
+.intro-crt .intro-entry h1 span { font-family: "brandon-grotesque"; -webkit-font-smoothing: antialiased; font-weight: 500; font-size: 15.5px; color: #000; letter-spacing: 2.5px; text-transform: uppercase; margin: 0; display: block; }
+
+.intro-crt .intro-entry p { display: none; }
+
+.intro-crt .list-names { list-style: none; padding-left: 0; }
+.intro-crt .list-names li { float: left; width: 45%; }
+.intro-crt .list-names li > span { float: left; display: block; width: 33%; }
+.intro-crt .list-names li > span img { max-width: 132px; width: 100%; height: auto; border-radius: 100%; overflow: hidden; border: 1px solid #d4d4d6; }
+.intro-crt .list-names li > h3 { float: left; width: 67%; padding-top: 20px; font-size: 32px; letter-spacing: .25px;font-family:'freight-display-pro'; -webkit-font-smoothing: antialiased; color: #000; text-transform: capitalize; font-weight: 400; text-align:left; }
+.intro-crt .list-names li > h3 span { display: block; font-family: "brandon-grotesque"; -webkit-font-smoothing: antialiased; font-weight: 500; font-size: 11.5px; color: #333; line-height: 20px; letter-spacing: 1.75px; text-transform: uppercase; }
+
+/* Section */
+
+
+.section-crt .section-head h1 { font-size: 77px; color: #000; line-height: 1.39; font-family:'Quickpen-Regular'; margin-top: 0.3em; padding: 0 20px; } 
+
+.section-crt { margin-bottom: 120px; padding: 0 20px;}
+.section-crt .section-content { width: 73%; float: left; padding-left: 82px; }
+.section-crt .section-content img { width: 100%; height: auto; }
+.section-crt .section-content p { color: #fff; cursor: auto; display: inline; font-family: brandon-grotesque; font-size: 11px; letter-spacing: 1.25px; line-height: 15.5px; text-transform: uppercase; }
+.section-crt.secondary .section-content {padding-left: 0; padding-right: 53px; }
+.section-crt .section-content .photo-credit {color: #777;}
+.section-crt .section-aside { width: 27%; padding: 0 40px; padding-right: 10px; float: left; position: relative; }
+.section-crt.secondary .section-aside { float: right; }
+.section-crt .section-aside:before { content: ''; display: block; width: 1px; height: 1008px; position: absolute; top:-100px; right: 0; background: url('../images/timeline.png') no-repeat 0 0; }
+.section-crt.secondary .section-aside:before { content: ''; display: block; width: 1px; height: 1008px; position: absolute; top:-100px; right: none; left: 0; background: url('../images/timeline.png') no-repeat 0 0; }
+
+.section-crt .section-aside h2 { margin-bottom: 50px; position: relative; }
+.section-crt .section-aside h2:before { content: ''; display: block; width: 60px; height: 5px; background: #000; position: absolute; top: -20px; left: 90px; }
+.section-crt .section-aside h2 span:first-child { float: left; font-size: 32px; letter-spacing: .25px;font-family:'freight-display-pro'; -webkit-font-smoothing: antialiased; color: #000; text-transform: capitalize; font-weight: 400; display: block; }
+.section-crt .section-aside h2 strong span { font-family: "brandon-grotesque"; -webkit-font-smoothing: antialiased; font-weight: 800; font-size: 12.5px; color: #000; line-height: 20px; letter-spacing: 1.75px; text-transform: uppercase; display: block; width: 100%; margin-top: 10px; margin-bottom: 10px; }
+.section-crt .section-aside h2 strong span:first-child { margin-bottom: 15px; }
+.section-crt .section-aside h2 strong span:last-child { }
+.section-crt .section-aside h2 strong { display: block; width: 100%; padding-left: 90px; }
+.section-crt .section-aside h2 strong small { display: block; -webkit-font-smoothing: antialiased; color: rgb(59, 61, 64); display: block;font-family:'freight-text-pro'; font-size: 14px; font-weight: 600; letter-spacing: 0; line-height: 20px; position: relative; left: -7px; }
+.section-crt .section-aside h2 strong small i { vertical-align: middle; margin-right: -5px; }
+.section-crt .section-aside h2 span:first-child img { width: 77px; height: 77px; border-radius: 100%; border: 1px solid #d7d4db; }
+.section-crt .section-aside p { -webkit-font-smoothing: antialiased; color: rgb(59, 61, 64); display: block; font-family:'freight-text-pro'; font-size: 21px; font-weight: normal; letter-spacing: 0.02em; line-height: 1.55; margin-top: 29px; padding-right: 10px; }
+
+.section-crt p.photo-credit-mobile {display:none;}
+/* section-cartier */
+
+.section-cartier { background: #f5f7f6; text-align: center; padding: 40px 0; }
+.section-cartier a { display: inline-block; }
+
+/* section-testimonial */
+
+.section-testimonial-crt { text-align: right; padding-bottom: 100px; }
+.section-testimonial-crt h1 { font-family:'Quickpen-Regular'; font-size: 77px; color: #000; line-height: 1.39; margin-bottom: 0; position: relative; right: 10%; }
+.section-testimonial-crt h1 span { display: inline-block; text-align: left; vertical-align: middle; }
+.section-testimonial-crt h1 span { padding: 0 20px; }
+.section-testimonial-crt p { text-align: right; font-family: "brandon-grotesque"; -webkit-font-smoothing: antialiased; font-weight: 500; font-size: 13px; color: #000; line-height: 20px; letter-spacing: 2.5px; text-transform: uppercase; padding-right: 10%; }
+
+.section-testimonial-crt.secondary h1 { right: 0; margin-bottom: 10px; } 
+.section-testimonial-crt.secondary p { padding-right: 0; }
+.section-testimonial-crt.secondary p span { display: block; text-transform: capitalize; font-family:'freight-display-pro'; font-size: 16px;}
+.section-testimonial-crt.secondary p span a { display: inline; text-decoration: underline; }
+.section-testimonial-crt.secondary p span a:hover { text-decoration: none; color: #000; }
+
+.section-testimonial-crt.teritary h1 { right: 0; margin-bottom: 20px; right: 2%; } 
+.section-testimonial-crt.teritary p { padding-right: 0; }
+.section-testimonial-crt.teritary p span { display: block; text-transform: capitalize; font-family:'freight-display-pro'; font-size: 16px; margin-top: 10px; }
+.section-testimonial-crt.teritary p span a { display: inline; text-decoration: underline; }
+.section-testimonial-crt.teritary p span a:hover { text-decoration: none; color: #000; }
+
+.section-testimonial-crt .mk-testimonial {position: relative; bottom: 40px;}
+
+@media(max-width: 1580px){ 
+	.intro-crt .list-names li > span img { max-width: 100px; width: 100%; height: auto; border-radius: 100%; overflow: hidden; border: 1px solid #d4d4d6; position: relative; top: 25px; }
+	.section-crt .section-head h1 { padding-left: 20px; padding-right: 20px; }
+
+	.section-testimonial-crt { padding: 0 50px; }
+	.section-testimonial-crt h1 span { float: left; font-size: 50px; }
+	.section-testimonial-crt h1 span br { display: none; }
+	.section-testimonial-crt h1 span img { margin-left: 30px; }
+	.section-testimonial-crt h1 span:first-child { width: 30%; }
+	.section-testimonial-crt h1 span:last-child { width: 70%; margin-top: 50px; padding-left: 40px; }
+
+	.section-crt .section-aside:before { height: 560px; background-position: center; background-size: 1px 560px; top: 20px; } 
+	.section-crt.secondary .section-aside:before { height: 560px; background-position: center; background-size: 1px 560px; top: 20px; } 
+}
+
+@media(max-width: 1280px){
+	.intro-crt .intro-entry { width: 76%; }
+	.intro-crt .list-names li { width: 50%; }
+	.intro-crt .list-names li > h3 {font-size: 28px;}
+	.section-crt .section-aside p { font-size: 18px; }
+}
+
+@media(max-width: 1024px){
+	.intro-crt { background: none; }
+	.intro-crt .intro-entry h1 strong { font-size: 70px; }
+	.intro-crt .intro-inner { padding: 150px 0; }
+	.intro-crt .intro-inner { padding-bottom: 0px; padding-top: 100px; }
+	.intro-crt .list-names li > h3 { padding-left: 20px; }
+
+	.section-crt { margin-bottom: 50px; }
+
+	.section-crt .section-aside { width: 40%; }  
+
+	.section-crt .section-content { width: 60%; padding-left: 40px; }
+
+	.section-crt .section-head h1 { font-size: 50px; padding-left: 20px; padding-right: 20px; }
+ 
+
+	.section-testimonial-crt { padding: 0 20px; margin-bottom: 65px; }
+	.section-testimonial-crt h1 { right: 0; margin-bottom: 20px; }
+	.section-testimonial-crt h1 span { font-size: 48px; }
+	.section-testimonial-crt h1 span:first-child { max-width: 250px; }
+
+	.section-testimonial-crt   h1 span { font-size: 30px; padding: 0; }
+	.section-testimonial-crt  h1 span:first-child { max-width: 150px; }
+	.section-testimonial-crt h1 span:last-child { padding-left: 40px; }
+}
+ 
+@media(max-width: 900px){
+	.section-testimonial-crt .mk-testimonial {position: relative; bottom: 0;}
+}
+@media(max-width: 767px){
+	.intro-crt .intro-entry { width: 100%; padding: 0 20px; }
+	.intro-crt .list-names { display: none; }	
+	.intro-crt .intro-entry h1 strong { font-size: 50px; }
+	.intro-crt .intro-entry h1 span { display: none; }
+	.intro-crt .intro-entry p { display: block; font-family:'freight-display-pro'; }
+
+	.section-crt .section-aside { width: 100%; padding: 0; } 
+	.section-crt .section-aside h2 { margin-bottom: 10px;  padding: 0 20px; } 
+
+	.section-crt p.photo-credit {display:none;}
+	.section-crt p.photo-credit-mobile {display:inline-block;}
+	.section-crt .section-content { width: 100%; padding: 0; }
+	 
+	.section-crt.secondary .section-aside { width: 100%; padding: 0; } 
+	.section-crt.secondary .section-aside h2 { margin-bottom: 10px;  padding: 0 20px; } 
+
+	.section-crt.secondary .section-content { width: 100%; padding: 0; }
+	.section-crt .section-aside:before { display: none; } 
+	.section-crt.secondary .section-aside:before { display: none; } 
+
+	.section-crt .section-aside p { padding: 0 20px; padding-top: 10px;  }
+
+	 
+	.section-cartier { margin: 0 -20px; }
+
+	.container-crt { max-width: 1584px; margin: 0 auto; padding: 0px; }
+
+	.section-crt .section-head h1 { font-size: 38px; padding-left: 20px; padding-right: 20px; }
+
+	.section-crt .section-aside h2 strong small { display: none; }
+
+	.section-testimonial-crt { padding: 0 20px; margin-bottom: 40px; }
+	.section-testimonial-crt h1 { right: 0; margin-bottom: 20px; }
+	.section-testimonial-crt h1 span { font-size: 24px; }
+	.section-testimonial-crt h1 span:first-child { max-width: 200px; }
+	.section-testimonial-crt h1 span:first-child img { position: relative; left: -10px;  }
+	.section-testimonial-crt.secondary h1 span:last-child  { font-size: 24px; padding-left: 40px;  }
+
+	.section-testimonial-crt.secondary h1 span { font-size: 30px; padding: 0; }
+	.section-testimonial-crt.secondary h1 span:first-child { max-width: 150px; }
+
+	.section-crt.secondary .section-aside { float: left; }
+
+	.section-testimonial-crt h1 span:last-child { margin-top: 0; }
+
+}
+
+@media(max-width: 480px){
+	.intro-crt .intro-inner { padding-top: 10px; }
+	.intro-crt .intro-entry h1 strong { font-size: 40px; max-width: 200px; } 
+	
+	.section-crt .section-head h1 { font-size: 30px; }
+
+	.section-crt .section-aside h2 span:first-child img { width: 55px; height: 55px; }
+	.section-crt .section-aside h2 strong { padding-left: 70px; }
+	.section-crt .section-aside h2:before { width: 45px; height: 3px; top: -10px; left: 70px; }
+	.section-crt .section-aside h2 { margin-bottom: 0; }
+	.section-crt .section-aside p { margin: 0; }
+
+	.section-testimonial-crt h1 span:first-child { max-width: 180px; }
+}

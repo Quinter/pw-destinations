@@ -1,0 +1,249 @@
+/* ------------------------------------------------------------ *\
+	Special Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+	font-family: 'Quickpen';
+	src: url('../fonts/2FB76C_0_0.eot');
+	src: url('../fonts/2FB76C_0_0.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/2FB76C_0_0.woff2') format('woff2'),
+		 url('../fonts/2FB76C_0_0.woff') format('woff'),
+		 url('../fonts/2FB76C_0_0.ttf') format('truetype');
+}
+
+/* ------------------------------------------------------------ *\
+	SB Mobile Header
+\* ------------------------------------------------------------ */
+#sb-mobile-header {
+	display: none;
+	color: #fff;
+}
+
+.sb-mobile-header-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.sb-mobile-header-content {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.sb-mobile-hed {
+    font-size: 48px;
+    line-height: 1.05;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: "Chronicle Display A", "Chronicle Display B";
+    font-weight: 200;
+	-webkit-font-smoothing: antialiased;
+    margin-top: 133px; /* 63 + 70 */
+    margin-bottom: 30px;
+}
+
+.sb-mobile-subhed {
+    font-size: 30px;
+    line-height: 1.39;
+    font-family: 'Quickpen';
+    margin-top: 5px;
+    margin-bottom: 45px;
+    padding: 0 20px;
+}
+
+.sb-mobile-cta {
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    font-size: 12.5px;
+    line-height: 19.13px;
+    letter-spacing: 3.75px;
+    margin: 16px 0;
+    font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-scroll-prompt {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(255,255,255,.3);
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.sb-scroll-icon {
+	font-size: 21px;
+	display: block;
+	transform: rotate(90deg);
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+/* ------------------------------------------------------------ *\
+	SB Back to Top (Mobile Only)
+\* ------------------------------------------------------------ */
+#sb-back-top {
+	display: none;
+}
+
+
+/* ------------------------------------------------------------ *\
+	SB Main
+\* ------------------------------------------------------------ */
+
+.sb-main { padding-bottom:210px; }
+.sb-main .container { margin: auto; }
+
+.sb-main-title { font-family: "Chronicle Display A", "Chronicle Display B"; font-weight: 200; font-size: 55px; text-transform: uppercase; letter-spacing: 0; color: #000; line-height: 70px; -webkit-font-smoothing: antialiased; text-align:center; margin-bottom: 5px; padding: 5px 20px; margin-top: 25px; }
+
+.sb-main-subtitle { font-size: 37px; color: #000; line-height: 1.3; font-family: 'Quickpen'; padding: 0 20px; text-align:center; padding-left: 20px; padding-right: 20px; margin-top: 5px; margin-bottom: 20px; }
+
+.sb-slider-paging-wrapper { text-align:center; margin:55px 0 40px 0; }
+.sb-slider-paging-wrapper .sb-slider-paging { display: inline-block; vertical-align: middle; padding: 0; margin: 0; border-top:1px solid #eaeaea; list-style-type: none; }
+.sb-slider-paging li { border:1px solid #d8d8d8; width:13px; height: 13px; float:left; liNst-style:none; list-style-position: outside;border-radius: 50%; position: relative; margin-top:-7px; background:#eaeaea; cursor: pointer; -webkit-transition: all .3s; -o-transition: all .3s; transition: all .3s; }
+.sb-slider-paging li + li { margin-left:98px; }
+.sb-slider .sb-slides { overflow: hidden; margin: 0; padding: 0; }
+.sb-slider-paging li small { display: inline-block; vertical-align: middle;  position: absolute; transform: translateX(-50%); text-transform: uppercase; opacity: 0; -webkit-transition: opacity .3s; -o-transition: opacity .3s; transition: opacity .3s; letter-spacing: 2px; font-size: 12px; color: #2d2f2f; font-family: "brandon-grotesque"; font-weight: 500; top: -28px; left: 9px; }
+
+.sb-slider-paging li.selected,
+.sb-slider-paging li:hover { background:#000; background: #000; width: 20px; height: 20px; margin-top: -11px; }
+
+.sb-slider-paging li.selected small,
+.sb-slider-paging li:hover small { opacity: 1; }
+
+.sb-slider { position: relative; margin-bottom:80px; }
+.sb-slide { overflow: hidden; list-style:none; list-style-position: outside; float:left; }
+.sb-slide .sb-slide-image { float:left; margin-right:28px; }
+.sb-slide .sb-slide-image img { display:block; width:100%; }
+.sb-slide .sb-slide-image p,
+.sb-slide .sb-slide-image a { font-family: "brandon-grotesque"; font-size: 7.5px; font-weight: 400; letter-spacing: 1.25px; line-height: 15.5px; list-style-type: none; text-align: left; text-transform: uppercase; padding-top: 4px; padding-bottom: 4px; padding-left: 2px; color: #999999; }
+.sb-slide .sb-slide-head { border-bottom:1px solid #eaeaea;  margin-top: 25px; }
+.sb-slide .sb-slide-content { overflow: hidden; }
+.sb-slider .ico-slider-prev { background: url(../images/left-arrow.png) no-repeat 0 0; width:86px; height: 88px; display: inline-block; vertical-align: middle; position: absolute; top:50%; margin-top:-80px; z-index: 10; left:-86px; opacity: .4; }
+.sb-slider .ico-slider-next { background: url(../images/right-arrow.png) no-repeat 0 0; width:86px; height: 88px; display: inline-block; vertical-align: middle; position: absolute; top:50%; margin-top:-80px; z-index: 10; right:-46px; opacity: .4; }
+
+.sb-slide .sb-slide-title { margin-right: 10px; margin-left: 5px;  margin-bottom: 15px;  margin-top: 0px; font-size: 23px; font-weight: 500; letter-spacing: 7px; font-family: "brandon-grotesque"; color: #000; line-height: 1.45; text-transform: uppercase; text-align: left; -webkit-font-smoothing: antialiased; }
+.sb-slide .sb-time { font-family: "Chronicle Display A", "Chronicle Display B"; -webkit-font-smoothing: antialiased; font-weight: 300; font-size: 19px; line-height: 22px; letter-spacing: 0px; color: #313131; margin-left: 5px; }
+
+.sb-slide .sb-slide-body { -webkit-font-smoothing: antialiased; color: #404144; display: block; font-family: 'freight-text-pro'; font-size: 18.5px; font-weight: normal; letter-spacing: 0; line-height: 1.5;  margin-left: 5px;  padding-right: 27px;  margin-top: 22px; }
+
+.sb-slide .sb-slide-body p a {
+	text-decoration: underline;
+}
+
+.sb-ad { display:block; text-align:center; }
+.sb-ad img { display: inline-block; max-width: 100%; }
+
+/* ------------------------------------------------------------ *\
+	Medium Screens
+\* ------------------------------------------------------------ */
+@media (max-width: 1200px) {
+	.sb-slider-paging-wrapper { display:none; }
+	.sb-slider-actions { display:none; }
+	.sb-slider .sb-slides,
+	.sb-slide { overflow: visible; }
+	.sb-slide { margin-bottom:20px; }
+	.sb-slide .sb-slide-image { float:none; margin: 0 -15px; }
+	.sb-slide .sb-slide-image p { text-align:right; padding-right:15px; }
+	
+	.sb-slide .sb-slide-head { border-bottom:0; margin-top:0; }
+	.sb-slide .sb-slide-title { padding-bottom:0; }
+
+	.sb-main-title {
+		margin-top: 15px;
+	}
+
+	.sb-main-subtitle {
+		margin-bottom: 25px;
+	}
+}
+
+/* ------------------------------------------------------------ *\
+	Mobile
+\* ------------------------------------------------------------ */
+@media (max-width: 767px) {
+	#sb-mobile-header {
+		display: block;
+		margin-top: 63px;
+	}	
+
+	#main-new {
+		display: none;
+	}
+
+	.sb-main-title {
+		display: none;
+	}
+
+	.sb-main-subtitle {
+		display: none;
+	}
+
+	#sb-back-top {
+		position: fixed;
+		bottom: 25px;
+		right: 25px;
+		height: 45px;
+		width: 45px;
+		border-radius: 50%;
+		padding-top: 11px;
+		background-color: rgba(0,0,0,.7);
+		z-index: 100;
+	}
+	
+	.sb-back-top-icon {
+		display: block;
+		font-size: 30px;
+		color: rgba(255,255,255,.71);
+		transform: rotate(90deg);
+	}
+
+	.sb-slide .sb-time {
+	    font-size: 23px;
+	    line-height: 1.3;
+	    font-weight: 300; 
+	    letter-spacing: 0; 
+	    color: #313131;
+	}
+
+	.sb-slide .sb-slide-image p, 
+	.sb-slide .sb-slide-image a {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	
+	.sb-slide .sb-slide-title {
+		  margin-bottom: 15px;  
+		 font-size: 23px;  
+		 font-weight: 500;  
+		 letter-spacing: 7px; 
+		 line-height: 1.45;
+	}
+	
+	.sb-slide .sb-slide-body {
+		margin-top: 13px;
+		margin-bottom: 20px;
+	}
+}
+
+
+.sb-italics {
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+

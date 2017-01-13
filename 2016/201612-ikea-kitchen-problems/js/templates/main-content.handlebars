@@ -1,0 +1,29 @@
+<!-- Main Content (Grid on Desktop, Stacking/Snapping Slides on Mobile) -->
+<div class="ik-main-content">
+	<!-- Previews -->
+	<div class="ik-previews">
+		{{#each previews}}
+			{{> preview}}
+		{{/each}}
+	</div>
+
+	<!-- Expanded Details -->
+	<div class="ik-details">
+		{{#each details}}
+			{{> detail}}
+		{{/each}}
+
+		<!-- Prev/Next Buttons -->
+		<!-- might need to manually add GA tags here -->
+		<div class="ik-nav">
+			<div class="ik-nav-btn ik-prev" data-direction="prev" data-gae-track="event" data-gae-category="destination" data-gae-action="click" data-gae-label="ikea_nav_prev">
+				<span class="ik-nav-icon icon-slideshow-arrow-left"></span> Previous
+			</div>
+
+			<div class="ik-nav-btn ik-next" data-direction="next" data-gae-track="event" data-gae-category="destination" data-gae-action="click" data-gae-label="ikea_nav_next">
+				Next Solution <span class="ik-nav-icon icon-slideshow-arrow"></span>
+			</div>
+		</div>
+
+	</div>
+</div> 

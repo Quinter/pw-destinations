@@ -1,0 +1,822 @@
+////////////////////////
+//Mixins and Variables//
+////////////////////////
+/* Some of these already exist in our production CSS file. Including here for local dev purposes. */
+@mixin prefix-transform($value) {
+	-webkit-transform: $value;
+	   -moz-transform: $value;
+		-ms-transform: $value;
+			transform: $value;
+}
+
+@mixin center-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	@include prefix-transform($value: translate(-50%,-50%));
+}
+
+@mixin center-vertically {
+	position: absolute;
+	top: 50%;
+	@include prefix-transform($value: translateY(-50%));
+}
+
+@mixin font-smoothing {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+}
+
+@mixin clearfix {
+   &:after { 
+	   content: "."; 
+	   visibility: hidden; 
+	   display: block; 
+	   height: 0; 
+	   clear: both;
+   } 
+}
+
+@mixin day-pager {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	height: 40px; //match height of pager to height of individual buttons
+
+	.lo-intro-pager-btn {
+		display: inline-block;
+		font-size: 12.75px;
+		font-family: "brandon-grotesque";
+		font-weight: 600;
+		color: #fff;
+		text-transform: uppercase;
+		line-height: 1.5;
+		text-align: center;
+		letter-spacing: 2.5px;
+		@include font-smoothing;	
+		transition: all .3s;
+		padding: 10px 30px;
+		margin-right: -5px;
+		cursor: pointer;
+		height: 40px;
+
+		&.active,
+		&:hover {
+			background-color: #fff;		
+			color: #000;	
+		}
+	}
+}
+
+@mixin sticky-pager {
+	position: fixed;
+	top: 62px; //62px (height of fixed desti header)
+	z-index: 100;
+	background-color: #D6D2D3;
+}
+
+///////////
+//DESKTOP//
+///////////
+
+/* General */
+.visible-desktop {
+	display: initial;
+}
+
+.visible-tablet-mobile {
+	display: none;
+}
+
+.visible-mobile {
+	display: none;
+}
+
+
+.lo-cta-mobile {
+	display: none;
+}
+
+/* Intro Container */
+.lo-intro-container {
+	width: 100vw;
+	//might want to set a max width here
+	max-width: 1920px;
+	margin: 0 auto;
+	background-image: url("../images/desktop/header-image.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 250px;
+	position: relative;
+}
+
+.lo-intro-overlay {
+	position: absolute;
+	width: 75%;
+	left: 12.5%;
+	height: 100%;
+
+	.lo-intro-hed {
+		width: 100%;
+		font-family: "brandon-grotesque";
+		font-size: 34px;
+		font-weight: 600;
+		color: #fff;
+		letter-spacing: 7px;
+		line-height: 1.45;
+		text-transform: uppercase;
+		text-align: center;
+		@include font-smoothing;
+		margin: 0 auto 15px;
+		@include center-content;
+	}
+}
+
+/* Day Pager  */
+.lo-mobile-pager {
+	display: none;
+}
+
+.lo-intro-pager {
+	@include day-pager;
+}
+
+.sticky-pager {
+	@include sticky-pager;
+
+}
+
+
+/* Main Content Container */
+.lo-main-container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 50px auto 0;
+}
+
+#lo-days {
+	.lo-day {
+		display: none;
+
+		&.active-day {
+			display: block;
+		}
+	}
+}
+
+//Main Content for Day
+.lo-day-main {
+	@include clearfix;
+
+	.lo-day-main-col {
+		float: left;
+		width: 50%;
+		padding-left: 20px;
+		padding-right: 20px;
+
+
+		.lo-day-main-img {
+			width: 100%;
+			height: 100%;
+		}
+		
+		.lo-photo-credit {
+			display: block;
+			font-family: "brandon-grotesque";
+			font-size: 7.5px;
+			font-weight: 400;
+			letter-spacing: 1.25px;
+			// line-height: 15.5px;
+			list-style-type: none;
+			text-align: left;
+			text-transform: uppercase;
+			padding-top: 4px;
+			padding-bottom: 4px;
+			padding-left: 2px;
+			color: #999999;
+			margin-bottom: 15px;
+		}
+
+		.lo-day-main-txt-hed {
+			.lo-day-name {
+				font-size: 14px;
+				font-weight: 500;
+				letter-spacing: 5px;
+				font-family: "brandon-grotesque";
+				color: #000;
+				line-height: 1.45;
+				text-transform: uppercase;
+				text-align: left;
+				@include font-smoothing;
+			}
+
+			.lo-day-underline {
+				display: inline-block;
+				border-top: 1px solid #eaeaea;
+				width: 85%;
+				max-width: 362px;
+				margin: 0;
+			}
+
+			.lo-day-hed {
+				font-size: 43px;
+				font-weight: 200;
+				letter-spacing: -1.5px;
+				font-family: "Chronicle Display A", "Chronicle Display B";
+				color: #000;
+				line-height: 1.25;
+				text-align: left;
+				@include font-smoothing;
+			    margin: 10px 0 5px;
+			    width: 95%;
+			}
+		}
+		
+		.lo-day-main-txt-body {
+			width: 70%;
+
+			.lo-day-copy {
+				color: #404144;
+				text-align: left;
+				font-family: 'freight-text-pro';
+				font-size: 18.5px;
+				font-weight: normal;
+				letter-spacing: 0;
+				line-height: 1.5;
+				@include font-smoothing;
+
+				.bold-copy,
+				.link-copy {
+					font-weight: 600;			
+					color: #000;
+				}
+
+				.bold-copy {
+				}
+
+				.link-copy {
+					text-decoration: underline;
+					transition: opacity .3s;
+
+					&:hover {
+						opacity: .7;
+					}
+				}
+				.em-copy {
+					font-style: italic;
+				}
+			}
+		}
+
+	}
+
+}
+
+//Products for Day
+.lo-day-products {
+	margin-top: 50px;
+
+	.lo-day-products-hed {
+		font-size: 14px;
+		font-weight: 500;
+		letter-spacing: 7px;
+		font-family: "brandon-grotesque";
+		color: #000;
+		line-height: 1.45;
+		text-transform: uppercase;
+		text-align: center;
+		@include font-smoothing;
+	}
+
+	.lo-day-products-underline {
+		border-top: 1px solid #eaeaea;
+		width: 100%;
+	}
+}
+
+.lo-day-product-wrapper {
+	text-align: center;
+	margin-bottom: 50px;
+
+	.lo-day-product {
+		position: relative;
+		display: inline-block;
+	    width: 320px; //matches width of image's natural width
+	    margin: 0 35px;
+	    vertical-align: top;
+	    cursor: pointer;
+
+		.lo-day-product-img {
+		    transition: opacity .3s;
+		}
+
+		.lo-day-tip-prompt {
+			font-family: "brandon-grotesque";
+			text-transform: uppercase;
+			margin-top: 5px;
+			font-size: 11px;
+			font-weight: 600;
+			letter-spacing: 3px;
+			line-height: 1.25;
+		}
+
+		.lo-day-product-hed {
+			color: #404144;
+			text-align: center;
+			font-family: 'freight-text-pro';
+			font-size: 18.5px;
+			font-weight: normal;
+			letter-spacing: 0;
+			line-height: 1.25;
+			@include font-smoothing;
+			width: 60%;
+			margin: 5px auto 0;
+		    transition: opacity .3s;
+		}
+		.lo-day-product-price {
+			font-size: 13px;
+			font-weight: 500;
+			letter-spacing: 3px;
+			font-family: "brandon-grotesque";
+			color: #575757;
+			line-height: 1.45;
+			text-transform: uppercase;
+			text-align: center;
+			@include font-smoothing;
+		    transition: opacity .3s;
+		}
+
+		.lo-buy-btn-wrapper {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+		}
+
+		.lo-buy-btn {
+			opacity: 0;
+			font-weight: 700;
+			background: #181818;
+			color: #ffffff;
+			letter-spacing: .2em;
+			font-size: .69em;
+			line-height: 2;
+			border-radius: 2px;
+			width: 105px;
+			padding: 6px 12px;
+			text-transform: uppercase;
+			cursor: pointer;
+			display: block;
+			font-family: "brandon-grotesque";
+			text-align: center;
+			@include center-content;
+		    transition: all .3s;
+
+		    &:hover {
+				background-color: #555;
+		    }
+		}
+
+		&:hover {
+
+			.lo-day-product-img,
+			.lo-day-tip-prompt,
+			.lo-day-product-hed,
+			.lo-day-product-price {
+				opacity: .7;
+			}
+
+			.lo-buy-btn {
+				opacity: 1;
+			}
+		}
+	}
+
+}
+
+///////////////
+//MACBOOK PRO//
+///////////////
+@media (max-width: 1280px) {
+
+.lo-intro-overlay {
+	width: 100%;
+	left: initial;
+}
+
+.lo-day-main {
+	.lo-day-main-col {
+		.lo-day-main-txt-body {
+			width: 85%;
+		}
+	}
+}
+
+}
+
+//////////////////
+//SMALLER LAPTOP//
+//////////////////
+@media (max-width: 1200px) {
+
+.lo-day-main {
+	.lo-day-main-col {
+
+		.lo-day-main-txt-hed {
+			width: 87%;
+		}
+
+		.lo-day-main-txt-body {
+			width: 87%;
+
+			.lo-day-hed {
+				margin-bottom: 10px;
+				width: 100%;
+			}
+
+			.lo-day-copy {
+				font-size: 17px;
+			}
+		}
+
+	}
+}
+
+.lo-day-product-wrapper {
+	.lo-day-product {
+		width: 25%;
+	}
+}
+
+}
+
+
+
+//////////
+//TABLET//
+//////////
+@media (max-width: 991px) {
+.visible-desktop {
+	display: none;
+}
+
+.visible-desktop-tablet {
+	display: block;
+}
+
+.visible-tablet-mobile {
+	display: block;
+}
+
+.visible-mobile {
+	display: none;
+}
+
+.lo-intro-container {
+    background-image: url("../images/tablet/header-image.jpg");
+    min-height: 545px;
+}
+
+.lo-intro-overlay {
+}
+
+.lo-intro-pager {
+
+	.lo-intro-pager-btn {
+		height: 41px;
+	}	
+}
+
+.lo-main-container {
+	max-width: 850px; //somewhat arbitrary but this looks pretty good considering our tablet max is 991px
+}
+
+#lo-days {
+	.lo-day {
+		display: block;
+	}
+}
+
+.lo-day-main {
+	.lo-day-main-col {
+	    float: none;
+	    width: 100%;
+	    //we can adjust the padding-left and padding-right (20px on desktop)
+
+	    .lo-day-main-txt-hed {
+	    	width: 87%;
+	    	margin: 0 auto;
+
+	    	.lo-day-underline {
+	    		width: 100%;
+	    		max-width: none;
+	    	}
+
+	    	.lo-day-hed {
+	    		width: 100%;
+	    	}
+	    }
+
+	    .lo-day-main-txt-body {
+	    	width: 87%;
+	    	margin: 0 auto;
+	    }
+	}
+}
+
+.lo-day-product-wrapper {
+	.lo-day-product {
+		
+		&:hover {
+			.lo-day-product-img,
+			.lo-day-tip-prompt,
+			.lo-day-product-hed,
+			.lo-day-product-price {
+				opacity: 1;
+			}
+		}
+
+		.lo-day-product-hed {
+		    margin-bottom: 7px;
+		}
+
+		.lo-day-product-img {
+			margin: 0 auto;
+		}
+
+		.lo-day-product-price,
+		.lo-day-tip-hed {
+			padding-bottom: 75px;
+		}
+		
+		.lo-buy-btn-wrapper {
+		}
+
+		.lo-buy-btn {
+			top: initial;
+			bottom: 10px;
+			opacity: 1;
+
+			&:hover {
+				background: #181818;
+			}
+		}
+	}
+}
+
+/* Slick Slider Dots */
+.slick-dots {
+	position: static;
+
+	li {
+		margin: 0 2px;
+
+		button {
+			background-color: rgb(215, 215, 215);
+			border-radius: 50%;
+			transition: all .3s;
+			width: 10px;
+			height: 10px;
+
+			&:before {
+				content: '';				
+			}
+		}
+
+		&.slick-active button {
+			transition: all .3s;
+			background-color: rgb(62, 55, 55);			
+		}
+	}
+}
+
+.slick-dotted.slick-slider {
+	margin-bottom: 50px;
+}
+
+}
+
+//////////
+//MOBILE//
+//////////
+@media (max-width: 767px) {
+
+//initial settings for the fixed mobile lander
+body, html {
+	overflow: hidden;
+	height: 100%;
+    -webkit-backface-visibility: hidden;  /* Chrome, Safari, Opera */
+    backface-visibility: hidden;
+}
+
+.visible-desktop-tablet {
+	display: none;
+}
+
+.lo-intro-container {
+    background-image: url("../images/mobile/header-image.jpg");
+    height: 100vh;
+    width: 100vw;
+}
+
+.lo-intro-overlay {
+
+	.lo-intro-hed {
+		font-size: 40px;
+		line-height: 1.325;	
+		width: 100%;
+		font-family: "brandon-grotesque";
+		font-weight: 600;
+		color: #fff;
+		letter-spacing: 7px;
+		text-transform: uppercase;
+		text-align: center;
+		@include font-smoothing;
+		margin: 62px auto 15px;
+		@include center-content;
+	}
+}
+
+.lo-main-container {
+	display: none;
+	margin-top: 112px; //62px fixed header height + ~60px sticky nav height
+}
+
+.visible-mobile {
+	display: block;
+}
+
+
+.lo-mobile-pager {
+	@include day-pager;
+	display: none;
+	height: 60px;
+
+	.lo-intro-pager-btn {
+		font-size: 18px;
+		line-height: 1.474;
+		background-color: transparent;
+		height: 100%;
+	    padding: 15px 12.5px;
+	    margin: 0;
+		transition: none;
+		min-width: 150px;
+		flex-shrink: 0;
+
+		.mobile-pager-txt {
+			opacity: .502;
+		}
+
+		&.active {
+			background-color: transparent;
+			color: #fff;
+			opacity: 1;
+			transition: none;
+			
+			.mobile-pager-txt {
+				opacity: 1;
+			}
+
+		}
+
+		&:hover {
+			color: #fff;
+			background-color: transparent;
+		}
+
+		&:nth-child(3) {
+			min-width: 175px;
+		}
+	}
+
+	&.visible-mobile-pager {
+		@include sticky-pager;
+		display: flex;
+		overflow-x: auto;
+		background-color: #80a6fb;
+		transform: translateZ(0);
+	}
+}
+
+.lo-cta-mobile {
+	display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255,.3);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+	@include prefix-transform($value: rotate(90deg));
+
+    &:before {
+    	display: block;
+    	color: #fff;
+		@include center-content;
+		font-size: 30px;
+		padding-left: 7.5px;
+    }
+}
+
+.lo-day-main {
+
+	.lo-day-main-col {
+
+		.lo-day-main-img {
+		}
+		
+		.lo-photo-credit {
+
+		}
+
+		.lo-day-main-txt-hed {
+			width: 100%;
+
+			.lo-day-name {
+				display: none;
+			}
+
+			.lo-day-underline {
+				display: none;
+			}
+
+			.lo-day-hed {
+				font-size: 39px;
+				line-height: 1.1;
+				font-weight: 200;
+			    margin-bottom: 10px;
+			}
+		}
+		
+		.lo-day-main-txt-body {
+			width: 100%;
+
+			.lo-day-copy {
+
+				.bold-copy,
+				.link-copy {
+				}
+
+				.bold-copy {
+				}
+
+				.link-copy {
+					text-decoration: underline;
+					transition: opacity .3s;
+
+					&:hover {
+						opacity: .7;
+					}
+				}
+				.em-copy {
+					font-style: italic;
+				}
+			}
+		}
+
+	}
+
+}
+
+.lo-day-products {
+
+	.lo-day-products-hed {
+	}
+
+	.lo-day-products-underline {
+	}
+}
+
+.lo-day-product-wrapper {
+
+	.lo-day-product {
+
+		.lo-day-product-img {
+		}
+
+		.lo-day-product-hed {
+			line-height: 1.5;
+		}
+		.lo-day-product-price {
+			font-size: 14px;
+			letter-spacing: 7px;
+		}
+		.lo-buy-btn {
+		}
+	}
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+

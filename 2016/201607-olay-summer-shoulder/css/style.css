@@ -1,0 +1,729 @@
+/* Some of these already exist in our production CSS file. Including here for local dev purposes. */
+/* General */
+.oj-intro-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 62px; }
+
+@media (min-width: 1280px) {
+  .oj-main-container {
+    width: 1280px; } }
+
+.oj-intro-underline {
+  border-top: 1px solid #eaeaea;
+  max-width: 583px;
+  margin-left: 0; }
+
+.oj-underline {
+  border-top: 1px solid #eaeaea;
+  width: 100%; }
+
+.show-at-1400 {
+  display: none; }
+
+.hide-at-1400 {
+  display: inline; }
+
+#oj-mobile-header {
+  display: none; }
+
+#oj-back-top {
+  display: none; }
+
+/* Intro Container */
+.oj-intro-container {
+  position: relative;
+  width: 100vw;
+  min-height: 500px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: url("../images/desktop-header.jpg");
+  background-size: cover; }
+  .oj-intro-container .oj-intro-overlay {
+    position: relative;
+    width: 100vw;
+    min-height: 500px; }
+  .oj-intro-container .oj-intro-text {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    .oj-intro-container .oj-intro-text .oj-intro-hed {
+      font-family: "Chronicle Display A","Chronicle Display B";
+      font-weight: 200;
+      line-height: 1.05;
+      font-size: 84px;
+      letter-spacing: -.5px;
+      font-style: italic;
+      margin: 0; }
+    .oj-intro-container .oj-intro-text .oj-intro-subhed {
+      font-size: 15px;
+      line-height: 20.5px;
+      font-family: "brandon-grotesque";
+      font-weight: 600;
+      letter-spacing: 5px;
+      margin: 15px 0; }
+  .oj-intro-container .oj-photo-credit {
+    display: block;
+    cursor: pointer;
+    font-family: "brandon-grotesque";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c3c3c3;
+    font-size: 7.25px;
+    line-height: 10px;
+    letter-spacing: 1.75px;
+    transition: opacity .3s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: right;
+    position: absolute;
+    bottom: -15px;
+    right: 0; }
+    .oj-intro-container .oj-photo-credit:hover {
+      opacity: .5; }
+
+/* Main Content Container */
+/* Step - Collage */
+.oj-step {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 75px; }
+
+.oj-step-overlay {
+  display: none; }
+
+.oj-step-hed-mobile {
+  display: none; }
+
+.oj-step-text {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 10px 88.35px 6.65px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .oj-step-text.oj-step-text-1 {
+    top: 5%;
+    left: 15%;
+    width: 615px; }
+  .oj-step-text.oj-step-text-2 {
+    top: 26%;
+    left: 33%;
+    width: 550px; }
+  .oj-step-text.oj-step-text-3 {
+    top: 46.5%;
+    left: 42%;
+    width: 626px; }
+  .oj-step-text.oj-step-text-4 {
+    top: 18%;
+    left: 42.5%;
+    width: 585px; }
+  .oj-step-text .oj-step-hed {
+    display: block;
+    font-family: "Chronicle Display A","Chronicle Display B";
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 45px;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    text-align: left;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 0; }
+  .oj-step-text .oj-intro-underline {
+    margin-top: 10px; }
+  .oj-step-text .oj-step-copy {
+    font-family: "freight-text-pro";
+    font-weight: 400;
+    text-align: left;
+    color: #545454;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 27px; }
+    .oj-step-text .oj-step-copy a {
+      font-family: "freight-text-pro";
+      font-weight: 600;
+      text-align: left;
+      color: #545454;
+      font-size: 17px;
+      letter-spacing: 0;
+      line-height: 27px;
+      text-decoration: underline;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: opacity .3s; }
+      .oj-step-text .oj-step-copy a:hover {
+        opacity: .5; }
+  .oj-step-text .oj-photo-credit {
+    display: block;
+    cursor: pointer;
+    font-family: "brandon-grotesque";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c3c3c3;
+    font-size: 7.25px;
+    line-height: 10px;
+    letter-spacing: 1.75px;
+    transition: opacity .3s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: 15px; }
+    .oj-step-text .oj-photo-credit:hover {
+      opacity: .5; }
+    .oj-step-text .oj-photo-credit:hover {
+      opacity: 1; }
+    .oj-step-text .oj-photo-credit a {
+      display: block;
+      cursor: pointer;
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 7.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      transition: opacity .3s;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: inline;
+      transition: opacity .3s;
+      color: #777; }
+      .oj-step-text .oj-photo-credit a:hover {
+        opacity: .5; }
+      .oj-step-text .oj-photo-credit a:hover {
+        opacity: .5; }
+    .oj-step-text .oj-photo-credit span {
+      color: #777;
+      cursor: initial; }
+
+.oj-step-ribbon {
+  display: block;
+  position: relative;
+  left: -70px;
+  width: 160px;
+  font-size: 17px;
+  font-family: "brandon-grotesque";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 0;
+  border-radius: 2px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .oj-step-ribbon:before {
+    content: "";
+    bottom: -14px;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    border-color: #656565 transparent transparent transparent;
+    border-width: 14px 0 0 30px;
+    border-radius: 2px 0 0 0; }
+  .oj-step-ribbon.oj-step-ribbon-1 {
+    background-color: #102d51; }
+  .oj-step-ribbon.oj-step-ribbon-2 {
+    background-color: #5982ba; }
+  .oj-step-ribbon.oj-step-ribbon-3 {
+    background-color: #e17fb0; }
+  .oj-step-ribbon.oj-step-ribbon-4 {
+    background-color: #e85a4c; }
+
+/* Step - Shop */
+.oj-shop {
+  margin-bottom: 75px; }
+  .oj-shop .oj-shop-hed {
+    font-family: "Chronicle Display A","Chronicle Display B";
+    font-weight: 200;
+    line-height: 1.05;
+    font-size: 45px;
+    letter-spacing: -.5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0; }
+
+.oj-shop-items .oj-shop-item {
+  text-align: center;
+  position: relative; }
+  .oj-shop-items .oj-shop-item img {
+    transition: all .3s;
+    backface-visibility: hidden; }
+  .oj-shop-items .oj-shop-item .oj-shop-item-name {
+    font-family: "freight-text-pro";
+    font-weight: 400;
+    color: #545454;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 27px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .oj-shop-items .oj-shop-item .oj-shop-item-price {
+    line-height: 20.5px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10.5px;
+    font-weight: 400;
+    color: #9e9898; }
+  .oj-shop-items .oj-shop-item .oj-shop-item-buy {
+    opacity: 0;
+    transition: all .3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: block;
+    font-family: "brandon-grotesque";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    letter-spacing: 2.25px;
+    color: #fff;
+    background-color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    background: #292929;
+    color: white;
+    letter-spacing: .2em;
+    font-size: .69em;
+    line-height: 2;
+    border-radius: 2px;
+    width: 115px;
+    padding: 10px 12px;
+    transition: all 0.25s; }
+    .oj-shop-items .oj-shop-item .oj-shop-item-buy:hover {
+      background-color: #444; }
+  .oj-shop-items .oj-shop-item:hover .oj-shop-item-buy {
+    opacity: 1; }
+  .oj-shop-items .oj-shop-item:hover img {
+    opacity: .75; }
+
+@media (max-width: 1400px) {
+  .show-at-1400 {
+    display: block; }
+
+  .hide-at-1400 {
+    display: none; } }
+@media (max-width: 1300px) {
+  .oj-main-container {
+    padding: 0;
+    width: 100%; }
+
+  .oj-intro-container .oj-intro-overlay {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25), transparent); }
+  .oj-intro-container .oj-intro-text {
+    left: 43%; }
+    .oj-intro-container .oj-intro-text .oj-intro-subhed {
+      line-height: 23px; } }
+@media (max-width: 1135px) {
+  .oj-intro-container .oj-intro-text .oj-intro-hed {
+    font-size: 70px; }
+
+  .oj-step-text.oj-step-text-1 {
+    width: 52.5%; }
+  .oj-step-text.oj-step-text-2 {
+    width: 55%;
+    top: 27%; }
+  .oj-step-text.oj-step-text-3 {
+    width: 51.5%; }
+  .oj-step-text.oj-step-text-4 {
+    top: 6%;
+    width: 51.5%; }
+
+  .oj-step.oj-step-2 {
+    margin-bottom: 130px; }
+  .oj-step.oj-step-3 {
+    margin-bottom: 150px; } }
+@media (max-width: 991px) {
+  .oj-intro-underline {
+    max-width: none;
+    width: 75%;
+    margin: 0 auto; }
+
+  .oj-intro-container .oj-intro-overlay {
+    background: rgba(0, 0, 0, 0.5); }
+  .oj-intro-container .oj-intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%; }
+
+  .oj-step {
+    min-height: 650px;
+    margin-bottom: 50px; }
+    .oj-step.oj-step-3 {
+      margin-bottom: 0; }
+
+  .oj-step-img-desktop {
+    display: none; }
+
+  .oj-step-ribbon {
+    display: none; }
+
+  .oj-step-text {
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .oj-step-text.oj-step-text-1, .oj-step-text.oj-step-text-2, .oj-step-text.oj-step-text-3, .oj-step-text.oj-step-text-4 {
+      position: absolute;
+      width: 80%;
+      max-width: 600px;
+      padding: 30px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      top: 47%; }
+    .oj-step-text .oj-step-hed {
+      display: none; }
+    .oj-step-text .oj-intro-underline {
+      display: none; }
+
+  .oj-step-overlay-1 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/tablet-step-1.jpg"); }
+
+  .oj-step-overlay-2 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/tablet-step-2.jpg"); }
+
+  .oj-step-overlay-3 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/tablet-step-3.jpg"); }
+
+  .oj-step-overlay-4 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/tablet-step-4.jpg"); }
+
+  .oj-step-overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+    font-size: 230px;
+    font-family: "didoni-urw", sans-serif;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 12%; }
+    .oj-step-overlay:before {
+      content: '';
+      position: absolute;
+      z-index: -2;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: inherit;
+      background-size: cover; }
+    .oj-step-overlay:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, black, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.25), transparent); }
+    .oj-step-overlay .oj-clip-text {
+      margin-top: -10px;
+      padding-left: 12%; }
+
+  .oj-step-overlay.non-webkit-overlay:after {
+    z-index: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25), transparent); }
+
+  .oj-step-hed-mobile {
+    display: block;
+    position: absolute;
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 190px;
+    font-size: 45px;
+    font-weight: 200;
+    letter-spacing: -.5px;
+    font-family: "Chronicle Display A","Chronicle Display B";
+    color: #fff;
+    line-height: 1.1;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: italic;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0; } }
+@media (max-width: 767px) {
+  #oj-main {
+    display: none;
+    margin-top: 62px; }
+
+  .oj-intro-container {
+    display: none; }
+
+  .oj-step {
+    margin-bottom: 0; }
+    .oj-step.oj-step-2 {
+      margin-bottom: 0; }
+
+  /*
+  force spacing btwn absolutely positioned Step sections by adding a statically positioned div whose
+  height equals that of its Step section
+  */
+  .oj-spacer {
+    margin-bottom: 50px; }
+
+  .oj-step-text.oj-step-text-1, .oj-step-text.oj-step-text-2, .oj-step-text.oj-step-text-3, .oj-step-text.oj-step-text-4 {
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+  .oj-step-hed-mobile {
+    width: 100%;
+    font-size: 37px;
+    top: 200px; }
+
+  .oj-step-overlay-1 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/mobile-step-1.jpg"); }
+
+  .oj-step-overlay-2 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/mobile-step-2.jpg"); }
+
+  .oj-step-overlay-3 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/mobile-step-3.jpg"); }
+
+  .oj-step-overlay-4 {
+    background: url("http://prodstatics3azcdn1.purewow.com/static/2016/20408/olay-jas/images/mobile-step-4.jpg"); }
+
+  .oj-step-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 608px;
+    font-size: 230px;
+    font-family: "didoni-urw", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    padding-left: 2.5%; }
+    .oj-step-overlay:before {
+      content: '';
+      position: absolute;
+      z-index: -2;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: inherit; }
+    .oj-step-overlay:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to right, black, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25), transparent); }
+    .oj-step-overlay .oj-clip-text {
+      margin-top: -25px;
+      padding-left: 15px; }
+
+  .oj-step-text {
+    margin-top: 15px; }
+    .oj-step-text .oj-step-copy {
+      font-size: 18px; }
+      .oj-step-text .oj-step-copy a {
+        font-size: 18px; }
+    .oj-step-text .oj-photo-credit a {
+      line-height: 12px; }
+
+  .oj-shop {
+    margin-bottom: 35px; }
+    .oj-shop .oj-shop-hed {
+      font-size: 37px;
+      line-height: 1.1; }
+
+  .oj-shop-items .col-xs-4 {
+    padding-left: 5px;
+    padding-right: 5px; }
+  .oj-shop-items .oj-shop-item .oj-shop-item-name {
+    font-size: 14px;
+    line-height: 14px; }
+  .oj-shop-items .oj-shop-item .oj-shop-item-price {
+    font-size: 10px;
+    letter-spacing: 3.75px;
+    font-weight: 700;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 7px; }
+    .oj-shop-items .oj-shop-item .oj-shop-item-price .oj-shop-item-buy {
+      opacity: 1;
+      display: inline;
+      position: static;
+      color: inherit;
+      background: none;
+      padding: 0;
+      font: inherit;
+      -webkit-transform: none;
+      transform: none; }
+
+  .oj-shop-2 .col-xs-4:first-child img {
+    position: relative;
+    left: 10px; }
+  .oj-shop-2 .col-xs-4:first-child .oj-shop-item-name,
+  .oj-shop-2 .col-xs-4:first-child .oj-shop-item-price {
+    padding-left: 20px; }
+
+  #oj-mobile-header {
+    display: block;
+    margin-top: 62px;
+    position: relative; }
+
+  #oj-back-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding-top: 18px;
+    padding-right: 1px;
+    background-color: rgba(204, 204, 204, 0.65);
+    z-index: 100; }
+
+  .oj-back-top-icon {
+    display: block;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.71);
+    transform: rotate(90deg); }
+
+  .oj-mobile-header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; }
+    .oj-mobile-header-overlay .oj-mobile-header-content {
+      position: absolute;
+      top: 25%;
+      width: 100%;
+      text-align: center; }
+      .oj-mobile-header-overlay .oj-mobile-header-content .oj-mobile-hed {
+        font-size: 37px;
+        font-weight: 200;
+        letter-spacing: -.5px;
+        font-family: "Chronicle Display A","Chronicle Display B";
+        color: #fff;
+        line-height: 1.1;
+        text-transform: uppercase;
+        font-style: italic;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin: 0; }
+      .oj-mobile-header-overlay .oj-mobile-header-content .oj-mobile-underline {
+        margin: 10px auto;
+        width: 80%; }
+      .oj-mobile-header-overlay .oj-mobile-header-content .oj-mobile-subhed {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 4px;
+        font-family: "brandon-grotesque";
+        text-transform: uppercase;
+        color: #FFF;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+    .oj-mobile-header-overlay .oj-mobile-cta {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%); }
+      .oj-mobile-header-overlay .oj-mobile-cta .oj-mobile-cta-text {
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 4px;
+        font-family: "brandon-grotesque";
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #FFF;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+      .oj-mobile-header-overlay .oj-mobile-cta .oj-scroll-prompt {
+        width: 40px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        margin: 10px auto 0;
+        position: relative; }
+        .oj-mobile-header-overlay .oj-mobile-cta .oj-scroll-prompt .oj-scroll-icon {
+          font-size: 20px;
+          font-weight: 700;
+          color: #fff;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%) rotate(90deg);
+          -moz-transform: translate(-50%, -50%) rotate(90deg);
+          -ms-transform: translate(-50%, -50%) rotate(90deg);
+          -o-transform: translate(-50%, -50%) rotate(90deg); }
+    .oj-mobile-header-overlay .oj-photo-credit {
+      position: absolute;
+      bottom: 72px;
+      right: 10px;
+      display: block;
+      cursor: pointer;
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 7.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      transition: opacity .3s;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+      .oj-mobile-header-overlay .oj-photo-credit:hover {
+        opacity: .5; } }
+
+/*# sourceMappingURL=style.css.map */

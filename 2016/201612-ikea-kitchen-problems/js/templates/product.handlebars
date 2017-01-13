@@ -1,0 +1,14 @@
+<div class="ik-product">
+	<img src={{ image }} alt="" class="ik-product-img">
+	<h3 class="ik-product-hed">{{{ hed }}}</h3>
+
+	{{#if subhed}}
+	<h4 class="ik-product-subhed">{{{ subhed }}}</h4>
+	{{/if}}
+
+	<div class="ik-product-price">{{ price }}</div>
+	
+	<a class="ik-buy-wrapper" href={{ link }} {{{ ga-tags }}}target="_blank">
+		<div class="ik-buy">Buy Now</div>
+	</a>
+</div>

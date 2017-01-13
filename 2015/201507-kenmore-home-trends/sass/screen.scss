@@ -1,0 +1,968 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+// TYPOGRAPHY
+
+$brandon: "brandon-grotesque";
+$playfair: "Playfair Display";
+$avenir: "AvenirLTStd-Book"; 
+
+// MEDIA QUERIES
+
+	$medium: "(min-width: 768px) and (max-width: 1278px)";
+
+	$small: "(max-width: 768px)";
+
+// SPRITES
+
+@import "compass/utilities/sprites";
+@import "image-sprites/*.png";
+@include all-image-sprites-sprites;
+
+// COLORS
+
+$entry: #5bc1a6;
+
+$kitchen: #2c46b9;
+
+$living: #6cb4d9;
+
+$bedroom: #aca4e2;
+
+$gray: #bfc3c5;
+
+$l-gray: #cccccc;
+
+// MIXINS
+
+	// NAVIGATION CARROTS
+	
+@mixin nav-carrot ($color) {
+
+	content: ' ';
+
+	height: 0;
+
+	position: absolute;
+
+	border: 0.6875em solid transparent;
+
+	border-top-color: $color;
+
+	margin-top: 3rem;
+
+	left:48%;
+
+	z-index: 1;
+
+	display: none;
+
+}
+
+// ZOOM
+
+@mixin zoom($factor) {
+	 
+	 zoom: $factor;
+
+    -moz-transform:scale($factor);
+
+    -moz-transform-origin: 0 0;
+}
+
+	// CARROT CLASSES FOR JQUERY
+
+	.ht-after-entry:after {
+		
+		@include nav-carrot($entry);
+
+		display: initial;
+
+	}
+
+	.ht-after-kitchen:after {
+		
+		@include nav-carrot($kitchen);
+
+
+		display: initial;
+
+	}
+
+	.ht-after-living:after {
+		
+		@include nav-carrot($living);
+
+		display: initial;
+
+
+	}
+
+	.ht-after-bedroom:after {
+		
+		@include nav-carrot($bedroom);
+
+		display: initial;
+
+
+	}
+
+	// HOTSPOT SCALE CLASS
+
+	.ht-scale {
+
+		-ms-transform: scale(1,1) !important; /* IE 9 */
+
+		-webkit-transform: scale(1,1) !important; /* Safari */
+
+		transform: scale(1,1) !important;
+
+	}
+	
+ 
+
+
+
+// ROOM NAVIGATION
+
+#ht-container {
+	
+	width: 100%;
+	
+	margin-top: 20px;
+
+		@media #{$small} {
+
+			display: none;
+
+		}
+		@media (max-width: 1215px) {
+			max-height: 800px;
+		}
+		@media (min-width: 1216px) {
+			min-height: 800px;
+		}
+		@media (min-width: 1500px) {
+			min-height: 1024px;
+		}
+}
+
+	#ht-nav {
+
+		list-style: none;
+		width: 100%;
+ 		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  		display: -ms-flexbox;      /* TWEENER - IE 10 */
+  		display: -webkit-flex; 
+		display: flex;
+		font-family: $brandon;
+
+		li {
+			position: relative;
+			color: white;
+			cursor: pointer;
+			font-size: 0.75rem;
+			letter-spacing: 2px;
+			line-height: 3rem;
+			text-align: center;
+			flex-grow: 1;
+			height: 3rem;
+			width: 24%;
+			box-shadow: -0.056em 0.031em 0.125em rgba(0, 0, 0, 0.1);
+			margin-right: 2px;
+			text-transform: uppercase;
+
+				&:first-child {
+
+					width: 5%;
+	
+					background-color: $gray;
+
+					flex-grow: 0;
+
+						div {
+
+							width: 14px;
+
+							height: 15px;
+
+							margin: 1rem auto;
+
+						}
+
+				}
+
+				&:nth-child(2) {
+
+					background-color: $entry;
+
+						&:after {
+
+							content: ' ';
+
+						}
+
+				}
+
+				&:nth-child(3) {
+					background-color: $kitchen;
+						&:after {
+							content: ' ';
+						}
+				}
+
+				&:nth-child(4) {
+
+					background-color: $living;
+
+						&:after {
+
+							content: ' ';
+
+						}
+				}
+
+				&:nth-child(5) {
+
+					background-color: $bedroom;
+
+					margin-right: 0;
+
+						&:after {
+
+							content: ' ';
+							
+						}
+				}
+		}
+
+	}
+
+
+
+// MAIN SECTION
+
+#ht-wrapper {
+	
+	width: 100%;
+
+	min-height: 600px;
+}
+
+#ht-room-photo {
+	
+	width: 52.5%;
+
+	min-height: 600px;
+	backface-visibility: hidden;
+	float: left;
+
+		p {			
+			color: #79797c;
+			font-family: $brandon;
+			font-size: 0.625em;
+			font-weight: 300;
+			line-height: 1.75em;
+			text-transform: uppercase;
+			text-align: right;
+			letter-spacing: 1px;
+		}
+
+		#ht-hotspots {
+
+			div {
+
+				position: absolute;
+				width: 4.5rem;
+				height: 4.5rem;
+				opacity: 0.8;
+				background-color: $entry;
+				font-family: $brandon;
+				margin-top: -100px;
+				text-align: center;
+				border: 0.125em solid white;
+				border-radius: 100%;
+				-webkit-border-radius: 100%;
+    			-moz-border-radius: 100%;
+    			border-radius: 100%;
+    			-khtml-border-radius: 100%;
+				color: white;
+				font-size: 2.25rem;
+				line-height: 4rem;
+	    			-webkit-transform: scale(.5);
+    				-moz-transform: scale(.5);
+    				-ms-transform: scale(.5);
+ 			    transform: scale(.5);
+
+					@media #{$medium} {
+
+						width: 2.5rem;
+  						height: 2.55rem;
+  						font-size: 1.25rem;
+  						line-height: 2.25rem;
+  						
+					}
+				
+					&:hover {
+
+						@extend .ht-scale;
+						cursor: pointer;
+						
+					}
+
+					&:first-child {
+
+						margin: -31.5% 0% 0% 36%;
+					}
+
+					&:nth-child(2) {
+
+						margin: -34% 0% 0% 21%;
+					}
+
+					&:nth-child(3) {
+
+						margin: -12% 0% 0% 12%;
+					}
+
+					&:nth-child(4) {
+
+						margin: -23.5% 0% 0% 12%;
+					}
+
+					&:nth-child(5) {
+
+						margin: -13% 0% 0% 38%;
+					}
+				
+ 			}
+		}
+}
+
+#ht-room-detail {
+	
+	width: 44.5%;
+
+	min-height: 600px;
+
+	float: right;
+
+		#ht-room-wrapper {
+
+			width: 90%;
+			max-width: 555px;
+			margin: 3.125em auto;
+			float: left;
+			padding-left: 5em;
+
+				@media #{$medium} {
+
+					margin: 1.5em auto;
+					width: 90%;
+					padding-left: 1.5em;
+
+				}
+
+		}
+}
+
+
+
+		h2 {
+
+			font-family: $brandon; 
+			color: #3b3d40;
+			font-size: 1.188rem;
+			font-weight: 500;
+			text-transform: uppercase;
+			margin-bottom: 0.6em;
+			letter-spacing: 3px;
+
+				@media #{$medium} {
+					font-size: 1rem;
+				}
+			
+		}
+
+		#ht-entry-1 h2, #ht-entry-2 h2, #ht-entry-3 h2 {
+
+			margin-top: 1rem;
+
+		}
+
+		.ht-h2-margin {
+
+			margin-top: 5rem !important;
+			line-height: 1.33;
+
+				@media #{$medium} {
+
+					margin-top: 2rem !important;
+					
+				}
+
+		}
+
+		h1 {
+			
+			color: #3b3d40;
+			font-family: $playfair;
+			font-size: 4.625rem !important;
+			font-weight: 700;
+			margin-bottom: 2rem !important;
+				@media #{$medium} {
+
+					font-size: 2.5rem;
+
+				}
+		}
+
+		.ht-room-default h1 p {
+				font-size: 7rem;
+	 			margin-bottom: 0px;
+ 				&:first-child {
+ 					line-height: 7.75rem;
+ 				}
+ 				&:last-child {
+ 					line-height: 7.188rem;
+ 				}
+				@media #{$medium} {
+
+					font-size: 4rem;
+	 				&:first-child {
+	 					line-height: 4.75rem;
+	 				}
+	 				&:last-child {
+	 					line-height: 4.188rem;
+	 				}
+					
+				} 							
+		}
+
+		hr {
+
+		width: 28.5rem;
+		
+		height: 0.063rem;
+		
+		background-color: #3b3d40;
+
+		margin-left: 0;
+		margin-bottom: 0px;
+		margin-top: 0px;
+
+			@media #{$medium} {
+
+				width: 80%;
+				
+			}
+		
+		}
+
+		.ht-body {
+
+			color: #666d70;
+			
+			font-family: $avenir;
+			
+			font-size: 1.125rem;
+			
+			font-weight: 400;
+			
+			line-height: 1.813rem;
+
+			margin-top: 1.5rem;
+			-webkit-font-smoothing: antialiased;
+			letter-spacing: .4px;
+
+				@media	#{$medium} {
+					font-size: 0.875rem;
+					line-height: 1.25rem;
+				}
+
+				a {
+
+					color: #666d70;
+
+					text-decoration: underline;
+
+				}
+
+		}
+
+			.ht-sponsored {
+
+				font-family: $brandon;
+
+				font-size: 0.875em;
+				
+				font-weight: 500; 
+
+				letter-spacing: 2px;
+
+			}
+
+		#ht-cta {
+
+			margin-top: 50px;
+			width: 90%;
+			height: 3.25rem;
+			background-color: $entry;
+			border-radius: 26px;
+			display: inline-block;
+			float: left;
+			text-align: center;
+			&:hover {
+				opacity: 0.8;
+				cursor: pointer;
+				transition: all 0.2s linear 0s;
+			}
+
+			 @media #{$medium} {
+
+				width: 95%;
+				font-size: 0.8em;
+
+			 }
+
+
+
+			span {
+
+				color: #fff;
+				font-family: $avenir;
+
+				font-size: 0.938em;
+
+				font-weight: 500;
+
+				line-height: 3.4em;
+
+				letter-spacing: 2px;
+
+				text-transform: uppercase;
+
+				display: inline-block;
+
+				@media #{$medium} {
+
+					font-size: 1rem;
+					
+				}
+
+				@media (min-width: 700px) and (max-width: 970px) {
+					line-height: 3.3rem;
+					font-size: 0.8rem;
+				}
+			}
+		}
+
+
+
+		.ht-ellipse {
+
+			width: 8.125rem;
+			
+			height: 8.125rem;
+			margin-top: 2rem;
+			margin-bottom: 2em;
+
+				@media #{$medium} {
+
+					@include zoom(0.8);
+				}
+		}
+
+		.ht-next, .ht-next-room {
+
+			width: 13.75em;
+			text-align: center;
+			height: 3em;			
+			font-family: $avenir;
+			font-size: 0.7em;
+			font-weight: 500;
+			padding: 1em;
+			letter-spacing: 2px;
+			margin: 2.2rem 0 1rem 0;
+			line-height: 1em;
+			text-transform: uppercase;
+			border-radius: 17px;
+
+			&.entry--color {
+				color: $entry;
+				border: solid 1.25px $entry;
+				&:hover {					
+					background: $entry;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+			&.kitchen--color {
+				color: $kitchen;
+				border: solid 1.25px $kitchen;
+				&:hover {					
+					background: $kitchen;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+			&.living--color {
+				color: $living;
+				border: solid 1.25px $living;
+				&:hover {					
+					background: $living;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+			&.bedroom--color {
+				color: $bedroom;
+				border: solid 1.25px $bedroom;
+				&:hover {					
+					background: $bedroom;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+		}
+
+		.ht-indicators li {
+			width: 10px;
+			height: 10px;
+			background-color: white;
+			border: solid 1px $l-gray;
+			display: inline-block;
+			border-radius: 100%;
+			margin-top: 1em;
+			cursor: pointer;
+
+				@media #{$medium} {
+
+					margin-top: -1rem;
+					
+				}
+
+		}
+
+		.ht-next-room {
+
+			padding: 1em 2em 1em 1em;
+
+				&:after {
+
+					content: "\2192";
+					position: absolute;
+					margin-left: 5px;
+					font-size: 14px;
+				}
+		}
+
+		#ht-kitchen-5 .ht-next-room {
+
+			&.kitchen--color {
+				color: $kitchen;
+				border: solid 1.25px $kitchen;
+				&:hover {					
+					background: $kitchen;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+		}
+
+		#ht-living-5 .ht-next-room {
+
+			&.living--color {
+				color: $living;
+				border: solid 1.25px $living;
+				&:hover {					
+					background: $living;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+		}
+
+		#ht-bedroom-5 .ht-next-room {
+			&.bedroom--color {
+				color: $bedroom;
+				border: solid 1.25px $bedroom;
+				&:hover {					
+					background: $bedroom;
+					color: #fff;
+					border: 1.25px #fff;
+					transition: all 0.2s linear 0s;
+					cursor: pointer;
+				}
+			}
+		}
+
+
+// MOBILE VERSION
+
+#ht-container-mobile {
+	
+	width: 100%;
+
+	margin-top: 5rem;
+
+	display: none;
+
+		@media #{$small} {
+
+			display: block;
+			
+		}
+
+}
+.ht-photo-mobile {
+	p {			
+		color: #79797c;
+		font-family: $brandon;
+		font-size: 0.625em;
+		font-weight: 300;
+		line-height: 1.75em;
+		text-transform: uppercase;
+		text-align: right;
+		letter-spacing: 1px;
+
+	}
+}
+	.ht-wrapper-mobile {
+
+		width: 80%;
+
+		margin: 0 auto;
+
+			h2 {
+				font-family: $brandon;
+				font-weight: 500;
+				letter-spacing: 3px;
+				font-size: 1rem;
+				line-height: 1.563rem;
+			}
+
+			h1 {
+
+				font-size: 3.625rem;
+ 				margin-bottom: 1.33rem;
+ 				line-height: 3.438rem;
+			}
+
+			hr {
+
+				width: 100%;
+
+			}
+
+			.ht-ellipse {
+				margin: 0 auto;
+				margin-bottom: 4.1875rem;
+				width: 10rem;
+				height: 10rem;
+			}
+
+			#ht-sponsor {
+
+				width: 100%;
+				margin-top:1.25rem;
+				height: 2.6rem;
+
+				span {
+
+					float: left;
+
+					font-family: $brandon;
+
+					font-size: 0.625rem;
+
+					text-transform: uppercase;
+
+					letter-spacing: 1px;
+
+					margin: 7px 10px 0px 0;
+
+				}
+
+				div {
+
+					width: 87px;
+
+					height: 28px;
+
+					float: left;
+
+					@include zoom(0.75);
+
+					margin: 0;
+				}
+			}
+
+	}
+		.ht-nav-mobile {
+
+			width: 100%;
+			
+			background-color: $entry;
+
+			font-family: $brandon;
+
+			color: white;
+
+			font-size: 1.563em;
+
+			text-transform: uppercase;
+
+			letter-spacing: 2px;
+
+			height: 5rem;
+
+			margin-top: 3rem;
+
+			padding: 28px 10px 10px 40px;
+
+		}
+
+		.ht-photo-mobile {
+
+			width: 100%;
+
+				img {
+
+					width: 100%;
+
+				}
+		}
+
+		section {
+
+			margin-top: 4.1875rem;
+
+			border-bottom: solid 1px transparentize($gray, 0.7);
+
+			padding-bottom: 4.1875rem;
+
+				.ht-wrapper-mobile {
+
+					width: 90%;
+
+				}
+
+		}
+
+		#ht-entryway-mobile, #ht-kitchen-mobile, #ht-living-mobile, #ht-bedroom-mobile {
+			section {
+				&:last-of-type {
+					border-bottom: none;
+				}
+			}
+		}
+
+		.ht-nav-mobile-bottom {
+
+			border-radius: 30px;
+			background-color: $kitchen;
+			margin-top: 0px;
+			height:60px;
+			width:90%;
+			padding-right: 1rem;
+			margin: 0 auto;
+			padding-left: 0;
+			margin-bottom: 4.1875rem;
+
+				.ht-cta-mobile {
+
+					margin-top: -3px;
+					height:60px;
+					text-align: center;
+					padding-top: 22.5px;
+
+					span {
+
+						font-size: 0.85rem;
+						font-family: $brandon;
+						text-transform: uppercase;
+						letter-spacing: 2px;
+						color: #fff;
+					}
+
+					div {
+
+						width: 116px;
+
+						height: 116px;
+
+						@include zoom(0.25);
+
+						float: right;
+
+						margin-left: 1rem;
+					}
+				}
+
+		}
+
+		// KITCHEN MOBILE SLIDE
+
+		#ht-kitchen-mobile {
+
+			.ht-nav-mobile {
+
+				background-color: $kitchen;
+
+			}
+
+			.ht-nav-mobile-bottom {
+
+				background-color: $living;
+			}
+		}
+		 
+		// LIVING MOBILE SLIDE 
+
+		#ht-living-mobile {
+
+			.ht-nav-mobile {
+
+				background-color: $living;
+
+			}
+
+			.ht-nav-mobile-bottom {
+
+				background-color: $bedroom;
+			}
+		}
+
+		// BEDROOM MODILE SLIDE 
+
+		#ht-bedroom-mobile {
+
+			.ht-nav-mobile {
+
+				background-color: $bedroom;
+
+			}
+
+			.ht-nav-mobile-bottom {
+
+				background-color: $entry;
+			}
+		}

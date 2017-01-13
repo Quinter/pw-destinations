@@ -1,0 +1,12 @@
+# Sass #
+######################
+.sass-cache/
+.sass-cache/*
+
+# Unnecessary Mac File #
+######################
+.DS_Store
+
+# Node Modules #
+######################
+node_modules/

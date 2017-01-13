@@ -1,0 +1,434 @@
+/* look into adding these to the destination css file if they can be reused (ex. text-padding mixin) */
+/* can remove below stuff in Admin (maybe AFE too) */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+.bs-container {
+  margin-top: 64px;
+  padding: 0; }
+  .bs-container [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0; }
+
+/* Head Section */
+.bs-head-section {
+  background: url("../images/bs-head-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #464646;
+  text-align: center; }
+  .bs-head-section .bs-head-content .head-logo {
+    margin: 0 auto;
+    display: block;
+    width: 75%; }
+  .bs-head-section .bs-head-content .bs-head {
+    max-width: 350px;
+    font-size: 33.5px;
+    font-weight: 300;
+    letter-spacing: 12px;
+    font-family: "Brandon Grotesque";
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 0.65em; }
+  .bs-head-section .bs-head-content .bs-subhead {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Proxima Nova";
+    line-height: 1.438; }
+
+/* Click More Prompt */
+.bs-prompt {
+  font-size: 14px;
+  font-family: "Brandon Grotesque";
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.896;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top: -45px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+#click-more, #start-over {
+  cursor: pointer;
+  transition: all .5s ease; }
+  #click-more:hover, #start-over:hover {
+    color: rgba(75, 221, 185, 0.942); }
+
+#start-over {
+  border: 1px solid #ccc;
+  margin-top: 25px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  background-color: rgba(75, 221, 185, 0.942); }
+  #start-over:hover {
+    background-color: #fff;
+    border-color: rgba(75, 221, 185, 0.942); }
+
+.bs-arrow {
+  font-size: 40px;
+  position: relative;
+  top: 12px;
+  right: 10px; }
+
+/* Cards */
+.bs-cards {
+  list-style-type: none;
+  padding-left: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.bs-card {
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: all .2s; }
+  .bs-card hr.bs-card-topbar {
+    background-color: black;
+    width: 106px;
+    height: 6.5px;
+    margin-left: 0;
+    margin-bottom: 0; }
+
+.bs-card-header {
+  line-height: 1;
+  text-transform: uppercase; }
+  .bs-card-header .bs-card-num {
+    font-size: 50px;
+    font-family: "CarouselEF";
+    color: rgba(0, 0, 0, 0.902);
+    float: left; }
+  .bs-card-header .bs-card-intro {
+    padding-left: 0;
+    font-family: "Brandon Grotesque";
+    color: #020202; }
+    .bs-card-header .bs-card-intro .bs-card-head {
+      font-size: 38px;
+      font-weight: 400;
+      line-height: 1.52;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: -2.5px;
+      letter-spacing: 10px; }
+    .bs-card-header .bs-card-intro .bs-card-subhead {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.4;
+      margin-top: 0;
+      margin-bottom: 0;
+      letter-spacing: 3.2px; }
+
+.bs-card-body .bs-sponsored {
+  font-size: 11.231px;
+  font-family: "Brandon Grotesque";
+  color: #020202;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.781;
+  letter-spacing: 3.2px;
+  font-weight: 600; }
+.bs-card-body p, .bs-card-body .bs-card-link {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: #010101;
+  line-height: 1.533; }
+.bs-card-body p {
+  color: #34383a;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 30px; }
+.bs-card-body .bs-card-link, .bs-card-body .bs-underline {
+  font-weight: 700; }
+  .bs-card-body .bs-card-link:hover, .bs-card-body .bs-underline:hover {
+    color: #999; }
+
+.bs-card-image {
+  padding-top: 10px; }
+
+.bs-card-image-text {
+  letter-spacing: 1.6px;
+  font-family: "Brandon Grotesque";
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.923;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .bs-card-image-text h4, .bs-card-image-text a {
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline; }
+  .bs-card-image-text a:hover {
+    color: #999; }
+  .bs-card-image-text h5 {
+    font-size: 12px;
+    font-weight: 400; }
+
+.bs-card-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .bs-card-main .bs-card-body {
+    order: 2; }
+  .bs-card-main .bs-card-image-container {
+    order: 1;
+    width: 100%; }
+
+/* MK Image Container */
+.bs-mk-container {
+  margin-left: -250px;
+  position: relative;
+  display: inline-block;
+  z-index: 99; }
+  .bs-mk-container #mk-in-motion {
+    display: inline-block;
+    max-width: initial; }
+  .bs-mk-container .bs-btns-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; }
+
+/* MK Overlay Buttons */
+.bs-btn {
+  position: absolute;
+  border: 1px solid #66FED8;
+  border-radius: 50%;
+  background-color: rgba(75, 221, 185, 0.76);
+  width: 32px;
+  height: 32px;
+  font-size: 15px;
+  font-family: "Brandon Grotesque";
+  color: white;
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .2s ease;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .bs-btn:hover, .bs-btn-active {
+    width: 49px;
+    height: 49px;
+    margin: -16px;
+    padding-top: 10px; }
+
+#bs-btn-1 {
+  right: 200px;
+  top: 40px; }
+
+#bs-btn-2 {
+  right: 180px;
+  top: 110px; }
+
+#bs-btn-3 {
+  right: 135px;
+  top: 120px; }
+
+#bs-btn-4 {
+  right: 140px;
+  top: 180px; }
+
+#bs-btn-5 {
+  right: 165px;
+  top: 240px; }
+
+#bs-btn-6 {
+  right: 150px;
+  top: 350px; }
+
+#bs-btn-7 {
+  right: 205px;
+  top: 410px; }
+
+#bs-btn-8 {
+  right: 270px;
+  top: 475px; }
+
+#bs-btn-9 {
+  right: 10px;
+  top: 620px; }
+
+#bs-btn-10 {
+  right: 65px;
+  top: 875px; }
+
+/* iPad/Tablet-width and higher */
+@media screen and (min-width: 768px) {
+  .bs-head-section {
+    padding-left: 25px; }
+    .bs-head-section .bs-head-content {
+      border: 10px solid #fff;
+      padding: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%; }
+      .bs-head-section .bs-head-content .bs-subhead {
+        font-size: 15px; }
+
+  .bs-card:last-child .bs-card-subhead {
+    padding-left: 20px; }
+
+  .bs-card-main .bs-card-body {
+    order: 1; }
+  .bs-card-main .bs-card-image-container {
+    order: 2; }
+
+  .bs-card-image {
+    padding-top: 0;
+    margin-top: -25px; }
+
+  .bs-cards {
+    padding-left: 25px;
+    padding-right: 25px; }
+    .bs-cards .bs-card {
+      display: none; }
+      .bs-cards .bs-card .bs-card-topbar {
+        width: 101px;
+        height: 5px;
+        margin-top: 0;
+        margin-bottom: 12px; }
+    .bs-cards .bs-card-active {
+      display: block;
+      transition: all .2s;
+      padding-left: 25px;
+      padding-right: 25px; }
+
+  .bs-card-header {
+    margin-top: 7px; }
+    .bs-card-header .bs-card-num {
+      float: left;
+      font-size: 42px;
+      font-family: "CarouselEF";
+      color: black;
+      text-transform: uppercase; }
+    .bs-card-header .bs-card-intro {
+      padding-left: 65px;
+      padding-top: 0; }
+      .bs-card-header .bs-card-intro .bs-card-head {
+        font-size: 17px;
+        line-height: 1.176; }
+      .bs-card-header .bs-card-intro .bs-card-subhead {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-top: 10px; }
+
+  .bs-card-image-text h4, .bs-card-image-text a, .bs-card-image-text h5 {
+    font-size: 11.5px;
+    line-height: 0.75; } }
+/* iPad/Tablet-width exclusive */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bs-container {
+    margin-top: -25px;
+    width: auto; }
+    .bs-container .col-sm-4half,
+    .bs-container .col-sm-7half {
+      position: relative;
+      float: left;
+      min-height: 1px; }
+    .bs-container .col-sm-4half {
+      width: 37.5%; }
+    .bs-container .col-sm-7half {
+      width: 62.5%; }
+
+  .bs-cards {
+    margin-top: 25px; } }
+@media screen and (min-width: 992px) {
+  .bs-container {
+    margin-top: -33px; }
+
+  .bs-mk-container {
+    margin-left: -50px; }
+
+  .bs-head-section .bs-head-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; }
+    .bs-head-section .bs-head-content .bs-head-logo {
+      margin-right: 90px;
+      width: 67%; }
+    .bs-head-section .bs-head-content .bs-head {
+      font-size: 50px;
+      text-indent: .25em;
+      max-width: none; }
+    .bs-head-section .bs-head-content .bs-subhead {
+      font-size: 16.25px;
+      line-height: 1.57;
+      margin-top: 13px;
+      padding-left: 40px;
+      padding-right: 40px;
+      color: #434546; }
+
+  .bs-cards {
+    margin-top: 50px; }
+
+  .bs-card-header .bs-card-num {
+    float: left;
+    font-size: 42px;
+    font-family: "CarouselEF";
+    color: black;
+    text-transform: uppercase; }
+  .bs-card-header .bs-card-intro {
+    padding-left: 65px;
+    padding-top: 5px; }
+    .bs-card-header .bs-card-intro .bs-card-subhead {
+      font-size: 17px;
+      line-height: 1.647;
+      margin-top: 5px; }
+
+  .bs-card-body .bs-sponsored {
+    font-size: 11px;
+    line-height: 1.818;
+    font-weight: 700; }
+  .bs-card-body p, .bs-card-body .bs-card-link {
+    font-size: 16.25px;
+    line-height: 1.57;
+    color: #434546;
+    margin-top: 25px; }
+  .bs-card-body .bs-card-link {
+    font-weight: 600; }
+
+  .bs-card-image-container img {
+    width: 90%;
+    margin-left: 5%; }
+
+  .bs-card-image-text h4, .bs-card-image-text a, .bs-card-image-text h5 {
+    font-size: 11px;
+    line-height: .75;
+    font-weight: 500; }
+  .bs-card-image-text h5 {
+    font-size: 12px;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-weight: 300;
+    font-family: "Proxima Nova"; } }
+
+/*# sourceMappingURL=style.css.map */

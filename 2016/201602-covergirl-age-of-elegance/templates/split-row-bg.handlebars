@@ -1,0 +1,28 @@
+<!-- Split Row (w/ Background) Partial -->
+<div class="row split-row-bg">
+
+	<img src="{{ backgroundImage }}" alt="{{ backgroundImageAlt }}" class="split-row-bg-main-img">
+
+	<div class="split-row-bg-overlay">
+		<div class="col-xs-12 col-sm-6">
+			{{#with imageColumn}}
+			<a href="{{ imageLink }}" target="_blank" {{{ imageLinkGATags }}}>
+				<img src="{{ populateResponsiveValue images 991 }}" alt="{{ imageAlt }}" class="split-row-bg-img">
+			</a>
+			{{/with}}
+		</div>
+
+		<div class="col-xs-12 col-sm-6 split-row-bg-col-content">
+			<div class="split-row-bg-content">
+				{{#with textColumn}}
+				<h2 class="split-row-bg-hed">{{{ hed }}}</h2>
+				{{#if sponsored}}
+				<h3 class="split-row-bg-sponsored">{{ sponsored }}</h3>
+				{{/if}}
+				<p class="split-row-bg-copy">{{{ copy }}}</p>
+				<a class="split-row-bg-shop" href="{{ shopLink }}" target="_blank" {{{ shopLinkGATags }}}>{{ shopLinkText }}</a>
+				{{/with}}
+			</div>
+		</div>
+	</div>
+</div>

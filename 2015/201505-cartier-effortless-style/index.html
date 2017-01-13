@@ -1,0 +1,3423 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+ ######################################################################################################################################
+ # McNote: 09/2014 Version
+ # This page is intended to be a starting point for any 3rd party that needs to develop HTML to be used within the PureWow Header and Footer.
+ # It does not make sense for each 3rd party to re-create the Header/Footer HTML because we will implement that via Server Side Includes (SSI)
+ # once the inner portion of the page is developed. It also is very difficult for a 3rd party to develop HTML for the middle of the page
+ # without being able to see how that HTML will ultimately render and behave within the header/footer. This file should solve these problems.
+ #
+ # Here are the rules for using this file:
+ # 		1) 	Only add your code between the "McNote: BEGIN" and "McNote: END" comment pairs.  There is one comment pair in the <head> section
+ # 			and another in the <body> section
+ # 		2) 	If you create your own CSS file for use by the inner HTML you develop, please use a prefix for all CSS class names to avoid
+ # 			collisions with any existing CSS classes.  For example, use CSS class name "30DaysOfTech_header" rather than "header"
+ # 		3) 	Please use the following folder structure for all supporting files:
+ # 					/static
+ # 						/ProjectSpecificFolderNameHere
+ #							/css
+ #							/images
+ #							/js
+ # 		4) 	Do not include webfont files that already exist in PureWow.com. Just point to them in your CSS files
+ # 		5) 	Do not use wildcard CSS selectors.  For example the following has the i'll effect of changing the PureWow header:
+ #				*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+ # 		6)	Do not introduce any additional Javascript frameworks. Utilize "jquery-1.8.1" which is already included.
+ # 		7)	Make sure any Javascript works in all commonly used browsers (IE 8 and beyond as well as browsers most normal people use).
+ # 		8)	If the design you are implementing requires non-websafe fonts, please work with us to make sure those fonts are visible in your development environment.
+ # 			Depending on the license associated with the font, we may need to configure our font provider to allow your development IP address(es).
+ ######################################################################################################################################
+-->
+<head>
+
+<link rel="publisher" href="https://plus.google.com/104703451393580472587" />
+<meta name="google-site-verification" content="_IUzbA1brhr5VAZoM_6knrRArtmPwibJlBjtditOZeI" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="PureWow is the women's lifestyle destination dedicated to making your life easier, more interesting and of course, beautiful. Elevate the everyday." />
+    <meta name="keywords"    content="PureWow, purewow, Purewow, Pure Wow, Fashion, Travel, Beauty, Women, Female, Technology, Tech, Culture, Food, Drink, Charity, Philanthropy, Home, Garden, wow" />
+
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/jquery-1.8.1.js "></script>
+	<script type="text/javascript" src="http://staticcdn13.purewow.com/v_2013/js/respond.min.js"></script>
+
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css' />
+	<link media="all"   type="text/css" rel="stylesheet" href="http://www.purewow.com/v_2013/css/all_v_2014_09_08.css" />
+	<link media="all"   type="text/css" rel="stylesheet" href="http://www.purewow.com/v_2013/css/all_mc_v2.css" />
+	<link rel="stylesheet" type="text/css" href="http://staticcdn12.purewow.com/v_2013/css/fancybox.css" media="all" />
+	<!-- <link rel="stylesheet" type="text/css" href="http://www.purewow.com/v_2013/css/icomoon_2014_08_05.css" media="all" /> -->
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css" media="all" />
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="http://staticcdn11.purewow.com/v_2013/css/ie.css" /><![endif]-->
+
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://www.purewow.com/v_2013/css/jasny-bootstrap.min.css" rel="stylesheet">
+	<!-- <link href="http://potluckpicnic.com/new-nav/css/icomoon.css" rel="stylesheet"> -->
+	<link href="http://www.purewow.com/v_2013/css/jasny-bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6567052/742822/css/fonts.css" />
+
+	<link href="http://www.purewow.com/v_2013/css/jas-nav-inline-block_001.css" rel="stylesheet">
+	<!-- <link href="http://www.purewow.com/v_2013/css/jas-nav-inline-block.css" rel="stylesheet">  -->
+
+	<link rel="SHORTCUT ICON" href="http://staticcdn12.purewow.com/v_2013/images/favicon.jpg"/>
+
+	<script type='text/javascript'>
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+	var gads = document.createElement('script');
+	gads.async = true;
+	gads.type = 'text/javascript';
+	var useSSL = 'https:' == document.location.protocol;
+	gads.src = (useSSL ? 'https:' : 'http:') +
+	'//www.googletagservices.com/tag/js/gpt.js';
+	var node = document.getElementsByTagName('script')[0];
+	node.parentNode.insertBefore(gads, node);
+	})();
+	</script>
+
+	<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+
+	<!-- Google Analytics Social Button Tracking -->
+	<script src="http://staticcdn11.purewow.com/v_2013/js/ga_social_tracking.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="http://staticcdn11.purewow.com/v_2013/css/MyFontsWebfontsKit.css">
+	<link rel="stylesheet" type="text/css" href="http://staticcdn11.purewow.com/v_2013/css/MyFontsWebfontsKitLight.css">
+
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.post .post-info h2').css			('font-family', '"BrandonGrotesque-Regular", "Times New Roman", times');
+			$('.post .post-info h3.h3_recipe').css	('font-family', '"BrandonGrotesque-Regular", "Times New Roman", times');
+		});
+	</script>
+	<link rel="canonical" href="http://www.purewow.com/remodel-behavior" />
+
+	<meta name="description"	content="Is your home, sweet, home looking a little rough around the edges? (Does &quot;accent wall&quot; ring a horrible bell?) Good news. We've got a virtual house full of easy decorating ideas. Autumn Sunrise wall? Your sun has set." />
+	<meta name="keywords" 		content="Home, restyle, remodel, living, entryway, house, bedroom, kitchen, living room, bathroom" />
+
+	<meta property="fb:app_id" 		content="410092635715198"/>
+	<meta property="fb:admins"		content="100003005901474"/>
+	<meta property="fb:admins"		content="608171583"/>
+	<meta property="fb:admins"		content="533075874"/>
+	<meta property="fb:admins"		content="16802950"/>
+	<meta property="fb:admins"		content="633504840"/>
+	<meta property="fb:admins"		content="26005499"/>
+	<meta property="fb:admins"		content="1050480967"/>
+	<meta property="og:site_name" 	content="PureWow" />
+    <meta property="og:type" 		content="article"/>
+    <meta property="article:publisher" 		content="https://www.facebook.com/PureWow"/>
+	<meta property="og:url" 		content="http://www.purewow.com/remodel-behavior" />
+	<meta property="og:image" 		content="http://staticcdn13.purewow.com/static/2014_09_11_30_days_homegoods/img/HG_fb_plugin.png" />
+	<meta property="og:title" 		content="Remodel Behavior" />
+	<meta property="og:description" content="What you need to style every inch of your home" />
+
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6567052/647844/css/fonts.css" />
+
+<!--
+ ######################################################################################################################################
+ # McNote: BEGIN: Insert page specific <head> stuff here
+ ######################################################################################################################################
+-->
+	<title>30 Days of Wow - The Best New Books for Any Occasion | PureWow</title>
+	
+	<link href="css/cartier-effortless-style.css" rel="stylesheet">
+<!--
+ ######################################################################################################################################
+ # McNote: END: Insert page specific <head> stuff here
+ ######################################################################################################################################
+-->
+
+	<link href="http://staticcdn12.purewow.com/v_2013/css/social-likes_flat_nav_compatible.css" rel="stylesheet">
+
+	<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+	<script>
+	  WebFont.load({
+		custom: {
+		  families: ['BrandonGrotesque-Light','BrandonGrotesque-Bold','Archer A', 'Archer B']
+		}
+	  });
+	</script>
+<script>
+	googletag.cmd.push(function()
+	{
+		// DFP Targeting::
+		// 		edition:  national
+		// 		pagetype: custom
+		// 		section:
+		//		id:       remodel-behavior
+		var adLeaderboard 		= googletag.defineSlot('/10169197/Targeted_Leaderboard',  [[728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1381936810308-0');
+		var adTrailerboard 		= googletag.defineSlot('/10169197/Targeted_Trailerboard', [728, 90],                          'div-gpt-ad-1383163480000-0');
+		var adRightRail 		= googletag.defineSlot('/10169197/Targeted_RightRail',   [[300, 250], [300, 600]],            'div-gpt-ad-1383163662920-0');
+		var adRightRailFeature 	= googletag.defineSlot('/10169197/Targeted_Features', 	  [299, 166],                         'div-gpt-ad-1410538470700-0');
+
+		var adLeaderboardMobile 	= googletag.defineSlot('/10169197/Targeted_Mobile_Leaderboard'	, [320, 50], 	'div-gpt-ad-1383750230318-0');
+		var adTrailerboardMobile 	= googletag.defineSlot('/10169197/Targeted_Mobile_Trailerboard'	, [320, 50], 	'div-gpt-ad-1383750286342-0');
+		var adRightRailMobile 		= googletag.defineSlot('/10169197/Targeted_Mobile_MedReg'		, [300, 250], 	'div-gpt-ad-1383933890716-0');
+
+		var adOutOfPageSlotPixel 	= googletag.defineSlot('/10169197/Targeted_Out_Of_Page', [1, 1], 'div-gpt-ad-1388701363441-0');
+		var adOutOfPageSlot 		= googletag.defineOutOfPageSlot('/10169197/Targeted_Out_Of_Page', 'div-gpt-ad-1388701363441-0-oop');
+		var adPixelOne    			= googletag.defineSlot('/10169197/Targeted_Pixel1', [1,1], 'div-gpt-ad-1389064906152-0');
+		var adPixelTwo    			= googletag.defineSlot('/10169197/Targeted_Pixel2', [1,1], 'div-gpt-ad-1389065124313-0');
+		var adPixelThree  			= googletag.defineSlot('/10169197/Targeted_Pixel3', [1,1], 'div-gpt-ad-1389065209324-0');
+
+			adLeaderboard.setTargeting			("edition", "national");
+			adTrailerboard.setTargeting			("edition", "national");
+			adRightRail.setTargeting			("edition", "national");
+			adRightRailFeature.setTargeting		("edition", "national");
+
+			adLeaderboardMobile.setTargeting	("edition", "national");
+			adTrailerboardMobile.setTargeting	("edition", "national");
+			adRightRailMobile.setTargeting		("edition", "national");
+
+				adOutOfPageSlotPixel.setTargeting	("edition", "national");
+				adOutOfPageSlot.setTargeting		("edition", "national");
+				adPixelOne.setTargeting				("edition", "national");
+				adPixelTwo.setTargeting				("edition", "national");
+				adPixelThree.setTargeting			("edition", "national");
+
+			adLeaderboard.setTargeting			("pagetype", "custom");
+			adTrailerboard.setTargeting			("pagetype", "custom");
+			adRightRail.setTargeting			("pagetype", "custom");
+			adRightRailFeature.setTargeting		("pagetype", "custom");
+
+			adLeaderboardMobile.setTargeting	("pagetype", "custom");
+			adTrailerboardMobile.setTargeting	("pagetype", "custom");
+			adRightRailMobile.setTargeting		("pagetype", "custom");
+
+				adOutOfPageSlotPixel.setTargeting	("pagetype", "custom");
+				adOutOfPageSlot.setTargeting		("pagetype", "custom");
+				adPixelOne.setTargeting				("pagetype", "custom");
+				adPixelTwo.setTargeting				("pagetype", "custom");
+				adPixelThree.setTargeting			("pagetype", "custom");
+
+			adLeaderboard.setTargeting			("id", "remodel-behavior");
+			adTrailerboard.setTargeting			("id", "remodel-behavior");
+			adRightRail.setTargeting			("id", "remodel-behavior");
+			adRightRailFeature.setTargeting		("id", "remodel-behavior");
+
+			adLeaderboardMobile.setTargeting	("id", "remodel-behavior");
+			adTrailerboardMobile.setTargeting	("id", "remodel-behavior");
+			adRightRailMobile.setTargeting		("id", "remodel-behavior");
+
+				adOutOfPageSlotPixel.setTargeting	("id", "remodel-behavior");
+				adOutOfPageSlot.setTargeting		("id", "remodel-behavior");
+				adPixelOne.setTargeting				("id", "remodel-behavior");
+				adPixelTwo.setTargeting				("id", "remodel-behavior");
+				adPixelThree.setTargeting			("id", "remodel-behavior");
+
+		adLeaderboard.addService		(googletag.pubads());
+		adTrailerboard.addService		(googletag.pubads());
+		adRightRail.addService			(googletag.pubads());
+		adRightRailFeature.addService	(googletag.pubads());
+
+		adLeaderboardMobile.addService	(googletag.pubads());
+		adTrailerboardMobile.addService	(googletag.pubads());
+		adRightRailMobile.addService	(googletag.pubads());
+
+			adOutOfPageSlotPixel.addService (googletag.pubads());
+			adOutOfPageSlot.addService		(googletag.pubads());
+			adPixelOne.addService			(googletag.pubads());
+			adPixelTwo.addService			(googletag.pubads());
+			adPixelThree.addService			(googletag.pubads());
+
+		googletag.pubads().collapseEmptyDivs();
+		googletag.pubads().enableSingleRequest();
+		googletag.enableServices();
+	});
+</script>
+
+<script type="text/javascript">(function(){var a=document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.async=!0;b.src="http://s.moatads.com/purewow421IyEA29/moatcontent.js";a.parentNode.insertBefore(b,a)})();</script>
+
+<script async="" defer="" src="//survey.g.doubleclick.net/async_survey?site=mdkkpxg7h4l64nqhh22r7engpq"></script>
+
+	<script>
+		__reach_config = {
+		  pid:   '532739fce7954843c6000029',
+		  title: 'Remodel Behavior | PureWow',
+		  url:   'http://www.purewow.com/remodel-behavior',
+		  date:  '2014-07-23T09:00:00-05:00',
+		  authors: [],
+		  channels: ['national','custom'],
+		  tags: [],
+		  iframe: true,
+		  ignore_errors: false
+		};
+		(function(){
+		  var s = document.createElement('script');
+		  s.async = true;
+		  s.type = 'text/javascript';
+		  s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+		  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+		})();
+	</script>
+
+<!-- Start BounceX tag. Deploy at the beginning of document head. -->
+        <script>
+        (function(d) {
+            var e = d.createElement('script');
+            e.src = d.location.protocol + '//bounceexchange.com/tag/946/i.js';
+            e.async = true;
+            d.getElementsByTagName("head")[0].appendChild(e);
+        }(document));
+        </script>
+<!-- End BounceX Tag-->
+
+<style>
+	.fb-like {width: auto !important;display: inline-block !important;}
+	@media screen and (max-width: 767px)
+	{
+		.social-likes
+		{
+			top: initial !important;
+			display: block !important;
+		}
+	}
+	@media only screen and (max-width: 436px)
+	{
+		.share .fb-btn
+		{
+			margin-bottom: 10px;
+		}
+	}
+
+	@media only screen and (min-width: 300px) and (max-width: 436px)
+	{
+		#ref_fb img
+		{
+			margin-bottom: 20px;
+		}
+	}
+
+	.social-list li{display:inline-block;}
+
+</style>
+</head>
+<body>
+	<div id="wrapper-new-nav" class="pw-body-wrapper">
+		<div >
+			<div >
+
+<div id="fb-root"></div>
+<script>
+		var imageDir 				= 'http://staticcdn11.purewow.com/v_2013/images';
+		var contextPath 			= '';
+		var currentEditionName 		= 'national';
+		var visitorServicesBaseUrl 	= '/ajax_services/visitor';
+
+		// console.log('param.wowlist = ');
+
+		var facebookUserEmail;
+		var facebookFirstName;
+		var facebookLastName;
+		var facebookGender;
+
+		window.fbAsyncInit = function()
+		{
+			FB.init({
+				appId: '410092635715198',
+				channelUrl : 'www.purewow.com/channel.html', // Channel File
+				status: true,
+				cookie: true,
+				oauth:true,
+				xfbml: true});
+
+			_ga.trackFacebook(); //Google Analytics tracking
+
+			FB.getLoginStatus(function(response)
+			{
+			  if (response.status === 'connected')
+			  {
+			    // we can remove the sign-up entry points because they are logged in
+				$("#main_signup").hide();
+
+				if($("#main_login").length > 0)
+				{
+					$("#main_login").hide();
+				}
+
+				// this one only exists on the homepage
+				if($("#id_homepage_slide_1").length > 0)
+				{
+					// caused auto-slider issues
+					// $("#id_homepage_slide_1").hide();
+				}
+
+				// $("#FB_Info").html('FB authorized');
+
+				var uid = response.authResponse.userID;
+				var accessToken = response.authResponse.accessToken;
+
+				// get the rest of the user data
+				FB.api('/me', function(user)
+				{
+					facebookUserEmail = user.email;
+					facebookFirstName = user.first_name;
+					var namePortion = facebookUserEmail.split("@")[0];
+
+
+					if ($.cookie('com.equinox.wedding_jack.gui.cookie.FacebookEmailCaptureMethodCookie') == null)
+					{
+						registerEmailCaptureMethod(facebookUserEmail, 'facebook');
+						$.cookie('com.equinox.wedding_jack.gui.cookie.FacebookEmailCaptureMethodCookie','true', {path: '/', expires: 365});
+					}
+
+					// $("#FB_Info").html('FB auth: ' + facebookUserEmail);
+
+						// we can display the logged in information
+						console.log('<a href="' + contextPath+'/footer/'+currentEditionName+'/manage_my_account.htm">' + '<span>Hi, '+facebookFirstName+'!</span></a>');
+						$(".id_logged_in_email").html('Hi, '+facebookFirstName+'!<span class="caret"></span>');
+						$(".id_logged_in_manage").html('<a href="' + contextPath+'/footer/'+currentEditionName+'/manage_my_account.htm">My Account</a>');
+						$(".id_wow_list_logged_out").show();
+						$(".id_signup_login").hide();
+
+					// change the footer hrefs
+					$("#footer_my_account").unbind('click.fb')
+					$("#footer_my_account").attr('href', contextPath+'/footer/'+currentEditionName+'/manage_my_account.htm');
+					$("#footer_unsubscribe").unbind('click.fb')
+					$("#footer_unsubscribe").attr('href', contextPath+'/footer/'+currentEditionName+'/unsubscribe.htm?unsubscribeEmailAddress='+facebookUserEmail);
+
+					if ($.cookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie') == null)
+					{
+						console.log( 'first time setting FB cookie' );
+					}
+
+					// this one only exists on the homepage
+					if($("#id_fb_homepage_login_img").length > 0)
+					{
+						$("#id_signup_or").hide();
+						$("#id_fb_homepage_login_img").hide();
+					}
+
+					$.cookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie', facebookUserEmail, { path: '/' });
+
+					postLoginStatusProcessing();
+
+if(typeof revokeFbPermissionsFor !== 'undefined')
+{
+	console.log("looks like we should sever the FB permissions for: " + revokeFbPermissionsFor);
+}
+				});
+
+			  }
+
+			  else if (response.status === 'not_authorized')
+			  {
+				$.removeCookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie', { path: '/' });
+				// $("#FB_Info").html('FB logged in (no auth)');
+				$("#id_fb_signup_login_img_1").attr('src', imageDir+'/facebook-sign-up.gif');
+				$("#id_fb_signup_login_img_signup_popup").attr('src', imageDir+'/facebook-sign-up.gif');
+
+				// this one only exists on the homepage
+				if($("#id_fb_homepage_login_img").length > 0)
+				{
+					$("#id_fb_homepage_login_img").attr('src', imageDir+'/fb-signup-narrow.gif');
+				}
+
+				// postLoginStatusProcessing();
+
+			  }
+
+			  else
+			  {
+				// the user isn't logged in to Facebook.
+				$.removeCookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie', { path: '/' });
+				// $("#FB_Info").html('FB not logged in');
+				$("#id_fb_signup_login_img_1").attr('src', imageDir+'/facebook-login.gif');
+				$("#id_fb_signup_login_img_signup_popup").attr('src', imageDir+'/facebook-login.gif');
+
+				// postLoginStatusProcessing();
+			  }
+
+			});
+
+			FB.Event.subscribe('edge.create',
+			function(response) {
+				trackTimelineEvent('EVENT_LIKE');
+			});
+
+			// Gets FB comment count
+			if($('#fb_comment_count').length > 0) {
+				FB.api(	"/http://www.purewow.com/remodel-behavior", function (response) {
+				  if (response && !response.error && response.comments > 0) {
+					$('#fb_comment_count').html(response.comments + ' Comments' );
+				  }
+				});
+			}
+
+		};
+
+	  // Load the SDK Asynchronously
+	  (function() {
+		var e = document.createElement('script'); e.async = true;
+		e.src = document.location.protocol +
+		  '//connect.facebook.net/en_US/all.js';
+		document.getElementById('fb-root').appendChild(e);
+	  }());
+
+//		$(document).ready(function()
+//		{
+//			$("#login_button").hide();
+//		});
+
+
+	function loginToFacebookToSubscribe(reason)
+	{
+		FB.login(function(response)
+		{
+			if (response.authResponse)
+			{
+				// connected
+				// $("#FB_Info").html('login and authorization completed successfully');
+				$("#login_button").hide();
+
+				FB.api('/me', function(user)
+				{
+					$("#emailFormSignupPopup input[name=emailAddress]").val(user.email);
+					$("#emailFormSignupPopup input[name=firstName]").val(user.first_name);
+					$("#emailFormSignupPopup input[name=lastName]").val(user.last_name);
+					$("#emailFormSignupPopup input[name=gender]").val(user.gender);
+					$("#emailFormSignupPopup input[name=emailAddressCaptureMethod]").val("Facebook");
+					$("#emailFormSignupPopup").submit();
+				});
+			}
+			else
+			{
+				// cancelled
+				// $("#FB_Info").html('login cancelled');
+			}
+		}, {scope: 'email'});
+	}
+
+	function ajaxParseResponse(response)
+	{
+		if(response.statusExtended == 'failure')
+		{
+			alert("an error occured; please try again");
+		}
+		else
+		{
+			document.location.reload(true);
+		}
+	}
+
+
+	function logoutFromFacebook()
+	{
+
+		FB.logout(function(response)
+		{
+			$.removeCookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie', 	{ path: '/' });
+			$.removeCookie('com.equinox.wedding_jack.gui.cookie.VisitorLoginCookie', 										{ path: '/' });
+			if (document.location.href.indexOf('manage_') >= 0)
+			{
+				document.location.replace('http://www.purewow.com/index.htm');
+			}
+			else
+			{
+				document.location.reload(true);
+			}
+		});
+	}
+
+
+	function postLoginStatusProcessing()
+	{
+		if(typeof wowListAction !== 'undefined')
+		{
+			if(wowListAction === 'add')
+			{
+				if(typeof wowListActionEntryId !== 'undefined')
+				{
+					addEntryArticleToList(wowListActionEntryId);
+				}
+			}
+			if(wowListAction === 'info')
+			{
+				performWowListCheck();
+			}
+		}
+
+
+
+		if(typeof checkRecipeBoxAfterFbLogin !== 'undefined')
+		{
+			checkRecipeBoxAfterFbLogin();
+		}
+
+	}
+
+	//////////////////////////////////////////////////////////////////
+	// register the email address capture method
+	//////////////////////////////////////////////////////////////////
+	function registerEmailCaptureMethod(emailAddress, captureMethod)
+	{
+		var url = visitorServicesBaseUrl + "/visitor_event/set_capture_method/" + captureMethod;
+
+		$.ajax({
+		  type: 'POST',
+		  url: url,
+		  data: {
+					'emailAddress' : emailAddress
+				},
+		  dataType: 'json',
+		  success: function(genericResultBean)
+					{
+						if (genericResultBean.status == "SUCCESS")
+						{
+						}
+						else
+						{
+						}
+					}
+		})
+
+		return true;
+	}
+</script>
+<!-- Entire Header Begin (2014_08) -->
+<header>
+
+<!-- BEGIN MOBILE -->
+
+	<!-- begin mobile dropdown searchbar  -->
+	<div class="searchbar" id="searchbar">
+		<form id="searchForm" name="searchForm" role="form" method="get" action="/search/national" onsubmit="return searchFormValid(document.searchForm)">
+			<div class="form-group">
+			<span class="icon-search"></span>
+			<input type="hidden" name="filterEditionId" value="0" />
+			<input type="search" name="searchTerm" class="form-control" id="searchQueries" placeholder="Search">
+			</div>
+		</form>
+	</div>
+	<!-- end searchbar  -->
+
+    <div class="navmenu navmenu-default navmenu-fixed-left offcanvas slidebar">
+		<div class="slidebar-content">
+			<div class="logo-header"><a href="/national/index.htm"><span class="icon-PW_logo"></span></a></div>
+
+			<div class="menu">
+				<ul id="slidebar-menu" class="clearfix">
+					<li>
+						<a class="anchor-sub-menu-controller">Cities<span class="mobile-sub-menu-controller"><i class="down"></i></span></a>
+						<ul class="sub-menu clearfix" style="display: none;">
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="National" 		data-gae-label="Header" href="/national/index.htm">National</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="New York" 		data-gae-label="Header" href="/ny/index.htm">New York</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Los Angeles" 		data-gae-label="Header" href="/la/index.htm">Los Angeles</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Chicago" 			data-gae-label="Header" href="/chicago/index.htm">Chicago</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="San Francisco"	data-gae-label="Header" href="/sf/index.htm">San Francisco</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Dallas" 			data-gae-label="Header" href="/dallas/index.htm">Dallas</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Hamptons" 		data-gae-label="Header" href="/hamptons/index.htm">Hamptons</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a class="anchor-sub-menu-controller">Categories<span class="mobile-sub-menu-controller"><i class="down"></i></span></a>
+						<ul class="sub-menu clearfix" style="display: none;">
+						<li><a class="fashion" 	href="/content_by_section/national/fashion/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Fashion"	data-gae-label="Header">Fashion</a></li>
+						<li><a class="beauty" 	href="/content_by_section/national/beauty/1/Article/all"  	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Beauty" 	data-gae-label="Header">Beauty</a></li>
+						<li><a class="recipes" 	href="/articles_by_section/recipe/recipe/1/recipe/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Recipes" data-gae-label="Header">Recipes</a></li>
+						<li><a class="home" 	href="/content_by_section/national/home/1/Article/all" 		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Home" 	data-gae-label="Header">Home</a></li>
+						<li><a class="food" 	href="/content_by_section/national/food/1/Article/all" 		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Food" 	data-gae-label="Header">Food</a></li>
+						<li><a class="travel" 	href="/content_by_section/national/travel/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Travel" 	data-gae-label="Header">Travel</a></li>
+						<li><a class="body" 	href="/content_by_section/national/body/1/Article/all"		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Body" 	data-gae-label="Header">Body</a></li>
+						<li><a class="tech " 	href="/content_by_section/national/tech/1/Article/all" 		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Tech" 	data-gae-label="Header"	>Tech</a></li>
+						<li><a class="arts" 	href="/content_by_section/national/arts/1/Article/all" 		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Arts" 	data-gae-label="Header">Arts</a></li>
+						<li><a class="books" 	href="/articles_by_section/books/books/1/book/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Books" 	data-gae-label="Header">Books</a></li>
+						<li><a class="money" 	href="/articles_by_section/money/money/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Money" 	data-gae-label="Header">Money</a></li>
+						<li><a class="video" 	href="/content_by_sql/national/video_articles/1" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Video" 	data-gae-label="Header">Video</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a class="anchor-sub-menu-controller trending">Trending<span class="mobile-sub-menu-controller"><i class="down"></i></span></a>
+						<ul class="sub-menu clearfix" style="display: none;">
+							<li><a href="/30_days_of_wow/national/na/1/all/none"		data-gae-track="event" data-gae-category="Navigation" data-gae-action="30 Days" 			data-gae-label="Header">30 Days of Wow</a></li>
+							<li><a href="/content_by_sql/national/slideshow_articles/1"	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Slideshow" 			data-gae-label="Header">Slideshows</a></li>
+							<li><a href="/nearby_and_now/national/na/1/all/none"		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Nearby Now" 			data-gae-label="Header">Nearby & Now</a></li>
+							<li><a href="/content_by_section/national/event/1/event/all"		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Events" 				data-gae-label="Header">Events</a></li>
+							<li><a href="/featured_content/national/na/1/all/none"	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Featured Content" 	data-gae-label="Header">Featured Content</a></li>
+							<li><a href="/content_by_sql/national/no_brainers/1"	data-gae-track="event" data-gae-category="Navigation" data-gae-action="No Brainers" 		data-gae-label="Header">No Brainers</a></li>
+							<li><a href="/content_by_sql/national/gift_guides/1"	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Gift Guide" 			data-gae-label="Header">Gift Guide</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<div class="follow">
+							<h4>Follow Purewow</h4>
+							<ul class="social-icons-wrapper">
+								<li><a target="_BLANK" data-gae-track="social" data-gae-category="Facebook" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://www.facebook.com/PureWow"><span class="icon-facebook"></span></a></li>
+								<li><a target="_BLANK" data-gae-track="social" data-gae-category="Pinterest" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://pinterest.com/purewow/"><span class="icon-pinterest"></span></a></li>
+								<li><a target="_BLANK" data-gae-track="social" data-gae-category="Instagram" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://instagram.com/purewow"><span class="icon-instagram"></span></a></li>
+								<li><a target="_BLANK" data-gae-track="social" data-gae-category="Twitter" 		data-gae-action="brandpage_header" data-gae-label="Header" href="http://twitter.com/PureWow"><span class="icon-twitter"></span></a></li>
+								<li><a target="_BLANK" data-gae-track="social" data-gae-category="Youtube" 		data-gae-action="brandpage_header" data-gae-label="Header" href="http://www.youtube.com/PureWowVideos"><span class="icon-youtube"></span></a></li>
+							</ul>
+						</div><!-- end follow -->
+					</li>
+
+
+						<span class="id_signup_login">
+							<li class="login-info"><a class="lightbox mobile_signup_login" data-gae-track="event" data-gae-category="Sign-Up" 		data-gae-action="Header" data-gae-label="Click"  href="#popup-03" 	data-toggle="offcanvas" data-target=".navmenu">Sign Up</a></li>
+							<li class="login-info"><a class="lightbox mobile_signup_login" data-gae-track="event" data-gae-category="Engagement"  	data-gae-action="Login"  data-gae-label="Header" href="#popup-04"	data-toggle="offcanvas" data-target=".navmenu">Log In</a></li>
+						</span>
+						<span class="id_wow_list_logged_out" style="display:none;">
+							<li class="login-info id_logged_in_manage"><a href="#" 																						data-gae-track="event" data-gae-category="My Account" data-gae-action="My Account" data-gae-label="Drop Down">My Account</a></li>
+							<li class="login-info"><a href="/footer/national/manage_my_account.htm?activeTab=id_tab_rb"  data-gae-track="event" data-gae-category="My Account" data-gae-action="Recipe Box" data-gae-label="Drop Down">Recipe Box</a></li>
+							<li class="login-info"><a id="idLogOutFbM" href="#"																						 	data-gae-track="event" data-gae-category="My Account" data-gae-action="Log out"    data-gae-label="Drop Down">Log Out</a></li>
+						</span>
+				</ul>
+				<!-- Extra?
+				</li>
+				</ul>
+				-->
+			</div><!-- end .menu -->
+
+		</div><!-- end slidebar-content -->
+	</div>
+
+<!-- END MOBILE -->
+<!-- BEGIN DESKTOP -->
+
+    <div class="navbar navbar-default navbar-fixed-top" style="margin-bottom:0;">
+		<div class="container">
+			<button type="button" class="sidebar-toggle" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+				<div class="sliderbar-menu-controller"></div>
+			</button>
+			<div class="navbar-inner" style="height: 1px;">
+				<ul class="nav navbar-nav">
+					<li><a class="logo" href="/national/index.htm" data-gae-track="event" data-gae-category="Navigation" data-gae-action="Cities" data-gae-label="Header"><span class="icon-PW_logo"></span></a></li>
+					<li class="nav-city dropdown">
+						<a class="dropdown-toggle cities-menu" href="#" data-toggle="dropdown" data-hover="dropdown"><span class="nav-icon"></span> Cities</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="National" 		data-gae-label="Header" href="/national/index.htm">National</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="New York" 		data-gae-label="Header" href="/ny/index.htm">New York</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Los Angeles" 		data-gae-label="Header" href="/la/index.htm">Los Angeles</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Chicago" 			data-gae-label="Header" href="/chicago/index.htm">Chicago</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="San Francisco" 	data-gae-label="Header" href="/sf/index.htm">San Francisco</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Dallas" 			data-gae-label="Header" href="/dallas/index.htm">Dallas</a></li>
+							<li><a data-gae-track="event" data-gae-category="Navigation" data-gae-action="Hamptons" 		data-gae-label="Header" href="/hamptons/index.htm">Hamptons</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="follow">
+						<ul class="social-icons-wrapper social-buttons">
+							<li class="slide-share">
+								<a class="share-facebook" href="https://www.facebook.com/PureWow">
+									<span class="icon-facebook"></span>
+									<div class="iframe-wrapper">
+
+										<iframe	name="f800d28ac"
+												width="60px"
+												height="1000px"
+												frameborder="0"
+												allowtransparency="true"
+												scrolling="no"
+												title="fb:like Facebook Social Plugin"
+												src="http://www.facebook.com/plugins/like.php?app_id=410092635715198&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FoDB-fAAStWy.js%3Fversion%3D41%23cb%3Df353591428%26domain%3Dpurewow.com%26origin%3Dhttp%253A%252F%252Fwww.purewow.com%252Ff27022a394%26relation%3Dparent.parent&amp;href=https%3A%2F%2Fwww.facebook.com%2FPureWow%2F&amp;layout=button_count&amp;locale=en_GB&amp;sdk=joey&amp;send=false&amp;show_faces=false&amp;width=60"
+												style="border: none; visibility: visible; width: 82px; height: 20px;"
+												class="">
+										</iframe>
+									</div>
+								</a>
+							</li>
+							<li class="slide-share pinterest-width">
+								<a class="share-pinterest" href="http://pinterest.com/purewow/">
+									<span class="icon-pinterest"></span>
+									<div class="iframe-wrapper">
+										<a data-pin-do="buttonFollow" style="display:none;" href="http://www.pinterest.com/purewow/">Purewow</a>
+										<script type="text/javascript" async src="//assets.pinterest.com/js/pinit.js"></script>
+									</div>
+								</a>
+							</li>
+							<li class="slide-share twitter-width">
+								<a class="share-twitter" href="http://twitter.com/PureWow">
+									<span class="icon-twitter"></span>
+									<div class="iframe-wrapper">
+										<iframe	id="twitter-widget-0"
+												scrolling="no"
+												frameborder="0"
+												allowtransparency="true"
+												src="http://platform.twitter.com/widgets/follow_button.1404859412.html#_=1406305254315&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=purewow&amp;show_count=true&amp;show_screen_name=true&amp;size=m"
+												class="twitter-follow-button twitter-follow-button" title="Twitter Follow Button" data-twttr-rendered="true"
+												style="width: 220px; height: 20px;">
+										</iframe>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_BLANK" class="share-youtube" 	data-gae-track="social" data-gae-category="Youtube" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://www.youtube.com/PureWowVideos">
+									<span class="icon-youtube"></span>
+								</a>
+							</li>
+							<li>
+								<a target="_BLANK" class="share-instagram" 	data-gae-track="social" data-gae-category="Instagram" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://instagram.com/purewow">
+									<span class="icon-instagram"></span>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+					<li class="follow-tablet">
+						<ul class="social-icons-wrapper">
+							<li><a data-gae-track="social" data-gae-category="Facebook" 	data-gae-action="brandpage_header" data-gae-label="Header" href="https://www.facebook.com/PureWow"><span class="icon-facebook"></span></a></li>
+							<li><a data-gae-track="social" data-gae-category="Pinterest" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://pinterest.com/purewow/"><span class="icon-pinterest"></span></a></li>
+							<li><a data-gae-track="social" data-gae-category="Instagram" 	data-gae-action="brandpage_header" data-gae-label="Header" href="http://instagram.com/purewow"><span class="icon-instagram"></span></a></li>
+							<li><a data-gae-track="social" data-gae-category="Twitter" 		data-gae-action="brandpage_header" data-gae-label="Header" href="http://twitter.com/PureWow"><span class="icon-twitter"></span></a></li>
+							<li><a data-gae-track="social" data-gae-category="Youtube" 		data-gae-action="brandpage_header" data-gae-label="Header" href="http://www.youtube.com/PureWowVideos"><span class="icon-youtube"></span></a></li>
+						</ul>
+					</li><!-- end follow -->
+
+					<li class="header-search-form">
+						<form method="get" class="search" name="searchForm" action="/search/national" onsubmit="return searchFormValid(document.searchForm)">
+							<div class="input-with-icon">
+								<input type="hidden" name="filterEditionId" value="0" />
+								<input  type="text"   placeholder="Search" name="SearchTerm" class="mbn" data-focus-on-display="">
+								<button type="submit" placeholder="Search PureWow" class="btn-search" role="button" aria-label="Submit Search">
+								<span class="icon-search"></span></button>
+							</div>
+						</form>
+					</li>
+
+
+						<li class="js navbar-signup id_signup_login">
+								<a  						class="lightbox" 	data-gae-track="event" data-gae-category="Sign-Up" 	   data-gae-action="Header" data-gae-label="Click"  href="#popup-03">Sign Up</a> |
+								<a id="header_login_popup"  class="lightbox"	data-gae-track="event" data-gae-category="Engagement"  data-gae-action="Login"  data-gae-label="Header" href="#popup-04">Log In</a>
+						</li>
+<!--
+						<li class="nojs navbar-signup">
+								<a class="lightbox" href="/national/subscribe.htm">Sign Up</a>
+						</li>
+-->
+
+						<li class="dropdown navbar-login id_wow_list_logged_out" style="display:none;">
+							<a href="#" class="dropdown-toggle id_logged_in_email" data-toggle="dropdown" data-hover="dropdown">Hi ! <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li class="id_logged_in_manage"><a href="/footer/national/manage_subscription.htm?subscriberId=1881491&emailAddress=jmcnair@enox.com"  data-gae-track="event" data-gae-category="My Account" data-gae-action="My Account" data-gae-label="Drop Down">My Account</a></li>
+								<li><a href="/footer/national/manage_my_account.htm?activeTab=id_tab_rb"																			data-gae-track="event" data-gae-category="My Account" data-gae-action="Recipe Box" data-gae-label="Drop Down">Recipe Box</a></li>
+								<li><a id="idLogOutFb" href="#"																																									data-gae-track="event" data-gae-category="My Account" data-gae-action="Log Out"    data-gae-label="Drop Down">Log Out</a></li>
+							</ul>
+						</li>
+					<li class="dropdown search-mobile">
+						<a href="#" id="search-toggle"><span class="icon-search"></span></a>
+					</li>
+				</ul>
+			</div>
+		</div><!-- end container -->
+
+		<div class="nav-cities">
+			<div class="container">
+				<div class="col-sm-12">
+					<ul class="sticky-nav-cities">
+						<li><a 				 class="active" href="/national/index.htm">National</a></li>
+						<li><a  href="/ny/index.htm">New York</a></li>
+						<li><a  href="/la/index.htm">Los Angeles</a></li>
+						<li><a  href="/chicago/index.htm">Chicago</a></li>
+						<li><a  href="/sf/index.htm">San Francisco</a></li>
+						<li><a  href="/dallas/index.htm">Dallas</a></li>
+						<li><a  href="/hamptons/index.htm">Hamptons</a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- end nav-cities -->
+		<div class="nav-topics">
+			<div class="container">
+				<div class="col-sm-12">
+					<ul>
+						<li class="sticky-logo"><a href="/national/index.htm"><span class="icon-PW_logo"></span></a></li>
+						<li><a class="fashion " 			 href="/content_by_section/national/fashion/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Fashion"		data-gae-label="Header">Fashion</a></li>
+						<li><a class="beauty  " 			 href="/content_by_section/national/beauty/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Beauty" 		data-gae-label="Header">Beauty</a></li>
+						<li><a class="recipes " 			 href="/articles_by_section/recipe/recipe/1/recipe/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Recipes" 	data-gae-label="Header">Recipes</a></li>
+						<li><a class="home    " 	 			 href="/content_by_section/national/home/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Home" 		data-gae-label="Header">Home</a></li>
+						<li><a class="food    " 	 			 href="/content_by_section/national/food/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Food" 		data-gae-label="Header">Food</a></li>
+						<li><a class="travel  " 	 		 href="/content_by_section/national/travel/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Travel" 		data-gae-label="Header">Travel</a></li>
+						<li><a class="body    " 	 			 href="/content_by_section/national/body/1/Article/all"		data-gae-track="event" data-gae-category="Navigation" data-gae-action="Body" 		data-gae-label="Header">Body</a></li>
+						<li><a class="tech    " 	 			 href="/content_by_section/national/tech/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Tech" 		data-gae-label="Header">Tech</a></li>
+						<li><a class="arts    " 	 			 href="/content_by_section/national/arts/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Arts" 		data-gae-label="Header">Arts</a></li>
+						<li><a class="books   " 			 href="/articles_by_section/books/books/1/book/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Books" 		data-gae-label="Header">Books</a></li>
+						<li><a class="money   " 			 href="/articles_by_section/money/money/1/Article/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Money" 		data-gae-label="Header">Money</a></li>
+						<li><a class="video   " 			 href="/content_by_sql/national/video_articles/1" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Video" 		data-gae-label="Header">Video</a></li>
+
+						<li class="trending dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" id="trending" href="#" data-hover="dropdown">
+								<span class="icon-trending"></span><!-- <span class="caret-right"></span> -->
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<div class="row">
+										<ul class="col-sm-6">
+											<li><a href="/30_days_of_wow/national/na/1/all/none" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="30 Days" 			data-gae-label="Header">30 Days of Wow</a></li>
+											<li><a href="/content_by_sql/national/slideshow_articles/1" data-gae-track="event" data-gae-category="Navigation" data-gae-action="Slideshow" 			data-gae-label="Header">Slideshows</a></li>
+											<li><a href="/nearby_and_now/national/na/1/all/none" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Nearby Now" 			data-gae-label="Header">Nearby & Now</a></li>
+											<li><a href="/content_by_section/national/event/1/event/all" 	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Events" 				data-gae-label="Header">Events</a></li>
+										</ul>
+										<ul class="col-sm-6">
+											<li><a href="/featured_content/national/na/1/all/none"	data-gae-track="event" data-gae-category="Navigation" data-gae-action="Featured Content" 	data-gae-label="Header">Featured Content</a></li>
+											<li><a href="/content_by_sql/national/no_brainers/1" data-gae-track="event" data-gae-category="Navigation" data-gae-action="No Brainers" 		data-gae-label="Header">No Brainers</a></li>
+											<li><a href="/content_by_sql/national/gift_guides/1" data-gae-track="event" data-gae-category="Navigation" data-gae-action="Gift Guide" 			data-gae-label="Header">Gift Guide</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- end nav-topics -->
+    </div>
+<!-- END: DESKTOP -->
+
+
+	<!-- Top Banner Ad Begin -->
+	<div class="leaderboard-holder-2014" style="display: none;">
+		<!-- Targeted_Leaderboard:: -->
+		<div class="leaderboard" id='div-gpt-ad-1381936810308-0' data-cb-ad-id="Desktop-Leaderboard">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1381936810308-0'); });
+			</script>
+		</div>
+		<!-- Targeted_Leaderboard -->
+	</div>
+	<!-- Top Banner Ad End -->
+
+	<!-- Top Banner Ad Mobile Begin -->
+	<div class="leaderboard-holder-mobile-2014">
+		<div class="mobile_leaderboard" id='div-gpt-ad-1383750230318-0' data-cb-ad-id="Mobile-Leaderboard">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1383750230318-0'); });
+			</script>
+		</div>
+	</div>
+	<!-- Top Banner Ad Mobile End -->
+
+
+
+
+<form method="get" action="">
+	<input type="hidden" name="visitor_services_base_url" 	id="visitor_services_base_url" 	value="/ajax_services/visitor" />
+	<input type="hidden" name="visitor_login_cookie" 		id="visitor_login_cookie" 	value="com.equinox.wedding_jack.gui.cookie.VisitorLoginCookie" />
+</form>
+
+</header>
+
+
+
+	<script>
+
+	var loginRecentlyPerformed = false;
+
+	//////////////////////////////////////////////////////////////////
+	// performLogin
+	//////////////////////////////////////////////////////////////////
+	function performLogin(inForm, errorElementId)
+	{
+		var valid = true;
+		errorText = '';
+		var validEmail = false;
+
+		$('#'+errorElementId).hide();
+
+		if (! isValidEmail(inForm.emailAddress.value))
+		{
+			errorText += "Please enter a valid email address<br>";
+		}
+
+		if ( (isBlank(inForm.password.value)) || (inForm.password.value == 'Password') )
+		{
+			errorText += "Please enter a password<br>";
+		}
+
+		if (errorText != '')
+		{
+			valid = false;
+		}
+
+		// if the form is NOT invalid
+		if ( !valid )
+		{
+			// slap them around...
+			// alert(errorText);
+			$('#'+errorElementId).html(errorText);
+			$('#'+errorElementId).show();
+			return false;
+		}
+
+		GoogleQueueTrackEvent("Engagement", "Login", "Header Submit" );
+		var url = inForm.visitor_services_url.value;
+
+		$.ajax({
+		  type: 'POST',
+		  url: url,
+		  data: {
+					'emailAddress'		: inForm.emailAddress.value,
+					'password'			: inForm.password.value,
+					'setSavedItemCount'	: "true"
+				},
+		  dataType: 'json',
+		  error: function(xhr, error)
+		  {
+			$('#'+errorElementId).html('An error occurred while processing your request.');
+			$('#'+errorElementId).show();
+
+			// alert('performLogin: 5: statusCode: ' 	+ xhr.statusCode);
+			// alert('performLogin: 5: status: ' 		+ xhr.status);
+			// alert('performLogin: 5: statusText: ' 	+ xhr.statusText);
+		  },
+		  success: function(genericResultBean)
+			{
+				if (genericResultBean.status == "SUCCESS")
+				{
+
+					loginRecentlyPerformed = true;
+
+
+
+
+
+						jCookie('com.equinox.wedding_jack.gui.cookie.VisitorLoginCookie',      genericResultBean.resultObject.visitor.id+'~'+genericResultBean.resultObject.visitor.emailAddress, 	{ expires: 1460, path: '/' });
+						jCookie('com.equinox.wedding_jack.gui.cookie.VisitorSavedItemsCookie', genericResultBean.resultObject.visitor.genericData05, 												{ expires: 1460, path: '/' });
+
+
+					// close the modal login layer
+					$('#loginRecipeBoxModal .close').click();
+
+					// there is probably an "addEntryArticleToList" call that wants to be made now that we have logged in
+					if(!(isBlank(inForm.signin_popup_post_login_method.value)))
+					{
+						// If there is a function that needs to be called on login (wowlist add)
+						eval(inForm.signin_popup_post_login_method.value);
+					}
+					else
+					{
+						document.location.reload(true);
+					}
+				}
+				else
+				{
+					if (genericResultBean.resultObject.status == "email_address_not_found")
+					{
+						$('#'+errorElementId).html('The email address you entered is not subscribed to PureWow.com<br><br><a class="popup_error_message lightbox" href="" onclick="$(\'#id_sign_up_today\').click(); return false;">CLICK HERE TO SIGN-UP</a>');
+						$('#'+errorElementId).show();
+						// alert('the email address you entered is not subscribed to PureWow.com');
+					}
+					if (genericResultBean.resultObject.status == "wrong_password")
+					{
+						$('#'+errorElementId).html('You entered an incorrect password');
+						$('#'+errorElementId).show();
+						// alert('you entered an incorrect password');
+					}
+					if (genericResultBean.resultObject.status == "successful_but_cookies_disabled")
+					{
+						$('#'+errorElementId).html('Cookies must be enabled to login to PureWow.com');
+						$('#'+errorElementId).show();
+						// alert('Cookies must be enabled to login to PureWow.com');
+					}
+					if (genericResultBean.resultObject.status == "inactive")
+					{
+						$('#'+errorElementId).html('The email address you entered is not subscribed to PureWow.com<br><br><a class="popup_error_message lightbox" href="" onclick="$(\'#id_sign_up_today\').click(); return false;">CLICK HERE TO SIGN-UP</a>');
+						$('#'+errorElementId).show();
+						// alert('the email address you entered is not subscribed to PureWow.com');
+					}
+					if (genericResultBean.resultObject.status == "no_password")
+					{
+						if (errorElementId == "signin_error_recipe")
+						{
+
+							$('#'+errorElementId).html('You do not yet have a password for PureWow.com <br><br><a href="#" onclick="$(\'#id_no_password\').click();">CLICK HERE TO CREATE YOUR PASSWORD</a>');
+							$('#'+errorElementId).show();
+						}
+						else
+						{
+							$('#'+errorElementId).html('You do not yet have a password for PureWow.com <br><br><a href="" data-toggle="modal" data-target="#createAccountModal" class="popup_error_message" onclick="jQuery.fancybox.close();">CLICK HERE TO CREATE YOUR PASSWORD</a>');
+							$('#'+errorElementId).show();
+						}
+					}
+					if (genericResultBean.resultObject.status == "failure")
+					{
+						$('#'+errorElementId).html('An error occurred during login');
+						$('#'+errorElementId).show();
+						// alert('An error occurred during login');
+					}
+				}
+			}
+		})
+
+		return valid;
+	}
+
+
+		function loginToFacebook()
+		{
+			FB.login(function(response)
+			{
+				if (response.authResponse)
+				{
+
+					loginRecentlyPerformed = true;
+
+					// close the modal login layer
+					$('#loginRecipeBoxModal .close').click();
+
+					// connected
+					$("#login_button").hide();
+
+					FB.api('/me', function(user)
+					{
+						facebookUserEmail 	= user.email;
+						facebookFirstName 	= user.first_name;
+						facebookLastName 	= user.last_name;
+						facebookGender 		= user.gender;
+
+						if ($.cookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie') == null)
+						{
+							console.log( 'first time setting FB cookie' );
+						}
+
+
+						$.cookie('com.equinox.wedding_jack.gui.cookie.FacebookLoginCookie', facebookUserEmail, { path: '/' });
+
+
+						var fbEmailStatusDeferred = CheckEmailStatusExtended('', facebookUserEmail );
+						fbEmailStatusDeferred.done(function(data)
+						{
+							if(data.statusExtended == 'failure')
+							{
+								$('#signin_resolution_error').html('An error occurred. Please try again.');
+								$('#signin_resolution_error').show();
+								return;
+							}
+
+							if(data.statusExtended == 'not_member')
+							{
+
+								$('.popup_login_fb_email').html(facebookUserEmail);
+								$('#popup-login').hide();
+								$('#popup_login_resolve_fb').show();
+							}
+							else
+							{
+								if(data.statusExtended == 'inactive_member' || data.statusExtended == 'inactive_member_by_fb_email')
+								{
+									ReactivateEmailAddress('', facebookUserEmail );
+								}
+
+								if(data.statusExtended == 'active_member_by_fb_email' || data.statusExtended == 'inactive_member_by_fb_email')
+								{
+								}
+
+
+								var wowCountDeferred = getWowListCount('', facebookUserEmail );
+								wowCountDeferred.done(function(data)
+								{
+
+										$.cookie('com.equinox.wedding_jack.gui.cookie.VisitorSavedItemsCookie', data.resultObject, { expires: 1460, path: '/' });
+
+
+									if(!(isBlank(document.loginForm.signin_popup_post_login_method.value)))
+									{
+										eval(document.loginForm.signin_popup_post_login_method.value);
+									}
+									else
+									{
+										// this will force all the FB login stuff to fire
+										document.location.reload(true);
+									}
+								});
+
+							}
+						});
+						fbEmailStatusDeferred.fail(function(data)
+						{
+							$('#signin_resolution_error').html('An error occurred. Please try again');
+							$('#signin_resolution_error').show();
+							return;
+						});
+					});
+				}
+				else
+				{
+					// cancelled
+					$("#FB_Info").html('login cancelled');
+				}
+			}, {scope: 'email'});
+		}
+
+
+
+		$(document).ready(function()
+		{
+
+			$('#id_radio_subscribe_fb_email').on("click", function(event)
+			{
+				  $('#id_pw_email_address').hide();
+			});
+
+
+			$('#id_radio_already_subscribed').on("click", function(event)
+			{
+				  $('#id_pw_email_address').show();
+			});
+
+
+			$("#submit_button_login").click(function()
+			{
+				$('#signin_resolution_error').hide();
+
+
+				if( $('#id_radio_subscribe_fb_email').prop('checked')==false && $('#id_radio_already_subscribed').prop('checked')==false )
+				{
+					$('#signin_resolution_error').html('Please indicate how you wish to proceed');
+					$('#signin_resolution_error').show();
+					return;
+				}
+
+
+				if( $('#id_radio_subscribe_fb_email').prop('checked') )
+				{
+	//				$('#signin_popup_post_login_method').val("document.location.href = '/footer/national/manage_my_account.htm'");
+					var fbSubscribeStatus = SubscribeViaAjax('',facebookUserEmail, facebookFirstName, facebookLastName, facebookGender);
+					if(fbSubscribeStatus == 'failure')
+					{
+						$('#signin_resolution_error').html('an error occured; please try again');
+						$('#signin_resolution_error').show();
+					}
+					else
+					{
+						if(!(isBlank(document.loginForm.signin_popup_post_login_method.value)))
+						{
+							eval(document.loginForm.signin_popup_post_login_method.value);
+						}
+						else
+						{
+							document.location.reload(true);
+						}
+					}
+				}
+				else
+				{
+
+
+					var pwEmailAddress = $('#linkEmailAddress').val();
+					if (!isValidEmail( pwEmailAddress ))
+					{
+						$('#signin_resolution_error').html('Please enter a valid email address');
+						$('#signin_resolution_error').show();
+						return;
+					}
+
+
+					var emailStatusDeferred = CheckEmailStatusExtended('', pwEmailAddress );
+					emailStatusDeferred.done(function(data)
+					{
+						if(data.statusExtended == 'not_member')
+						{
+							$('#signin_resolution_error').html('The email address you entered does not exist. Please try again');
+							$('#signin_resolution_error').show();
+							return;
+						}
+						else
+						{
+							var linkStatusDeferred = LinkEmailAddresses('', $('#linkEmailAddress').val(), facebookUserEmail );
+							linkStatusDeferred.done(function(data)
+							{
+								if(data.status == 'SUCCESS')
+								{
+									document.location.reload(true);
+								}
+
+								if(data.status == 'FAILURE')
+								{
+									$('#signin_resolution_error').html('An error occurred. Please try again');
+									$('#signin_resolution_error').show();
+								}
+							});
+							linkStatusDeferred.fail(function(data)
+							{
+								$('#signin_resolution_error').html('an error occured; please try again');
+								$('#signin_resolution_error').show();
+								return;
+							});
+						}
+					});
+					emailStatusDeferred.fail(function(data)
+					{
+						$('#signin_resolution_error').html('An error occurred. Please try again');
+						$('#signin_resolution_error').show();
+						return;
+					});
+				}
+			});
+
+
+			$('#id_no_password').on("click", function(event)
+			{
+				$('#signin_error_recipe').hide();
+				$('#id_close_login_dialog').click();
+				window.setTimeout(displayCreatePasswordDialog, 500);
+			});
+
+		});
+
+		function displayCreatePasswordDialog()
+		{
+			$('#id_trigger_modal_create_password').click();
+		}
+	</script>
+	<div class="popup-holder">
+		<div id="popup-04" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+
+								<div class="log-form" id="popup-login">
+									<form name="loginForm" action="#" onsubmit="performLogin(document.loginForm, 'signin_error'); return false;">
+										<input type="hidden" name="visitor_services_url" value="https://www.purewow.com/ajax_services/visitor/signin/" />
+										<input type="hidden" name="signin_popup_post_login_method" id="signin_popup_post_login_method" value="" />
+										<fieldset>
+											<h2>Please sign into your account<!-- to save<br/>this article to the Wow List --></h2>
+											<div id="signin_error" class="popup_error_message" style="display:none"></div>
+											<div class="text">
+												<input name="emailAddress" type="text" value="Email" />
+											</div>
+											<div class="text password-text">
+												<input name="password" type="password" value="Password" />
+											</div>
+											<a href="#popup-07" class="lightbox password-link">Forgot your password?</a><br>
+											<a href="" data-toggle="modal" data-target="#createAccountModal" class="no-password-link" onclick="jQuery.fancybox.close();">Click here if you don't have a password yet</a>
+											<!-- <a href="https://www.purewow.com/create_password.htm?behavior=initial_set" class="no-password-link">Click here if you don't have a password yet</a> -->
+											<input type="submit" value="Log into purewow" />
+											<div class="facebook-row">
+												<!-- <span>Use Facebook To Log In:&nbsp;&nbsp;&nbsp;&nbsp;</span>  -->
+												<img id="id_fb_signup_login_img_1" onclick="loginToFacebook('login');" src="http://staticcdn11.purewow.com/v_2013/images/facebook-login.gif" alt="image description" width="157" height="25" />
+											</div>
+											<p>Don’t Have a PureWow Account? <a id="id_sign_up_today" class="lightbox" href="#popup-03">Sign Up Today</a></p>
+										</fieldset>
+									</form>
+								</div>
+
+
+								<div style="display:none" class="log-form" id="popup_login_resolve_fb">
+									<div id="resolve_fb_login">
+										<h2>You are not currently subscribed</h2>
+										<div id="signin_resolution_error" class="popup_error_message" style="display:none; margin-bottom:10px;"></div>
+										<div style="margin-bottom: 20px;">It appears your Facebook email address <span class="popup_login_fb_email" id="popup-login-fb-email"> </span> is not subscribed to PureWow.com. Please indicate how you like to proceed:</div>
+										<div>
+											<input style="float:left; margin:10px 10px 0 0;" type="radio" name="subscribe_fb_email" id="id_radio_subscribe_fb_email" value="1" />
+											<div style="float:left; width: 90%;">I am not currently subscribed to PureWow.com, so please subscribe <span class="popup_login_fb_email" id="popup-login-fb-email2"> </span> to PureWow.com</div>
+										</div>
+										<div style="margin-bottom: 50px;">&nbsp;</div>
+										<div>
+											<input style="float:left; margin:10px 10px 0 0;" type="radio" name="subscribe_fb_email" id="id_radio_already_subscribed" value="1" />
+											<div style="float:left; width: 90%;margin-bottom: 25px;">I am already subscribed to PureWow.com, let me tell you the email address I used to subscribe</div>
+										</div>
+										<div style="display:none" class="Xtext" id="id_pw_email_address">
+											<input name="emailAddress" id="linkEmailAddress" type="text" value="Email" />
+										</div>
+										<div style="margin-bottom: 100px;"></div>
+										<input type="submit" value="Submit" id="submit_button_login" />
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<button id="id_trigger_modal_create_password" style="display:none;" type="button" class="btn btn-account center-block btn-lg" data-toggle="modal" data-target="#createAccountModal">Save</button>
+	<!-- BEGIN createPasswordModal -->
+	<div class="account flat">
+
+			<div class="modal fade" id="createAccountModal" tabindex="-1" role="dialog" aria-labelledby="createAccount	ModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<form id="createPasswordForm" name="createPasswordForm" action="#" onsubmit="createPassword(document.createPasswordForm); return false;">
+						<input type="hidden" name="visitor_services_url" value="/ajax_services/visitor/create_password/" />
+						<div class="modal-content">
+							<div class="modal-header">
+								<button id="id_close_create_password_dialog" type="button" class="close" data-dismiss="modal"><div aria-hidden="true" class="close-icon"></div><span class="sr-only">Close</span></button>
+							</div>
+							<div class="modal-body">
+								<h3 class="modal-title">Create a Password</h3>
+								<h3 id="createPasswordMessage" class="modal-error"></h3>
+								<p id="id_pop_message_forgot_password" class="popup_error_message" style="display:none;">
+									<a href="#popup-07" class="lightbox">Forgot your password?</a>
+								</p>
+								<span id="id_create_password_form_fields">
+								<div class="row">
+									<div class="form-group">
+										<input class="form-control" id="newEmailAddress" name="emailAddress" type="text" placeholder="Email Address*">
+									</div>
+								</div><!-- end row -->
+								<div class="row">
+									<div class="form-group">
+										<input class="form-control form-password" id="newPassword" name="password" type="password" placeholder="PASSWORD*">
+									</div>
+								</div><!-- end row -->
+								<div class="row">
+									<div class="form-group">
+										<input class="form-control form-password" id="confirmPassword" name="passwordConfirmation" type="password" placeholder="CONFIRM PASSWORD*">
+									</div>
+								</div><!-- end row -->
+								<div class="row">
+									<p class="required">*REQUIRED</p>
+									<button type="submit" class="btn btn-account center-block btn-lg">Save</button>
+									<div style="margin-bottom:80px;"></div>
+								</div><!-- end row -->
+								</span>
+								<div id="id_login_after_create_password_holder" class="row" style="display:none;">
+									<button id="id_login_after_create_password" type="button" class="btn btn-account center-block btn-lg">Login</button>
+									<div style="margin-bottom:80px;"></div>
+								</div><!-- end row -->
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+	</div>
+	<!-- END createPasswordModal -->
+	<script>
+		$(document).ready(function()
+		{
+
+			$('#id_login_after_create_password').on("click", function(event)
+			{
+				$('#id_close_create_password_dialog').click();
+				window.setTimeout(displayLoginAfterCreatePasswordDialog, 500);
+			});
+
+		});
+
+		function displayLoginAfterCreatePasswordDialog()
+		{
+			$('#loginRecipeBoxModalTarget').click();
+		}
+	</script>
+
+
+		<div class="popup-holder">
+		<div id="popup-07" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+								<div class="log-form">
+									<div class="head-title lock">
+										<h2>Forgot your password?</h2>
+										<p id="resetPasswordMessage">Enter your registered email below!</p>
+									</div>
+									<form id="resetPasswordForm" name="resetPasswordForm" action="#" onsubmit="resetPassword(document.resetPasswordForm); return false;">
+										<input type="hidden" name="visitor_services_url" value="/ajax_services/visitor/reset_password/" />
+										<fieldset>
+											<div class="text">
+												<input name="emailAddress" type="text" value="Email" />
+											</div>
+											<input type="submit" value="submit" />
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!-- loginModal can be placed anywhere when data-toggle="modal" data-target="#loginModal" is used-->
+	<a href="#" data-toggle="modal" data-target="#loginRecipeBoxModal" id="loginRecipeBoxModalTarget" style="display:none;"></a>
+	<div class="account recipebox flat">
+		<div class="modal fade" id="loginRecipeBoxModal" tabindex="-1" role="dialog" aria-labelledby="loginRecipeBoxModalLabel" aria-hidden="true">
+			<form id="loginRecipeBox" name="loginRecipeBox" action="#" onsubmit="performLogin(document.loginRecipeBox, 'signin_error_recipe'); return false;">
+				<input type="hidden" name="visitor_services_url" value="https://www.purewow.com/ajax_services/visitor/signin/" />
+				<input type="hidden" name="signin_popup_post_login_method" id="signin_popup_post_login_method" value="" />
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button id="id_close_login_dialog" type="button" class="close" data-dismiss="modal"><div aria-hidden="true" class="close-icon"></div><span class="sr-only">Close</span></button>
+						</div>
+						<div class="modal-body">
+							<h1 class="recipe-lead">To Save to My Recipe Box</h1>
+							<div id="signin_error_recipe" class="popup_error_message" style="display:none"></div>
+							<p class="recipe-caption">Please log in to your account</p>
+							<div class="row">
+								<div class="form-group">
+									<input class="form-control" id="newEmailAddress" name="emailAddress" type="email" placeholder="Email Address">
+								</div>
+							</div><!-- end row -->
+							<div class="row">
+								<div class="form-group">
+									<input class="form-control" id="newPassword" name="password" type="password" placeholder="Password" >
+								</div>
+							</div><!-- end row -->
+							<div class="row">
+								<p class="helper-block"><a href="#popup-07" class="lightbox" onclick="$('#id_close_login_dialog').click();">Forgot your password?</a></p>
+								<button type="button" class="btn btn-account center-block btn-lg" onclick="performLogin(document.loginRecipeBox, 'signin_error_recipe'); return false;">Log In</button>
+								<p class="btn-spacer helper-block">Never created a password? <a href="#" id="id_no_password">Create one here.</a></p>
+								<div class="facebook-row" style="margin-top:1px;">
+									<div class="use_fb_or">&mdash; or &mdash;</div>
+									<!-- <div class="use_fb_text">Use Facebook To Log In:&nbsp;&nbsp;&nbsp;&nbsp;</div>  -->
+									<img id="id_fb_signup_login_img_1" onclick="loginToFacebook('login');" src="http://staticcdn11.purewow.com/v_2013/images/fb_login.png" alt="image description" width="233" height="52" />
+								</div>
+								<p style="margin:1em 0 80px" class="helper-block">Don't have an account? <a class="lightbox" href="#popup-03" onclick="$('#id_close_login_dialog').click();">Sign up today.</a></p>
+							</div><!-- end row -->
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- end loginModal -->
+
+
+	<div class="popup-holder">
+		<div id="popup-03" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+								<div class="sign-form">
+									<div class="head-title">
+										<h2>Like what you see?</h2>
+										<p>Sign up for PureWow to get more ideas like these delivered straight to your inbox. (It's free!)</p>
+									</div>
+									<form id="emailFormSignupPopup" name="emailFormSignupPopup" action="/national/subscribe.htm" method="post" onsubmit="submitSignupEmailAndZip(document.emailFormSignupPopup, '', 'inline'); return false;" data-gae-track="event" data-gae-category="Sign-Up" data-gae-action="Header" data-gae-label="Submit" >
+									<input type="hidden" value="/national/subscribe.htm"  name="followup_url" id="followup_url"/>
+									<input type="hidden" name="firstName" 	/>
+									<input type="hidden" name="firstlast" 	/>
+									<input type="hidden" name="gender" 		/>
+									<input type="hidden" name="emailAddressCaptureMethod" 	/>
+									<input type="hidden" value="national" name="editionNames" id="editionNames" />
+									<input type="hidden" value="NONE_Nav_Signup" name="referrer" id="referrer" />
+										<fieldset>
+											<div class="facebook-area">
+												<h2 class="use-facebook">use facebook to sign up</h2>
+												<img onclick="loginToFacebookToSubscribe();" id="id_fb_signup_login_img_signup_popup" src="http://staticcdn11.purewow.com/v_2013/images/fb-plugin-02.gif" alt="image description" width="157" height="25" />
+											</div>
+											<h2 class="or-sign-up-email">or Sign up using your email</h2>
+											<div class="invalidEmailMessage popup_error_message">A valid email address is required</div>
+											<div class="text">
+												<input type="text" id="emailAddressSignupPopup" name="emailAddress" value="Email" />
+											</div>
+											<div class="text zip-text">
+												<input type="text" id="zipSignupPopup" name="zip" value="Zip Code" />
+											</div>
+											<div class="invalidTermsMessage popup_error_message">Please accept the terms and privacy statement by checking the box below</div>
+											<div class="row">
+												<input id="policySignupPopup" name="policy" type="checkbox" checked="checked" />
+												<label for="policySignupPopup">I've read and accepted the <a href="/footer/national/terms.htm" target="_BLANK">Terms &amp; Conditions</a> and <a href="/footer/national/privacy.htm" target="_BLANK">Privacy Policy</a> and confirm I am at least 21 years old.</label>
+											</div>
+											<input type="submit" value="Sign up Now" />
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="validation_popup" class="popup-holder">
+		<div id="popup-05" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+								<div class="mail-message">
+									<p>Please enter a valid email address...</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<a id="popup-general-content-click" href="#popup-general-content" class="lightbox" style="display:none;"></a>
+				<div class="popup-holder">
+					<div id="popup-general-content" class="lightbox">
+						<div class="lightbox-content">
+							<div class="r">
+								<div class="lt">
+									<div class="lb">
+										<div class="rb">
+											<div class="title" style="margin:40px;">
+												<h2>Thanks!</h2>
+												<p>The emails have been sent</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+	<a id="#popup-nagger" href="#popup-nagger" class="lightbox" style="display:none;"></a>
+	<div class="popup-holder">
+		<div id="popup-nagger" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+								<div class="subscribe-form nagger-form">
+									<p>Please consider subscribing to PureWow</p>
+									<br>
+									<input onclick="$('a[href=\'#popup-03\']').click();" type="submit" value="Sign up Now">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" language="JavaScript">
+///////////////////////////////////////////////////////////////////////
+// Document init functions
+//////////////////////////////////////////////////////////////////////
+$(document).ready(function()
+{
+	;(function($){
+		$("#idLogOut, #idLogOutM").click(function()
+		{
+			$.removeCookie('com.equinox.wedding_jack.gui.cookie.VisitorLoginCookie', { path: '/' });
+			if (document.location.href.indexOf('manage_') >= 0)
+			{
+				document.location.replace('http://www.purewow.com/index.htm');
+			}
+			else
+			{
+				document.location.reload(true);
+			}
+		});
+	}(jQuery));
+
+	$("#idLogOutFb, #idLogOutFbM").click(function()
+	{
+		logoutFromFacebook();
+	});
+
+
+
+	$('#id_subscribe_menu').click(function(e)
+	{
+		e.preventDefault();
+	});
+
+
+
+
+	$('.js').removeClass("js");
+	$('.nojs').addClass("js");
+
+	$("#footer_my_account").click(function()
+	{
+		$('#signin_popup_post_login_method').val("document.location.href = '/footer/national/manage_my_account.htm'");
+	});
+
+});
+</script>
+
+
+<!-- <div id="leaderboard_spacer" style="margin-top:20px;"></div> -->
+
+	<style>
+		#social-sidebar {margin:53em 0 0 0;z-index:1;}
+		#social-sidebar.social-sidebar-fixed {margin-top:200px;}
+	</style>
+	<div id="social-sidebar">
+		<span	class="fb-like social-likes__widget" style="z-index:10000; margin-left: 1px;"
+				data-href="http://www.purewow.com/remodel-behavior"
+				data-layout="box_count"
+				data-action="like"
+				data-show-faces="false"
+				data-share="false">
+		</span>
+		<ul class="social-sidebar-list">
+			<li>
+				<div	data-gae-track="social"
+						data-gae-category="Facebook"
+						data-gae-action="share_fixed"
+						data-gae-label="none"
+						class="side-fb"
+						data-href="https://www.facebook.com/sharer/sharer.php?u=http://www.purewow.com/remodel-behavior"><span class="icon-facebook"></div>
+			</li>
+			<li>
+				<div 	data-gae-track="social"
+						data-gae-category="Pinterest"
+						data-gae-action="pinit_fixed"
+						data-gae-label="none"
+						class="side-pin"
+						data-href="http://pinterest.com/pin/create/button/?url=http://www.purewow.com/remodel-behavior&amp;media=http://staticcdn13.purewow.com/static/2014_09_11_30_days_homegoods/img/HG_pinterest_plugin.png&amp;description=Home+Styling+Secrets+via+%40PureWow+and+%40HomeGoods"><span class="icon-pinterest"></span></div>
+			</li>
+			<li>
+				<div 	data-gae-track="social"
+						data-gae-category="Twitter"
+						data-gae-action="tweet_fixed"
+						data-gae-label="none"
+						class="side-tweet"
+						data-href="https://twitter.com/share?url=/&counturl=http://www.purewow.com/remodel-behavior&text=Surprising+secrets+to+styling+every+inch+of+your+home+from+%40PureWow+and+%40HomeGoods%3A+http%3A%2F%2Fpwow.me%2F1sPHNWb"><span class="icon-twitter"></span></div>
+			</li>
+		</ul>
+	</div>
+	<!-- END SOCIAL SIDEBAR -->
+	<script>
+	$(window).load(function() {
+			var sideBarHeight = $('.social-sidebar-list').height();
+		$( window ).scroll(function() {
+			var outHeight = $('#comments').offset().top;
+			var curHeight = $(this).scrollTop() + (sideBarHeight * 2);
+			if($(this).scrollTop() > 650) {
+				$('#social-sidebar').addClass('social-sidebar-fixed');
+			} else {
+				$('#social-sidebar').removeClass('social-sidebar-fixed');
+			}
+			if(curHeight >= outHeight) {
+				// pause it
+				$('#social-sidebar').css({'position': 'absolute', 'margin-top': outHeight - (sideBarHeight*2.5)});
+				$('#social-sidebar').addClass('mobileHide');
+				$('#back-to-top').addClass('mobileHide');
+			} else {
+				$('#social-sidebar').css({'position': '', 'margin-top': ''});
+				$('#social-sidebar').removeClass('mobileHide');
+				$('#back-to-top').removeClass('mobileHide');
+			}
+		});
+		$('.social-sidebar-list div:not(.side-expand,.side-email)').click(function(){
+			sharePopup($(this).attr('data-href'));
+		});
+		$('.side-expand').click(function(){
+			$(this).toggleClass('side-close');
+			$('.side-email,.side-link,.side-stumble').toggleClass('hidden');
+		});
+	});
+	</script>
+
+
+
+
+<!--
+ ######################################################################################################################################
+ # McNote: BEGIN: Insert page specific <body> stuff here
+ ######################################################################################################################################
+<!-- Basic stylesheet -->
+<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
+<!-- Default Theme -->
+ <link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
+
+<div id="main" class="effortless-style" style="margin-top: 0;">
+<div class="section-area title">
+				<div class="title-container">
+					<h1><span>PureWow's Guide to</span> Effortless Style</h1>
+					<h2>No matter the occasion, there’s a handbag that can take you there</h2>
+
+		<div class="social-module">
+							<ul class="social-list">
+							<li>
+							<div data-gae-track="social" data-gae-category="surround_article" data-gae-action="facebook_share_top" data-gae-label="none" class="top-fb fb-color" data-href="https://www.facebook.com/sharer/sharer.php?u=http://www.purewow.com/arts/The-Love-Stories-We-Cant-Get-Enough-Of"><span class="icon-facebook icon-17-27" style="position: relative;"></span><span class="vtop" style="position: relative;top: 1px;">&nbsp;SHARE</span></div>
+							</li>
+							<li>
+							<div data-gae-track="social" data-gae-category="surround_article" data-gae-action="pinit_top" data-gae-label="none" class="top-pin pin-color" data-href="http://www.pinterest.com/pin/create/button/?url=http://www.purewow.com/arts/The-Love-Stories-We-Cant-Get-Enough-Of&amp;media=http://prodstatics3cdn1.purewow.com/images/articles/2015_01/Best_romantic_movies_fb.jpg&amp;description=The+Love+Stories+We+Can%27t+Get+Enough+Of+via+%40PureWow via @PureWow"><span class="icon-pinterest icon-17-27" style="position: relative;"></span><span class="vtop" style="position:relative;left:1px;top:1px;">&nbsp;PIN IT</span></div>
+							</li>
+							
+
+							</ul>
+		</div><!-- social-module-->
+	<div class="sponsor-mobile">
+<span>Brought to you by</span>
+<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="logo" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213264&PluID=0&ord=[timestamp]"><img class="img-responsive" src="img/cartier-logo.jpg"></a>
+</div><!-- end sponsor -->
+</div><!-- end title-container -->
+</div><!-- end section-area.title -->
+
+<div id="morningbusinessventure" class="section-area">
+        
+     <figure class="video-player" aria-label="media" role="group">            
+				<div class='embed-container'><!-- <iframe id="f1" class="vimeo" src='https://player.vimeo.com/video/126416214' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+				<iframe id="f1" class="vimeo" src="https://player.vimeo.com/video/126416214" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				</div>
+                
+                <div data-gae-category="incontent" data-gae-action="click" data-gae-label="play" class="media-action-overlay" data-control="f1">
+	                <div class="media-meta-container">
+						<div class="icon-container">
+						<img class="play-icon" src="img/play-icon.png" alt="" />
+						</div>
+						<div class="media-meta">
+		                <h4 class="headline">Morning Business Venture</h4>
+		                </div>
+					</div>
+				</div>
+            </figure>
+
+				<ul class="list-inline list-inline-nav">
+					<li class="active"><a href="#morningbusinessventure"><img class="img-circle" src="img/morningbusinessventure.jpg" alt="" /></a></li>
+					<li><a href="#middaycoffeebreak"><img class="img-circle" src="img/middaycoffeebreak.jpg" alt="" /></a></li>
+					<li><a href="#dinnerafterhours"><img class="img-circle" src="img/drinksafterhours.jpg" alt="" /></a></li>
+				</ul>       
+</div><!-- end section-area -->
+<div class="section-area container-fluid">
+	<div class="row">
+		<div class="col-sm-7 col-sm-push-5 col-remove-padding">
+			<img src="img/morningbusinessventurebag.jpg" alt="" />
+		</div>
+		<div class="col-sm-5 col-sm-pull-7">
+			<div class="full-width-text-container">
+				<h3>How to<br>Wear It</h3>
+				<hr>
+				<p>
+Traveling from your home to the office and then to client meetings can throw anyone into a tizzy. The easiest way to alleviate anxiety is with a foolproof ensemble:
+				</p>
+<ul class="list-inline list-inline--items">
+	<li>Gray<br>Trousers</li>
+	<li>Structured<br>Blouse</li>
+	<li>Pastel<br>Bag</li>
+</ul> 
+<p>Featuring a compartment that fits your laptop, as well as plenty of storage for your professional (read: commanding) heels, the C de Cartier leather bag automatically makes you feel more put together. See how to create the full look below.
+				</p>
+			</div>
+		</div>
+	</div><!-- end row -->
+</div><!-- container-fluid -->    
+<hr style="margin-top:5em;">
+<div class="section-area container-fluid">	
+<div id="sync1" class="owl-carousel">
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/asymmetricaltop.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Asymmetrical<br>Silk Top</h3>
+		<hr>
+		<p>
+		Simple yet sleek, a short-sleeved blouse is a closet staple that looks boss over suit pants. But be sure to always leave it untucked.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/graytrousers.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Gray<br>Trousers</h3>
+		<hr>
+		<p>
+		Suit pants shouldn’t feel stuffy. Look for a pair in a lighter hue that’s appropriate for spring and summer.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/strappysandals.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Strappy<br>Sandals</h3>
+		<hr>
+		<p>
+		Expand your horizons and sport a pair of strappy heels during the hours of 9 to 5.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/silkscarf.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Silk<br>Scarf</h3>
+		<hr>
+		<p>
+		Don’t leave home without it. For days when you’re on the go, a lightweight scarf is perfect for keeping warm outside and in.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/watch.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Eye-Catching<br>Watch</h3>
+		<hr>
+		<p>
+		You may be accustomed to checking the time on your phone, but it’s a lot more ladylike to glance at your timepiece.
+		</p>
+		<p>
+			<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="buy_now_morning_watch" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213310&PluID=0&ord=[timestamp]​" class="btn btn-buy-now">Buy Now ></a>
+		</p>
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/bag1.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3 class="cartier">C <span>de</span><br>Cartier</h3>
+		<hr>
+		<p>
+		For a daily essential, the supple pastel leather makes this bag feel a step above the rest.
+		</p>
+		<p>
+			<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="buynow_morning" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213315&PluID=0&ord=[timestamp]" class="btn btn-buy-now">Buy Now &gt;</a>
+		</p>
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  
+</div>
+
+<!-- end row -->
+</div><!-- end container-fluid -->
+
+<div class="section-area container-fluid container-fluid-full-width">
+	<div class="container">
+<div class="row row-item-products">
+<div id="sync2" class="owl-carousel">
+  <div class=""><a href="#"><img src="img/items/asymmetricaltop.jpg" alt="" /><h4>Asymmetrical Silk Top</h4></a></div>	
+  <div class=""><a href="#"><img src="img/items/graytrousers.jpg" alt="" /><h4>Gray Trousers</h4></a></div>  
+  <div class=""><a href="#"><img src="img/items/strappysandals.jpg" alt="" /><h4>Strappy Sandals</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/silkscarf.jpg" alt="" /><h4>Silk Scarf</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/watch.jpg" alt="" /><h4>Eye-Catching Watch</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/bag1.jpg" alt="" /><h4 class="cartier">C <span>de</span> Cartier</h4></a></div>
+</div>
+</div><!-- row -->
+</div><!-- container -->
+</div><!-- end container-fluid -->
+
+
+
+<div id="middaycoffeebreak" class="section-area">
+        
+            <figure class="media" aria-label="media" role="group">
+                <img src="img/middaycoffeebreak_1.jpg" class="poster" alt="">
+                <div class="media-action-overlay">
+	                <div class="media-meta-container">
+						<div class="media-meta">
+		                <h4 class="headline">Midday Coffee Break</h4>
+		                </div>
+					</div>
+				</div>
+            </figure>
+				<ul class="list-inline list-inline-nav">
+					<li><a href="#morningbusinessventure"><img class="img-circle" src="img/morningbusinessventure.jpg" alt="" /></a></li>
+					<li class="active"><a href="#middaycoffeebreak"><img class="img-circle" src="img/middaycoffeebreak.jpg" alt="" /></a></li>
+					<li><a href="#dinnerafterhours"><img class="img-circle" src="img/drinksafterhours.jpg" alt="" /></a></li>
+				</ul>       
+</div><!-- end section-area -->
+<div class="section-area container-fluid">
+	<div class="row">
+		<div class="col-sm-7 col-sm-push-5 col-remove-padding">
+			<img src="img/middaycoffeebreakimage.jpg" alt="" />
+		</div>
+		<div class="col-sm-5 col-sm-pull-7">
+			<div class="full-width-text-container">
+				<h3>How to<br>Wear It</h3>
+				<hr>
+				<p>
+It’s possible to have a little fun while still appearing polished. The key is a classic silhouette (read: a shift dress) in a rich jewel tone. Here’s the formula:
+				</p>
+<ul class="list-inline list-inline--items">
+	<li>Shift<br>Dress</li>
+	<li>Patterned<br>Heels</li>
+	<li>Contrasting<br>Bag</li>
+</ul> 
+<p>Finishing off the look with a pair of patterned heels and a handbag in a contrasting color makes everything pop. This white C de Cartier tote with navy piping (exclusive to the U.S. market) is just the thing. See how to create the full look below.</p>
+			</div>
+		</div>
+	</div><!-- end row -->
+</div><!-- container-fluid -->    
+<hr style="margin-top:5em;">
+<div class="section-area container-fluid">	
+<div id="sync3" class="owl-carousel">
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/shiftdress.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Shift<br>Dress</h3>
+		<hr>
+		<p>
+		As easy to wear as it is chic, a classic, work-appropriate shift is a must for your weekday wardrobe.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/leatherjacket.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Leather<br>Jacket</h3>
+		<hr>
+		<p>
+		Leather on leather works nicely when the two are opposite colors.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/standoutheels.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Standout<br>Heels</h3>
+		<hr>
+		<p>
+		The mid-height heel makes this eye-catching shoe acceptable for the workweek.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/bagwhite.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3 class="cartier">C <span>de</span><br>Cartier</h3>
+		<hr>
+		<p>
+		A white leather bag becomes a little less delicate with a touch of navy-blue piping.
+		</p>
+		<p>
+			<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="buynow_midday" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213399&PluID=0&ord=[timestamp]​" class="btn btn-buy-now">Buy Now ></a>
+			<span class="exclusive-caption">*U.S. exclusive</span>
+		</p>
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/sunglasses.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Sunglasses</h3>
+		<hr>
+		<p>
+		You always need a pair, so it helps to make sure that the style is timeless.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/notebooks.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Notebooks</h3>
+		<hr>
+		<p>
+		Because sometimes we miss the written word.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  
+</div>
+
+<!-- end row -->
+</div><!-- end container-fluid -->
+
+<div class="section-area container-fluid container-fluid-full-width">
+	<div class="container">
+<div class="row row-item-products">
+<div id="sync4" class="owl-carousel">
+  <div class=""><a href="#"><img src="img/items/shiftdress.jpg" alt="" /><h4>Shift Dress</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/leatherjacket.jpg" alt="" /><h4>Leather Jacket</h4></a></div>  
+  <div class=""><a href="#"><img src="img/items/standoutheels.jpg" alt="" /><h4>Standout Heels</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/bagwhite.jpg" alt="" /><h4 class="cartier">C <span>de</span> Cartier</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/sunglasses.jpg" alt="" /><h4>Sunglasses</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/notebooks.jpg" alt="" /><h4>Notebooks</h4></a></div>
+</div>
+</div><!-- row -->
+</div><!-- container -->
+</div><!-- end container-fluid -->
+
+
+
+<div id="dinnerafterhours" class="section-area">
+        
+            <figure class="media" aria-label="media" role="group">
+                <img src="img/drinksafterhours_1.jpg" class="poster" alt="">
+                <div class="media-action-overlay">
+	                <div class="media-meta-container">
+						<div class="media-meta">
+		                <h4 class="headline">After-Hours Drinks</h4>
+		                </div>
+					</div>
+				</div>
+            </figure>
+				<ul class="list-inline list-inline-nav">
+					<li><a href="#morningbusinessventure"><img class="img-circle" src="img/morningbusinessventure.jpg" alt="" /></a></li>
+					<li><a href="#middaycoffeebreak"><img class="img-circle" src="img/middaycoffeebreak.jpg" alt="" /></a></li>
+					<li class="active"><a href="#dinnerafterhours"><img class="img-circle" src="img/drinksafterhours.jpg" alt="" /></a></li>
+				</ul>       
+</div><!-- end section-area -->
+<div class="section-area container-fluid">
+	<div class="row">
+		<div class="col-sm-7 col-sm-push-5 col-remove-padding">
+			<img src="img/drinksbag.jpg" alt="" />
+		</div>
+		<div class="col-sm-5 col-sm-pull-7">
+			<div class="full-width-text-container">
+				<h3>How to<br>Wear It</h3>
+				<hr>
+				<p>
+We’re all too familiar with the term <i>cocktail dress</i>. Um, hello, that red one from <a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="link_nellie" href="http://nelliepartow.com/collection/spring/look/3">Nellie Partow</a> is a knockout. But let’s try to forget everything you once thought about the <i>cocktail bag</i>. Instead, try something like this:
+				</p>
+<ul class="list-inline list-inline--items">
+	<li>Killer<br>Dress</li>
+	<li>Punchy<br>Platforms</li>
+	<li>Vibrant<br>Bag</li>
+</ul> 
+<p>Think of your handbag as your second statement and opt for a hue just as vibrant as your frock’s. One size smaller than the tote, this C de Cartier bag looks great sitting on the table next to you. (But you still take the cake.)
+				</p>
+			</div>
+		</div>
+	</div><!-- end row -->
+</div><!-- container-fluid -->    
+<hr style="margin-top:5em;">
+<div class="section-area container-fluid">	
+<div id="sync5" class="owl-carousel">
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/killerdress.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Killer<br>Dress</h3>
+		<hr>
+		<p>
+		You can never, ever go wrong with red. A midi style makes it decidedly age-appropriate (and just plain gorgeous).
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/coat.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Duster<br>Trench</h3>
+		<hr>
+		<p>
+		A longer dress calls for an equally regal coat.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/platformheels.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Platform<br>Heels</h3>
+		<hr>
+		<p>
+		Have fun with your color palette. You’d be surprised how well blues and greens look with sunset orange.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/ring.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Statement Ring</h3>
+		<hr>
+		<p>
+		If ever there were a time for this ring to be deemed appropriate, it would be when your fingers are wrapped around a martini glass.
+		</p>
+		<p>
+			<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="buynow_dinner_statement_ring" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213492&PluID=0&ord=[timestamp]" class="btn btn-buy-now">Buy Now ></a>
+		</p>
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->  
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/lipstick.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3>Red Lip</h3>
+		<hr>
+		<p>
+		Enough said.
+		</p>
+
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->  
+  <div class="item">
+	<div class="row row-item-tab">
+	<div class="col-sm-6">
+		<div class="img-tab-nav-container">
+			<img src="img/items/bagpurple.jpg" alt="" />
+		</div>
+	</div>
+	<div class="col-sm-6">
+		<div class="full-width-text-container">
+		<h3 class="cartier">C <span>de</span><br>Cartier</h3>
+		<hr>
+		<p>
+		Smaller than a tote, but just big enough to go wherever the night takes you.
+		</p>
+		<p>
+			<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="buynow_dinner" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213481&PluID=0&ord=[timestamp]​" class="btn btn-buy-now">Buy Now ></a>
+		</p>
+		</div>
+	</div>
+</div>  
+  </div><!-- end item -->
+
+  
+</div>
+
+<!-- end row -->
+</div><!-- end container-fluid -->
+
+<div class="section-area container-fluid container-fluid-full-width">
+	<div class="container">
+<div class="row row-item-products">
+<div id="sync6" class="owl-carousel">
+  <div class=""><a href="#"><img src="img/items/killerdress.jpg" alt="" /><h4>Killer Dress</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/coat.jpg" alt="" /><h4>Duster Trench</h4></a></div>  
+  <div class=""><a href="#"><img src="img/items/platformheels.jpg" alt="" /><h4>Platform Heels</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/ring.jpg" alt="" /><h4>Statement Ring</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/lipstick.jpg" alt="" /><h4>Red Lip</h4></a></div>
+  <div class=""><a href="#"><img src="img/items/bagpurple.jpg" alt="" /><h4 class="cartier">C <span>de</span> Cartier</h4></a></div>
+</div>
+</div><!-- row -->
+</div><!-- container -->
+</div><!-- end container-fluid -->
+
+<div class="section-area container-fluid container-fluid-full-width buy-now">
+	<div class="buy-now-container">
+	<div class="row">
+		<div class="col-sm-6 col-sm-push-6 col-remove-padding">
+			<img src="img/cartierstore.jpg" alt="">
+		</div>
+		<div class="col-sm-6 col-sm-pull-6">
+			<div class="full-width-text-container">
+				<h3>WHERE TO BUY</h3>
+				<hr>
+				<p>
+Created exclusively for the U.S. market, the brand-new C de Cartier bag can be found at Cartier boutiques nationwide as well as online. But take it from us, when the boutiques are this chic, stopping by the store for a firsthand look and feel is kind of a no-brainer.
+</p>
+		<p>
+			<a target="_blank" data-gae-category="incontent" data-gae-action="click" data-gae-label="link_dinner" href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=tf&c=20&mc=click&pli=13213497&PluID=0&ord=[timestamp]" class="btn btn-buy-now">Get Shopping &gt;</a>
+		</p>
+			</div>
+		</div>
+	</div><!-- end row -->
+</div></div>
+
+
+<div class="container">
+<p class="backtop"><a data-gae-track="event" data-gae-category="Destination_thinkThin_Think Positive" data-gae-action="gototop" data-gae-label="gototop"><span class="arrow-up"></span></a></p>
+	<a data-gae-track="event"
+data-gae-category="Destination_Standout Shoes"
+data-gae-action="backtotop" class="back-to-top-face" href="#">Back to Top <span class="arrow-up"></span></a>
+</div><!-- container -->
+
+
+<div style="text-align:center; margin-top:50px;">
+					<!-- Facebook Comments Box -->
+					<div id="comments"></div>
+</div>
+</div><!-- end #main -->
+
+<style>	#social-sidebar.is-hidden{display: none;}</style>
+<!-- Include js plugin -->
+<script src="js/owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript" src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+<script type="text/javascript" src="js/cartier-effortless-style.js"></script>
+<!--
+<script type="text/javascript">
+  
+        jQuery(document).ready(function() {
+         	
+         	// Enable the API on each Vimeo video
+           jQuery('iframe.vimeo').each(function(){
+                Froogaloop(this).addEvent('ready', ready);
+            });
+            
+            function ready(playerID){
+                // Add event listerns
+                // http://vimeo.com/api/docs/player-js#events
+                Froogaloop(playerID).addEvent('play', play);
+                Froogaloop(playerID).addEvent('pause', pause);
+                Froogaloop(playerID).addEvent('finish', finish);
+                
+                // Fire an API method
+                // http://vimeo.com/api/docs/player-js#reference
+                Froogaloop(playerID).api('pause');
+            }
+            function play(playerID){
+                
+//                  jQuery('.dessert .txt-container').css('visibility', 'hidden');    
+            }
+            function pause() {
+               
+               $('.media-action-overlay').toggleClass('invisible');
+            }
+            function finish() {
+                
+//                 jQuery('.dessert .txt-container').css('visibility', 'visible');
+				
+               $('iframe.vimeo').attr("src", $('iframe.vimeo').attr("src"));
+            }
+
+            // Call the API when a button is pressed
+        $('.media-action-overlay').bind('click', function() {
+            var btn = $(this);
+            var fr = btn.attr("data-control");
+            if (btn.text()=="Pause") {
+                $f(fr).api('pause');
+                $('.media-action-overlay').toggleClass('invisible');
+            }
+            else {
+                $f(fr).api('play');
+                
+            }
+        });
+/*
+  $('.media-action-overlay').on('click', function(){
+		alert(this);
+	});
+*/
+  $( "body" ).on( "click", ".media-action-overlay", function( event ) {
+  
+    $(".media-action-overlay").toggleClass('invisible');
+    $f(fr).api('play');
+});
+        });
+        </script>
+-->
+<!--
+<script>
+/*
+	
+$(".owl-carousel").owlCarousel({
+	items : 3
+});
+*/
+/*
+$(document).ready(function() {
+ 
+  var sync1 = $("#sync1,#sync3,#sync5");
+  var sync2 = $("#sync2,#sync4,#sync6");
+ 
+  sync1.owlCarousel({
+    singleItem : true,
+    slideSpeed : 1000,
+    navigation: false,
+    pagination:false,
+    afterAction : syncPosition,
+    responsiveRefreshRate : 200,
+  });
+ 
+  sync2.owlCarousel({
+    items : 3,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    responsiveRefreshRate : 100,
+    afterInit : function(el){
+      el.find(".owl-item").eq(0).addClass("synced");
+    }
+  });
+ 
+  function syncPosition(el){
+    var current = this.currentItem;
+    $("#sync2,#sync4,#sync6")
+      .find(".owl-item")
+      .removeClass("synced")
+      .eq(current)
+      .addClass("synced")
+    if($("#sync2,#sync4,#sync6").data("owlCarousel") !== undefined){
+      center(current)
+    }
+  }
+ 
+  $("#sync2,#sync4,#sync6").on("click", ".owl-item", function(e){
+    e.preventDefault();
+    var number = $(this).data("owlItem");
+    sync1.trigger("owl.goTo",number);
+  });
+ 
+  function center(number){
+    var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+    var num = number;
+    var found = false;
+    for(var i in sync2visible){
+      if(num === sync2visible[i]){
+        var found = true;
+      }
+    }
+ 
+    if(found===false){
+      if(num>sync2visible[sync2visible.length-1]){
+        sync2.trigger("owl.goTo", num - sync2visible.length+2)
+      }else{
+        if(num - 1 === -1){
+          num = 0;
+        }
+        sync2.trigger("owl.goTo", num);
+      }
+    } else if(num === sync2visible[sync2visible.length-1]){
+      sync2.trigger("owl.goTo", sync2visible[1])
+    } else if(num === sync2visible[0]){
+      sync2.trigger("owl.goTo", num-1)
+    }
+    
+  }
+ 
+});
+*/
+
+$(document).ready(function() {
+  var sync1 = $("#sync1");
+  var sync2 = $("#sync2");
+ 
+  sync1.owlCarousel({
+    singleItem : true,
+    slideSpeed : 1000,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    afterAction : syncPosition,
+    responsiveRefreshRate : 200,
+  });
+ 
+  sync2.owlCarousel({
+    items : 3,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    responsiveRefreshRate : 100,
+    afterInit : function(el){
+      el.find(".owl-item").eq(0).addClass("synced");
+    }
+  });
+ 
+  function syncPosition(el){
+    var current = this.currentItem;
+    $("#sync2")
+      .find(".owl-item")
+      .removeClass("synced")
+      .eq(current)
+      .addClass("synced")
+    if($("#sync2").data("owlCarousel") !== undefined){
+      center(current)
+    }
+  }
+ 
+  $("#sync2").on("click", ".owl-item", function(e){
+    e.preventDefault();
+    var number = $(this).data("owlItem");
+    sync1.trigger("owl.goTo",number);
+  });
+ 
+  function center(number){
+    var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
+    var num = number;
+    var found = false;
+    for(var i in sync2visible){
+      if(num === sync2visible[i]){
+        var found = true;
+      }
+    }
+ 
+    if(found===false){
+      if(num>sync2visible[sync2visible.length-1]){
+        sync2.trigger("owl.goTo", num - sync2visible.length+2)
+      }else{
+        if(num - 1 === -1){
+          num = 0;
+        }
+        sync2.trigger("owl.goTo", num);
+      }
+    } else if(num === sync2visible[sync2visible.length-1]){
+      sync2.trigger("owl.goTo", sync2visible[1])
+    } else if(num === sync2visible[0]){
+      sync2.trigger("owl.goTo", num-1)
+    }
+    
+  }
+ 
+ 
+ /* carousel two */
+  var sync3 = $("#sync3");
+  var sync4 = $("#sync4");
+
+   sync3.owlCarousel({
+    singleItem : true,
+    slideSpeed : 1000,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    afterAction : syncPosition2,
+    responsiveRefreshRate : 200,
+  });
+ 
+  sync4.owlCarousel({
+    items : 3,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    responsiveRefreshRate : 100,
+    afterInit : function(el){
+      el.find(".owl-item").eq(0).addClass("synced");
+    }
+  });
+
+  function syncPosition2(el){
+    var current2 = this.currentItem;
+    $("#sync4")
+      .find(".owl-item")
+      .removeClass("synced")
+      .eq(current2)
+      .addClass("synced")
+    if($("#sync4").data("owlCarousel") !== undefined){
+      center2(current2)
+    }
+  }
+
+  $("#sync4").on("click", ".owl-item", function(e){
+    e.preventDefault();
+    var number2 = $(this).data("owlItem");
+    sync3.trigger("owl.goTo",number2);
+  });
+
+  function center2(number2){
+    var sync4visible = sync4.data("owlCarousel").owl.visibleItems;
+    var num2 = number2;
+    var found = false;
+    for(var i in sync4visible){
+      if(num2 === sync4visible[i]){
+        var found = true;
+      }
+    }
+
+    if(found===false){
+      if(num2>sync4visible[sync4visible.length-1]){
+        sync4.trigger("owl.goTo", num2 - sync4visible.length+2)
+      }else{
+        if(num2 - 1 === -1){
+          num2 = 0;
+        }
+        sync4.trigger("owl.goTo", num2);
+      }
+    } else if(num2 === sync4visible[sync4visible.length-1]){
+      sync4.trigger("owl.goTo", sync4visible[1])
+    } else if(num2 === sync4visible[0]){
+      sync4.trigger("owl.goTo", num2-1)
+    }
+
+  }
+  
+  /* carousel three */
+
+  var sync5 = $("#sync5");
+  var sync6 = $("#sync6");
+
+  sync5.owlCarousel({
+    singleItem : true,
+    slideSpeed : 1000,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    afterAction : syncPosition3,
+    responsiveRefreshRate : 200,
+  });
+ 
+  sync6.owlCarousel({
+    items : 3,
+    navigation:true,
+    navigationText:false,
+    pagination:false,
+    responsiveRefreshRate : 100,
+    afterInit : function(el){
+      el.find(".owl-item").eq(0).addClass("synced");
+    }
+  });
+
+
+  function syncPosition3(el){
+    var current3 = this.currentItem;
+    $("#sync6")
+      .find(".owl-item")
+      .removeClass("synced")
+      .eq(current3)
+      .addClass("synced")
+    if($("#sync6").data("owlCarousel") !== undefined){
+      center3(current3)
+    }
+  }
+
+  $("#sync6").on("click", ".owl-item", function(e){
+    e.preventDefault();
+    var number3 = $(this).data("owlItem");
+    sync5.trigger("owl.goTo",number3);
+  });
+
+  function center3(number3){
+    var sync6visible = sync6.data("owlCarousel").owl.visibleItems;
+    var num3 = number3;
+    var found = false;
+    for(var i in sync6visible){
+      if(num3 === sync6visible[i]){
+        var found = true;
+      }
+    }
+
+    if(found===false){
+      if(num3>sync6visible[sync6visible.length-1]){
+        sync6.trigger("owl.goTo", num3 - sync6visible.length+2)
+      }else{
+        if(num3 - 1 === -1){
+          num3 = 0;
+        }
+        sync6.trigger("owl.goTo", num3);
+      }
+    } else if(num3 === sync6visible[sync6visible.length-1]){
+      sync6.trigger("owl.goTo", sync6visible[1])
+    } else if(num3 === sync6visible[0]){
+      sync6.trigger("owl.goTo", num3-1)
+    }
+
+  }
+
+  
+});
+jQuery(document).ready(function($){
+
+	$('.back-to-top-face').on('click', function(){
+		$('html, body').animate({scrollTop: $('.title-container').offset().top-100}, 500);
+	});
+});
+
+/*
+$(document).ready(function() {
+ $( ".media-action-overlay" ).on( "click", function() {
+  $( ".media-action-overlay" ).addClass("hidden");
+})
+});
+*/
+</script>
+-->
+<!--
+ ######################################################################################################################################
+ # McNote: END: Insert page specific <body> stuff here
+ ######################################################################################################################################
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Targeted_Trailerboard:: -->
+	<div class="trailerboard-holder-2014">
+		<div id='div-gpt-ad-1383163480000-0'  class="banner" style='max-width:728px;margin:2em auto;background:#f6f6f6;' data-cb-ad-id="Desktop-Trailerboard">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1383163480000-0'); });
+			</script>
+		</div>
+	</div>
+	<div class="trailerboard-holder-mobile-2014">
+		<!-- Targeted_Mobile_Trailerboard:: -->
+		<div id='div-gpt-ad-1383750286342-0' style='width:320px; height:50px; margin: auto;' data-cb-ad-id="Mobile-Trailerboard">
+			<script type='text/javascript'>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-1383750286342-0'); });
+			</script>
+		</div>
+	</div>
+	<footer class="footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-xs-6 col-sm-4">
+							<div class="footer-column">
+								<h4>Company</h4>
+								<ul>
+									<li><a href="/entry_name/national/about.htm"		data-gae-track="event" data-gae-category="Corporate" data-gae-action="About" 		data-gae-label="Footer">About</a></li>
+									<li><a href="/jobs.htm"							data-gae-track="event" data-gae-category="Corporate" data-gae-action="Careers" 		data-gae-label="Footer">Careers</a></li>
+									<li><a href="/entry_name/national/contact_us.htm"	data-gae-track="event" data-gae-category="Corporate" data-gae-action="Contact" 		data-gae-label="Footer">Contact</a></li>
+									<li><a href="/entry_name/national/faq.htm"		data-gae-track="event" data-gae-category="Corporate" data-gae-action="FAQ" 			data-gae-label="Footer">FAQ</a></li>
+									<li><a href="/entry_name/national/advertise.htm"	data-gae-track="event" data-gae-category="Corporate" data-gae-action="Advertise" 	data-gae-label="Footer">Advertise</a></li>
+									<li><a href="/footer/national/press.htm"	data-gae-track="event" data-gae-category="Corporate" data-gae-action="Press" 		data-gae-label="Footer">Press</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-4">
+							<div class="footer-column">
+								<h4>Legal</h4>
+								<ul>
+									<li><a href="/entry_name/national/terms.htm"				data-gae-track="event" data-gae-category="Legal" data-gae-action="Terms" 			data-gae-label="Footer">Terms & Conditions</a></li>
+									<li><a href="/entry_name/national/privacy.htm"			data-gae-track="event" data-gae-category="Legal" data-gae-action="Privacy Policy" 	data-gae-label="Footer">Privacy Policy</a></li>
+									<li><a href="/entry_name/national/editorial_policy.htm"	data-gae-track="event" data-gae-category="Legal" data-gae-action="Editorial Policy" data-gae-label="Footer">Editorial Policy</a></li>
+									<li><a href="/entry_name/national/contest_rules.htm"		data-gae-track="event" data-gae-category="Legal" data-gae-action="Contests" 		data-gae-label="Footer">Contests</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-4">
+							<div class="footer-column">
+								<h4>Settings</h4>
+								<ul>
+
+
+										<span class="js">
+											<li><a id="footer_my_account" 	class="lightbox" href="#popup-04" data-gae-track="event" data-gae-category="My Account" data-gae-action="My Account"  data-gae-label="Footer">My Account</a></li>
+											<li><a id="footer_unsubscribe" 	class="lightbox" href="#popup-09" data-gae-track="event" data-gae-category="My Account" data-gae-action="Unsubscribe" data-gae-label="Footer">Unsubscribe</a></li>
+										</span>
+										<span class="nojs">
+											<li><a href="/footer/national/manage_my_account.htm">My Account</a></li>
+											<li><a href="/footer/national/unsubscribe.htm">Unsubscribe</a></li>
+										</span>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div><!-- end col-6 -->
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-xs-12 col-md-5">
+							<div class="footer-column">
+								<h4>Connect With Us</h4>
+								<ul class="social-icons-wrapper">
+									<li><a target="_BLANK" data-gae-track="social" data-gae-category="Facebook" 	data-gae-action="brandpage_footer" data-gae-label="none" href="http://www.facebook.com/PureWow"><span class="icon-facebook"></span></a></li>
+									<li><a target="_BLANK" data-gae-track="social" data-gae-category="Pinterest" 	data-gae-action="brandpage_footer" data-gae-label="none" href="http://pinterest.com/purewow/"><span class="icon-pinterest"></span></a></li>
+									<li><a target="_BLANK" data-gae-track="social" data-gae-category="Instagram" 	data-gae-action="brandpage_footer" data-gae-label="none" href="http://instagram.com/purewow"><span class="icon-instagram"></span></a></li>
+									<li><a target="_BLANK" data-gae-track="social" data-gae-category="Twitter" 		data-gae-action="brandpage_footer" data-gae-label="none" href="http://twitter.com/PureWow"><span class="icon-twitter"></span></a></li>
+									<li><a target="_BLANK" data-gae-track="social" data-gae-category="Youtube" 		data-gae-action="brandpage_footer" data-gae-label="none" href="http://www.youtube.com/PureWowVideos"><span class="icon-youtube"></span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-7">
+							<div class="footer-column footer-subscribe">
+								<form class="form-inline" role="form" name="footerSignUpForm" action="https://www.purewow.com//subscribe.htm" method="post" onsubmit="submitSignupEmailAndZip(document.footerSignUpForm); return false;" data-gae-track="event" data-gae-category="Sign-Up" data-gae-action="Footer" data-gae-label="Submit">
+									<input type="hidden" value="https://www.purewow.com//subscribe.htm"  name="followup_url" id="followup_url"/>
+									<input type="hidden" value="index.htm"	name="failureViewName" id="failureViewName" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="hidden" value="NONE_Nav_Signup" name="referrer" id="referrer" />
+
+
+
+
+
+
+
+									<div class="form-group">
+										<label class="sr-only" for="FooterSubscribe">Email address</label>
+										<input type="text" class="form-control" id="emailAddressFooter" name="emailAddress" placeholder="EMAIL ADDRESS">
+									</div>
+									<button type="submit" class="btn btn-subscribe">Subscribe</button>
+									<div class="row">
+										<div class="col-xs-12">
+											<div class="checkbox">
+												<label>
+													<input type="checkbox" name="policy" id="footer-policy" hidden>
+													<span class="checkbox-style"></span>
+													<span class="terms">I've read and accepted the <a href="/entry_name/national/terms.htm" target="_BLANK" sl-processed="1">Terms &amp; Conditions</a> and <a href="/footer/national/privacy.htm" target="_BLANK" sl-processed="1">Privacy Policy</a> and confirm I am at least 21 years old.</span>
+												</label>
+											</div>
+										</div><!-- end col-6 -->
+									</div><!-- end row -->
+								</form>
+
+							</div>
+						</div>
+					</div><!-- end row -->
+				</div><!-- end col-6 -->
+			</div><!-- end row -->
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="copyright">&copy; 2010-2014 Wow Media Products, Inc doing business as PureWow. All rights reserved.</div>
+					<a href="http://www.wowowow.com" target="_BLANK" class="footer-logo"><img src="http://staticcdn11.purewow.com/v_2013/images/wowOwowlogo-footer.png" alt="wowOwow" /></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		$('#emailAddressFooter').focus(function()
+		{
+			GoogleQueueTrackEvent('Sign-Up', 'Footer', 'Click');
+		});
+	</script>
+
+
+
+
+
+	<div class="popup-holder">
+		<div id="popup-09" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+								<div class="log-form">
+									<div class="head-title lock">
+										<h2>Want to Unsubscribe?</h2>
+										<p id="unsubscribeMessage">Enter your registered email below!</p>
+									</div>
+									<form id="unsubscribeEmailForm" name="unsubscribeEmailForm" action="#" onsubmit="unsubscribeCheckEmail(document.unsubscribeEmailForm, 'unsubscribeMessage'); return false;">
+										<input type="hidden" name="visitor_services_url" value="/ajax_services/visitor/check_email/" />
+										<input type="hidden" name="manage_subscription_url" value="/footer/national/unsubscribe.htm?unsubscribeEmailAddress=" />
+										<fieldset>
+											<div class="text">
+												<input name="emailAddress" type="text" value="jmcnair@enox.com" />
+											</div>
+											<input type="submit" value="submit" />
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="popup-holder">
+		<div id="popup-10" class="lightbox">
+			<div class="lightbox-content">
+				<div class="r">
+					<div class="lt">
+						<div class="lb">
+							<div class="rb">
+								<div class="log-form">
+									<div class="head-title lock">
+										<h2>Manage Your Account</h2>
+										<p id="manageMessage">Enter your registered email below!</p>
+									</div>
+									<form id="manageEmailForm" name="manageEmailForm" action="#" onsubmit="unsubscribeCheckEmail(document.manageEmailForm, 'manageMessage'); return false;">
+										<input type="hidden" name="visitor_services_url" value="/ajax_services/visitor/check_email/" />
+										<input type="hidden" name="manage_subscription_url" value="/footer/national/manage_subscription.htm?emailAddress=" />
+										<fieldset>
+											<div class="text">
+												<input name="emailAddress" type="text" value="jmcnair@enox.com" />
+											</div>
+											<input type="submit" value="submit" />
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/wow_list_2014_09_02.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/mc_main_2014_09_02.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/signup.js"></script>
+
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/modernizr.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/jquery.main_2014_08.js" ></script>
+	<script type="text/javascript" src="http://staticcdn12.purewow.com/v_2013/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://staticcdn13.purewow.com/v_2013/js/jasny-bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://staticcdn14.purewow.com/v_2013/js/bootstrap-hover-dropdown.min.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/bootstrap-select.min.js"></script>
+	<script type="text/javascript" src="http://staticcdn12.purewow.com/v_2013/js/bootstrap-tabcollapse.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/hammer.min.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/jquery.hammer.js"></script>
+	<script type="text/javascript" src="http://staticcdn11.purewow.com/v_2013/js/nav.js"></script>
+
+
+
+
+<!-- BEGIN Tynt Script -->
+<script type="text/javascript">
+if(document.location.protocol=='http:'){
+ var Tynt=Tynt||[];Tynt.push('ccqLko5-qr4A-Pacwqm_6l');Tynt.i={"ap":"Read more:"};
+ (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+}
+</script>
+<!-- END Tynt Script -->
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var _sf_async_config =
+			{
+				uid: 47792,
+				domain: 'www.purewow.com', sections: '30 Days',sponsorName: 'LG',zone: 'national/na/custom',
+				useCanonical: true
+			};
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat_pub.js');
+      document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+
+
+
+	<script type="text/javascript">
+
+
+		function kludgePinitTrack()
+		{
+			// find all PinIt buttons and add the trigger attributes to cause GA social tracking
+			$('a[href*="pinterest.com/pin/create/button"]').each(function()
+			{
+				$(this).attr({
+					'data-gae-track'   :"social",
+					'data-gae-category':"Pinterest",
+					'data-gae-action'  :"pinit"
+				});
+
+				// use the image URL if it exists
+				var opt_media = _ga.extractParamFromUri_($(this).attr('href'), 'media');
+
+				$(this).attr('data-gae-label', opt_media);
+			});
+
+			// find all items to add social tracking
+			$('a[href*="pinterest.com/pin/create/button"]').click(function()
+			{
+				return GoogleTrackEventLinkClick($(this).attr('data-gae-category'), $(this).attr('data-gae-action'), this);
+			});
+		}
+
+
+		$(document).ready(function()
+		{
+
+			window.setTimeout(kludgePinitTrack, 5000);
+
+			// find all PinIt buttons and add the trigger attributes to cause GA social tracking
+			$('a[href*="pinterest.com/pin/create/button"]').each(function()
+			{
+				$(this).attr({
+					'data-gae-track'   :"social",
+					'data-gae-category':"Pinterest",
+					'data-gae-action'  :"pinit"
+				});
+
+				// use the image URL if it exists
+				var opt_media = _ga.extractParamFromUri_($(this).attr('href'), 'media');
+
+				$(this).attr('data-gae-label', opt_media);
+			});
+
+			// find all items to add social tracking
+			$("a[data-gae-track=social],div[data-gae-track=social]").click(function()
+			{
+				return GoogleTrackEventLinkClick($(this).attr('data-gae-category'), $(this).attr('data-gae-action'), this);
+			});
+
+			// find all items to add vanilla event tracking
+			$("a[data-gae-track=event],div[data-gae-track=event]").click(function()
+			{
+				return GoogleTrackEventLinkClick($(this).attr('data-gae-category'), $(this).attr('data-gae-action'), this);
+			});
+		});
+	</script>
+
+
+
+
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-18724989-1']);
+
+	var canonical_link;
+	try
+	{
+	  canonical_link = jQuery('link[rel=canonical]').attr('href').split(location.hostname)[1] || undefined;
+	}
+	catch(e)
+	{
+	  canonical_link = undefined;
+	}
+
+	//console.log('canonical_link: '+canonical_link);
+
+
+
+	//Search page we want to track url params
+	if(window.location.href.indexOf("/search/") > -1) {
+		_gaq.push(['_trackPageview']);
+	}
+	else if( (window.location.href.indexOf("/manage_subscription.htm") > -1) || (window.location.href.indexOf("/manage_my_account.htm") > -1) )
+	{
+		// We want to track which tab land on.
+		var manageLoc = location.protocol + '//' + location.host + location.pathname;
+		if(window.location.search.indexOf('activeTab=id_tab_subs') > -1) {
+			var manageLoc = manageLoc + '?subscriptions';
+		} else if(window.location.search.indexOf('activeTab=id_tab_rb') > -1) {
+			var manageLoc = manageLoc + '?recipeBox';
+		} else {
+			var manageLoc = manageLoc + '?profile';
+		}
+		_gaq.push(['_trackPageview', manageLoc ]);
+	}
+	else
+	{
+		_gaq.push(['_trackPageview', canonical_link]);
+	}
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+
+
+<!-- Begin comScore Tag -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "15961801" });
+(function()
+{
+	var s = document.createElement("script"),
+		el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=15961801&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+
+
+
+
+
+<!-- Begin TripleLift Segment Pixel -->
+<img src="https://secure.adnxs.com/seg?add=652161&t=2" width="1" height="1" />
+<!-- End TripleLift Segment Pixel -->
+<!-- Begin TripleLift Influencer Tag -->
+<script type="text/javascript">(function() {var tag = document.createElement('script'); tag.type = 'text/javascript'; tag.async = true;tag.src = ('https:' == document.location.protocol ? 'https://d3iwjrnl4m67rd.cloudfront.net' : 'http://tag.triplelift.com') + '/?advertiser_id=132';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(tag, s);})();</script>
+<!-- End TripleLift Influencer Tag -->
+
+
+
+
+<script type="text/javascript">
+
+///////////////////////////////////////////////////////////////////////
+// Nag unsubscribed visitors to subscribe
+//////////////////////////////////////////////////////////////////////
+function displaySubscribeNagger()
+{
+	var viewedPageCountCookieName 			= 'com.equinox.wedding_jack.gui.unsubscribed_page_views';
+	var subscribeNaggerDisplayedCookieName 	= 'com.equinox.wedding_jack.gui.unsubscribed_nagger_displayed';
+	var subscriberCookieName 				= 'com.equinox.wedding_jack.gui.UserCookie';
+
+	// no need to nag current subscribers
+	if ($.cookie(subscriberCookieName) != null)
+	{
+		// alert( 'already subscriber with id:'+$.cookie(subscriberCookieName) );
+		return;
+	}
+
+	// how many pages have been viewed this session (since browser was restarted)
+	var viewedPageCount = $.cookie(viewedPageCountCookieName);
+
+	// if cookie doesn't exist, create it with 0
+	if (viewedPageCount == null)
+	{
+		viewedPageCount = 0;
+	}
+
+	// set the page view count
+	viewedPageCount++;
+	$.cookie(viewedPageCountCookieName, viewedPageCount, { path: '/' });
+
+	// if we have the magic number
+	//if (viewedPageCount == 6)
+
+	// persistent cookie so we only nag then once every 7 days
+	var alreadyNagged = $.cookie(subscribeNaggerDisplayedCookieName);
+	if (alreadyNagged == 'true')
+	{
+		return;
+	}
+
+	// we are about to nag so make sure we don't so this again
+	$.cookie(subscribeNaggerDisplayedCookieName, true, { expires: 7, path: '/' });
+	// $('a[href="#popup-nagger"]').click();
+	$('#signup-flyout').show();
+	$('#signup-flyout').stop().animate({
+		left: '0px'
+	});
+
+	GoogleQueueTrackNonInteractiveEvent('signup', 'flyout-box-displayed', window.location );
+}
+
+
+///////////////////////////////////////////////////////////////////////
+// Page initialization. html located in header.
+//////////////////////////////////////////////////////////////////////
+ $(document).ready(function()
+	{
+		displaySubscribeNagger();
+	});
+	$('.close-flyout').click(function() {
+		flyout_closed = true;
+		$('#signup-flyout').stop().animate({
+			left: '-620px'
+		});
+	});
+
+</script>
+
+
+
+
+	<script type='text/javascript'>
+	  //<![CDATA[
+		(function(){
+		window.gravityInsightsParams = {
+		  'type': 'content',
+		  'action': '',
+		  'site_guid': 'ec6b218b731d902ccf34e0aaf0768844'
+		};
+		var adServerReq,bUrl,cburl,doUseGravityUserGuid,includeJs,jq,pfurl,type,ug,wlPrefix,wlUrl,_ref,_ref1,_ref2;includeJs=function(a){var b;b=document.createElement("script");b.async=!0;b.src=a;a=document.getElementsByTagName("script")[0];return a.parentNode.insertBefore(b,a)};bUrl="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";
+		ug=(doUseGravityUserGuid=!0===gravityInsightsParams.useGravityUserGuid?1:0)?"":gravityInsightsParams.user_guid||(null!=(_ref=/grvinsights=([^;]+)/.exec(document.cookie))?_ref[1]:void 0)||"";wlUrl=(wlPrefix="","");bUrl&&includeJs(bUrl);wlUrl&&(window.gravityInsightsParams.sidebar&&(window.gravityInsightsParams.wlStartTime=(new Date).getTime()),includeJs(wlUrl));})();
+	  //]]>
+	</script>
+
+
+
+
+	<script>
+	$(document).ready(function() {
+		$( window ).scroll(function() {
+			if($(this).scrollTop() > 400) {
+				$('.social-likes').css({
+                    position: 'fixed',
+                    top:'400px'
+                });
+				$('.social-likes').removeClass('hide-767');
+			} else {                     				// Make it static if you scroll above
+                $('.social-likes').css({
+                    position: 'absolute',
+                    top:'initial'
+                });
+				$('.social-likes').addClass('hide-767');
+			}
+			var dheight = $(document).height() - 1200;
+			if($(this).scrollTop() > dheight) {
+				$('.social-likes').addClass('hide');
+			} else {
+				$('.social-likes').removeClass('hide');
+			}
+		});
+	});
+	</script>
+
+
+
+</body>
+</html>
+

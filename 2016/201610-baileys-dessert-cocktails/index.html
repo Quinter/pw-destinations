@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hersheys Destination</title>
+    <script src="handlebars-v4.0.5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="row ba-hed">
+      <h1>Devilishly Indulgent</h1>
+      <h3>Cocktail and Desserts</h3>
+      <h4>After-dinner drinks are a treat in and of themselves. But adding a drizzle of chocolate and a scoop of ice cream to your glass of <a href="http://www.baileys.com/en-row/home.html" target="_blank" class="underline-text">Baileys</a> raises your cocktail to a whole new level. Pin your favorite desserts to get the full recipe.</h4>
+    </div>
+    <div id="DocumentResults"></div>
+    <script id="document-template" type="text/x-handlebars-template">
+      <div class="main-body">
+        <div class="container">
+            {{#each rows }}
+              <div class="row ba-recipe-container">
+                    <!-- Desktop and Tablet Image -->
+                    <div class="ba-img-wrapper" style="background-image:url( {{imageURLdesktop}} )">
+                      <div class="ba-recipe-overlay"></div>
+                    </div>
+                    <!-- Mobile Image -->
+                    <!-- <div class="ba-img-mobile-overlay">
+                      <img class="img-mobile" src={{imageURLmobile}}>
+                    </div> -->
+                    <!-- Recipe Title -->
+                    <div class="ba-recipe-content">
+                      <h4>{{ imageTitle }}</h4>
+                    </div>
+                    <!-- Pinterest Button On Hover -->
+                    <a href= {{ superPin }} onclick="return !window.open(this.href, 'Pinterest', 'width=500,height=500')" target="_blank">
+                      <div class="ba-pin-btn">
+                        <div class="icon-pinterest ba-pin-icon"></div>
+                        <h5>Pin Recipe</h5>
+                      </div>
+                    </a>
+              </div>
+            {{/each}}
+        </div>
+      </div>
+    </script>
+  </body>
+</html>

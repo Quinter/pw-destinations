@@ -1,0 +1,3089 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19115",
+"files": {
+	"\/static\/css\/locks.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/css\/locks.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/css\/owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/css\/owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/css\/owl.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/css\/owl.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/fonts\/montserrat-bold-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/fonts\/montserrat-bold-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/fonts\/montserrat-light-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/fonts\/montserrat-light-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/fonts\/montserrat-regular-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/fonts\/montserrat-regular-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/fonts\/montserrat-ultralight-demo.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/fonts\/montserrat-ultralight-demo.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/fonts\/montserrat.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/fonts\/montserrat.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/images\/1_smooth\/carousel\/main\/smooth1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66094,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth1big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/main\/smooth2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114111,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth2big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/main\/smooth3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57180,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth3big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/main\/smooth4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80072,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth4big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/main\/smooth4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19567,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15434,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10054,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13015,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/carousel\/Thumbs\/smooth4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/Tips\/smooth1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97650,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/Tips\/smooth1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/Tips\/smooth1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/Tips\/smooth2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118502,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/Tips\/smooth2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/Tips\/smooth2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/1_smooth\/Tips\/smooth3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108790,
+		"inputAbbreviatedPath": "\/static\/images\/1_smooth\/Tips\/smooth3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/1_smooth\/Tips\/smooth3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2_vibrant\/carousel\/main\/vibrant1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58327,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant1big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/2_vibrant\/carousel\/main\/vibrant2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40188,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant2big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2_vibrant\/carousel\/main\/vibrant3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81991,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant3big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/2_vibrant\/carousel\/main\/vibrant4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55617,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant4big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/main\/vibrant4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12070,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7695,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12277,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10342,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/carousel\/Thumbs\/vibrant4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/2_vibrant\/Tips\/vibrant1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104644,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/Tips\/vibrant1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/Tips\/vibrant1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/2_vibrant\/Tips\/vibrant2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74589,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/Tips\/vibrant2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/Tips\/vibrant2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/2_vibrant\/Tips\/vibrant3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83987,
+		"inputAbbreviatedPath": "\/static\/images\/2_vibrant\/Tips\/vibrant3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/2_vibrant\/Tips\/vibrant3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/3_curly\/carousel\/main\/curly1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97281,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly1big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/main\/curly2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60273,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly2big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/main\/curly3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118368,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly3big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/main\/curly4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31796,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly4big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/main\/curly4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/Thumbs\/curly1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13900,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/Thumbs\/curly2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14940,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/Thumbs\/curly3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15756,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/carousel\/Thumbs\/curly4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8056,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/carousel\/Thumbs\/curly4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/Tips\/curly1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84658,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/Tips\/curly2tip-fake.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.5032e+06,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly2tip-fake.png",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly2tip-fake.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/3_curly\/Tips\/curly2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128910,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/3_curly\/Tips\/curly3playbutton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5774,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly3playbutton.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly3playbutton.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/3_curly\/Tips\/curly3tip-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45404,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly3tip-old.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly3tip-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/3_curly\/Tips\/curly3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83858,
+		"inputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/3_curly\/Tips\/curly3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/4_shiny\/carousel\/main\/shiny1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84688,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny1big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/main\/shiny2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96183,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny2big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/main\/shiny3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27599,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny3big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/main\/shiny4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42545,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny4big.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/main\/shiny4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18030,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14346,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9324,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9719,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/carousel\/Thumbs\/shiny4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/Tips\/shiny1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 322288,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/Tips\/shiny1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/Tips\/shiny1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/Tips\/shiny2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 646110,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/Tips\/shiny2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/Tips\/shiny2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/4_shiny\/Tips\/shiny3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 429290,
+		"inputAbbreviatedPath": "\/static\/images\/4_shiny\/Tips\/shiny3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/4_shiny\/Tips\/shiny3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/icons\/backtotop-arrow-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3586,
+		"inputAbbreviatedPath": "\/static\/images\/icons\/backtotop-arrow-2x.png",
+		"outputAbbreviatedPath": "\/static\/images\/icons\/backtotop-arrow-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/icons\/nav-active-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2848,
+		"inputAbbreviatedPath": "\/static\/images\/icons\/nav-active-arrow.png",
+		"outputAbbreviatedPath": "\/static\/images\/icons\/nav-active-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/icons\/product-arrow-left-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3509,
+		"inputAbbreviatedPath": "\/static\/images\/icons\/product-arrow-left-2x.png",
+		"outputAbbreviatedPath": "\/static\/images\/icons\/product-arrow-left-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/icons\/product-arrow-right-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3510,
+		"inputAbbreviatedPath": "\/static\/images\/icons\/product-arrow-right-2x.png",
+		"outputAbbreviatedPath": "\/static\/images\/icons\/product-arrow-right-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/mobile\/1_smooth\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22016,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/1_smooth\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28356,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/1_smooth\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15901,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/1_smooth\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20949,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/1_smooth\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77576,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/1_smooth\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99223,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/1_smooth\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88178,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/1_smooth\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19477,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10928,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12717,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16950,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83497,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68918,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/2_vibrant\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69444,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/2_vibrant\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24571,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20085,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21810,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11686,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69213,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92251,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/3_curly\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73017,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/3_curly\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20900,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24118,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8908,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15233,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52894,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126493,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/4_shiny\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89828,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/4_shiny\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5669,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/logo.png",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/stylenav\/1-smooth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71506,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/1-smooth.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/1-smooth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/stylenav\/2-vibrant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101262,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/2-vibrant.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/2-vibrant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/stylenav\/3-curly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84786,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/3-curly.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/3-curly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/mobile\/stylenav\/4-shiny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72822,
+		"inputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/4-shiny.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/mobile\/stylenav\/4-shiny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/stylenav\/stylenav-curly-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171218,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-curly-old.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-curly-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/stylenav\/stylenav-curly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271580,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-curly.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-curly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/stylenav\/stylenav-shiny-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147031,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-shiny-old.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-shiny-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/stylenav\/stylenav-shiny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237318,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-shiny.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-shiny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/stylenav\/stylenav-smooth-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128794,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-smooth-old.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-smooth-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/stylenav\/stylenav-smooth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120573,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-smooth.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-smooth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/images\/stylenav\/stylenav-vibrant-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151702,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-vibrant-old.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-vibrant-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/images\/stylenav\/stylenav-vibrant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 250854,
+		"inputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-vibrant.jpg",
+		"outputAbbreviatedPath": "\/static\/images\/stylenav\/stylenav-vibrant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/static\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/app.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/js\/min\/app-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/min\/app-min.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/min\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/js\/min\/owl.carousel-loreal-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/min\/owl.carousel-loreal-min.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/min\/owl.carousel-loreal-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/js\/owl.carousel-loreal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/owl.carousel-loreal.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/owl.carousel-loreal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/js\/owl.carousel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/js\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/static\/js\/min\/owl.carousel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/locks.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/locks.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/loreal_prod\/css\/locks.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/css\/locks.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/loreal_prod\/css\/owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/css\/owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/loreal_prod\/css\/owl.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/css\/owl.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65180,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth1big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113161,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth2big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56248,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth3big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79127,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth4big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/main\/smooth4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18645,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14500,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9135,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12081,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/carousel\/thumbs\/smooth4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96623,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118088,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108790,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/1_smooth\/tips\/smooth3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57407,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant1big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40188,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant2big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81069,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant3big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55617,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant4big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/main\/vibrant4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11151,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7695,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11358,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10342,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/carousel\/thumbs\/vibrant4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104147,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74107,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83987,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/2_vibrant\/tips\/vibrant3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96309,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly1big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59330,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly2big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117409,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly3big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30853,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly4big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/main\/curly4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12977,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14010,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14833,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7136,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/carousel\/thumbs\/curly4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/tips\/curly1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83962,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/tips\/curly2tip-fake.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.5032e+06,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly2tip-fake.png",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly2tip-fake.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/tips\/curly2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128910,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/tips\/curly3playbutton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5774,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly3playbutton.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly3playbutton.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/tips\/curly3tip-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45404,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly3tip-old.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly3tip-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/3_curly\/tips\/curly3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83858,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/3_curly\/tips\/curly3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny1big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83750,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny1big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny1big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny2big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95283,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny2big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny2big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny3big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26660,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny3big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny3big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny4big.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41610,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny4big.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/main\/shiny4big.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny1thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17102,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny1thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny1thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny2thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13432,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny2thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny2thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny3thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8399,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny3thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny3thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny4thumb.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8789,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny4thumb.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/carousel\/thumbs\/shiny4thumb.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny1tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 322288,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny1tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny1tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny2tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 646110,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny2tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny2tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny3tip.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 429290,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny3tip.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/4_shiny\/tips\/shiny3tip.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/icons\/backtotop-arrow-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2890,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/backtotop-arrow-2x.png",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/backtotop-arrow-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/icons\/nav-active-arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2848,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/nav-active-arrow.png",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/nav-active-arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/icons\/product-arrow-left-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2814,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/product-arrow-left-2x.png",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/product-arrow-left-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/icons\/product-arrow-right-2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2808,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/product-arrow-right-2x.png",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/icons\/product-arrow-right-2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22016,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28356,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15901,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20949,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77576,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99223,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88178,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/1_smooth\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19477,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10928,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12717,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16950,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83497,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68918,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69444,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/2_vibrant\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24571,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20085,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21810,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11686,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69213,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92251,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/3_curly\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73017,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/3_curly\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/1-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20900,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/1-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/1-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/2-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24118,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/2-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/2-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/3-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8908,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/3-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/3-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/4-product.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15233,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/4-product.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/4-product.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52894,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip1.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126493,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip2.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89828,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip3.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/4_shiny\/tip3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5669,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/logo.png",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/stylenav\/1-smooth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71506,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/1-smooth.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/1-smooth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/stylenav\/2-vibrant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101262,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/2-vibrant.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/2-vibrant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/stylenav\/3-curly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84786,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/3-curly.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/3-curly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/mobile\/stylenav\/4-shiny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72822,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/4-shiny.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/mobile\/stylenav\/4-shiny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-curly-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171218,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-curly-old.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-curly-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-curly.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271580,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-curly.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-curly.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-shiny-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147031,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-shiny-old.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-shiny-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-shiny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 237318,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-shiny.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-shiny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-smooth-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128794,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-smooth-old.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-smooth-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-smooth.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216035,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-smooth.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-smooth.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-vibrant-old.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151702,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-vibrant-old.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-vibrant-old.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/images\/stylenav\/stylenav-vibrant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 250854,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-vibrant.jpg",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/images\/stylenav\/stylenav-vibrant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/static\/loreal_prod\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/js\/app.js",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/loreal_prod\/js\/min\/app-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/app-min.js",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/min\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/loreal_prod\/js\/min\/owl.carousel-loreal-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/owl.carousel-loreal-min.js",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/min\/owl.carousel-loreal-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/loreal_prod\/js\/owl.carousel-loreal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/js\/owl.carousel-loreal.js",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/owl.carousel-loreal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/loreal_prod\/js\/owl.carousel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/loreal_prod\/js\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/static\/loreal_prod\/js\/min\/owl.carousel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/static\/prod.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/prod.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/static\/scss\/locks.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/static\/scss\/locks.scss",
+		"outputAbbreviatedPath": "\/static\/css\/locks.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Andrew Quinn",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "loreal-locks",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "compass_brown"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

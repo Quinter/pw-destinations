@@ -1,0 +1,338 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; }
+
+a, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+  color: inherit; }
+
+.background-container {
+  margin: auto;
+  margin-top: 62px;
+  background-image: url("http://prodstatics3azcdn1.purewow.com/static/2016/21602/hershey-201610/images/desktop-background-spiderweb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center; }
+
+.hed-text h1 {
+  font-family: "Chronicle Display A","Chronicle Display B";
+  font-weight: 200;
+  line-height: .98;
+  font-size: 66px;
+  letter-spacing: -.5px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  margin: 40px 0px 25px 0px; }
+.hed-text h3 {
+  font-size: 13.5px;
+  line-height: 20px;
+  font-family: "brandon-grotesque";
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 7px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased; }
+.hed-text h4 {
+  max-width: 600px;
+  margin: auto;
+  font-size: 15.5px;
+  color: #524e4e;
+  font-family: "Proxima-Nova";
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto 38px; }
+.hed-text .underline-text {
+  border-bottom: solid 1px #524e4e;
+  display: inline;
+  font-weight: 500; }
+
+.hed-text h3::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  margin: 25px auto;
+  background: #2E2E2F; }
+
+.recipe-container {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative; }
+
+.img-wrapper {
+  position: relative;
+  height: 430px;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.recipe-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease; }
+
+.recipe-container:hover
+.recipe-overlay {
+  opacity: 1; }
+
+.recipe-container:hover
+.recipe-content {
+  opacity: 1; }
+
+.recipe-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  padding: 0 15px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease; }
+  .recipe-content h4 {
+    font-family: "brandon-grotesque";
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 29px;
+    -webkit-font-smoothing: antialiased;
+    margin: 5px auto 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+    max-width: 530px; }
+
+.pin-btn {
+  background-color: #c7242e;
+  width: 170px;
+  height: 36px;
+  padding-left: 0;
+  padding-top: 3px;
+  letter-spacing: 2.5px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  margin: 1px auto;
+  cursor: pointer;
+  transition: background-color .4s ease;
+  color: #fff; }
+  .pin-btn .hershey-pin-icon {
+    display: inline;
+    font-size: 22px; }
+  .pin-btn h5 {
+    position: relative;
+    font-family: "brandon-grotesque";
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 33px;
+    text-decoration: none;
+    vertical-align: top;
+    top: -1px;
+    display: inline; }
+    .pin-btn h5 :hover {
+      text-decoration: none; }
+
+.img-mobile {
+  display: none; }
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  body {
+    padding-right: 0;
+    padding-left: 0;
+    position: absolute; }
+
+  .main-body {
+    padding: 0;
+    margin: auto;
+    width: 100vw; }
+
+  .background-container {
+    margin: auto;
+    margin-top: 62px;
+    background-image: url("http://prodstatics3azcdn1.purewow.com/static/2016/21602/hershey-201610/images/header-image-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center; }
+
+  .hed-text {
+    top: 44%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px; }
+    .hed-text h1 {
+      font-size: 46px;
+      margin: 90px 0 15px 0; }
+    .hed-text h3 {
+      font-size: 12px;
+      letter-spacing: 5.5px;
+      padding-bottom: 0px; }
+    .hed-text h4 {
+      font-size: 14.25px;
+      line-height: 25px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 0 auto 32px; }
+
+  .img-wrapper,
+  .recipe-overlay {
+    display: none; }
+
+  .img-mobile {
+    display: block;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    opacity: .65; }
+
+  .img-mobile-overlay {
+    background: black;
+    display: block;
+    margin-bottom: 38px; }
+
+  .recipe-content {
+    top: 8%;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    padding: 5px 0px 20px;
+    transform: translateY(0%);
+    height: 90%; }
+    .recipe-content h4 {
+      width: 90%;
+      margin: auto;
+      font-size: 14.25px;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 4.25px;
+      font-family: "brandon-grotesque";
+      color: #fff;
+      line-height: 1.95;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased; }
+    .recipe-content .pin-btn {
+      position: fixed;
+      left: 50%;
+      margin-left: -85px; }
+
+  .recipe-container {
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin: 0px 0px 70px 0px; } }
+@media (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
+  .pin-btn {
+    bottom: -33px; } }
+@media (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+  .pin-btn {
+    bottom: -2px; } }
+@media (max-width: 767px) {
+  body {
+    padding-right: 0;
+    padding-left: 0;
+    position: absolute; }
+
+  .background-container {
+    margin: auto;
+    margin-top: 62px;
+    background-image: url("http://prodstatics3azcdn1.purewow.com/static/2016/21602/hershey-201610/images/header-image-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center; }
+
+  .hed-text {
+    top: 44%;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 50px; }
+    .hed-text h1 {
+      font-size: 46px;
+      margin: 90px 0 15px 0; }
+    .hed-text h3 {
+      font-size: 12px;
+      letter-spacing: 5.5px;
+      padding-bottom: 0px; }
+    .hed-text h4 {
+      font-size: 14.25px;
+      line-height: 25px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin: 0 auto 32px; }
+
+  .img-wrapper,
+  .recipe-overlay {
+    display: none; }
+
+  .img-mobile {
+    display: block;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    opacity: .65; }
+
+  .img-mobile-overlay {
+    background: black;
+    display: block;
+    margin-bottom: 38px; }
+
+  .recipe-content {
+    top: 8%;
+    display: block;
+    opacity: 1;
+    position: absolute;
+    padding: 5px 0px 20px;
+    transform: translateY(0%);
+    height: 90%; }
+    .recipe-content h4 {
+      width: 90%;
+      margin: auto;
+      font-size: 14.25px;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 4.25px;
+      font-family: "brandon-grotesque";
+      color: #fff;
+      line-height: 1.95;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased; }
+    .recipe-content .pin-btn {
+      position: fixed;
+      left: 50%;
+      margin-left: -85px; }
+
+  .recipe-container {
+    margin: 0px 0px 70px -15px;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    width: 100vw; } }
+@media (max-width: 767px) and (orientation: portrait) {
+  .pin-btn {
+    bottom: -25px; } }
+@media (max-width: 767px) and (orientation: landscape) {
+  .pin-btn {
+    bottom: -30px; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+.hd-main-head { color: #444343; font-family: "freight-text-pro", sans-serif; font-style: normal; font-size: 16.5px; letter-spacing: 0; line-height: 1.45em; text-align: center; -webkit-font-smoothing: antialiased; }
+.hd-main-head p { display: inline-block; margin: 26px 0 70px; max-width: 700px; }
+
+.hd-main-head h1 { position: relative; padding-bottom: 28px; margin: 0; color: #000; font-family: 'Chronicle Display A', 'Chronicle Display B', serif; font-weight: normal; font-size: 57px; letter-spacing: 1.25px; line-height: 52px; padding-bottom: 30px; text-align: center; text-transform: uppercase; -webkit-font-smoothing: antialiased; }
+.hd-main-head h1:after { position: absolute; bottom: 0; left: 0; right: 0; width: 114px; height: 4px; margin: auto; background: #d5d6da; content: ''; }
+
+.hd-main-head h3 { color: #393a3c; display: block; text-transform:uppercase; font-family: 'brandon-grotesque'; font-size: 14px; font-weight: 500; letter-spacing: 3.75px; line-height: 38px; padding-top: 15px; padding-bottom: 0; text-align: center; -webkit-font-smoothing: antialiased; 
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+} 
+
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.hd-section { padding-bottom: 120px; }
+
+.hd-section-image { position: relative; }
+.hd-section-image img { width: 100%; height: auto; }
+.hd-section-image-caption { position: absolute; left: 23px; top: 100%; margin-top: 8px; font-family: 'brandon-grotesque'; font-weight: 500; font-size: 9px; color: #C7C6C6; letter-spacing: 1.5px; text-transform: uppercase; }
+
+.hd-section-content { position: relative; max-width: 680px; padding: 40px 90px 70px; margin: -200px 0 0 auto; background: #fff; color: #444343; font-family: "freight-text-pro"; font-weight: 400; font-style: normal; font-size: 17.5px; letter-spacing: 0; line-height: 1.58em; -webkit-font-smoothing: antialiased; text-align: left; 
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.hd-section:nth-child(even) .hd-section-content { margin-right: auto; margin-left: 0; }
+.hd-section:nth-child(even) .hd-section-image-caption { left: auto; right: 23px; }
+
+.hd-section-content h4 { margin: 0px; font-size: 11.5px; line-height: 21.5px; font-family: "brandon-grotesque"; text-transform: uppercase; font-weight: 500; color: #989898; letter-spacing: 2px; vertical-align: middle; text-align: left;  }
+.hd-section-content h2 { font-size: 44px; letter-spacing: .25px; font-family: "Chronicle Display A", "Chronicle Display B"; -webkit-font-smoothing: antialiased; font-weight: 400; line-height: 1.05; text-align: left; color: rgb(0, 0, 0); margin: 7px 0 18px; text-align: left; }
+.hd-section-content p { margin-bottom: 40px; }
+.hd-section-content a { text-decoration: underline; }
+.hd-section-content a:hover { text-decoration: none; }
+
+.hd-section-content .btn-social { display: inline-block; width: auto; padding: 3px 40px; vertical-align: top; font-family: "brandon-grotesque"; font-weight: bold; font-size: 14px; }
+.hd-section-content .btn-social [class^="icon-"] { font-size: 24px; }
+.hd-section-content .btn-social span { display: inline-block; vertical-align: middle; }
+.hd-section-content .btn-social ~ .btn-social { margin-left: 10px; font-size: 11.5px; line-height: 33px; height: 39px; }
+
+.hd-line-through { text-decoration: line-through; }
+
+@media ( max-width: 1023px ) {
+	.hd-section-image { margin-bottom: 40px; }
+	.hd-section-content { max-width: 100%; padding: 23px; margin-top: 0; }
+	.hd-section:nth-child(even) .hd-section-image-caption { left: 23px; right: auto; }
+}
+
+@media ( max-width: 767px ) {
+	
+	.hd-main-head { font-size: 15px; letter-spacing: 0; line-height: 23px; width: auto; }
+	.hd-main-head p { padding-left: 18px; padding-right: 18px; border-right-width: 10px; margin: 15px 0 32px; }
+	.hd-main-head h1 { padding-bottom: 0; font-size: 40px; line-height: 38px; letter-spacing: 0; margin: 0 auto; } 
+	.hd-main-head h1:after { display: none; }
+	.hd-main-head h3 { padding-top: 0; font-size: 11px; letter-spacing: 2px; margin-bottom: 0px; margin-top: 16px; }
+
+	.hd-section-image-caption { margin-top: 8px; }
+
+	.hd-section-content { padding: 10px 25px 15px; font-size: 16.5px; letter-spacing: 0; line-height: 25px; } 
+
+	.hd-section-content h2 { margin-top: 7px; font-size: 35px; letter-spacing: 0; }
+	.hd-section-content h4 { margin-left: 3px; font-size: 11px; }
+
+	.hd-section-image { margin-bottom: 30px; }
+	.hd-section-image-caption { left: 15px; font-family: 'brandon-grotesque'; font-size: 8px; color: #C7C6C6; letter-spacing: 1.5px; text-transform: uppercase; display: inline; }
+
+	.hd-section-content .btn-social { display: block; width: 165px; padding-left: 5px; padding-right: 5px; text-align: center; }
+	.hd-section-content .btn-social ~ .btn-social { margin-top: 10px; margin-left: 0; }
+}

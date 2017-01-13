@@ -1,0 +1,13 @@
+
+@font-face {
+	font-family:'Quickpen-Regular';
+	src: url('fonts/Quickpen_gdi.eot');
+	src: url('fonts/Quickpen_gdi.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Quickpen_gdi.woff') format('woff'),
+		url('fonts/Quickpen_gdi.ttf') format('truetype'),
+		url('fonts/Quickpen_gdi.svg#Quickpen-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2212;
+}

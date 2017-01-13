@@ -1,0 +1,1632 @@
+//clearfix
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix {
+    zoom: 1;
+}
+/* IE6 */
+
+*:first-child+html .clearfix {
+    zoom: 1;
+}
+
+@mixin font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+}
+
+//Quickpen Font 
+@font-face {
+    font-family: 'Quickpen';
+    src: url('http://www.purewow.com/static/webfonts/Quickpen/2FB76C_0_0.woff');
+}
+
+// //Chronicle Delete Once Live Only for Production
+// @font-face {
+//     font-family: 'Chronicle Display A';
+//     src: url('../fonts/ChronicleDisp-Light.otf');
+// }
+ 
+/* ------------------------------------------------------------ *\
+	PERDUE Main
+\* ------------------------------------------------------------ */
+#perdue-back-top {
+    display: none;
+}
+
+.perdue-header-board {
+    background-image: url("../images/header-images/header.jpg");
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-position: left -10px bottom -45px;
+    background-size: cover;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    .header-wrapper {
+        text-align: center;
+        position: relative;
+        top: 55%;
+        transform: translateY(-50%);
+        
+        .header-sponsored {
+            font-size: 17.88px;
+            line-height: 20.5px;
+            text-transform: uppercase;
+            font-family: "brandon-grotesque";
+            font-weight: 600;
+            letter-spacing: 5px; 
+            @include font-smoothing;
+            color: #000;
+            text-align: center;
+        }
+
+        .header-title {
+            font-size: 95px;
+            color: #000;
+            line-height: 1.2;
+            letter-spacing: 1.5px;
+            font-family: "Chronicle Display A", "Chronicle Display B";
+            font-weight: 200;
+            @include font-smoothing;
+            text-transform: uppercase;
+            margin: 0 auto;
+        }
+
+        .header-title-two {
+            font-size: 74px;
+            font-family: "Quickpen";
+            color: rgb(24, 24, 24);
+            line-height: 0.428;
+            @include font-smoothing;
+            font-weight: 300;
+            margin: 10px auto 60px;
+        }
+
+        .header-subtitle {
+            font-size: 25px;
+            font-family: "freight-display-pro";
+            line-height: 27.5px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+            @include font-smoothing;
+            text-align: center;
+            color: #000;
+        }
+    }
+}
+
+.content-container {
+    position: relative;
+
+    .line {
+        position: relative;
+        top: -70px;
+        z-index: 50;
+        margin-bottom: -222px;
+
+        .circle {
+            border-width: 2px;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            border-radius: 50%;
+            width: 19px;
+            height: 19px;
+            margin: 0 auto;
+        }
+
+        .black-line {
+            background-color: rgb(0, 0, 0);
+            width: 3px;
+            height: 150px;
+            margin: 0 auto;
+        }
+
+        .white-line {
+            background-color: rgb(255, 255, 255);
+            top: 683px;
+            width: 3px;
+            height: 152px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.line-one {
+    position: relative;
+    top: 178px;
+    z-index: 50;
+
+    .white-line-one {
+        background-color: rgb(255, 255, 255);
+        width: 3px;
+        height: 178px;
+        margin: 0 auto;
+    }
+}
+
+
+.line-one-short {
+    top: 178px;
+    position: relative;
+    z-index: 50;
+
+    .white-line-one {
+        background-color: rgb(255, 255, 255);
+        width: 3px;
+        height: 178px;
+        margin: 0 auto;
+    }
+}
+
+//Produce Banner Styles
+.produce-banner {
+    background-image: url("../images/header-images/1-produce.jpg");
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    .produce-wrapper {
+        text-align: center;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        .produce-title {
+            font-size: 27px;
+            line-height: 59px;
+            font-family: "brandon-grotesque";
+            font-weight: 600;
+            letter-spacing: 5px; 
+            @include font-smoothing;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: -2px;
+
+            //border styles
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            width: 282px;
+            height: 59px;
+            margin: 0 auto;
+            vertical-align: middle;
+        }
+
+        .produce-subtitle {
+            font-size: 74px;
+            color: #ffffff;
+            line-height: 1.2;
+            letter-spacing: -2.5px;
+            font-family: "Chronicle Display A", "Chronicle Display B";
+            font-weight: 200;
+            @include font-smoothing;
+            text-align: center;
+        }
+    }
+}
+
+//Protein Banner 
+.protein-banner {
+    background-image: url("../images/header-images/2-protein.jpg");
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-size: cover;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    .protein-wrapper {
+        text-align: center;
+        position: relative;
+        top: 55%;
+        transform: translateY(-50%);
+
+        .protein-title {
+            font-size: 27px;
+            line-height: 59px;
+            font-family: "brandon-grotesque";
+            font-weight: 600;
+            letter-spacing: 5px; 
+            @include font-smoothing;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+
+            //border styles
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            width: 282px;
+            height: 59px;
+            margin: 0 auto;
+            vertical-align: middle;
+        }
+
+        .protein-subtitle {
+            font-size: 74px;
+            color: #ffffff;
+            line-height: 1.2;
+            letter-spacing: -2.5px;
+            font-family: "Chronicle Display A", "Chronicle Display B";
+            font-weight: 200;
+            @include font-smoothing;
+            text-align: center;
+        }
+    }
+}
+
+//Dairy Banner 
+.dairy-banner {
+    background-image: url("../images/header-images/3-dairy.jpg");
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-size: cover;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    .dairy-wrapper {
+        text-align: center;
+        position: relative;
+        top: 55%;
+        transform: translateY(-50%);
+
+        .dairy-title {
+            font-size: 27px;
+            line-height: 59px;
+            font-family: "brandon-grotesque";
+            font-weight: 600;
+            letter-spacing: 5px; 
+            @include font-smoothing;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+
+            //border styles
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            width: 282px;
+            height: 59px;
+            margin: 0 auto;
+            vertical-align: middle;
+        }
+
+        .dairy-subtitle {
+            font-size: 74px;
+            color: #ffffff;
+            line-height: 1.2;
+            letter-spacing: -2.5px;
+            font-family: "Chronicle Display A", "Chronicle Display B";
+            font-weight: 200;
+            @include font-smoothing;
+            text-align: center;
+        }
+    }
+}
+
+//Pantry Banner 
+.pantry-banner {
+    background-image: url("../images/header-images/4-pantry.jpg");
+    max-width: 100vw;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    background-size: cover;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    .pantry-wrapper {
+        text-align: center;
+        position: relative;
+        top: 55%;
+        transform: translateY(-50%);
+
+        .pantry-title {
+            font-size: 27px;
+            line-height: 59px;
+            font-family: "brandon-grotesque";
+            font-weight: 600;
+            letter-spacing: 5px; 
+            @include font-smoothing;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+
+            //border styles
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            width: 282px;
+            height: 59px;
+            margin: 0 auto;
+            vertical-align: middle;
+        }
+
+        .pantry-subtitle {
+            font-size: 74px;
+            color: #ffffff;
+            line-height: 1.2;
+            letter-spacing: -2.5px;
+            font-family: "Chronicle Display A", "Chronicle Display B";
+            font-weight: 200;
+            @include font-smoothing;
+            text-align: center;
+        }
+    }
+}
+
+.produce-text-wrapper {
+    margin: 0 auto;
+    max-width: 585px;
+    padding-left: 0;
+    padding-right: 0;
+
+    .produce-text {
+        font-size: 26px;
+        font-family: "freight-display-pro";
+        color: #000;
+        line-height: 1.2;
+        letter-spacing: 0.5px;
+        font-weight: 300;
+        @include font-smoothing;
+        text-align: center;
+        margin: 40px auto 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #181818;
+    }
+
+    .produce-cta {
+        font-size: 14px;
+        font-family: "brandon-grotesque";
+        color: #f27676;
+        text-transform: uppercase;
+        line-height: 3.75px;
+        letter-spacing: 4.5px;
+        text-align: center;
+        font-weight: 700;
+        @include font-smoothing;
+        width: 585px;
+        padding-top: 10px;
+    }
+}    
+
+.produce-list-wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding-left: 0;
+    padding-right: 0;
+    display: table;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            cursor: pointer;
+            height: 400px;
+        }
+        
+        .hover-text-wrapper {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0; 
+
+            .text-inner {
+                height: 400px;
+                display: table-cell;
+                vertical-align: middle;
+                padding-left: 25px;
+                padding-right: 25px;
+
+            }
+
+            .produce-cap-title {
+                color: #000;
+                font-family: 'Chronicle Display A','Chronicle Display B',serif;
+                font-weight: 200;
+                font-size: 40px;
+                letter-spacing: -0.5px;
+            }
+
+            .produce-desc {
+                color: #343434;
+                font-size: 17px;
+                letter-spacing: -.25px;
+                line-height: 1.45;
+                margin-bottom: 13px;
+                font-family: "freight-text-pro";
+                font-weight: 400;
+                @include font-smoothing;
+                text-align: left;
+    
+                a {
+                    color: #343434;
+                    font-size: 17px;
+                    letter-spacing: -.25px;
+                    line-height: 1.45;
+                    margin-bottom: 13px;
+                    font-family: "freight-text-pro";
+                    font-weight: 600;
+                    @include font-smoothing;
+                    text-align: left;
+                    text-decoration: underline;
+
+                    &:hover {
+                        opacity: 0.3;
+                    }
+                }
+
+                .upper {
+                    font-size: 12px;
+                    font-family: "brandon-grotesque";
+                    font-weight: 600;
+                    letter-spacing: 2.5px; 
+                    @include font-smoothing;
+                    color: #000;
+                    text-align: left;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        li:hover .hover-text-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #000;
+            opacity: 1;
+            transition:all .35s ease;
+        }
+    }
+}
+
+.product-wrapper {
+    height: 580px;
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
+
+    .col-md-6 {
+        img {
+            float: right;
+        }
+    }
+
+    .supermarket-text-wrapper {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.supermarket-text-wrapper {
+    border-top: 1px solid #181818;
+    border-bottom: 1px solid #181818;
+    margin: 0 auto;
+    max-width: 585px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    display: block;
+    top: 75px;
+
+    .supermarket-header {
+        font-size: 15px;
+        line-height: 20.5px;
+        font-family: "brandon-grotesque";
+        font-weight: 600;
+        letter-spacing: 5px; 
+        @include font-smoothing;
+        color: #000;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 0 10px 0;
+    }
+
+    .supermarket-subheader {
+        font-size: 46px;
+        font-family: "Quickpen";
+        color: rgb(24, 24, 24);
+        line-height: 0.428;
+        text-align: center;
+        @include font-smoothing;
+        font-weight: 300;
+    }
+
+    .supermarket-body {
+        color: #343434;
+        font-size: 17px;
+        letter-spacing: -.25px;
+        line-height: 1.45;
+        margin-bottom: 13px;
+        font-family: "freight-text-pro";
+        font-weight: 400;
+        @include font-smoothing;
+        text-align: center;
+        padding: 0px 20px 20px;
+
+        a {
+            color: #343434;
+            font-size: 17px;
+            letter-spacing: -.25px;
+            line-height: 1.45;
+            margin-bottom: 13px;
+            font-family: "freight-text-pro";
+            font-weight: 600;
+            @include font-smoothing;
+            text-align: left;
+            text-decoration: underline;
+
+            &:hover {
+                opacity: 0.3;
+            }
+        }
+    }
+}
+
+.product-items-wrapper {
+    display: inline-block;
+    height: 900px;
+    width: 100%;
+
+    .product-img-wrapper {
+        img {
+            max-width: 100vw;
+            margin: 0 auto;
+            max-height: 950px;
+            right: 20%;
+            position: absolute;
+        }
+    }
+    
+    .product-list-wrapper {
+        .header-indent {
+            margin-left: -55px !important;
+        }
+
+        .no-indent {
+            margin-left: 0px !important;
+        }
+
+        .list-header {
+            font-size: 55px;
+            color: #000;
+            line-height: 1.2;
+            letter-spacing: -2.5px;
+            font-family: "Chronicle Display A", "Chronicle Display B";
+            font-weight: 200;
+            @include font-smoothing;
+            text-align: left;
+            margin-bottom: 10px;
+            margin-left: -40px;
+
+            .number-i {
+                font-size: 55px;
+                font-family: "Quickpen";
+                color: rgb(24, 24, 24);
+                line-height: 0.428;
+                text-align: center;
+                @include font-smoothing;
+                font-weight: 300;
+            }
+        }
+
+        .list-text {
+            color: #343434;
+            font-size: 17px;
+            letter-spacing: -.25px;
+            line-height: 1.45;
+            margin-bottom: 13px;
+            font-family: "freight-text-pro";
+            font-weight: 400;
+            @include font-smoothing;
+            text-align: left;
+            width: 550px;
+            margin-bottom: 75px;
+
+            a {
+                color: #343434;
+                font-size: 17px;
+                letter-spacing: -.25px;
+                line-height: 1.45;
+                margin-bottom: 13px;
+                font-family: "freight-text-pro";
+                font-weight: 600;
+                @include font-smoothing;
+                text-align: left;
+                text-decoration: underline;
+
+                &:hover {
+                    opacity: 0.3;
+                }
+            }
+        }
+    }
+}
+
+.closing-caption {
+    font-size: 11px;
+    font-family: "freight-text-pro";
+    color: rgb(27, 27, 27);
+    line-height: 1.545;
+    @include font-smoothing;
+    text-align: left;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+@media (max-width: 1720px) {
+    .perdue-header-board {
+        background-position: left -75px bottom 25px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .perdue-header-board {
+        background-position: left -180px bottom 25px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .perdue-header-board {
+        background-position: left -220px bottom 5px;
+    }
+
+    .line-one-short {
+        top: 134px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .perdue-header-board {
+        background-position: left -290px bottom 5px;
+    }
+}
+
+//Ipad styles landscape
+@media (max-width: 1024px) {
+    .perdue-header-board {
+        max-width: 100vw;
+        background-position: left -260px bottom 5px;
+        height: 450px;
+        
+        .header-wrapper {
+            top: 48%;
+        }
+    }
+
+    .line-one {
+        .white-line-one {
+            height: 135px;
+
+            &:last-child {
+                height: 178px;
+            }
+        }
+    }
+
+    .line-one-short {
+        top: 134px;
+        position: relative;
+        z-index: 50;
+
+        .white-line-one {
+            background-color: rgb(255, 255, 255);
+            width: 3px;
+            height: 134px;
+            margin: 0 auto;
+        }
+    }
+
+    .produce-list-wrapper {
+        ul {
+            padding-left: 0;
+
+            li {
+                height: 328px;
+            }
+
+            .hover-text-wrapper {
+                .text-inner {
+                    height: 328px;
+                }
+            }
+        }
+    }
+
+    .product-items-wrapper {
+        display: inline-block;
+        height: 900px;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+        .product-img-wrapper {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            img {
+                left: -110%;
+                position: relative;
+            }
+        }
+        
+        .product-list-wrapper {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+            .list-header {
+                font-size: 40px;
+            }
+
+            .list-text {
+                width: 90%;
+
+                a {
+                    color: #343434;
+                    font-size: 17px;
+                    letter-spacing: -.25px;
+                    line-height: 1.45;
+                    margin-bottom: 13px;
+                    font-family: "freight-text-pro";
+                    font-weight: 600;
+                    @include font-smoothing;
+                    text-align: left;
+                    text-decoration: underline;
+
+                    &:hover {
+                        opacity: 0.3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Ipad styles portrait
+@media (max-width: 768px) {
+
+    .perdue-header-board {
+        max-width: 100vw;
+        height: 375px;
+        background-repeat: no-repeat;
+        background-position: left -120px bottom 90px;
+
+        .header-wrapper {
+            top: 85%;
+
+            .header-title {
+                font-size: 82px
+            }
+
+            .header-title-two {
+                font-size: 64px;
+            }
+        }
+    }
+
+    .produce-banner {
+        margin-top: 200px;
+    }
+
+    .produce-list-wrapper {
+        ul {
+            padding-left: 0;
+
+            li {
+                height: 256px;
+            }
+
+            .hover-text-wrapper {
+                .text-inner {
+                    height: 256px;
+
+                    .produce-cap-title {
+                        font-size: 30px;
+                    }
+                }
+
+                .produce-desc {
+                    font-size: 14px;
+
+                    .upper {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-container {
+        .line {
+            top: 87px;
+
+            .black-line,.white-line {
+                height: 108px;
+            }
+        }
+    }
+
+    .line-one {
+        top: 133px;
+
+        .white-line-one {
+            &:last-child {
+                height: 133px;
+            }
+        }
+    }
+
+    .product-items-wrapper {
+        .product-img-wrapper {
+            img {
+                left: -70%;
+            }
+        }
+
+        .product-list-wrapper {
+            width: 65%;
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    .product-wrapper {
+        .supermarket-text-wrapper {
+            max-width: 460px;
+            margin: 0 0;
+        }
+
+        .supermarket-coffee {
+            position: absolute;
+            right: 285px;
+            bottom: 10%;
+        }
+    }
+
+    .pantry-banner {
+        .pantry-wrapper {
+            .pantry-subtitle {
+                margin: 50px 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 736px) {
+    #perdue-back-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        padding-top: 11px;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 100;
+    }
+
+    .perdue-back-top-icon {
+        display: block;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.71);
+        transform: rotate(90deg);
+    }
+
+    .product-wrapper {
+        width: 100%;
+        height: auto;
+        top: 175px;
+
+        .supermarket-text-wrapper {
+            margin: 0px 40px;
+            max-width: 100%;
+            top: 40px;
+        }
+    }
+
+    .line-one {
+        top: 112px;
+    }
+    
+    .produce-two {
+        .produce-cta {
+            top: 90px !important;
+        }
+    }
+
+    .product-items-wrapper {
+        height: 100%;
+        display: block;
+        margin-top: -200px;
+        margin-bottom: 20px;
+        position: relative;
+
+        .dairy-list {
+            top: 0px !important;
+        }
+
+        .product-list-wrapper {
+            width: 100%;
+            position: relative;
+            top: 40px;
+            padding: 0 0;
+            transform: none;
+
+            .list-header {
+                margin-left: 0px;
+                font-size: 36px;
+                
+                .number-i {
+                    font-size: 42px;
+                }
+            }
+            
+            .header-indent {
+                margin-left: 0px !important;
+            }
+
+            .list-text {
+                margin-bottom: 10px;
+                width: 100%;
+            }
+
+            .product-mob-text {
+                padding: 0 20px;
+            }
+        }
+    }
+
+    .content-container {
+        .line {
+            .black-line,.white-line {
+                height: 113px;
+            }
+        }
+
+        .line-one-short {
+            top: 97px;
+        }
+    }
+    
+    .supermarket-text-wrapper {
+        margin: 0 40px;
+        max-width: 100%;
+        top: 65px;
+
+        .supermarket-header {
+            font-size: 13.75px;
+        }
+
+        .supermarket-subheader {
+            font-size: 36.5px;
+        }
+    }
+
+    //Produce Banner Styles
+    .produce-banner-mobile {
+        background-image: url("../images/mobile-headers/1-produce.jpg");
+        max-width: 100vw;
+        width: 100%;
+        margin: 0 auto;
+        top: 196px;
+        height: 750px;
+        background-size: cover;
+        position: relative;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        
+        .produce-wrapper {
+            text-align: center;
+            position: relative;
+            top: 15%;
+            transform: none;
+
+            .produce-title {
+                font-size: 20.5px;
+                line-height: 34.5px;
+                font-family: "brandon-grotesque";
+                font-weight: 600;
+                letter-spacing: 5px; 
+                width: 175px;
+                height: 40px;
+                @include font-smoothing;
+                color: #fff;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: -2px;
+
+                //border styles
+                border-width: 2px;
+                border-color: rgb(255, 255, 255);
+                border-style: solid;
+                margin: 0 auto;
+                vertical-align: middle;
+            }
+
+            .produce-subtitle {
+                font-size: 48px;
+                padding: 0 15px 40px;
+                margin: 100px 30px 0;
+                border-bottom: 1px solid #fff;
+                color: #ffffff;
+                line-height: 1.2;
+                letter-spacing: -2.5px;
+                font-family: "Chronicle Display A", "Chronicle Display B";
+                font-weight: 200;
+                @include font-smoothing;
+                text-align: center;
+            }
+        }
+    }
+
+    //Protein Banner Styles
+    .protein-banner-mobile {
+        background-image: url("../images/mobile-headers/2-protein.jpg");
+        max-width: 100vw;
+        width: 100%;
+        margin: 0 auto;
+        top: -15px;
+        height: 750px;
+        background-size: cover;
+        position: relative;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+            .protein-wrapper {
+                text-align: center;
+                position: relative;
+                top: 15%;
+                transform: none;
+
+            .protein-title {
+                font-size: 20.5px;
+                line-height: 34.5px;
+                font-family: "brandon-grotesque";
+                font-weight: 600;
+                letter-spacing: 5px; 
+                width: 175px;
+                height: 40px;
+                @include font-smoothing;
+                color: #fff;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: -2px;
+
+                //border styles
+                border-width: 2px;
+                border-color: rgb(255, 255, 255);
+                border-style: solid;
+                margin: 0 auto;
+                vertical-align: middle;
+            }
+
+            .protein-subtitle {
+                font-size: 48px;
+                padding: 35px 0 40px;
+                margin: 45px 30px;
+                border-bottom: 1px solid #fff;
+                color: #ffffff;
+                line-height: 1.2;
+                letter-spacing: -2.5px;
+                font-family: "Chronicle Display A", "Chronicle Display B";
+                font-weight: 200;
+                @include font-smoothing;
+                text-align: center;
+            }
+        }
+    }
+
+    //Dairy Banner Styles
+    .dairy-banner-mobile {
+        background-image: url("../images/mobile-headers/3-dairy.jpg");
+        max-width: 100vw;
+        width: 100%;
+        margin: 0 auto;
+        top: -15px;
+        height: 750px;
+        background-size: cover;
+        position: relative;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+            .dairy-wrapper {
+                text-align: center;
+                position: relative;
+                top: 15%;
+                transform: none;
+
+            .dairy-title {
+                font-size: 20.5px;
+                line-height: 34.5px;
+                font-family: "brandon-grotesque";
+                font-weight: 600;
+                letter-spacing: 5px; 
+                width: 175px;
+                height: 40px;
+                @include font-smoothing;
+                color: #fff;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: -2px;
+
+                //border styles
+                border-width: 2px;
+                border-color: rgb(255, 255, 255);
+                border-style: solid;
+                margin: 0 auto;
+                vertical-align: middle;
+            }
+
+            .dairy-subtitle {
+                font-size: 48px;
+                padding: 35px 0 40px;
+                margin: 45px 30px;
+                border-bottom: 1px solid #fff;
+                color: #ffffff;
+                line-height: 1.2;
+                letter-spacing: -2.5px;
+                font-family: "Chronicle Display A", "Chronicle Display B";
+                font-weight: 200;
+                @include font-smoothing;
+                text-align: center;
+            }
+        }
+    }
+
+    //Pantry Banner Styles
+    .pantry-banner-mobile {
+        background-image: url("../images/mobile-headers/4-pantry.jpg");
+        max-width: 100vw;
+        width: 100%;
+        margin: 0 auto;
+        top: 0px;
+        height: 750px;
+        background-size: cover;
+        position: relative;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+
+            .pantry-wrapper {
+                text-align: center;
+                position: relative;
+                top: 15%;
+                transform: none;
+
+            .pantry-title {
+                font-size: 20.5px;
+                line-height: 34.5px;
+                font-family: "brandon-grotesque";
+                font-weight: 600;
+                letter-spacing: 5px; 
+                width: 175px;
+                height: 40px;
+                @include font-smoothing;
+                color: #fff;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: -2px;
+
+                //border styles
+                border-width: 2px;
+                border-color: rgb(255, 255, 255);
+                border-style: solid;
+                margin: 0 auto;
+                vertical-align: middle;
+            }
+
+            .pantry-subtitle {
+                font-size: 48px;
+                padding: 35px 0 40px;
+                margin: 45px 30px;
+                border-bottom: 1px solid #fff;
+                color: #ffffff;
+                line-height: 1.2;
+                letter-spacing: -2.5px;
+                font-family: "Chronicle Display A", "Chronicle Display B";
+                font-weight: 200;
+                @include font-smoothing;
+                text-align: center;
+            }
+        }
+    }
+
+    .produce-text-wrapper {
+        margin: 0 30px;
+        position: relative;
+        max-width: 100%;
+        top: -125px;
+
+        .produce-text {
+            color: #fff;
+            border-bottom: none;
+            font-size: 21px;
+            font-family: "freight-display-pro";
+            line-height: 27.5px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+            @include font-smoothing;
+            text-align: center;
+        }
+
+        .produce-cta {
+            position: relative;
+            top: 115px;
+            width: 100%;
+            text-align: center;
+            line-height: 23px;
+        }
+    }
+
+    .protein-text-mobile {
+        transform: none;
+        top: -320px;
+    }
+
+    .dairy-text-mobile {
+        transform: none;
+        top: -320px;
+    }
+
+    .pantry-text-mobile {
+        transform: none;
+        top: -320px;
+    }
+
+    .perdue-header-board {
+        background-image: url("../images/mobile-headers/mobile-header-image.jpg");
+        height: 386px;
+        background-position: left 0 top 35px;
+        
+        .header-wrapper {
+            top: 85%;
+
+            .header-sponsored {
+                font-size: 15px;
+            }
+
+            .header-title {
+                font-size: 44px;
+            }
+            
+            .header-title-two {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            .header-subtitle {
+                font-size: 16px;
+                padding-left: 5px;
+                padding-right: 5px
+            }
+        }
+    }
+
+    .slider-two {
+        margin-top: -200px;
+        margin-bottom: 50px;
+    }
+
+    .produce-list-wrapper {
+        display: block;
+        
+        ul {
+            li {
+                &:hover {
+                    .hover-text-wrapper {
+                        position: relative;
+                    }
+                }
+            }
+
+            .hover-text-wrapper {
+                opacity: 1;
+                position: relative;
+                width: 100%;
+                margin: 0 auto;
+                text-align: left;
+                
+                .produce-desc {
+                    font-size: 17px; 
+
+                    .upper {
+                        font-size: 12px;
+                    }
+                }
+
+                .text-inner {
+                    padding-left: 35px;
+                    padding-right: 35px; 
+                    height: auto;
+
+                    .produce-cap-title {
+                        font-size: 37.5px;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+        
+        .slick-slider.slick-initialized {
+            visibility: visible;
+        }
+
+        .slick-slider {
+            width: 100%;
+            position: relative;
+            margin: 0 auto 15px;
+            cursor: pointer;
+            display: block;
+            visibility: hidden;
+            text-align: center;
+            top: 20px;
+
+            .slick-slide {
+                float: left;
+                width: 414px;
+                height: 100%;
+                min-height: 1px;
+                margin-top: -40px;
+
+                img {
+                    width: 230px;
+                    height: auto;
+                }
+            }
+
+            .slick-dots {
+                max-width: 414px;
+                width: 100%;
+                text-align: center;
+                display: inline-block;
+                margin: 0 auto;
+                top: -35px;
+                position: relative;
+
+                .slick-active {
+                    button:before {
+                        font-family: "brandon-grotesque";
+                        font-size: 50px;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        content: "•";
+                        text-align: center;
+                        color: rgb(149, 149, 149);                        
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+
+                li {
+                    margin: 0 0;
+                    width: 20px;
+                    height: 20px;
+                    padding: 0;
+                    cursor: pointer;
+                    position: relative;
+                    display: inline-block;
+                    
+                    button {
+                        cursor: pointer;
+                        color: transparent;
+                        border: 0;
+                        outline: none;
+                        background: transparent;
+                    }
+
+                    button:before {
+                        font-family: "brandon-grotesque";
+                        font-size: 50px;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        content: "•";
+                        text-align: center;
+                        color: rgb(225, 225, 225);
+                        -webkit-font-smoothing: antialiased;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .produce-banner-mobile {
+        height: 653px;
+        .produce-wrapper {
+            .produce-subtitle {
+                margin: 70px 25px;
+            }
+        }
+    }
+
+    .protein-banner-mobile {
+        height: 653px;
+        .protein-wrapper {
+            .protein-subtitle {
+                margin: 10px 25px;
+            }
+        }
+    }
+
+    .dairy-banner-mobile {
+        height: 653px;
+        .dairy-wrapper {
+            .dairy-subtitle {
+                margin: 10px 25px;
+            }
+        }
+    }
+
+    .pantry-banner-mobile {
+        height: 653px;
+        .pantry-wrapper {
+            .pantry-subtitle {
+                margin: 10px 25px;
+            }
+        }
+    }
+
+    .product-items-wrapper {
+        .dairy-list {
+            top: -30px !important;
+        }
+    }
+
+    .produce-two {
+        .produce-cta {
+            top: 65px !important;
+        }
+    }
+
+    .content-container {
+        .line {
+            .black-line,.white-line {
+                height: 100px;
+            }
+        }
+    }
+
+    .produce-banner-mobile {
+        top: 209px;
+
+        .produce-wrapper {
+            .produce-subtitle {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .produce-text-wrapper {
+        .produce-cta {
+            top: 95px;
+        }
+    }
+
+    .protein-text-mobile, .dairy-text-mobile {
+        top: -265px;
+    }
+
+    .produce-text-wrapper.produce-two {
+        top: -315px;
+    }
+
+    .content-container {
+        .line-one-short {
+            top: 85px;
+        }
+
+        .line-one {
+            top: 100px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .content-container {
+        .line {
+            .black-line, .white-line {
+                height: 99px;
+            }
+        }
+
+        .line-one-short {
+            top: 84px;
+        }
+    }
+    
+    .produce-text-wrapper {
+        .produce-text {
+            padding-top: 25px !important;
+        }
+    }
+
+    .protein-text-mobile.produce-text-wrapper {
+        .produce-text {
+            padding-top: 0px !important;
+        }
+    }
+    
+    .produce-text-wrapper {
+        margin-top: 60px;
+    }
+
+    .dairy-text-mobile.produce-text-wrapper {
+        margin-top: 0 !important;
+        .produce-text {
+            padding-top: 0 !important;
+            margin-top: 0px;
+        }
+    }
+
+    .pantry-text-mobile {
+        .produce-text {
+            padding-top: 5px !important;
+            margin-top: 0px;
+        }
+    }
+
+    .produce-banner-mobile {
+        top: 210px;
+    }
+
+    .protein-banner-mobile {
+        top: -15px;
+    }
+
+    .pantry-banner-mobile {
+        top: 0px;
+    }
+
+    .dairy-banner-mobile {
+        .dairy-wrapper {
+            .dairy-subtitle {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

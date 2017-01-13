@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hersheys Destination</title>
+    <script src="handlebars-v4.0.5.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class=background-container>
+    <div class="row hed">
+      <div class="hed-text">
+        <h1>Halloween Desserts</h1>
+        <h3>You've Never Seen Before</h3>
+        <h4>Showing up to the party with a bag of <a href="https://www.hersheys.com/celebrate/halloween/" target="_blank" class="hed-link">HERSHEY</a> Halloween candy is fine. But showing up to the party with a tray full of cookies, brownies and cakes made of HERSHEY Halloween candy is <i>fantastic</i>. Pin your favorite images to get the full recipes.</h4>
+      </div>
+    <div id="DocumentResults"></div>
+  </div>
+    <script id="document-template" type="text/x-handlebars-template">
+      <div class="main-body">
+        <div class="container">
+            {{#each rows }}
+              <div class="row">
+                {{#recipes}}
+                    <div class="{{classCol}} recipe-container">
+                      <!-- Desktop and Tablet Image -->
+                      <div class="img-wrapper" style="background-image:url( {{imageURLdesktop}} )">
+                        <div class="recipe-overlay"></div>
+                      </div>
+                      <!-- Mobile Image -->
+                      <div class="img-mobile-overlay">
+                        <img class="img-mobile" src={{imageURLmobile}}>
+                      </div>
+                      <!-- On Hover Content -->
+                      <div class="recipe-content">
+                        <h4>{{ imageTitle }}</h4>
+                        <!-- Pinterest Button -->
+                          <a href= {{ superPin }}>
+                            <div class="pin-btn">
+                              <h5>Pin Recipe</h5>
+                            </div>
+                          </a>
+                      </div>
+                    </div>
+                {{/recipes}}
+              </div>
+            {{/each}}
+        </div>
+      </div>
+    </script>
+    </div>
+
+    <script type="text/javascript"
+      src="http://api.curalate.com/js/curalate.min.js">
+    </script>
+
+    <script type="text/javascript">
+      Curalate.canvas.init();
+    </script>
+  </body>
+</html>

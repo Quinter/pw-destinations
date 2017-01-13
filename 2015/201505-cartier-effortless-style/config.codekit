@@ -1,0 +1,2787 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "19033",
+"files": {
+	"\/assets\/JPEG\/asymmetricaltop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21431,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/asymmetricaltop.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/asymmetricaltop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/bag1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41239,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/bag1.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/bag1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/bagpurple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24673,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/bagpurple.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/bagpurple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/bagpurple2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26492,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/bagpurple2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/bagpurple2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/bagwhite.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30450,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/bagwhite.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/bagwhite.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/bagwhite2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16706,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/bagwhite2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/bagwhite2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/coat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15560,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/coat.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/coat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/coat2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24843,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/coat2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/coat2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/graytrousers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13086,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/graytrousers.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/graytrousers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/graytrousers2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20685,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/graytrousers2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/graytrousers2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/killerdress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18509,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/killerdress.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/killerdress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/killerdress2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30821,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/killerdress2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/killerdress2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/leatherjacket.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20377,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/leatherjacket.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/leatherjacket.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/leatherjacket2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32653,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/leatherjacket2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/leatherjacket2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/lipstick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26571,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/lipstick.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/lipstick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/lipstick2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45801,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/lipstick2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/lipstick2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/notebook.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41743,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/notebook.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/notebook.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/notebook2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127971,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/notebook2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/notebook2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/platformheels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36085,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/platformheels.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/platformheels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/platformheels2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88734,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/platformheels2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/platformheels2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/play-icon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15123,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/play-icon.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/play-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/asymmetricaltop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51063,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/asymmetricaltop.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/asymmetricaltop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/bag1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164288,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/bag1.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/bag1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/bagpurple.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34457,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/bagpurple.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/bagpurple.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/bagpurple2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35262,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/bagpurple2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/bagpurple2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/bagwhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105105,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/bagwhite.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/bagwhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/bagwhite2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30482,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/bagwhite2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/bagwhite2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/cartier-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2385,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/cartier-logo.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/cartier-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/cartierstore.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369665,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/cartierstore.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/cartierstore.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/coat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15026,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/coat.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/coat.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/coat2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81239,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/coat2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/coat2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/drinksafterhours.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402834,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksafterhours.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksafterhours.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/drinksafterhours.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 825086,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksafterhours.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksafterhours.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/drinksbag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 738857,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksbag.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksbag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/drinksthumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19726,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksthumb.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksthumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/drinksthumb2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19726,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksthumb2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksthumb2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/drinksthumb3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36076,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksthumb3.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/drinksthumb3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/graytrousers.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11404,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/graytrousers.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/graytrousers.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/graytrousers2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64776,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/graytrousers2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/graytrousers2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/killerdress.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16485,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/killerdress.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/killerdress.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/killerdress2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78508,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/killerdress2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/killerdress2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/leatherjacket.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12620,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/leatherjacket.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/leatherjacket.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/leatherjacket2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91042,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/leatherjacket2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/leatherjacket2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/lipstick.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29561,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/lipstick.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/lipstick.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/lipstick2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126854,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/lipstick2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/lipstick2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/middaycoffeebreak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411362,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/middaycoffeebreak.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/middaycoffeebreak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/middaycoffeebreak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.24011e+06,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/middaycoffeebreak.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/middaycoffeebreak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/middaycoffeebreakimage.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 618056,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/middaycoffeebreakimage.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/middaycoffeebreakimage.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/morningbusinessventure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389935,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventure.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/morningbusinessventure.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 881873,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventure.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/morningbusinessventurebag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88152,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventurebag.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventurebag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/morningbusinessventurebag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 636466,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventurebag.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/morningbusinessventurebag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/notebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39347,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/notebook.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/notebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/notebook2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186408,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/notebook2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/notebook2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/platformheels.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27266,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/platformheels.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/platformheels.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/platformheels2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108749,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/platformheels2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/platformheels2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/ring.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42719,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/ring.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/ring.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/ring2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155667,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/ring2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/ring2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/shiftdress.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14316,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/shiftdress.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/shiftdress.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/shiftdress2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55838,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/shiftdress2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/shiftdress2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/silkscarf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58287,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/silkscarf.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/silkscarf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/silkscarf2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258204,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/silkscarf2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/silkscarf2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/standoutheels.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24572,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/standoutheels.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/standoutheels.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/standoutheels2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128330,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/standoutheels2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/standoutheels2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/strappysandals.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41591,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/strappysandals.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/strappysandals.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/strappysandals2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 167148,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/strappysandals2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/strappysandals2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/sunglasses.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21069,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/sunglasses.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/sunglasses.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/sunglasses2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79726,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/sunglasses2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/sunglasses2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/top.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15912,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/top.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/top.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/watch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21036,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/watch.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/watch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/png\/watch2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 110050,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/png\/watch2.png",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/png\/watch2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/ring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38301,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/ring.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/ring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/ring2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82826,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/ring2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/ring2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/shiftdress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21423,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/shiftdress.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/shiftdress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/shiftdress2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21617,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/shiftdress2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/shiftdress2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/silkscarf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37861,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/silkscarf.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/silkscarf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/silkscarf2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73778,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/silkscarf2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/silkscarf2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/standoutheels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25871,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/standoutheels.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/standoutheels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/standoutheels2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55160,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/standoutheels2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/standoutheels2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/strappysandals.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30949,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/strappysandals.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/strappysandals.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/strappysandals2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108246,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/strappysandals2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/strappysandals2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/sunglasses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20300,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/sunglasses.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/sunglasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/sunglasses2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31906,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/sunglasses2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/sunglasses2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/top.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14444,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/top.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/top.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/watch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19673,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/watch.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/watch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/JPEG\/watch2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47118,
+		"inputAbbreviatedPath": "\/assets\/JPEG\/watch2.jpg",
+		"outputAbbreviatedPath": "\/assets\/JPEG\/watch2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/leather-destination_specs.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.32543e+06,
+		"inputAbbreviatedPath": "\/assets\/leather-destination_specs.jpg",
+		"outputAbbreviatedPath": "\/assets\/leather-destination_specs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/pngs\/drinksafterhours.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 604126,
+		"inputAbbreviatedPath": "\/assets\/pngs\/drinksafterhours.png",
+		"outputAbbreviatedPath": "\/assets\/pngs\/drinksafterhours.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/pngs\/middaycoffeebreak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 642723,
+		"inputAbbreviatedPath": "\/assets\/pngs\/middaycoffeebreak.png",
+		"outputAbbreviatedPath": "\/assets\/pngs\/middaycoffeebreak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/pngs\/morningbusinessventure.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 585885,
+		"inputAbbreviatedPath": "\/assets\/pngs\/morningbusinessventure.png",
+		"outputAbbreviatedPath": "\/assets\/pngs\/morningbusinessventure.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/body-html.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/body-html.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartier-assets\/css\/cartier-effortless-style.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/css\/cartier-effortless-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartier-assets\/img\/cartier-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17325,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/cartier-logo.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/cartier-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/cartierstore.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/cartierstore.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/cartierstore.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/drinksafterhours.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37648,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/drinksafterhours.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/drinksafterhours.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/drinksafterhours_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62564,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/drinksafterhours_1.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/drinksafterhours_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/drinksbag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88163,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/drinksbag.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/drinksbag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/asymmetricaltop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34752,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/asymmetricaltop.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/asymmetricaltop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/bag1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359470,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/bag1.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/bag1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/bagpurple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/bagpurple.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/bagpurple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/bagwhite.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357164,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/bagwhite.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/bagwhite.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/coat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 345832,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/coat.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/coat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/graytrousers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346191,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/graytrousers.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/graytrousers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/killerdress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 348997,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/killerdress.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/killerdress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/leatherjacket.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357426,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/leatherjacket.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/leatherjacket.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/lipstick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361999,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/lipstick.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/lipstick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/notebooks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371806,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/notebooks.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/notebooks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/platformheels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364044,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/platformheels.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/platformheels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/ring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363916,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/ring.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/ring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/shiftdress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 345142,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/shiftdress.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/shiftdress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/silkscarf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380933,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/silkscarf.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/silkscarf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/standoutheels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369587,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/standoutheels.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/standoutheels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/strappysandals.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365203,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/strappysandals.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/strappysandals.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/sunglasses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 351650,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/sunglasses.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/sunglasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/items\/watch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364260,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/items\/watch.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/items\/watch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/middaycoffeebreak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 367792,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/middaycoffeebreak.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/middaycoffeebreak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/middaycoffeebreak_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113733,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/middaycoffeebreak_1.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/middaycoffeebreak_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/middaycoffeebreakimage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70551,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/middaycoffeebreakimage.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/middaycoffeebreakimage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/morningbusinessventure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359626,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventure.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/morningbusinessventure_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105278,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventure_1.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventure_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/morningbusinessventurebag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80972,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventurebag.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventurebag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/morningbusinessventurebag_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88092,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventurebag_1.jpg",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/morningbusinessventurebag_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/img\/play-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7348,
+		"inputAbbreviatedPath": "\/cartier-assets\/img\/play-icon.png",
+		"outputAbbreviatedPath": "\/cartier-assets\/img\/play-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/js\/cartier-effortless-style.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/cartier-effortless-style.js",
+		"outputAbbreviatedPath": "\/cartier-assets\/js\/min\/cartier-effortless-style-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartier-assets\/js\/owl-carousel\/grabbing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/grabbing.png",
+		"outputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/grabbing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/cartier-assets\/js\/owl-carousel\/owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartier-assets\/js\/owl-carousel\/owl.carousel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/min\/owl.carousel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartier-assets\/js\/owl-carousel\/owl.carousel.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/owl.carousel.min.js",
+		"outputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/min\/owl.carousel.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/cartier-assets\/js\/owl-carousel\/owl.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/owl.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cartier-assets\/js\/owl-carousel\/owl.transitions.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cartier-assets\/js\/owl-carousel\/owl.transitions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/cartier-effortless-style.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/cartier-effortless-style.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/icomoon.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/icomoon.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/cartier-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17325,
+		"inputAbbreviatedPath": "\/img\/cartier-logo.jpg",
+		"outputAbbreviatedPath": "\/img\/cartier-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cartierstore.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76471,
+		"inputAbbreviatedPath": "\/img\/cartierstore.jpg",
+		"outputAbbreviatedPath": "\/img\/cartierstore.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/drinksafterhours.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 402834,
+		"inputAbbreviatedPath": "\/img\/drinksafterhours.jpg",
+		"outputAbbreviatedPath": "\/img\/drinksafterhours.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/drinksafterhours_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62564,
+		"inputAbbreviatedPath": "\/img\/drinksafterhours_1.jpg",
+		"outputAbbreviatedPath": "\/img\/drinksafterhours_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/drinksbag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88163,
+		"inputAbbreviatedPath": "\/img\/drinksbag.jpg",
+		"outputAbbreviatedPath": "\/img\/drinksbag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/asymmetricaltop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 344357,
+		"inputAbbreviatedPath": "\/img\/items\/asymmetricaltop.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/asymmetricaltop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/bag1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 359470,
+		"inputAbbreviatedPath": "\/img\/items\/bag1.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/bag1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/bagpurple.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369316,
+		"inputAbbreviatedPath": "\/img\/items\/bagpurple.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/bagpurple.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/bagwhite.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357164,
+		"inputAbbreviatedPath": "\/img\/items\/bagwhite.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/bagwhite.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/coat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 345832,
+		"inputAbbreviatedPath": "\/img\/items\/coat.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/coat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/graytrousers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346191,
+		"inputAbbreviatedPath": "\/img\/items\/graytrousers.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/graytrousers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/killerdress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 348997,
+		"inputAbbreviatedPath": "\/img\/items\/killerdress.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/killerdress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/leatherjacket.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357426,
+		"inputAbbreviatedPath": "\/img\/items\/leatherjacket.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/leatherjacket.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/lipstick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361999,
+		"inputAbbreviatedPath": "\/img\/items\/lipstick.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/lipstick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/notebooks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371806,
+		"inputAbbreviatedPath": "\/img\/items\/notebooks.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/notebooks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/platformheels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364044,
+		"inputAbbreviatedPath": "\/img\/items\/platformheels.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/platformheels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/ring.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 363916,
+		"inputAbbreviatedPath": "\/img\/items\/ring.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/ring.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/shiftdress.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 345142,
+		"inputAbbreviatedPath": "\/img\/items\/shiftdress.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/shiftdress.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/silkscarf.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 380933,
+		"inputAbbreviatedPath": "\/img\/items\/silkscarf.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/silkscarf.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/standoutheels.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 369587,
+		"inputAbbreviatedPath": "\/img\/items\/standoutheels.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/standoutheels.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/strappysandals.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365203,
+		"inputAbbreviatedPath": "\/img\/items\/strappysandals.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/strappysandals.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/sunglasses.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 351650,
+		"inputAbbreviatedPath": "\/img\/items\/sunglasses.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/sunglasses.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/items\/watch.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364260,
+		"inputAbbreviatedPath": "\/img\/items\/watch.jpg",
+		"outputAbbreviatedPath": "\/img\/items\/watch.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/middaycoffeebreak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411362,
+		"inputAbbreviatedPath": "\/img\/middaycoffeebreak.jpg",
+		"outputAbbreviatedPath": "\/img\/middaycoffeebreak.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/middaycoffeebreak_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113733,
+		"inputAbbreviatedPath": "\/img\/middaycoffeebreak_1.jpg",
+		"outputAbbreviatedPath": "\/img\/middaycoffeebreak_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/middaycoffeebreakimage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70551,
+		"inputAbbreviatedPath": "\/img\/middaycoffeebreakimage.jpg",
+		"outputAbbreviatedPath": "\/img\/middaycoffeebreakimage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/morningbusinessventure.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389935,
+		"inputAbbreviatedPath": "\/img\/morningbusinessventure.jpg",
+		"outputAbbreviatedPath": "\/img\/morningbusinessventure.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/morningbusinessventure_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 336258,
+		"inputAbbreviatedPath": "\/img\/morningbusinessventure_1.jpg",
+		"outputAbbreviatedPath": "\/img\/morningbusinessventure_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/morningbusinessventurebag.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80972,
+		"inputAbbreviatedPath": "\/img\/morningbusinessventurebag.jpg",
+		"outputAbbreviatedPath": "\/img\/morningbusinessventurebag.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/morningbusinessventurebag_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 259528,
+		"inputAbbreviatedPath": "\/img\/morningbusinessventurebag_1.jpg",
+		"outputAbbreviatedPath": "\/img\/morningbusinessventurebag_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/play-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7348,
+		"inputAbbreviatedPath": "\/img\/play-icon.png",
+		"outputAbbreviatedPath": "\/img\/play-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/cartier-effortless-style.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/cartier-effortless-style.js",
+		"outputAbbreviatedPath": "\/js\/min\/cartier-effortless-style-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/enquire.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/enquire.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/enquire.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/cartier-effortless-style-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/cartier-effortless-style-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/cartier-effortless-style-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/owl-carousel\/grabbing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116,
+		"inputAbbreviatedPath": "\/js\/owl-carousel\/grabbing.png",
+		"outputAbbreviatedPath": "\/js\/owl-carousel\/grabbing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/owl-carousel\/owl.carousel.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/owl-carousel\/owl.carousel.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/owl-carousel\/owl.carousel.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/owl-carousel\/owl.carousel.js",
+		"outputAbbreviatedPath": "\/js\/owl-carousel\/min\/owl.carousel-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/owl-carousel\/owl.carousel.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/owl-carousel\/owl.carousel.min.js",
+		"outputAbbreviatedPath": "\/js\/owl-carousel\/min\/owl.carousel.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/owl-carousel\/owl.theme.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/owl-carousel\/owl.theme.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/owl-carousel\/owl.transitions.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/owl-carousel\/owl.transitions.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/waypoints.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/waypoints.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/waypoints.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/wow.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/wow.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/wow.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/scss\/cartier-effortless-style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/cartier-effortless-style.scss",
+		"outputAbbreviatedPath": "\/css\/cartier-effortless-style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Dan Au",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "thinkthin-think-positive",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "globe_brown"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 10,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputFormat": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptPreserveConstEnums": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}

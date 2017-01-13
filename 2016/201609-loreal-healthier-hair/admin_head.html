@@ -1,0 +1,91 @@
+<!-- L'Oreal Handlebars Templates -->
+<script id="lo-day-template" type="text/x-handlebars-template">
+	{{#each days}}
+
+	{{#if active-day}}
+	<div class="lo-day active-day" id="{{ id }}">
+	{{else}}
+	<div class="lo-day" id="{{ id  }}">
+	{{/if}}
+		{{> main main-content}}
+		{{> products products-content}}
+	</div>
+	{{/each}}
+</script>
+
+
+<!-- Day Partial - Main Content -->
+<script id="main-content-partial" type="text/x-handlebars-template">
+	<div class="lo-day-main">
+		<div class="lo-day-main-col">
+
+			<img class="lo-day-main-img" src="{{ populateResponsiveImage images }}" alt="{{ image-alt }}">
+			{{#if photo-credit-link}}
+			<a href="{{ photo-credit-link }}" class="lo-photo-credit" target="_blank" {{ photo-credit-ga-tags }}>{{ photo-credit }}</a>
+			{{else}}
+			<div class="lo-photo-credit">{{ photo-credit }}</div>
+			{{/if}}
+		</div>
+
+		<div class="lo-day-main-col">
+			<div class="lo-day-main-txt-hed">
+				<h2 class="lo-day-name">{{ name }}</h2>
+				<hr class="lo-day-underline">
+				<h1 class="lo-day-hed">{{ hed }}</h1>
+			</div>
+			
+			<div class="lo-day-main-txt-body">
+				<p class="lo-day-copy">{{{ copy }}}</p>
+			</div>
+		</div>
+	</div>
+</script>
+
+<!-- Day Partial - Products Content -->
+<script id="products-content-partial" type="text/x-handlebars-template">
+	<div class="lo-day-products">
+		<h1 class="lo-day-products-hed">{{{ hed }}}</h1>
+		<hr class="lo-day-products-underline">
+		
+		<div class="lo-day-product-wrapper">
+			{{#each products}}
+			<div class="lo-day-product">
+				<img src="{{ image }}" alt="" class="lo-day-product-img">
+
+				{{#if tip}}
+				<h2 class="lo-day-tip-prompt">{{ tip-prompt }}</h2>
+				{{/if}}
+
+				<h3 class="lo-day-product-hed">{{{ hed }}}</h3>
+
+				{{#unless tip}}
+				<h4 class="lo-day-product-price">{{ price }}</h4>
+				{{/unless}}
+				
+				<a class="lo-buy-btn" href="{{ link }}" target="_blank" {{{ ga-tags }}}>
+					{{#if tip}}
+					See Tip
+					{{else}}
+					Buy Now
+					{{/if}}
+				</a>
+			</div>
+			{{/each}}
+		</div>
+	
+	</div>			
+</script>
+
+<!-- Meyer CSS Reset -->
+<link rel="stylesheet" type="text/css" href="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/css/reset.css" />
+	
+<!-- Destination-Specific CSS -->
+<link rel="stylesheet" type="text/css" href="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/css/slick.css" />	
+<link rel="stylesheet" type="text/css" href="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/css/slick-theme.css" />
+<link rel="stylesheet" type="text/css" href="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/css/style.css" />
+
+<!-- Destination-Specific JS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+<script type="text/javascript" src="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/js/lo-json-data.js"></script>
+<script type="text/javascript" src="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/js/slick.min.js"></script>
+<script type="text/javascript" src="http://prodstatics3azcdn1.purewow.com/static/2016/21423/loreal-201609/js/functions.js"></script>

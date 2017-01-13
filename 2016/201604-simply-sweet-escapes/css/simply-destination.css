@@ -1,0 +1,201 @@
+/* ------------------------------------------------------------ *\
+	Fonts
+\* ------------------------------------------------------------ */
+
+@font-face {
+    font-family: 'hello-beautiful';
+    src: url('../fonts/hellobeautiful-webfont.eot');
+    src: url('../fonts/hellobeautiful-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hellobeautiful-webfont.woff2') format('woff2'),
+         url('../fonts/hellobeautiful-webfont.woff') format('woff'),
+         url('../fonts/hellobeautiful-webfont.ttf') format('truetype'),
+         url('../fonts/hellobeautiful-webfont.svg#hello_beautifulregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ------------------------------------------------------------ *\
+	SD Main
+\* ------------------------------------------------------------ */
+
+.sd-intro { position: relative; padding: 40px 0 65px 0; color: #fff; margin-bottom:70px; }
+.sd-intro .sd-intro-bg { 
+	background-image: url('../images/main-img.jpg'); position: absolute; top:0; left:0; 
+	width:100%; height: 100%; background-repeat: no-repeat; 
+	background-position: 50% 50%; background-size: cover; 
+}
+@media (max-width: 1200px) {
+	.sd-intro .sd-intro-bg { 
+		background-image: url('../images/main-img-mobile.jpg');
+	}
+}
+.sd-intro .sd-intro-body {padding-left: 55px;}
+.sd-intro .sd-intro-title { font-family: "hello-beautiful"; margin-bottom: 20px; margin-top: 10px; font-size: 150px; line-height: 86px; max-width: 60%; letter-spacing: 0px; text-align:left; -webkit-font-smoothing: antialiased; color: #ffffff; text-transform: capitalize; }
+
+.sd-intro p { font-size: 15px; line-height: 27px; -webkit-font-smoothing: antialiased; max-width: 60%; font-weight: 500; margin: 10px 0 10px 0; letter-spacing: 4px; text-align: left; font-family: "brandon-grotesque"; text-transform: uppercase; color: #ffffff;	}
+
+/* ------------------------------------------------------------ *\
+	Sd Section
+\* ------------------------------------------------------------ */
+
+.sd-section { color: #020202; position: relative; min-height: 543px; }
+.sd-section .sd-section-body {margin-bottom: 50px;}
+.sd-section .sd-section-image img { width:100%; display:block; }
+
+.sd-section .sd-section-image {
+	position: relative;
+	box-sizing: content-box;
+}
+
+.sd-section .sd-section-title { font-size: 25px; line-height: 45px; color: #181818; letter-spacing: 5px; text-align: left; font-family: brandon-grotesque; font-weight:500; text-transform: uppercase; padding: 10px 0 20px 0; border-bottom: 1px solid #eaeaea; margin-bottom: 20px; margin-top: 0;}
+.sd-section .sd-section-content { font-size: 17.5px; line-height: 27px; -webkit-font-smoothing: antialiased; color: #181818; font-family: "freight-text-pro"; font-weight:400; }
+.sd-section .sd-section-content a { text-decoration: underline; font-weight:600; }
+.sd-section .sd-section-content a:hover { text-decoration: none; }
+
+.sd-section .col-md-5 {padding-left: 65px;}
+.sd-section.sd-section-reversed .col-md-5 {padding-left: 5px; padding-right: 65px;}
+
+.sd-section.sd-section-fullwidth .sd-section-image.mobile {display: none;}
+.sd-section.sd-section-fullwidth { margin-bottom:55px; }
+.sd-section.sd-section-fullwidth .sd-section-image { float:none; margin: 0 auto; padding-right:0; margin-bottom: 25px;}
+@media (max-width: 767px) {
+	.sd-intro {margin-bottom: 20px;}
+	.sd-intro .sd-intro-title {font-size: 100px; line-height: 66px;}
+	.sd-intro .sd-intro-body {padding-left: 15px;}
+	.sd-intro .sd-intro-content p {max-width: 100%;}
+
+	.sd-section .sd-section-title {
+		padding: 20px 15px 0px 15px; border-bottom: none; border-top: 1px solid #eaeaea;
+		font-size: 22px; line-height: 34px;
+	}
+	.sd-section.sd-section-fullwidth .sd-section-image.mobile {display: block;}
+	.sd-section.sd-section-fullwidth .sd-section-image {display:none;}
+	.sd-section-body .col-xs-12 {padding-left: 0; padding-right: 0;margin-bottom:10px;}
+	.sd-section .col-md-5 {padding-left: 15px;}
+	.sd-section.sd-section-reversed .col-md-5 {padding-left: 15px; padding-right: 15px;}
+}
+@media (max-width: 1200px) and (min-width:768px) {
+	.sd-main .container { margin: 0 auto; width: auto; }
+
+	.sd-intro .sd-intro-title { 
+		font-family: "hello-beautiful"; margin-bottom: 16px; margin-top: 10px;
+		font-size: 37px; line-height: 34px;
+		max-width: 100%; text-align: left; font-size: 150px; line-height: 86px;
+	}
+	.sd-intro {margin-bottom: 20px;}
+	.sd-intro p { font-size: 17.5px; line-height: 26.5px; -webkit-font-smoothing: antialiased; max-width: 100%; margin: 50px 0 8px 0; letter-spacing: 3.5px; text-align: left; padding-left: 20px; padding-right: 20px; }
+	.sd-section.sd-section-fullwidth .sd-section-image {margin: 15px 0; position: relative; }
+	.sd-section.sd-section-fullwidth .sd-section-image.mobile {display: none; margin: 15px 0;}
+	.sd-section .sd-section-head,
+	.sd-section .sd-section-content { padding: 0 15px; }
+	.sd-section .sd-section-content p { padding: 0 15px; font-size: 20px; line-height: 29px;}
+	.sd-section .sd-section-title { font-size: 45px; line-height: 60px; padding: 15px 15px 0px 45px; border-bottom:none; font-weight: 400; letter-spacing: 6px;}
+	.sd-section .col-md-5 {padding-left: 15px; padding-right: 15px;}
+	.sd-section .col-md-7 {padding-left: 0; padding-right: 0; margin-bottom: 15px;}
+	.sd-section.sd-section-reversed .col-md-5 {padding-left: 15px; padding-right: 15px;}	
+}
+
+/* ------------------------------------------------------------ *\
+	Tweaks
+\* ------------------------------------------------------------ */
+
+.youtube .col-md-5 {
+	padding-right: 65px;
+}
+
+.sd-photo-credit {
+	color: #b7b7b7;
+	font-family: "brandon-grotesque";
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-size: 9px;
+	background: transparent;
+	padding-top: 3.5px;
+	width: 100%;
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: right;
+	display: block;
+	pointer-events: auto;
+}
+
+.sd-photo-credit-wide {
+	position: absolute;
+	bottom: -15px;
+	right: 5px;
+}
+
+.sd-photo-credit a {
+	color: #b7b7b7;
+}
+
+.sd-section-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all .3s ease;
+	pointer-events: none;
+}
+
+.sd-section-image:hover .sd-section-overlay {
+	opacity: 1;
+}
+
+.sd-pin {
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	pointer-events: auto;
+	cursor: pointer;
+	background-color: #C7242E;
+}
+
+.sd-icon-pinterest {
+	font-size: 90px;
+	color: #fff;
+	position: absolute;
+	top: 52.5%;
+	left: 50%;
+	transform: translate(-50%,-50%);	
+}
+
+.sd-em {
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

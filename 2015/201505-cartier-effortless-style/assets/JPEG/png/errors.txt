@@ -1,0 +1,7 @@
+[Mon Apr 20 2015 11:06:01 GMT-0400 (EDT)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Apr 20 2015 11:06:01 GMT-0400 (EDT)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Apr 20 2015 11:06:01 GMT-0400 (EDT)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Apr 20 2015 11:06:01 GMT-0400 (EDT)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Apr 20 2015 11:06:01 GMT-0400 (EDT)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Apr 20 2015 11:06:01 GMT-0400 (EDT)] Layer "+": Expected Either a default asset specification or a layer asset specification but "+" found.
+[Mon Apr 20 2015 11:14:49 GMT-0400 (EDT)] Layer "bagpurple.png": Duplicate path: bagpurple.png

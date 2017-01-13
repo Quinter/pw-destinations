@@ -1,0 +1,25 @@
+<!-- Diagonal Text Row Partial -->
+<div class="row diagonal-text-row">
+	<div class="full-image-container">
+		<img class="hidden-xs" src="{{ imageContainer.images.desktop }}">
+		<img class="hidden-sm hidden-md hidden-lg" src="{{ imageContainer.images.mobile }}">
+	</div>
+
+	<div class="overlay">
+		<!-- Quote Text Column -->
+		<div class="hidden-xs col-sm-6">
+			{{> text }}
+		</div>
+
+		<!-- Character Info Column -->
+		<div class="col-xs-12 col-sm-6">
+			{{> char }}			
+		</div>
+
+	</div>
+
+	<div class="cg-photo-credit">{{{ imageContainer.credit }}}</div>
+
+</div>
+
+{{> mobile-text }}

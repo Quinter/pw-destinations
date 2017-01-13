@@ -1,0 +1,945 @@
+/* 
+IMPORTANT - during the dev process, decisions were made to change the ordering of the
+accordion sections. As a result, the correct order of the sections (from top to bottom) is:
+	2
+	3
+	1
+	4
+Keep this in mind if/when making updates.
+*/
+/* Some of these already exist in our production CSS file. Including here for local dev purposes. */
+/* General */
+.container.vs2-container {
+  margin-bottom: 10px; }
+  @media (min-width: 768px) and (max-width: 1367px) {
+    .container.vs2-container {
+      width: 99.9%;
+      padding-left: 0;
+      padding-right: 0; } }
+  @media (min-width: 1300px) {
+    .container.vs2-container {
+      width: 1300px; } }
+
+@media (min-width: 768px) {
+  .container.vs2-container.vs2-rcm-container {
+    padding-left: 45px;
+    padding-right: 45px; } }
+
+.vs2-ad-container {
+  margin-top: 35px;
+  margin-bottom: 35px; }
+
+.vs2-link {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold; }
+
+.vs2-influencer-link {
+  transition: opacity .3s ease; }
+  .vs2-influencer-link:hover {
+    opacity: .5; }
+
+.vs2-hairline {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+/* Head Section */
+#vs2-head-section {
+  margin-left: 0;
+  margin-right: 0; }
+  #vs2-head-section [class*='col-'] {
+    padding-right: 0;
+    padding-left: 0; }
+
+/* Head Section Text Column */
+.vs2-head-text {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 40px; }
+  .vs2-head-text .vs2-color-logo {
+    font-size: 110px;
+    font-family: "Freeland";
+    color: #35c0ab;
+    line-height: 1.846;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px; }
+  .vs2-head-text .vs2-hed {
+    font-size: 17px;
+    font-family: "Brandon Grotesque";
+    color: #1f1f1f;
+    text-transform: uppercase;
+    line-height: 1.846;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: 400;
+    margin-top: -70px;
+    margin-bottom: 10px; }
+  .vs2-head-text .vs2-subhed {
+    font-size: 16px;
+    letter-spacing: 0;
+    font-family: "FreightDisp Pro";
+    color: #3f4045;
+    line-height: 1.54em;
+    text-align: center;
+    font-weight: normal; }
+
+/* Video Iframe Column */
+.vs2-video-holder {
+  height: 479px;
+  width: 100%; }
+
+.vs2-video-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  background-image: url("../images/video-image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .vs2-video-overlay:hover #vs2-video-play {
+    color: rgba(255, 255, 255, 0.35); }
+  .vs2-video-overlay #vs2-video-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    transition: color .5s ease; }
+    .vs2-video-overlay #vs2-video-play:before {
+      content: "\e905"; }
+
+/* Scroll Section */
+.vs2-scroll {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: all .35s ease; }
+  .vs2-scroll:hover {
+    opacity: .5; }
+  .vs2-scroll .vs2-scroll-text {
+    font-size: 14.5px;
+    font-family: "Brandon Grotesque";
+    color: #15aba0;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    padding-right: 25px; }
+  .vs2-scroll .vs2-arrow {
+    font-size: 50px; }
+    .vs2-scroll .vs2-arrow:before {
+      display: inline-block;
+      transform: rotate(90deg);
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden; }
+
+/* Accordion */
+.vs2-accordion-section {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* each accordion section's head has a different background color */
+#vs2-comfort-zone .vs2-accordion-head {
+  background-color: #baceb8; }
+
+#vs2-simply-perfect .vs2-accordion-head {
+  background-color: #79777b; }
+
+#vs2-you-do-you .vs2-accordion-head {
+  background-color: #da474d; }
+
+#vs2-good-company .vs2-accordion-head {
+  background-color: #394353; }
+
+/* Accordion Head */
+.vs2-accordion-head {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 144px;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  transition: opacity .5s ease; }
+  .vs2-accordion-head:hover {
+    opacity: .65; }
+
+.vs2-accordion-head-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  .vs2-accordion-head-content .vs2-left-text {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 70px; }
+    .vs2-accordion-head-content .vs2-left-text .vs2-palette-hed {
+      font-size: 13px;
+      font-family: "Brandon Grotesque";
+      text-transform: uppercase;
+      line-height: 2.1;
+      letter-spacing: 3.05px;
+      font-weight: 500; }
+    .vs2-accordion-head-content .vs2-left-text .vs2-accordion-section-title {
+      font-size: 57px;
+      font-family: "FreightDisp Pro";
+      line-height: 0.965;
+      font-weight: 300;
+      letter-spacing: 0px; }
+  .vs2-accordion-head-content .vs2-right-text {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 70px; }
+    .vs2-accordion-head-content .vs2-right-text .expand-text {
+      font-size: 14.5px;
+      font-family: "Brandon Grotesque";
+      text-transform: uppercase;
+      line-height: 1.789;
+      letter-spacing: 2px;
+      font-weight: 500;
+      margin-right: 25px; }
+    .vs2-accordion-head-content .vs2-right-text .expand-icon {
+      border: 1px solid #fff;
+      border-radius: 100%;
+      display: inline-block;
+      width: 45px;
+      height: 45px;
+      position: relative; }
+      .vs2-accordion-head-content .vs2-right-text .expand-icon:before {
+        font-size: 30px;
+        content: "\e900";
+        display: inline-block;
+        transform: rotate(45deg);
+        transition: all .5s ease;
+        position: relative;
+        top: 6px;
+        left: 6px; }
+    .vs2-accordion-head-content .vs2-right-text .expanded:before {
+      transform: rotate(450deg); }
+
+/* Accordion Body */
+.vs2-accordion-body {
+  display: none;
+  margin-bottom: 25px; }
+
+.vs2-colorblocks.row {
+  margin-left: -2.5px;
+  margin-right: -2.5px; }
+  .vs2-colorblocks.row [class*='col-'] {
+    padding-right: 2.5px;
+    padding-left: 2.5px; }
+
+/* Pin Share Button */
+.vs2-pin {
+  cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  opacity: 0;
+  transition: all .3s ease;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; }
+
+/* Color Block Row */
+.vs2-colorblock {
+  width: 100%;
+  height: 187px;
+  cursor: pointer; }
+  .vs2-colorblock:hover .vs2-color .vs2-pin {
+    opacity: 1; }
+  .vs2-colorblock .vs2-color {
+    height: 120px;
+    position: relative;
+    /* Accordion Section 1*/
+    /* Accordion Section 2*/
+    /* Accordion Section 3*/
+    /* Accordion Section 4*/ }
+    .vs2-colorblock .vs2-color.vs2-color-a1 {
+      background-color: #ba8c54; }
+    .vs2-colorblock .vs2-color.vs2-color-a2 {
+      background-color: #bbceb8; }
+    .vs2-colorblock .vs2-color.vs2-color-a3 {
+      background-color: #de7a7b; }
+    .vs2-colorblock .vs2-color.vs2-color-a4 {
+      background-color: #9aa8a5; }
+    .vs2-colorblock .vs2-color.vs2-color-a5 {
+      background-color: #bd9f94; }
+    .vs2-colorblock .vs2-color.vs2-color-a6 {
+      background-color: #b3bcbd; }
+    .vs2-colorblock .vs2-color.vs2-color-a7 {
+      background-color: #e9e8e0; }
+    .vs2-colorblock .vs2-color.vs2-color-b1 {
+      background-color: #bab9b9; }
+    .vs2-colorblock .vs2-color.vs2-color-b2 {
+      background-color: #a7a9b9; }
+    .vs2-colorblock .vs2-color.vs2-color-b3 {
+      background-color: #7a787c; }
+    .vs2-colorblock .vs2-color.vs2-color-b4 {
+      background-color: #7c716e; }
+    .vs2-colorblock .vs2-color.vs2-color-b5 {
+      background-color: #a89e97; }
+    .vs2-colorblock .vs2-color.vs2-color-b6 {
+      background-color: #4c494f; }
+    .vs2-colorblock .vs2-color.vs2-color-b7 {
+      background-color: #f9f6ef; }
+    .vs2-colorblock .vs2-color.vs2-color-c1 {
+      background-color: #e4cbc7; }
+    .vs2-colorblock .vs2-color.vs2-color-c2 {
+      background-color: #d9464e; }
+    .vs2-colorblock .vs2-color.vs2-color-c3 {
+      background-color: #d9ba20; }
+    .vs2-colorblock .vs2-color.vs2-color-c4 {
+      background-color: #83b373; }
+    .vs2-colorblock .vs2-color.vs2-color-c5 {
+      background-color: #42b19c; }
+    .vs2-colorblock .vs2-color.vs2-color-c6 {
+      background-color: #276889; }
+    .vs2-colorblock .vs2-color.vs2-color-c7 {
+      background-color: #f4f1ea; }
+    .vs2-colorblock .vs2-color.vs2-color-d1 {
+      background-color: #3a4454; }
+    .vs2-colorblock .vs2-color.vs2-color-d2 {
+      background-color: #31665e; }
+    .vs2-colorblock .vs2-color.vs2-color-d3 {
+      background-color: #8b9a7a; }
+    .vs2-colorblock .vs2-color.vs2-color-d4 {
+      background-color: #ac7c34; }
+    .vs2-colorblock .vs2-color.vs2-color-d5 {
+      background-color: #ad564f; }
+    .vs2-colorblock .vs2-color.vs2-color-d6 {
+      background-color: #c3a28a; }
+    .vs2-colorblock .vs2-color.vs2-color-d7 {
+      background-color: #f0ece1; }
+  .vs2-colorblock .vs2-color-text-box {
+    border: 1px solid #b7b7b7;
+    border-top: none;
+    height: 67px;
+    position: relative; }
+    .vs2-colorblock .vs2-color-text-box .vs2-color-text {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 8.5px;
+      font-family: "Brandon Grotesque";
+      color: #464646;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.624;
+      text-align: center;
+      letter-spacing: 1.5px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+  .vs2-colorblock .vs2-color-b7 .vs2-pin,
+  .vs2-colorblock .vs2-color-c7 .vs2-pin,
+  .vs2-colorblock .vs2-color-a7 .vs2-pin,
+  .vs2-colorblock .vs2-color-d7 .vs2-pin {
+    color: #c7242e; }
+  .vs2-colorblock .vs2-color-b7 .vs2-pin {
+    right: 5px; }
+
+/* Slideshow */
+.vs2-slide-row {
+  position: relative; }
+
+.vs2-slideshow {
+  margin-top: 25px; }
+
+/* Slides Image Column */
+.vs2-slide-image-box {
+  position: relative; }
+  .vs2-slide-image-box:hover .vs2-img-pin {
+    opacity: 1; }
+  .vs2-slide-image-box .vs2-img-pin {
+    color: #fff;
+    background-color: #c7242e;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    bottom: 15px;
+    transition: all .3s ease;
+    backface-visibility: initial;
+    -webkit-backface-visibility: initial; }
+    .vs2-slide-image-box .vs2-img-pin:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: #fff; }
+
+.vs2-photo-credit,
+.vs2-photo-credit a {
+  font-family: "brandon-grotesque";
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 8.5px;
+  background: transparent;
+  padding-top: 3.5px;
+  color: #c3c3c3;
+  text-align: right;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* Slide Text Column */
+.vs2-slide-text-col {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  -webkit-transform: translate(-30%, -50%);
+  -ms-transform: translate(-30%, -50%);
+  transform: translate(-30%, -50%);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  top: 15%;
+  left: 57.5%; }
+  @media (min-width: 1200px) {
+    .vs2-slide-text-col {
+      padding-left: 0;
+      margin-left: -35px; } }
+  @media (max-width: 1199px) {
+    .vs2-slide-text-col {
+      left: 54%; } }
+  .vs2-slide-text-col .vs2-colorblock {
+    width: 207.5px;
+    height: 67px;
+    margin-top: 15px; }
+    .vs2-slide-text-col .vs2-colorblock .vs2-color {
+      height: 100%; }
+    .vs2-slide-text-col .vs2-colorblock .vs2-color-text-box {
+      border: 1px solid #b7b7b7; }
+
+.vs2-slide-text-box {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 80%; }
+  @media (max-width: 950px) {
+    .vs2-slide-text-box {
+      position: static;
+      transform: none; } }
+  .vs2-slide-text-box .vs2-slide-count {
+    font-size: 14px;
+    font-family: "Brandon Grotesque";
+    color: black;
+    line-height: 0.967;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding-bottom: 10px; }
+  .vs2-slide-text-box .vs2-slide-hed {
+    font-size: 48px;
+    font-family: "FreightDisp Pro";
+    color: black;
+    line-height: 1.042;
+    font-weight: 300;
+    letter-spacing: 0px;
+    width: 100%;
+    margin-bottom: 20px; }
+  .vs2-slide-text-box .vs2-slide-subhed {
+    position: relative;
+    margin-bottom: 15px; }
+    .vs2-slide-text-box .vs2-slide-subhed .vs2-slide-portrait {
+      border-radius: 50%;
+      height: 81px;
+      width: 81px;
+      margin-right: 25px;
+      float: left; }
+    .vs2-slide-text-box .vs2-slide-subhed .vs2-slide-subhed-text {
+      float: left;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      font-size: 15px;
+      font-family: "Brandon Grotesque";
+      color: black;
+      line-height: 2;
+      letter-spacing: 1.75px;
+      font-weight: 500;
+      text-transform: uppercase; }
+  .vs2-slide-text-box .vs2-slide-body {
+    font-size: 19px;
+    font-family: "FreightText Pro";
+    color: #181818;
+    line-height: 1.526;
+    letter-spacing: 0px;
+    font-weight: normal;
+    width: 85%; }
+
+/* Unslider Overrides */
+.unslider {
+  position: relative; }
+
+.unslider-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: rgba(128, 128, 128, 0.5); }
+  .unslider-arrow:before {
+    font-size: 50px;
+    color: #fff;
+    text-align: center; }
+
+.vs2-prev:before,
+.vs2-next:before {
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 13px; }
+
+.vs2-prev {
+  left: 50px; }
+  .vs2-prev:before {
+    transform: rotate(180deg); }
+
+.vs2-next {
+  right: 50px; }
+
+/* Related Content Module */
+.vs2-relateds-head .vs2-topbar {
+  width: 116px;
+  border: 2px solid #000;
+  display: inline-block;
+  color: #000;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 0; }
+.vs2-relateds-head .vs2-relateds-hed {
+  font-family: "FreightDisp Pro";
+  font-size: 30px;
+  line-height: 39px;
+  letter-spacing: .25px;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 10px 0 20px; }
+
+.vs2-relateds .vs2-related {
+  text-align: center; }
+.vs2-relateds .vs2-related-box {
+  display: block;
+  width: 100%;
+  height: 100%; }
+  .vs2-relateds .vs2-related-box img {
+    width: 100%; }
+.vs2-relateds .vs2-related-title {
+  padding-left: 2px;
+  padding-right: 2px;
+  font-family: "FreightDisp Pro";
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 50px;
+  padding-top: 0;
+  line-height: 1.25;
+  letter-spacing: 0;
+  text-transform: none;
+  margin: 0 0 10px 0;
+  text-align: left;
+  padding-top: 5px; }
+
+@media screen and (max-width: 1199px) {
+  /* General */
+  .container.vs2-container {
+    margin-bottom: 10px; }
+
+  /* Head Section Text Column */
+  .vs2-head-text {
+    margin-top: 0;
+    margin-bottom: 30px; }
+    .vs2-head-text .vs2-color-logo {
+      font-size: 175px; }
+    .vs2-head-text .vs2-hed {
+      font-size: 28px;
+      letter-spacing: 12px;
+      font-weight: 300;
+      margin-top: -100px; }
+    .vs2-head-text .vs2-subhed {
+      width: 64%;
+      margin-left: auto;
+      margin-right: auto; }
+
+  /* Slide Text Column */
+  .vs2-slide-text-col {
+    left: 67%; }
+
+  .vs2-slide-text-box .vs2-slide-count {
+    font-size: 18px;
+    padding-bottom: 0; }
+  .vs2-slide-text-box .vs2-slide-hed {
+    font-size: 40px; }
+  .vs2-slide-text-box .vs2-slide-subhed .vs2-slide-subhed-text {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    line-height: 1.75; }
+  .vs2-slide-text-box .vs2-slide-body {
+    font-size: 16px; } }
+@media screen and (max-width: 991px) {
+  /* Head Section Text Column */
+  .vs2-head-text .vs2-subhed {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  /* Accordion Head */
+  .vs2-accordion-head-content .vs2-left-text {
+    left: 28px; }
+  .vs2-accordion-head-content .vs2-right-text {
+    right: 28px; }
+
+  /* Color Block Row */
+  .vs2-colorblock {
+    width: 100%;
+    height: 75px;
+    margin-bottom: 5px; }
+    .vs2-colorblock .vs2-color {
+      height: 100%;
+      position: relative; }
+      .vs2-colorblock .vs2-color .vs2-color-text {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 8.5px;
+        font-family: "Brandon Grotesque";
+        color: #464646;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.624;
+        text-align: center;
+        letter-spacing: 1.5px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #fff; }
+
+  /* Slide Image Column */
+  .vs2-slide-image-box img {
+    width: 100%; }
+
+  /* Slide Text Column */
+  .vs2-slide-text-col {
+    position: static;
+    transform: none; }
+    .vs2-slide-text-col .vs2-colorblock {
+      margin-left: 55px; }
+      .vs2-slide-text-col .vs2-colorblock .vs2-color-text {
+        color: #000;
+        font-weight: 500; }
+
+  .vs2-slide-text-box {
+    margin-top: 10px;
+    margin-left: 55px; }
+    .vs2-slide-text-box .vs2-slide-hed {
+      margin-bottom: 10px; }
+    .vs2-slide-text-box .vs2-slide-subhed {
+      margin-bottom: 10px; }
+    .vs2-slide-text-box .vs2-slide-body {
+      width: 68%; }
+
+  /* Unslider Overrides */
+  .unslider-arrow {
+    top: 35%; }
+
+  /* Related Content Module */
+  .vs2-relateds-head {
+    padding-left: 15px;
+    padding-right: 15px; }
+    .vs2-relateds-head .vs2-relateds-hed {
+      margin-top: 0;
+      margin-bottom: 20px; }
+
+  .vs2-relateds .vs2-related-title {
+    font-size: 17px;
+    margin-bottom: 5px; }
+
+  .vs2-pin {
+    opacity: 1; } }
+@media screen and (max-width: 767px) {
+  /* General */
+  .vs2-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+    margin-right: -5px; }
+
+  .vs2-hairline {
+    margin-top: 40px;
+    margin-bottom: 30px; }
+
+  /* Head Section */
+  /* Head Section Text Column */
+  .vs2-head-text {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 25px; }
+    .vs2-head-text .vs2-color-logo {
+      font-size: 80px; }
+    .vs2-head-text .vs2-hed {
+      margin-top: -35px;
+      letter-spacing: 6px;
+      font-size: 20px;
+      font-weight: 300;
+      letter-spacing: 4.05px; }
+    .vs2-head-text .vs2-subhed {
+      font-size: 20px;
+      color: #181818;
+      font-weight: 300; }
+
+  /* Video Iframe Column */
+  .vs2-video-holder {
+    min-height: 200px;
+    max-height: 250px; }
+
+  .vs2-video-overlay #vs2-video-play {
+    font-size: 110px; }
+
+  /* Scroll More Section (Mobile) */
+  .vs2-scroll-mobile {
+    margin-top: 25px;
+    font-size: 13px;
+    line-height: 1.481; }
+
+  /* Color Block Row */
+  .vs2-colorblock {
+    margin-bottom: 5px; }
+    .vs2-colorblock .vs2-color-text-box .vs2-color-text {
+      font-size: 9.234px;
+      letter-spacing: 1.75px; }
+
+  /* Accordion */
+  #vs2-accordion {
+    margin-left: -5px;
+    margin-right: -5px; }
+
+  .vs2-accordion-section {
+    margin-top: 1px;
+    margin-bottom: 1px; }
+
+  /* Accordion Head */
+  .vs2-accordion-head {
+    height: 100px; }
+
+  .vs2-accordion-head-content .vs2-left-text {
+    left: 10%; }
+    .vs2-accordion-head-content .vs2-left-text .vs2-palette-hed {
+      display: none; }
+    .vs2-accordion-head-content .vs2-left-text .vs2-accordion-section-title {
+      font-size: 35px; }
+  .vs2-accordion-head-content .vs2-right-text {
+    right: 10%; }
+    .vs2-accordion-head-content .vs2-right-text .expand-text {
+      display: none; }
+    .vs2-accordion-head-content .vs2-right-text .expand-icon {
+      width: 45px;
+      height: 45px; }
+      .vs2-accordion-head-content .vs2-right-text .expand-icon:before {
+        font-size: 30px;
+        top: 6px;
+        left: 6px; }
+
+  /* Accordion Body */
+  .vs2-accordion-body {
+    display: none;
+    margin-bottom: 25px; }
+
+  .vs2-colorblocks.row {
+    margin-left: -2.5px;
+    margin-right: -2.5px; }
+    .vs2-colorblocks.row [class*='col-'] {
+      padding-right: 2.5px;
+      padding-left: 2.5px; }
+
+  /* Color Block Row */
+  .vs2-colorblock .vs2-color .vs2-color-text {
+    font-size: 6.5px; }
+
+  /* Slideshow */
+  .vs2-slideshow {
+    margin-top: 25px; }
+
+  /* Slides Image Column */
+  .vs2-photo-credit {
+    font-weight: 400;
+    background: transparent;
+    padding-top: 3.5px;
+    color: #989898;
+    padding-top: 0; }
+
+  /* Slide Text Column */
+  .vs2-slide-text-box {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .vs2-slide-text-box .vs2-slide-count {
+      padding-bottom: 0; }
+    .vs2-slide-text-box .vs2-slide-hed {
+      line-height: 1;
+      font-weight: 300;
+      width: 100%;
+      margin-top: 20px; }
+    .vs2-slide-text-box .vs2-slide-body {
+      line-height: 1.375;
+      font-weight: 300;
+      width: 100%;
+      margin-bottom: 30px;
+      margin-top: 15px; }
+
+  /* Unslider Overrides */
+  .unslider {
+    position: relative; }
+
+  .unslider-arrow {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: rgba(128, 128, 128, 0.5); }
+    .unslider-arrow:before {
+      font-size: 50px;
+      color: #fff;
+      text-align: center; }
+
+  .vs2-prev:before,
+  .vs2-next:before {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 13px; }
+
+  .vs2-prev {
+    left: 50px; }
+    .vs2-prev:before {
+      transform: rotate(180deg); }
+
+  .vs2-next {
+    right: 50px; }
+
+  /* Slide Text Column */
+  .vs2-slide-text-col .vs2-colorblock {
+    margin-left: 15px; }
+
+  /* Related Content Module */
+  .vs2-relateds-head .vs2-topbar {
+    width: 116px;
+    border: 2px solid #000;
+    display: inline-block;
+    color: #000;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 0; }
+  .vs2-relateds-head .vs2-relateds-hed {
+    font-family: "FreightDisp Pro";
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: .25px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 10px 0 45px; }
+
+  .vs2-relateds .vs2-related {
+    text-align: center; }
+  .vs2-relateds .vs2-related-box {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .vs2-relateds .vs2-related-box img {
+      width: 100%; }
+  .vs2-relateds .vs2-related-title {
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: "FreightDisp Pro";
+    font-size: 20px;
+    font-weight: 400;
+    min-height: 50px;
+    padding-top: 0;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+    text-align: left;
+    padding-top: 5px; }
+
+  /* Lock Accordion Section */
+  .vs2-locked {
+    position: fixed;
+    margin-top: 0;
+    left: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 15;
+    background-color: #fff;
+    height: 100%; }
+    .vs2-locked .vs2-accordion-head {
+      margin-top: 0;
+      opacity: 1;
+      position: fixed;
+      top: 62px;
+      left: 0;
+      z-index: 20;
+      height: 65px; }
+      .vs2-locked .vs2-accordion-head:hover {
+        opacity: 1; }
+    .vs2-locked .vs2-accordion-body {
+      position: relative;
+      margin-top: 62px;
+      top: 70px; }
+
+  .vs2-pin {
+    opacity: 1; }
+
+  /* Slides Image Column */
+  .vs2-slide-image-box .vs2-img-pin {
+    opacity: 1; }
+    .vs2-slide-image-box .vs2-img-pin:before {
+      opacity: 1; }
+
+  /* Slide Image Column */
+  .vs2-slide-img-col {
+    padding-left: initial;
+    padding-right: initial; } }
+
+/*# sourceMappingURL=style.css.map */

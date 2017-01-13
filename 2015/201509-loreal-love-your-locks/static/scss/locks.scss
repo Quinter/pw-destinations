@@ -1,0 +1,756 @@
+
+//This is hacky af
+html, .loreal-locks {overflow-x: hidden;}
+
+//so is this
+.nav__drawer__ul {
+	z-index: 999 !important;
+}
+
+//Picture Navigation of different Styles
+
+.style-item {
+	display: none;
+	width: 77%;
+	margin: 0 auto;
+}
+.visibleItem {
+	display: block;
+}
+.stylenav {
+	overflow: hidden;
+	position: relative;
+	max-width: 100vw;
+	.stylenav-container {
+		background: transparent;
+		user-select: none;
+		&:after, &:hover, &:active {
+			background: transparent;
+			user-select: none;
+		}
+	}
+	.current-nav.stylenav-container {
+		display: inline-block;
+		position: relative;
+		user-select: none;
+		&:after {
+			content:'';
+			position:absolute;
+			left:0; top:0;
+			width:100%; height:100%;
+			display:inline-block;
+			pointer-events: none;
+			user-select: none;
+			background: rgba(0,0,0,0.5);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.5)), color-stop(100%, rgba(0,0,0,0.5)));
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+			background: -o-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+			background: -ms-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+			background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3d40', endColorstr='#3b3d40', GradientType=0 );			
+		}
+	}
+	.current-nav.style--image {
+		transform: scale(1.1);
+		overflow: hidden;
+		z-index: -1;
+		pointer-events: none;
+		user-select: none;
+	}
+	.title {
+		position: absolute;
+		display: inline;
+		top: 40px;
+		left: 10%;
+		width: 80%;
+		margin: 0 auto;
+		z-index:5;
+		pointer-events:none;
+		@media (min-width: 1015px) {
+			width: 60%;
+			left: 20%;
+			top: 50px;
+		}
+		h1 {
+			font-size: 3.3em;
+		    letter-spacing: 4px;
+		    margin: 0.3em 0px;
+			font-family: "freight-display-pro";
+		    -webkit-font-smoothing: antialiased;
+		    color: #ffffff;
+		    text-transform: uppercase;
+		    font-weight: 300;
+		    z-index: 5;
+		    text-align: center;
+		    pointer-events:none;
+			@media (min-width: 753px) {
+				font-size: 2em;
+			}
+			@media (min-width: 1015px) {
+				font-size: 3em;
+			}
+			@media (min-width: 1315px) {
+				font-size: 4em;
+			}			
+		}
+		h2 {
+		    font-family: "freight-display-pro";
+			 -webkit-font-smoothing: antialiased;
+		    font-weight: 300;
+		    font-size: 1.75em;
+		    text-align: center;
+		    color: #ffffff;
+		    line-height: 1.4em;
+		    letter-spacing: 1px;
+		    z-index: 5;
+		    width: 72%;
+		    margin: 0 auto;	
+		    pointer-events:none;
+			@media (min-width: 753px) {
+				font-size: 1.25em;
+				width: 100%;
+			}
+			@media (min-width: 1015px) {
+				font-size: 1.3em;
+				width: 80%;
+			}
+			@media (min-width: 1315px) {
+				font-size: 1.6em;
+			}		
+		}
+	}
+	.col-sm-3 {
+		height: 100%;
+		position: relative;
+		padding: 0;
+		overflow: hidden;
+	}
+	.stylenav__text {
+		position: absolute;
+		top: 55%;
+		left: 20px;
+		color: #fff;
+		max-width: 80%;
+		pointer-events:none;
+		z-index: 22;
+		@media (min-width: 920px) {
+			top: 85%;
+		}		
+		@media (min-width: 1315px) {
+			top: 85%;
+		}
+		@media (min-width: 1615px) {
+			top: 85%;
+		}
+		&.current-nav {
+			top: 50%;
+			@media (min-width: 920px) {
+				top: 60%;
+			}	
+			@media (min-width: 1315px) {
+				top: 72%;
+			}
+			@media (min-width: 1615px) {
+				top: 70%;
+			}
+		}
+		.nav-indicator {
+			display: none;
+		}
+		.nav-indicator.current-nav {
+			display: block;
+			border: none;
+			width:50px;
+			height:50px;
+			margin-top: 1em;
+		}
+		h3 {
+			font-family: 'montserratultra_light';
+			text-transform: uppercase;
+			font-size: 2em;
+			letter-spacing: 0.1em;
+			line-height: 1.2em;
+			font-weight: 400;
+			pointer-events:none;
+			-webkit-font-smoothing: antialiased;
+			@media (min-width: 1615px) {
+				font-size: 2.5em;
+			}
+		}
+		h4 {
+			font-family: 'freight-display-pro';
+			font-weight: 400;
+			font-size: 1.45em;
+			line-height: 1.35em;
+			display: none;
+			letter-spacing: 0.25px;
+			pointer-events:none;
+			 -webkit-font-smoothing: antialiased;
+			@media (min-width: 1615px) {
+				font-size: 1.6em;
+			}
+		}
+		&.current-nav h4 {
+			display: block;
+		}
+	}
+	.stylenav__image-credit {
+		display: none;
+		position: absolute;
+		bottom: 6em;
+		right: -30px;
+		font-family: 'montserratlight';
+		text-transform: uppercase;
+		opacity: .55;
+		color: #fff;
+		font-size: 0.7em;
+		letter-spacing: 0.15em;
+		transform: rotate(-90deg);
+		pointer-events:none;
+		@media (min-width: 1315px) {
+			
+			right: -28px;
+		}
+	}
+	.stylenav__image-credit.current-nav {
+		display: block;
+	}
+	.stylenav--smooth {
+		.stylenav__text{
+			padding-left: 1em;
+		}
+	}
+	#vibrant .stylenav__image-credit {
+		right: -16px;
+		bottom: 5.5em;
+		@media (min-width: 1315px) {
+			right: -14px;
+		}
+	}
+	#smooth .stylenav__image-credit {
+		right: -50px;
+		@media (min-width: 1315px) {
+			right: -50px;
+		}
+	}
+}
+
+//Hairline Content 
+.smooth--lead {
+	&.hairline--lead {
+		hr {
+			&:after {
+				content: "Smooth: What you need to Ace the look";
+			}
+		}
+	}
+}
+.vibrant--lead {
+	hr {
+		&:after {
+			content: "Vibrant: What You Need to Ace the Look";
+		}
+	}
+}
+.curly--lead {
+	hr{ 
+		&:after {
+			content: "Curly: What You Need to Ace the Look";
+		}
+	}
+}
+.shiny--lead {
+	hr {
+		&:after {
+			content: "Nourished: What you Need to Ace the Look";
+		}
+	}
+}
+#smooth-tips {
+	hr{
+		&:after {
+			content: "Smooth: 3 Tips to Make it Last";
+			left: -30%;
+			@media (max-width: 1079px) {
+				left: 0px;
+			} 
+		}
+	}
+}
+#vibrant-tips {
+	hr{ 
+		&:after {
+			content: "Vibrant: 3 Tips to Make it Last";
+			left: -30%;
+			@media (max-width: 1079px) {
+				left: 0px;
+			} 
+		}
+	}
+}
+#curly-tips {
+	hr {
+		&:after {
+			content: "Curly: 3 Tips to Make it Last";
+			left: -30%;
+			@media (max-width: 1079px) {
+				left: 0px;
+			} 
+		}
+	}
+}
+#shiny-tips {
+	hr {
+		&:after {
+			content: "Nourished: 3 Tips to Make it Last";
+			@media (max-width: 1079px) {
+				left: 0px;
+			} 
+		}
+	}
+}
+//Carousel Section
+
+//Upper
+.hairline--lead {
+	font-family: "montserratlight";
+	font-size: 1.4em;
+	color: #3d3d40;
+	text-align: center;
+	line-height: 1.77em;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	margin: 3em 0px;
+	hr {
+		padding: 0;
+	    border: none;
+	    border-top: 1px solid #E0E0E0;
+	    color: #3d3d40;
+	    text-align: center;
+	    &:after {
+		    display: inline-block;
+		    position: relative;
+		    top: -0.9em;
+		    left: -25%;
+		    padding: 0 0.9em;
+		    background: white;	    	
+	    }
+	}
+}
+
+.upper-carousel {
+	h3 {
+		font-family: 'freight-display-pro';
+		font-size: 46px;
+		font-weight: 400;
+		color: #202f32;
+		text-align: left;
+		letter-spacing: 0.5px;
+		border-bottom: 1px solid #E0E0E0;
+		width: 60%;
+		line-height: 1.02;
+		padding-bottom: 10px;
+		-webkit-font-smoothing: antialiased;
+		@media (max-width: 1315px) {
+			width: 90%;
+		}
+	}
+	p {
+		font-family: 'freight-text-pro';
+		font-size: 19px;
+		font-weight: 400;
+		color: #666d70;
+		text-align: left;
+		line-height: 29px;
+		letter-spacing: 0.25px;
+		-webkit-font-smoothing: antialiased;
+	}
+	h5 {
+		font-family: 'freight-text-pro';
+		font-weight: 500;
+		text-transform: uppercase;
+		color: #3b3d40;
+		font-size: 1.36em;
+		letter-spacing: 0.12em;
+		line-height: 1em;
+		margin: 1em 0px;
+		-webkit-font-smoothing: antialiased;
+	}
+	.owl-buttons {
+		.owl-prev {
+			position: absolute;
+			left: 0px;
+			margin-left: -25px;
+			top: 40%;
+			&:after {
+				content: "\e62f";
+				font-family: 'icomoon';
+			}
+		}
+		.owl-next {
+			position: absolute;
+			right: 0px;
+			top: 40%;
+			margin-right: -25px;
+			&:after {
+				content: "\e62a";
+				font-family: 'icomoon';
+			}
+		}
+	}
+	// &:before {
+	// 	display: block;
+	// 	content: "";
+	// 	border: 2px solid #ADADAD;
+	// 	border-radius: 100%;
+	// 	width: 40px;
+	// 	height: 40px;
+	// }
+}
+//Lower
+.lower-carousel {
+	.item__text {
+		text-align: center;
+		font-family: 'freight-text-pro';
+		color: #666d70;
+		line-height: 1.1em;
+		letter-spacing: 0.02em;
+		padding-top: 17.416px;
+		-webkit-font-smoothing: antialiased;
+		&.image__tall {
+			padding-top: 5px;
+		}
+	}
+	.carousel__item {
+		padding-bottom: 1.6em;
+		height: 200px;
+		&:after {
+			content: "";
+			background: #666d70;
+			position: absolute;
+			left: 15%;
+			width: 70%;
+			height: 1px;
+			bottom: 0;
+		}
+	}
+	.synced .carousel__item, .carousel__item:hover {
+		&:after {
+			opacity: 0.7;
+			bottom: 1em;
+		}
+		.item__image {
+			opacity: 0.7;
+		}
+	}
+}
+
+
+// Tips Section
+.tips-container {
+	.image-credit {
+		text-align: right;
+		float: right;
+		text-transform: uppercase;
+		font-family: 'montserratlight';
+		font-size: 0.7em;
+		color: #cccccc;
+		line-height: 2em;
+		letter-spacing: 0.15em;
+	}
+	.tip-copy {
+		margin-top: 2em;
+	}
+	.tip-title {
+		font-family: 'montserratregular';
+		font-size: 1em;
+		color: #3b3d40;
+		letter-spacing: 0.15em;
+		line-height: 1.29em;
+		text-transform: uppercase;
+	}
+	.tip-text {
+		font-family: 'freight-text-pro';
+		font-size: 19px;
+		font-weight: 400;
+		color: #666d70;
+		text-align: left;
+		line-height: 29px;
+		letter-spacing: 0.25px;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+.italic {font-style: italic;}
+// Mobile Styles
+@media (min-width: 769px){
+	#mobile-stylenav {
+		display: none;
+	}
+}
+@media (min-width: 1079px) {
+	.lower-carousel .carousel__item {
+		height: 300px;
+	}
+}
+@media (max-width: 1079px) {
+	.style-item, .tips-container .hairline-lead {
+		hr {
+			border: none;
+			&:after {left: 0px; line-height:1.5;}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+.nav-menu__right__mobile {
+	height: 55px;
+}
+.fixed-header .nav-menu .nav-menu__right__mobile ul {
+	height: 52px;
+}
+.stylenav {
+	display: none;
+}
+#item-smooth {
+	display: none;
+}
+.mobile-stylenav {
+	.invisibleItem {display: none;}
+	.mobile--stylenav__item.visibleItem {
+		position: relative;
+		min-height: 160px;
+		h3 {
+			transform: translateY(200%);
+		}
+		.expand--icon {
+			transform: translateY(65%) rotate(45deg);
+			font-weight: 600;
+			border-radius: 100%;
+			&:after {
+				content: "";
+				background-color: rgba(0, 0, 0, 0.6);
+			}
+		}
+	}
+	.title-container {
+		overflow: auto;
+	}
+	h1 {
+		font-size: 2em;
+	    margin: 2.2em 0.1em 0em 0.1em;
+		font-family: "freight-display-pro";
+	    -webkit-font-smoothing: antialiased;
+	    color: #3b3d40;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    text-align: center;
+	    line-height: 2em;
+	    letter-spacing: 0.09em;		
+	}
+	h2 {
+	    font-family: "freight-text-pro";
+		 -webkit-font-smoothing: antialiased;
+	    font-weight: 300;
+	    font-size: 1em;
+	    text-align: center;
+	    color: #3b3d40;
+	    line-height: 1.58em;
+	    letter-spacing: 0px;
+	    z-index: 5;
+	    width: 95%;
+	    margin: 0 auto;	
+	    pointer-events:none;
+	    padding-bottom: 1em;
+	}
+	.btyb-loreal {
+		float: right;
+		font-family: 'brandon-grotesque';
+		font-size: 0.59em;
+		color: #403f40;
+		letter-spacing: 0.16em;
+		margin-bottom: 2.5em;
+		text-transform: uppercase;
+		margin-right: 2.5em;
+		img {
+			margin-left: 3px;
+			height: 21px;
+			width: 84px;
+		}
+	}
+	.stylenav--smooth {
+		background-image: url('../images/mobile/stylenav/1-smooth.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+		width: 100%;
+		min-height: 141px;
+	}
+	.stylenav--vibrant {
+		background-image: url('../images/mobile/stylenav/2-vibrant.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+		width: 100%;
+		min-height: 141px;
+	}
+	.stylenav--curly {
+		background-image: url('../images/mobile/stylenav/3-curly.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+		width: 100%;
+		min-height: 141px;
+	}
+	.stylenav--shiny {
+		background-image: url('../images/mobile/stylenav/4-shiny.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: auto;
+		width: 100%;
+		min-height: 141px;
+	}
+	h3 {
+		font-family: 'montserratlight';
+		text-transform: uppercase;
+		font-size: 1.7em;
+		letter-spacing: 0.1em;
+		line-height: 1.2em;
+		font-weight: 400;
+		color: #fff;
+		margin: 0px;
+		display:inline-block;
+		float:left;
+		transform: translateY(180%);
+		padding-left: 0.5em;
+	}
+	.expand--icon {
+		font-family: 'freight-display-pro';
+		display: inline;
+		color: #fff;
+		float: right;
+		font-size: 3.3em;
+		transform: translateY(42%);
+		font-weight: 300;
+		padding-right: 0.5em;
+	}
+}
+	.style-item {
+		display: none;
+		width: 100%;
+		&.visibleItem {
+			display: block;
+		}
+		.hairline--lead {
+			font-size: 0.9em;
+			border-bottom: 1px solid #E0E0E0;
+			margin: 1.5em 0px;
+		}
+		hr {
+			min-height: 40px;
+			border: none;
+			&:after {
+				left: 0px;
+				top: 6px;
+				padding: 0px;
+				line-height:1.5;
+			}
+		}
+		.owl-buttons {
+			.owl-prev {
+				position: absolute;
+				left: 0px;
+				margin-left: 10px;
+				top: 18%;
+				&:after {
+					content: "\e62f";
+					font-family: 'icomoon';
+				}
+			}
+			.owl-next {
+				position: absolute;
+				right: 0px;
+				top: 18%;
+				margin-right: 10px;
+				&:after {
+					content: "\e62a";
+					font-family: 'icomoon';
+				}
+			}
+		}
+	}
+	.lower-carousel {
+		display:none !important;
+	}
+	//Hairline Content 
+	.smooth--lead {
+		&.hairline--lead {
+			hr {
+				&:after {
+					content: "What you need to Ace the look";
+				}
+			}
+		}
+	}
+	.vibrant--lead {
+		hr {
+			&:after {
+				content: "What You Need to Ace the Look";
+			}
+		}
+	}
+	.curly--lead {
+		hr{ 
+			&:after {
+				content: "What You Need to Ace the Look";
+			}
+		}
+	}
+	.shiny--lead {
+		hr {
+			&:after {
+				content: "What you Need to Ace the Look";
+			}
+		}
+	}
+	#smooth-tips {
+		hr{
+			&:after {
+				content: "3 Tips to Make it Last";
+			}
+		}
+	}
+	#vibrant-tips {
+		hr{ 
+			&:after {
+				content: "3 Tips to Make it Last";
+			}
+		}
+	}
+	#curly-tips {
+		hr {
+			&:after {
+				content: "3 Tips to Make it Last";
+			}
+		}
+	}
+	#shiny-tips {
+		hr {
+			&:after {
+				content: "3 Tips to Make it Last";
+			}
+		}
+	}
+	.tips-container {
+		.col-md-4 {
+			margin-bottom: 1.4em;
+		}
+	}	
+}
+
+
+
+// Tablet Styles
+
+
+
+

@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/**
+ * @license
+ * MyFonts Webfont Build ID 2731529, 2014-01-23T10:12:19-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Museo 700 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/700/
+ * 
+ * Webfont: Museo 300 by exljbris
+ * URL: http://www.myfonts.com/fonts/exljbris/museo/300/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2731529
+ * Licensed pageviews: Unlimited
+ * Webfonts copyright: Copyright (c) 2008 by Jos Buivenga/exljbris. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+@font-face {
+  font-family: 'Museo-700';
+  src: url("webfonts/29AE09_0_0.eot");
+  src: url("webfonts/29AE09_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/29AE09_0_0.woff") format("woff"), url("webfonts/29AE09_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Museo-300';
+  src: url("webfonts/29AE09_1_0.eot");
+  src: url("webfonts/29AE09_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/29AE09_1_0.woff") format("woff"), url("webfonts/29AE09_1_0.ttf") format("truetype"); }
+
+/* LAYOUT */
+.col-md-4, .col-xs-6 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 0 0px;
+  text-align: center;
+  width: auto; }
+
+#main.silk {
+  width: 100%;
+  max-width: 1218px;
+  background: #0069aa; }
+
+.title {
+  text-align: center;
+  margin-bottom: 2em; }
+  .title h1 {
+    font-family: "Archer A", "Archer B";
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px; }
+    @media only screen and (min-width: 321px) and (max-width: 1216px) {
+      .title h1 {
+        font-size: 5em; } }
+    @media only screen and (max-width: 320px) {
+      .title h1 {
+        font-size: 3em; } }
+  .title p {
+    font-family: "Museo-300";
+    font-size: 22px;
+    text-align: center;
+    max-width: 82%;
+    margin: 40px auto;
+    color: white;
+    letter-spacing: 2px;
+    padding: 0 20px;
+    font-weight: 600;
+    font-style: normal; }
+    @media only screen and (max-width: 320px) {
+      .title p {
+        padding: 0 20px;
+        font-size: 16px; } }
+
+.sponsor {
+  max-width: 150px;
+  display: inline-block; }
+  .sponsor span {
+    font-family: "Museo-300";
+    font-size: 10px;
+    text-align: center;
+    color:white; }
+  .sponsor img {
+    padding-top: 5px;
+    max-width: 100px; }
+
+.item {
+  display: inline-block;
+  background: #FEFEFE;
+  border: 2px solid #FAFAFA;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  margin: 0 2px 32px;
+  padding: 15px;
+  padding-bottom: 5px;
+  background: -webkit-linear-gradient(45deg, white, #f9f9f9);
+  max-width: 278px;
+  min-height:378px;}
+  .item h2 {
+    font-family: "Museo-700";
+    font-size: 18px;
+    color: #191f70; }
+    .item h2.short {
+      margin-bottom: 29px; }
+  .item .img-responsive {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
+
+.row.bm {
+  padding-bottom: 20px;
+  max-width: 937px;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media only screen and (min-width: 321px) and (max-width: 1216px) {
+    .row.bm {
+      max-width: 625px; } }
+  @media only screen and (max-width: 320px) {
+    .row.bm {
+      max-width: 320px; } }
+
+.socialplug {
+  text-align: left;
+  margin-left: 20px; }
+@media (max-width: 1023px) {
+	.socialplug {
+		padding-top:35px;}
+}
+
+@media screen and (max-width: 649px) {
+  .row.bm {
+    max-width: 320px; } }

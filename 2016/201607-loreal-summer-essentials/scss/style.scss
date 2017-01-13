@@ -1,0 +1,953 @@
+
+//clearfix
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+* html .clearfix {
+    zoom: 1;
+}
+/* IE6 */
+
+*:first-child+html .clearfix {
+    zoom: 1;
+}
+
+/* ------------------------------------------------------------ *\
+	Loreal Back to Top (Mobile Only)
+\* ------------------------------------------------------------ */
+
+#loreal-back-top {
+    display: none;
+}
+
+/* ------------------------------------------------------------ *\
+	Loreal Main
+\* ------------------------------------------------------------ */
+
+.hidden-xs {
+    .loreal-header-board {
+        background-image: url("../images/header-image-2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 65vw;
+        margin: 82px auto 0;
+        height: 250px;
+        background-size: cover;
+        display: table;
+
+        .loreal-header-title {
+            font-size: 70px;
+            line-height: 21.5px;
+            font-family: "brandon-grotesque";
+            -webkit-font-smoothing: antialiased;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: #181818;
+            letter-spacing: 24.5px;
+            vertical-align: middle;
+            display: table-cell;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+    .loreal-main-subtitle {
+        -webkit-font-smoothing: antialiased;
+        font-family: "freight-text-pro";
+        font-weight: 400;
+        font-size: 17px;
+        letter-spacing: -.25px;
+        text-align: center;
+        line-height: 27.25px;
+        color: #545454;
+        width: auto;
+        max-width: 700px;
+        padding: 0 0 95px 0;
+        margin: 0 auto;
+    }
+}
+
+.loreal-main {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    
+    .container-fluid {
+        margin: 0 auto;
+        width: 1280px;
+        padding-left: 0;
+        padding-right: 0;
+
+        .row {
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            display: inline-block;
+
+            &:nth-child(odd) {
+                margin-bottom: 100px;
+            }
+
+            &:nth-child(even){
+                margin-bottom: 130px;
+            }
+        }
+    }
+}
+
+.loreal-main-title {
+    font-size: 22px;
+    line-height: 21.5px;
+    font-family: "brandon-grotesque";
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #181818;
+    letter-spacing: 9.5px;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    
+    &:first-child {
+        border-top: none;
+        padding-top: 50px;
+        padding-bottom: 28px;
+    }
+}
+
+.loreal-slider {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.loreal-product {
+    margin-bottom: 200px;
+
+    .loreal-product-title {
+        font-size: 15.5px;
+        line-height: 20.5px;
+        font-family: "brandon-grotesque";
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #181818;
+        letter-spacing: 5px;
+        text-align: left;
+        margin: 10px 0 27px;
+    }
+
+    .loreal-product-body {
+        p {
+            -webkit-font-smoothing: antialiased;
+            font-family: "freight-text-pro";
+            font-weight: 400;
+            text-align: left;
+            color: #545454;
+            font-size: 18px;
+            letter-spacing: -.25px;
+            line-height: 28px;
+            margin: 20px 0 25px 0;
+
+            & span {
+                font-weight: 600;
+            }
+
+            a {
+                text-decoration: none;
+                color: #E099C3;
+                font-weight: 500;
+
+                &:hover {
+                    color: #F5B5DB;
+                }
+            }
+
+            br {
+                line-height: 3;
+            }
+        }
+    }
+
+    .loreal-product-content.edit-margin {
+        margin-top: -100px;
+    }
+
+    .col-md-6.loreal-product-content {
+      position: relative;
+      top: 50%;
+      transform: translateY(25%);
+
+        &:nth-child(n+1) {
+            padding: 0 0 0 15%;
+        }
+        
+        &:nth-child(n+2) {
+            padding: 0 15% 0 0;
+        }
+    }
+
+    .loreal-product-link {
+        .product-link {
+            -webkit-font-smoothing: antialiased;
+            line-height: 20.5px;
+            font-family: "brandon-grotesque";
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: left;
+            margin: 10px 0;
+            font-size: 11.25px;
+            font-weight: 500;
+            color: #9e9898;
+
+            &:hover {
+                color: #F5B5DB;
+            }
+        }
+    }
+}
+
+.loreal-slider-paging li {
+    small {
+        display: inline-block;
+        vertical-align: middle;
+        position: absolute;
+        transform: translateX(-50%);
+        text-transform: uppercase;
+        opacity: 0;
+        -webkit-transition: opacity .3s;
+        -o-transition: opacity .3s;
+        transition: opacity .3s;
+        letter-spacing: 2px;
+        font-size: 12px;
+        color: #2d2f2f;
+        font-family: "brandon-grotesque";
+        font-weight: 500;
+        top: -28px;
+        left: 9px;
+    }
+
+    &.selected, &:hover {
+        background: #000;
+        background: #000;
+        width: 20px;
+        height: 20px;
+        margin-top: -11px;
+    }
+
+    &.selected small, &:hover small {
+        opacity: 1;
+    }
+}
+
+.loreal-slider {
+    position: relative;
+    margin-bottom: 80px;
+
+    .row {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+.row.loreal-slider {
+    margin-bottom: 50px;
+}
+
+.loreal-slide {
+    overflow: hidden;
+    list-style: none;
+    list-style-position: outside;
+    float: left;
+
+    .col-md-6.loreal-slide-image {
+        width: 60%;
+    }
+
+    .col-md-6.loreal-slide-content {
+        width: 35%;
+        padding: 3% 0 0 0;
+    }
+
+    .col-md-pull-6 {
+        padding: 2% 3% 0 8%;
+    }
+
+    .loreal-slide-head {
+        padding: 0 0 0 3%;
+    }
+
+    .loreal-slide-image {
+        img {
+            width: 700px;
+            margin: 0 auto;
+        }
+
+        p, a {
+            font-family: "brandon-grotesque";
+            font-size: 7.5px;
+            font-weight: 400;
+            letter-spacing: 1.25px;
+            line-height: 15.5px;
+            list-style-type: none;
+            text-align: left;
+            text-transform: uppercase;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 2px;
+            color: #999999;
+        }
+
+        a.photo-credit {
+            font-family: "brandon-grotesque";
+            font-weight: 400;
+            color: #b7b7b7;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 8.5px;
+            padding-top: 4px;
+            padding-right: 1px;
+            display: block;
+            cursor: pointer;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        h6.photo-credit {
+            font-family: "brandon-grotesque";
+            font-weight: 400;
+            color: #b7b7b7;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 8.5px;
+            padding-top: 4px;
+            padding-right: 1px;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 15.5px;
+            display: block;
+        }
+
+        .right {
+            float: right;
+        }
+    }
+
+    .loreal-slide-title {
+        font-family: "Chronicle Display A","Chronicle Display B";
+        font-weight: 200;
+        line-height: 1.05;
+        font-size: 50px;
+        letter-spacing: -.5px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    
+    .loreal-time {
+        font-family: "Chronicle Display A", "Chronicle Display B";
+        -webkit-font-smoothing: antialiased;
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #313131;
+        margin-left: 5px;
+    }
+    
+    .loreal-slide-body {
+        p {
+            -webkit-font-smoothing: antialiased;
+            font-family: "freight-text-pro";
+            font-weight: 400;
+            text-align: left;
+            color: #545454;
+            font-size: 18px;
+            letter-spacing: -.25px;
+            line-height: 28px;
+            padding: 15px 35px 15px 3%;
+
+            &:after {
+                content:" "; 
+                border-bottom: 1px solid #000; 
+                padding-top: 45px;
+                width: 150px;
+                display: table-cell;
+            }
+
+            a {
+                text-decoration: none;
+                color: #E099C3;
+                font-weight: 500;
+                cursor: pointer;
+
+                &:hover {
+                    color: #F5B5DB;
+                }
+            }
+
+            & span {
+                font-weight: 600;
+            }
+        }
+
+        .shop-title {
+            font-size: 14px;
+            line-height: 20.5px;
+            font-family: "brandon-grotesque";
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #181818;
+            letter-spacing: 5px;
+            text-align: center;
+            margin: 0 0 20px 0;
+        }
+        
+        .hidden-xs {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            border: 1px solid #eaeaea;
+            display: block;
+            position: relative;
+
+            span.loreal-shop-btn {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+.loreal-ad {
+    display: block;
+    text-align: center;
+
+    img {
+        display: inline-block;
+        max-width: 100%;
+    }
+}
+
+/* ------------------------------------------------------------ *\
+	Medium Screens
+\* ------------------------------------------------------------ */
+
+@media (max-width: 1024px) {
+
+    .hidden-xs {
+         span.loreal-shop-btn {
+            display: none;
+        }
+
+        .loreal-header-board {
+            max-width: 100vw;
+
+            .loreal-header-title {
+                width: 85%;
+            }
+        }
+    }
+    
+    #loreal-back-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        padding-top: 11px;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 100;
+    }
+
+    .loreal-back-top-icon {
+        display: block;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.71);
+        transform: rotate(90deg);
+    }
+
+    .loreal-product {
+        .loreal-product-title,
+        .loreal-product-link {
+            text-align: center;
+        }
+
+        .loreal-product-link {
+            margin-bottom: 100px;
+        }
+           
+        .loreal-product-image {
+            img {
+                width: 420px !important;
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .col-md-6.loreal-product-image,
+        .col-md-6.loreal-product-content { 
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+            top: 0;
+            transform: none;
+            float: none;
+
+            &:nth-child(n+1) {
+                padding: 0 0 0 0;
+            }
+        }
+    }
+
+    .loreal-main {
+        .container-fluid {
+            margin: 0 auto;
+            width: 876px;
+
+            .row {
+                display: inline-block;
+                margin-bottom: 0;
+
+                &:nth-child(odd) {
+                    margin-bottom: 0px;
+                }
+
+                &:nth-child(even){
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .col-md-6.loreal-slide-image,
+        .col-md-6.loreal-slide-content { 
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 0 0 0;
+        }
+
+        .loreal-slide-image {
+
+            .hidden-xs.hidden-sm.hidden-md {
+                width: 460px;
+                display: block;
+            }
+
+            img {
+                margin: 0 auto;
+                width: 100%;
+            }
+
+            p {
+                text-align: right;
+                padding-right: 15px;
+            }
+
+            a.photo-credit {
+                float: right;
+                padding-right: 5px;
+                    
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+
+            h6.photo-credit {
+                float: right;
+                padding-right: 5px;
+            }
+        }
+
+        .loreal-slide-head {
+            border-bottom: 0;
+            margin-top: 0;
+            padding: 0 0 0 0;
+        }
+
+        .loreal-slide-body {
+            p {
+                padding: 30px 50px 10px;
+                text-align: center;
+
+                &:after {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+        .loreal-slide-title {
+            text-align: center;
+            font-size: 48px;
+        }
+
+        .loreal-main-subtitle {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+    .col-md-push-6 {
+        left: 0%;
+        width: 100%;
+    }
+
+    .col-md-pull-6 {
+        right: 0%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .loreal-main {
+        .loreal-slide {
+            .col-xs-6 {
+                width: 100%;
+            }
+            
+            .col-sm-6 {
+                width: 100%;
+                padding: 5% 5% 0;
+            }
+
+            .col-md-6 {
+                padding: 5% 5% 0;
+            }
+
+            .col-md-pull-6 {
+                padding: 5% 5% 0;
+            }
+        }
+    }
+}
+
+/* ------------------------------------------------------------ *\
+    Loreal Mobile Header
+\* ------------------------------------------------------------ */
+
+#loreal-mobile-header {
+    display: none;
+    color: #000;
+}
+
+.loreal-scroll-icon {
+    font-size: 21px;
+    display: block;
+    transform: rotate(90deg);
+    padding-left: 10px;
+    padding-top: 2px;
+}
+/* ------------------------------------------------------------ *\
+	Mobile
+\* ------------------------------------------------------------ */
+@media (max-width: 736px) {
+    #loreal-mobile-header { 
+        display: block;
+        text-align: center;
+        margin-top: 62px;
+        padding: 20px 0 30px;
+        padding-bottom: 50px;
+        height: 370px;
+
+        img {
+            width: 50vw;
+        }
+    }
+
+    .loreal-mobile-header-intro {
+        padding: 5px 20px 5px 20px;
+        /* better center the hed content */
+        position: relative;
+        right: 5px;
+        top: -130px;
+        background: inherit;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .loreal-product-body {
+        p {
+            text-align: center !important;
+            margin: 20px 0 20px 0;
+        }
+    }
+
+    .loreal-product {
+        
+        &:last-child {
+            padding-bottom: 50px;
+        }
+
+        .loreal-product-link {
+            margin: 0 auto;
+            width: 90%;
+            padding-bottom: 30px;
+
+            p {
+                font-family: "brandon-grotesque";
+                font-size: 15px;
+                letter-spacing: 4px;
+                line-height: 24.5px;
+                margin: 5px 10px;
+                padding: 8px 0;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            .product-link {
+                color: #989898;
+                font-size: 14.5px;
+                font-family:"freight-display-pro";
+                letter-spacing: 0px;
+                font-weight: 400;
+                text-transform: capitalize;
+                cursor: pointer;
+            }
+        }
+
+        .loreal-product-title {
+            font-family: "Chronicle Display A","Chronicle Display B";
+            font-weight: 200;
+            letter-spacing: -.25px;
+            text-transform: capitalize;
+            font-size: 30px;
+            text-align: center;
+            line-height: 31px;
+        }
+    }
+
+    .pb-btn-scroll {
+        font-size: 12px;
+        line-height: 19px;
+        letter-spacing: 4px;
+        margin: 12px 0;
+        font-family: "brandon-grotesque";
+        text-transform: uppercase;
+        padding: 13px 0;
+        cursor: pointer;
+        color: #F7AED9;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        
+        i {
+            display: block;
+            margin: 24px auto 5px;
+        }
+    }
+    
+    .pb-mobile-show {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: rgba(0,0,0,.8);
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: -12px;
+        background-color: #F7AED9;
+        position: relative;
+
+        .bs-mobile-arrow {
+            font-size: 21px;
+            font-weight: 700;
+            color: #fff;
+            position: relative;
+            padding-left: 20px;
+            transform: rotate(-90deg);
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+        }
+    }
+
+    .loreal-mobile-header-content {
+        margin-top: 15px;
+    }
+
+    .loreal-mobile-hed {
+        font-size: 29px;
+        line-height: 48px;
+        letter-spacing: 10px;
+        font-weight: 500;
+        font-family: "brandon-grotesque";
+        text-transform: uppercase;
+        margin: 0 10px 50px 10px;
+        -webkit-font-smoothing: antialiased;
+        text-align:center;
+    }
+
+    .loreal-mobile-subhed {
+        margin: 25px 15px;
+        -webkit-font-smoothing: antialiased;
+        color: #545454;
+        display: block;
+        font-family: 'freight-text-pro';
+        font-weight: 400;
+        text-align: center;
+        font-size: 16.5px;
+        letter-spacing: 0;
+        line-height: 1.5;
+    }
+
+    .loreal-main {
+
+        .col-md-6.loreal-slide-image,
+        .col-md-6.loreal-slide-content { 
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .container-fluid {
+            width: 100%;
+
+            .row {
+                margin-bottom: 0;
+            }
+
+            .loreal-product {
+                padding-top: 18px;
+                padding-bottom: 7px;
+                border-top: 2px solid #dfe2e6;
+                border-bottom: 2px solid #dfe2e6;
+                margin-bottom: 30px;
+                background-color: #f9f9f9;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .loreal-main-title {
+            font-size: 22px;
+            line-height: 21.5px;
+            font-family: "brandon-grotesque";
+            -webkit-font-smoothing: antialiased;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: #fff;
+            letter-spacing: 8px;
+            display: inline-block;
+            vertical-align: middle;
+            text-align: center;
+            font-family: "brandon-grotesque";
+            text-transform: uppercase;
+            font-weight: 500;
+            background-color: #333;
+            
+            &:first-child {
+                border-top: none;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                margin-bottom: 25px;
+            }
+        }
+
+        .loreal-slide {
+
+            .col-xs-6,.col-md-pull-6 {
+                width: 100%;
+                padding: 2% 3% 0 3%;
+                display: inline-block;
+            }
+
+            .loreal-time {
+                font-size: 23px;
+                line-height: 1.3;
+                font-weight: 300;
+                letter-spacing: 0;
+                color: #313131;
+            }
+
+            .loreal-slide-image {
+                margin-top: 50px;
+
+                &:first-child {
+                    margin-top: 0;
+                }
+
+                img {
+                    width: 100% !important;
+                    height: 100% !important;
+                }
+
+                p, a {
+                  margin-bottom: 0;
+                  padding-bottom: 0;
+                }
+            }
+
+            .loreal-slide-title {
+                margin: 12px 27px 7px 27px;
+                font-size: 37px;
+                font-weight: 200;
+                letter-spacing: -.5px;
+                font-family: "Chronicle Display A","Chronicle Display B";
+                color: #000;
+                line-height: 1.1;
+                text-transform: capitalize;
+                text-align: center;
+                display: block;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            .loreal-slide-body {
+                width: 85%;
+                margin: 0 auto;
+
+                p {
+                    margin: 5px 5px 0px 5px;
+                    -webkit-font-smoothing: antialiased;
+                    color: #545454;
+                    display: block;
+                    font-family: 'freight-text-pro';
+                    font-weight: 400;
+                    text-align: center;
+                    font-size: 18px;
+                    letter-spacing: 0;
+                    line-height: 1.5;
+                    padding: 12px 0px;
+
+                    &:after {
+                        border-bottom: none;        
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    #loreal-mobile-header {
+        img {
+            width: 100vw;
+        }
+    }
+
+    .loreal-mobile-header-content {
+        margin-top: 0;
+    }
+
+    .loreal-mobile-hed {
+        margin: 10px 10px 70px 10px;
+    }
+}

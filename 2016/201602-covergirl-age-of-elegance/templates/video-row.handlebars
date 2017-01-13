@@ -1,0 +1,35 @@
+<!-- Video Row Partial -->
+<div class="row video-mobile-row video-mobile-row-v2 hidden-sm hidden-md hidden-lg">
+	{{> char }}	
+</div>
+
+<div class="row video-row video-row-v2">
+	<div class="hidden-xs col-sm-12 cg-first-video-text">
+		{{> char }}
+	</div>
+	
+	<div class="col-xs-12">
+		<div class="cg-video-holder">
+			<iframe id="{{ id }}" class="vimeo" src="{{ videoLink }}" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+		</div>
+
+		{{#if video-overlay}}
+		{{#with video-overlay}}
+		<div class="overlay video-overlay {{ selector }}" id="{{ selector }}" {{{ ga-tags }}}>
+			<div class="video-play-container">
+				<span class="icon-play-button-outlined video-play"></span>
+			</div>
+		</div>
+		{{/with}}
+		{{/if}}		
+
+	</div>
+</div>	
+
+{{#if quote}}
+<div class="row video-mobile-row video-mobile-row-v2 hidden-sm hidden-md hidden-lg">
+	<div class="char-text video-char-text">
+		<p class="video-quote">{{{ quote }}}</p>
+	</div>
+</div>
+{{/if}}

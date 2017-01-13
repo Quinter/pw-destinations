@@ -1,0 +1,13 @@
+<!-- Product Row Partial -->
+<div class="row product-row">
+	<h2 class="product-row-hed">{{{ hed }}}</h2>
+	<div class="cg-shop-items clearfix">
+		{{#each shop-items}}
+		<div class="cg-shop-item">
+			<img src="{{ imageUrl }}" alt="{{ imageAlt }}" class="cg-shop-item-img">
+			<h3 class="cg-shop-item-hed">{{{ hed }}}</h3>
+			<p class="cg-shop-item-copy">{{{ copy }}}</p>	
+		</div>
+		{{/each}}
+	</div>
+</div>		

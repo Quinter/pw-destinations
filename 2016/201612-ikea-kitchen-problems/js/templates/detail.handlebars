@@ -1,0 +1,36 @@
+<div class="ik-detail" data-grid-id={{id}}>
+	<!-- Mobile Colorblock -->
+	<div class="ik-colorblock"></div>
+
+	<!-- Intro (Image + Copy) -->
+	{{#with intro}}
+	<div class="ik-intro">
+		<div class="col col-img col-1-2">
+			<img class="ik-intro-img" src={{ image }} alt="">
+		</div>
+
+		<div class="col col-text col-1-2">
+			<h2 class="ik-intro-hed">{{{ hed }}}</h1>
+			<p class="ik-intro-copy">{{{ copy }}}</p>
+		</div>
+	</div>
+	{{/with}}
+	
+	<!-- Products -->
+	{{#with products-content}}
+	<div class="ik-products">
+		<h1 class="ik-products-hed">{{{ hed }}}</h1>
+
+		<div class="ik-products-wrapper">
+			{{#each products}}
+			{{> product}}
+			{{/each}}
+		</div>
+
+	</div>
+	{{/with}}
+	<!-- Close Icon -->
+	<div class="ik-detail-closer" data-gae-track="event" data-gae-category="destination" data-gae-action="click" data-gae-label="popup_close_button">
+		<span class="icon-close-icon ik-close-icon"></span>
+	</div>
+</div>

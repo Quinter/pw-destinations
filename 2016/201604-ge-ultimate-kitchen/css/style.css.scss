@@ -1,0 +1,1067 @@
+////////////////////////
+//Mixins and Variables//
+////////////////////////
+/* Some of these already exist in our production CSS file. Including here for local dev purposes. */
+@mixin center-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@mixin center-vertically {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin font-smoothing {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;	
+}
+
+@mixin row-text-padding-desktop {
+	padding-left: 91px;
+	padding-right: 75px;
+}
+
+@mixin mobile-popup-padding {
+	padding-left: 35px;
+	padding-right: 72px; //make this a percentage for responsiveness
+	padding-top: 8px;
+	padding-bottom: 35px;
+}
+
+@mixin nav-border-bottom {
+	border-bottom: 7px solid #f9f9f9;
+}
+
+@mixin std-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5; //baseline starting z-index. increase in increments of 5.
+}
+
+@mixin clearfix {
+   &:after { 
+	   content: "."; 
+	   visibility: hidden; 
+	   display: block; 
+	   height: 0; 
+	   clear: both;
+   } 
+}
+
+///////////
+//DESKTOP//
+///////////
+
+/* General */
+//not using .row (but check that this doesn't break the responsiveness)
+.ge-container {
+	
+	width: 1280px; //for screen sizes greater than 1280px
+	padding-left: 0;
+	padding-right: 0;
+	position: relative;
+
+	@media (max-width: 1280px) {
+		width: 100%;
+	}
+
+}
+
+.ge-tablet-initial {
+	display: none;
+}
+
+.ge-mobile-img {
+	display: none !important;
+}
+
+.ge-non-mobile-img {
+	display: block !important;
+}
+
+.ge-italics {
+	font-style: italic;
+}
+
+/* Intro Row */
+.ge-intro-row {
+	margin-top: 15px;
+	margin-bottom: 27px;
+	@include row-text-padding-desktop;
+	padding-left: 91px;
+	@include font-smoothing;
+	
+	.ge-header-text {
+		.ge-intro-line {
+			font-family: "brandon-grotesque";
+			text-transform: uppercase;
+			letter-spacing: 4px;
+			font-size: 12.5px;
+			font-weight: 500;
+			color: #2e2e2e;
+			margin-bottom: 17px;
+		}
+
+		.ge-intro-hed {
+			font-family: "Chronicle Display A", "Chronicle Display B";
+			font-weight: 200;
+			font-size: 63px;
+			letter-spacing: -1px;
+			color: rgb(46, 46, 46);
+			line-height: 55px;
+			margin-bottom: 20px;
+			margin-top: 0;
+		}
+
+		.ge-intro-subhed {
+			color: #5D5E61;
+			font-family: "freight-text-pro";
+			font-size: 16px;
+			font-weight: normal;
+			letter-spacing: -.25px;
+			line-height: 1.43;
+			max-width: 625px;
+			padding-top: 3px;
+		}
+
+		.ge-intro-tips {
+			display: none;
+		}
+
+		.ge-scroll-prompt {
+			display: none;
+		}
+	}
+
+}
+
+/* Nav */
+.ge-nav-row {
+	text-align: center;
+}
+
+.ge-nav {
+	@include row-text-padding-desktop;
+	@include nav-border-bottom;		
+	width: 100%;
+
+	.ge-nav-item {
+		display: inline-block;
+		@include nav-border-bottom;
+		padding: 13px 0;
+		width: 225px;
+		text-align: center;
+		margin-left: -2px;
+		margin-right: -2px;
+		//position the li's 5px below where they'd normally be so the border-bottoms overlap
+		position: relative;
+		top: 7px;
+
+		& span {
+			font-size: 11.5px;
+			font-family: "brandon-grotesque";
+			color: #558af9;
+			font-weight: 600;
+			text-transform: uppercase;
+			line-height: 1.5;
+			letter-spacing: 2.25px;
+			@include font-smoothing;
+			cursor: pointer;
+			transition: all .3s ease;
+		}
+		//once specs rcvd, update hover state for each individual li
+		&:hover,
+		&.active-ge-nav {
+			border-color: #558af9;
+
+			& span {
+				font-size: 13px;
+				color: #558af9;
+				letter-spacing: 3.25px;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+/* Main Content Section (Shared) */
+.ge-main-content-container {
+	clear: both;
+}
+
+.ge-main-content {
+	display: none; //hide by default;
+	position: relative;
+
+	&.active-ge-section {
+		display: block;
+	}
+}
+
+.ge-image-container {
+	position: relative;
+}
+
+.ge-photo-credit-overlay {
+	font-family: "brandon-grotesque";
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    text-align: right;
+	color: rgba(221, 221, 226, 0.85);
+	@include font-smoothing;
+    font-size: 7.25px;
+    line-height: 10px;
+    letter-spacing: 1.75px;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+	z-index: 30;
+
+	& a {
+		color: rgba(221, 221, 226, 0.85);
+	}
+}
+
+.ge-mobile-section-overlay {
+	display: none;
+}
+
+//Button Overlay
+.ge-btns-overlay {
+	@include std-overlay;
+	z-index: 10;
+	// background-color: rgba(0,0,0,.5); //temp
+
+	.ge-btn {
+		position: absolute;
+		height: 35px;
+		width: 35px;
+		border-radius: 50%;
+		border: 1px solid #567BC0;
+		background-color: rgba(68, 122, 228, 1);
+		box-shadow: 0 0 2px 2px rgba(0,0,0,.3);
+		cursor: pointer;
+
+		.icon-plussign {
+			color: #fff;
+			font-size: 13px;
+			@include center-content;
+		}
+	}
+}
+
+//Popup Overlay
+.ge-popup-overlay {
+	@include std-overlay;
+	position: fixed;
+	z-index: 15;
+	background-color: rgba(0,0,0,.7);
+	display: none;
+
+	.ge-popup-title-mobile {
+		display: none;
+	}
+}
+
+.ge-popup {
+	display: none; //hide by default;
+	@include center-content;
+	background-color: #fff;
+	border-bottom: 5px solid #eaeaea;
+	width: 70%; //might need to adjust for breaks in responsiveness. good on macbook. set a max-width.
+	max-width: 800px;
+	// min-height: 65%; //too tall for certain popup boxes. figure out a better solution.
+	@include clearfix;
+	z-index: 20;
+
+	.ge-popup-close {
+		cursor: pointer;
+		height: 54px;
+		width: 54px;
+		position: absolute;
+		right: -27px; //half of width
+ 		top: -27px; //half of height
+		background-color: #558af9;
+		opacity: .93;
+		border-radius: 100%;
+		box-shadow: 0 1px 5px rgba(0,0,0,.28);
+		transition: opacity .3s ease;
+		z-index: 25;
+
+		.ge-close-icon {
+		    position: relative;
+		    top: 16px;
+		    left: 13.5px;
+
+			&:before {
+				content: "\e900";
+				color: #fff;
+				font-size: 25px;
+			    transform: rotate(45deg);
+			}
+		}
+
+		&:hover {
+			opacity: .9;
+		}
+	}
+
+	.ge-popup-image {
+		float: left;
+		width: 40%;
+		padding: 12px 5px 12px 15px;
+		position: relative;
+
+		.ge-photo-credit {
+			bottom: 16px;
+			right: 7px;
+		}
+	}
+
+	.ge-popup-text {
+		float: right;
+		width: 55%;
+		// height: 100%;
+		text-align: left;
+		padding: 35px 60px 5px 5px;
+
+		.ge-popup-title {
+			font-size: 9.25px;
+			line-height: 14px;
+			font-family: "brandon-grotesque";
+			text-transform: uppercase;
+			font-weight: 500;
+			color: #558af9;
+			letter-spacing: 2.25px;
+		}
+
+		.ge-popup-hairline-mobile {
+			display: none;
+		}
+
+		.ge-popup-hed {
+			color: #000;
+			font-family: 'Chronicle Display A','Chronicle Display B',serif;
+			font-weight: 200;
+			font-size: 34px;
+			letter-spacing: -1px;
+			line-height: 40px;
+			padding-bottom: 15px;
+			padding-top: 3px;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.ge-sponsored {
+			font-size: 8px;
+			line-height: 13px;
+			font-family: "brandon-grotesque";
+			text-transform: uppercase;
+			font-weight: 400;
+			color: #C6C8D2;
+			letter-spacing: 2px;
+		}
+
+		.ge-popup-body {
+			color: #5D5E61;
+			font-size: 14.75px;
+			line-height: 1.39;
+			margin-bottom: 13px;
+			font-family: "freight-text-pro";
+			font-weight: 400;
+			letter-spacing: 0;
+			@include font-smoothing;
+
+			.ge-link {
+				font-weight: 600;
+				color: #5D5E61;
+				font-size: 14.75px;
+				line-height: 1.42;
+				@include font-smoothing;
+
+				&:hover {
+					color: #888686;			
+				}
+			}
+		}
+
+		.ge-photo-credit {
+			color: #7B7A7A;
+			font-family: "freight-text-pro";
+			font-weight: 600;
+			font-size: 14.75px;
+			letter-spacing: 0;
+			line-height: 1.39;
+			@include font-smoothing;
+
+			& a {
+				font-weight: 600;
+				color: #7B7A7A;			
+			}
+
+		}
+
+	}
+
+	.ge-popup-nav {
+		position: absolute;
+		bottom: 15px;
+		right: 15px;
+
+		.ge-nav-icon {
+			cursor: pointer;
+			color: rgba(255, 255, 255, 0.83);
+			display: inline-block;
+			width: 33px;
+			height: 33px;
+			border-radius: 0;
+			padding-top: 0px;
+			padding-left: 7px;
+			line-height: 33px;
+			font-size: 24px;
+			width: 37px;
+			height: 37px;
+			background: #E6E8EC;
+			border: 2px solid #E6E8EC;
+			transition: all .3s ease;
+
+			&:hover {
+				background: #D5D7DA;
+				color: rgba(255, 255, 255, 0.97);
+				border: 2px solid #D5D7DA;				
+			}
+		}
+
+		.ge-prev {
+			
+			&:before {
+				content: "\e62f";
+			}
+		}
+
+		.ge-next {
+
+			&:before {
+				content: "\e62a";
+			}		
+		}
+	}
+
+}
+
+.ge-popup-no-img {
+	width: 50%;
+	min-height: 350px; //play around with this for responsiveness...
+
+	.ge-popup-text {
+		@include center-content;
+		float: none;
+		width: 75%;
+		padding-top: 0;
+	}
+}
+
+.ge-popup-active {
+	display: block;
+}
+
+/* Main Content Section A (Creative Cabinets)  */
+#ge-creative-cabinets {
+	#ge-btn-a1 {
+		top: 64%;
+		left: 22%;
+	}
+	#ge-btn-a2 {
+		top: 11%;
+		left: 25%;
+	}
+	#ge-btn-a3 {
+		top: 17%;
+		left: 38.5%;
+	}
+	#ge-btn-a4 {
+		top: 49%;
+		left: 59.5%;
+	}	
+	#ge-btn-a5 {
+		top: 69%;
+		left: 40%;
+	}	
+}
+
+/* Main Content Section B (Organized Pantry)  */
+#ge-organized-pantry {
+	#ge-btn-b1 {
+		top: 64%;
+		left: 67%;
+	}
+	#ge-btn-b2 {
+		top: 26%;
+		left: 72%;
+	}
+	#ge-btn-b3 {
+		top: 56%;
+		left: 32.5%;
+	}
+	#ge-btn-b4 {
+		top: 26%;
+		left: 50.5%;
+	}
+}
+
+/* Main Content Section C (Clever Storage)  */
+#ge-clever-storage {
+	#ge-btn-c1 {
+		top: 34%;
+		left: 42%;
+	}
+	#ge-btn-c2 {
+		top: 18%;
+		left: 63%;
+	}
+	#ge-btn-c3 {
+		top: 53%;
+		left: 72%;
+	}
+	#ge-btn-c4 {
+		top: 66%;
+		left: 77%;
+	}
+}
+
+/* Main Content Section D (Breakfast Nook)  */
+#ge-breakfast-nook {
+	#ge-btn-d1 {
+		top: 72%;
+		left: 19%;
+	}
+	#ge-btn-d2 {
+		top: 10%;
+		left: 79.5%;
+	}
+	#ge-btn-d3 {
+		top: 91%;
+		left: 24%;
+	}
+	#ge-btn-d4 {
+		top: 33%;
+		left: 29%;
+	}
+	#ge-btn-d5 {
+		top: 40%;
+		left: 55%;
+	}
+}
+
+/* Pulse Animation (credits to Justin Aguilar at www.justinaguilar.com/animations/) */
+.pulse{
+	animation-name: pulse;
+	-webkit-animation-name: pulse;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.85);
+		opacity: 0.7;		
+	}
+	50% {
+		transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		transform: scale(0.85);
+		opacity: 0.7;
+	}			
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		-webkit-transform: scale(0.85);
+		opacity: 0.7;		
+	}
+	50% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}	
+	100% {
+		-webkit-transform: scale(0.85);
+		opacity: 0.7;	
+	}			
+}
+
+
+
+//////////
+//Tablet//
+//////////
+@media (min-width: 768px) and (max-width: 1024px) {
+
+html, body {
+	@media (orientation: portrait) {
+		overflow: hidden;
+		height: 100%;
+	}
+	@media (orientation: landscape) {
+		overflow: auto;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		height: auto;
+	}
+}
+
+/* General */
+.ge-container {
+	@media (orientation: portrait) {
+		display: none;
+	}
+	@media (orientation: landscape) {
+		display: block;
+	}
+}
+
+.ge-intro-row {
+	margin-bottom: 18px;
+}
+
+.ge-tablet-initial {
+	@media (orientation: portrait) {
+		display: block;
+	}
+
+	@media (orientation: landscape) {
+		display: none;
+	}
+
+	.ge-tablet-landing-img {
+		width: 100%;
+	}
+
+	.ge-tablet-initial-overlay {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+
+		.tablet-overlay-content {
+			@include center-vertically;
+			top: 35%;
+			text-align: center;
+
+			.ge-tablet-cta {
+				font-size: 17px;
+				color: #fff;
+				letter-spacing: 5.25px;
+				font-family: "brandon-grotesque";
+				font-weight: 500;
+				text-transform: uppercase;
+				line-height: 1.9;
+				text-align: center; 
+				margin-top: 25px;
+				padding-left: 20%;
+				padding-right: 20%;			
+				@include font-smoothing;	
+			}
+		}
+	}
+}
+
+.ge-nav {
+	padding-left: 0;
+	padding-right: 0;
+
+	.ge-nav-item {
+		width: 25%;
+	}
+}
+
+.ge-popup {
+	.ge-popup-text {
+		.ge-popup-hed {
+			font-size: 26px;
+			line-height: 27px;
+		}
+	}
+}
+
+
+}
+
+
+
+//////////
+//Mobile//
+//////////
+@media (max-width: 767px) {
+
+/* General */
+//not using .row (but check that this doesn't break the responsiveness)
+.ge-container {
+	margin-top: 0; //accounting for height of fixed site header (may need to adjust in admin)
+	padding: 0;
+}
+
+.ge-tablet-initial {
+	display: none;
+}
+
+.ge-mobile-img {
+	display: block !important;
+}
+
+.ge-non-mobile-img {
+	display: none !important;
+}
+
+
+/* Intro Row */ //updated for mobile
+.ge-intro-row {
+	position: relative;
+	margin: 0;
+	padding: 0; //update w/ mobile text padding mixin later on (create the mixin too)
+	
+	.ge-header-text {
+		position: absolute;
+		top: 45%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		text-align: center;
+
+		.ge-intro-line {
+			font-size: 12.5px;
+			line-height: 19.13px;
+			letter-spacing: 3.75px;
+			margin: 12px 0;
+			color: #fff;
+		}
+
+		.ge-intro-hed {
+			font-size: 64px;
+			line-height: 1.05;
+			letter-spacing: -1.5px;
+			margin: 5px 0 30px 0;
+			color: #fff;
+		}
+
+		.ge-intro-subhed {
+			display: none;
+		}
+
+		.ge-intro-tips {
+			display: block;
+			font-family: "brandon-grotesque";
+			text-transform: uppercase;
+			font-size: 12.5px;
+			line-height: 19.13px;
+			letter-spacing: 3.75px;
+			margin: 15px 0;
+			font-weight: 600;	
+			color: #fff;
+		}
+
+		.ge-scroll-prompt {
+			display: block;
+		    width: 40px;
+		    height: 40px;
+		    background-color: rgba(255,255,255,.3);
+		    border-radius: 50%;
+		    margin: 0 auto;
+
+		    .ge-scroll-icon {
+				font-size: 23px;
+			    display: block;
+			    transform: rotate(90deg);
+				position: relative;
+				top: 10px;
+				color: #fff;
+				font-weight: 700;
+
+		    	&:before {
+		    		content: "\e636";
+		    	}
+		    }			
+		}
+	
+	}
+}
+
+/* Nav */
+.ge-nav-row {
+	display: none;
+}
+
+/* Main Content Section (Shared) */
+.ge-main-content {
+	display: block;
+}
+
+//Mobile Overlay
+.ge-mobile-section-overlay {
+	display: block;
+	@include std-overlay;
+	z-index: 40;
+	transition: all .3s ease;
+	background-color: rgba(0,0,0,.3);
+
+	.ge-section-hed-mobile {
+		font-size: 51px;
+		color: #fff;
+		line-height: .92;
+		letter-spacing: -1.5px;
+		font-family: "Chronicle Display A", "Chronicle Display B";
+		font-weight: 200;
+		-webkit-font-smoothing: antialiased;
+		text-align: left;		
+		max-width: 65%;
+		position: absolute;
+		top: 35%;
+		left: 30px;
+	}
+
+	.ge-popup-prompt {
+		position: absolute;
+		top: 41%;
+		right: 25px;
+		width: 50px;
+		height: 50px;
+		background-color: #608bf1;
+		border-radius: 50%;
+		margin: 0 auto;
+		box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.4);
+		z-index: 35;
+		transform: rotate(180deg);
+
+		.ge-popup-arrow-icon {
+			display: block;
+			transform: rotate(180deg);
+			font-size: 20px;
+			font-weight: 700;
+			color: #fff;
+			position: relative;
+			top: 15px;
+			right: 15px;
+			transition: all .3s ease;
+
+			&:before {
+				content: "\e636";
+			}
+		}
+
+		&.popups-open {
+			transform: rotate(360deg);
+			transition: all .3s ease;
+		}
+	}
+
+	&.popups-open {
+
+		.ge-popup-prompt {
+			right: -56px;
+		}
+
+		transition: all .3s ease;
+		transform: translateX(-100%);
+	}
+}
+
+//Button Overlay
+.ge-btns-overlay {
+	display: none;
+}
+
+//Popup Overlay
+.ge-popup-overlay {
+	margin-top: 61px; //so it's not hidden under the fixed site header
+	position: absolute;
+	top: 0;
+	background-color: #fff;
+	height: 100%;
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+	transform: translateX(100%);
+	transition: all .3s ease;
+
+	&.popups-open {
+		transition: all .3s ease;
+		transform: translateX(10%);
+	}
+
+	.ge-popup-title-mobile {
+		display: block;
+		@include mobile-popup-padding;
+		padding-top: 21px;
+		padding-bottom: 20px;
+		margin-top: 0;
+		margin-bottom: 15px;
+		font-family: "brandon-grotesque";
+		font-size: 13px;
+		font-weight: 500;
+		letter-spacing: 5.25px;
+		line-height: 15.5px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		background-color: #608bf1;
+	}	
+}
+
+.ge-popup {
+	display: block;
+	position: static;
+	transform: none;
+	top: initial;
+	left: initial;
+	border: none;
+	width: 100%;
+	max-width: none;
+
+	&:last-child {
+		margin-bottom: 50px;
+	}
+
+	.ge-popup-close {
+		display: none;
+	}
+
+	.ge-popup-image {
+		float: none;
+		width: 75%;
+		margin-left: 30px; //make this a percentage for responsiveness
+		padding: 0;
+
+		.ge-photo-credit {
+			bottom: 0;
+			right: 5%;
+		}
+	}
+
+	.ge-popup-text {
+		float: none;
+		width: 100%;
+		padding: 0;
+		@include font-smoothing;
+		@include mobile-popup-padding;
+
+		.ge-popup-title {
+			display: none;
+		}
+
+		.ge-popup-hairline-mobile {
+			display: block;
+			border-bottom: 4px solid #608bf1;
+			width: 100px;
+			text-align: left;
+			margin-left: 0;
+		}
+
+		.ge-popup-hed {
+			font-size: 28px;
+			padding-bottom: 18px;
+			line-height: 1;
+		}
+
+		.ge-sponsored {
+			font-size: 9.5px;
+			line-height: 16.5px;
+			font-family: "brandon-grotesque";
+			text-transform: uppercase;
+			font-weight: 500;
+			color: #999;
+			letter-spacing: 1.5px;
+		}
+
+		.ge-popup-body {
+			font-size: 15px;
+			line-height: 1.45;
+			margin-bottom: 10px;
+
+			.ge-link {
+				font-size: 16px;
+				font-weight: 600;
+			}
+
+		}
+
+		.ge-photo-credit {
+			font-size: 15px;
+			& a {	
+				font-size: 15px;
+			}
+		}
+
+	}
+
+	.ge-popup-nav {
+		display: none;
+	}
+
+}
+
+.ge-popup-no-img {
+	width: 100%;
+	min-height: auto;
+	margin-top: -20px;
+
+	&:first-child {
+		margin-top: initial;
+	}
+
+	.ge-popup-text {
+		position: static;
+		float: none;
+		width: 100%;
+		transform: none;
+	}
+}
+
+.ge-image-container {
+
+	.ge-photo-credit-overlay {
+		z-index: 15;
+		color: rgba(221, 221, 226, 0.61);
+		letter-spacing: 1.5px;
+	}
+}
+
+
+}
+
+/* BX Wrapper Overrides */
+.bx-wrapper {
+	margin: 0;
+
+	.bx-viewport {
+		border: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		left: 0;
+	}
+
+	.bx-controls {
+		display: none !important;
+	}
+}
+
+
+
+
+

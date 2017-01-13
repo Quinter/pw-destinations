@@ -1,0 +1,541 @@
+/* Some of these already exist in our production CSS file. Including here for local dev purposes. */
+/* General */
+.visible-desktop {
+  display: initial; }
+
+.visible-tablet-mobile {
+  display: none; }
+
+.visible-mobile {
+  display: none; }
+
+.lo-cta-mobile {
+  display: none; }
+
+/* Intro Container */
+.lo-intro-container {
+  width: 100vw;
+  max-width: 1920px;
+  margin: 0 auto;
+  background-image: url("../images/desktop/header-image.jpg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 250px;
+  position: relative; }
+
+.lo-intro-overlay {
+  position: absolute;
+  width: 75%;
+  left: 12.5%;
+  height: 100%; }
+  .lo-intro-overlay .lo-intro-hed {
+    width: 100%;
+    font-family: "brandon-grotesque";
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 7px;
+    line-height: 1.45;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0 auto 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+/* Day Pager  */
+.lo-mobile-pager {
+  display: none; }
+
+.lo-intro-pager {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 40px; }
+  .lo-intro-pager .lo-intro-pager-btn {
+    display: inline-block;
+    font-size: 12.75px;
+    font-family: "brandon-grotesque";
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 2.5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all .3s;
+    padding: 10px 30px;
+    margin-right: -5px;
+    cursor: pointer;
+    height: 40px; }
+    .lo-intro-pager .lo-intro-pager-btn.active, .lo-intro-pager .lo-intro-pager-btn:hover {
+      background-color: #fff;
+      color: #000; }
+
+.sticky-pager {
+  position: fixed;
+  top: 62px;
+  z-index: 100;
+  background-color: #D6D2D3; }
+
+/* Main Content Container */
+.lo-main-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 50px auto 0; }
+
+#lo-days .lo-day {
+  display: none; }
+  #lo-days .lo-day.active-day {
+    display: block; }
+
+.lo-day-main:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+.lo-day-main .lo-day-main-col {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .lo-day-main .lo-day-main-col .lo-day-main-img {
+    width: 100%;
+    height: 100%; }
+  .lo-day-main .lo-day-main-col .lo-photo-credit {
+    display: block;
+    font-family: "brandon-grotesque";
+    font-size: 7.5px;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    list-style-type: none;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    color: #999999;
+    margin-bottom: 15px; }
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-name {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-family: "brandon-grotesque";
+    color: #000;
+    line-height: 1.45;
+    text-transform: uppercase;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-underline {
+    display: inline-block;
+    border-top: 1px solid #eaeaea;
+    width: 85%;
+    max-width: 362px;
+    margin: 0; }
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-hed {
+    font-size: 43px;
+    font-weight: 200;
+    letter-spacing: -1.5px;
+    font-family: "Chronicle Display A", "Chronicle Display B";
+    color: #000;
+    line-height: 1.25;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 10px 0 5px;
+    width: 95%; }
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-body {
+    width: 70%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy {
+      color: #404144;
+      text-align: left;
+      font-family: 'freight-text-pro';
+      font-size: 18.5px;
+      font-weight: normal;
+      letter-spacing: 0;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .bold-copy,
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .link-copy {
+        font-weight: 600;
+        color: #000; }
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .link-copy {
+        text-decoration: underline;
+        transition: opacity .3s; }
+        .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .link-copy:hover {
+          opacity: .7; }
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .em-copy {
+        font-style: italic; }
+
+.lo-day-products {
+  margin-top: 50px; }
+  .lo-day-products .lo-day-products-hed {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    font-family: "brandon-grotesque";
+    color: #000;
+    line-height: 1.45;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .lo-day-products .lo-day-products-underline {
+    border-top: 1px solid #eaeaea;
+    width: 100%; }
+
+.lo-day-product-wrapper {
+  text-align: center;
+  margin-bottom: 50px; }
+  .lo-day-product-wrapper .lo-day-product {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+    margin: 0 35px;
+    vertical-align: top;
+    cursor: pointer; }
+    .lo-day-product-wrapper .lo-day-product .lo-day-product-img {
+      transition: opacity .3s; }
+    .lo-day-product-wrapper .lo-day-product .lo-day-tip-prompt {
+      font-family: "brandon-grotesque";
+      text-transform: uppercase;
+      margin-top: 5px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      line-height: 1.25; }
+    .lo-day-product-wrapper .lo-day-product .lo-day-product-hed {
+      color: #404144;
+      text-align: center;
+      font-family: 'freight-text-pro';
+      font-size: 18.5px;
+      font-weight: normal;
+      letter-spacing: 0;
+      line-height: 1.25;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 60%;
+      margin: 5px auto 0;
+      transition: opacity .3s; }
+    .lo-day-product-wrapper .lo-day-product .lo-day-product-price {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 3px;
+      font-family: "brandon-grotesque";
+      color: #575757;
+      line-height: 1.45;
+      text-transform: uppercase;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: opacity .3s; }
+    .lo-day-product-wrapper .lo-day-product .lo-buy-btn-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%; }
+    .lo-day-product-wrapper .lo-day-product .lo-buy-btn {
+      opacity: 0;
+      font-weight: 700;
+      background: #181818;
+      color: #ffffff;
+      letter-spacing: .2em;
+      font-size: .69em;
+      line-height: 2;
+      border-radius: 2px;
+      width: 105px;
+      padding: 6px 12px;
+      text-transform: uppercase;
+      cursor: pointer;
+      display: block;
+      font-family: "brandon-grotesque";
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      transition: all .3s; }
+      .lo-day-product-wrapper .lo-day-product .lo-buy-btn:hover {
+        background-color: #555; }
+    .lo-day-product-wrapper .lo-day-product:hover .lo-day-product-img,
+    .lo-day-product-wrapper .lo-day-product:hover .lo-day-tip-prompt,
+    .lo-day-product-wrapper .lo-day-product:hover .lo-day-product-hed,
+    .lo-day-product-wrapper .lo-day-product:hover .lo-day-product-price {
+      opacity: .7; }
+    .lo-day-product-wrapper .lo-day-product:hover .lo-buy-btn {
+      opacity: 1; }
+
+@media (max-width: 1280px) {
+  .lo-intro-overlay {
+    width: 100%;
+    left: initial; }
+
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-body {
+    width: 85%; } }
+@media (max-width: 1200px) {
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-hed {
+    width: 87%; }
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-body {
+    width: 87%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-hed {
+      margin-bottom: 10px;
+      width: 100%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy {
+      font-size: 17px; }
+
+  .lo-day-product-wrapper .lo-day-product {
+    width: 25%; } }
+@media (max-width: 991px) {
+  .visible-desktop {
+    display: none; }
+
+  .visible-desktop-tablet {
+    display: block; }
+
+  .visible-tablet-mobile {
+    display: block; }
+
+  .visible-mobile {
+    display: none; }
+
+  .lo-intro-container {
+    background-image: url("../images/tablet/header-image.jpg");
+    min-height: 545px; }
+
+  .lo-intro-pager .lo-intro-pager-btn {
+    height: 41px; }
+
+  .lo-main-container {
+    max-width: 850px; }
+
+  #lo-days .lo-day {
+    display: block; }
+
+  .lo-day-main .lo-day-main-col {
+    float: none;
+    width: 100%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-hed {
+      width: 87%;
+      margin: 0 auto; }
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-underline {
+        width: 100%;
+        max-width: none; }
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-hed {
+        width: 100%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-body {
+      width: 87%;
+      margin: 0 auto; }
+
+  .lo-day-product-wrapper .lo-day-product:hover .lo-day-product-img,
+  .lo-day-product-wrapper .lo-day-product:hover .lo-day-tip-prompt,
+  .lo-day-product-wrapper .lo-day-product:hover .lo-day-product-hed,
+  .lo-day-product-wrapper .lo-day-product:hover .lo-day-product-price {
+    opacity: 1; }
+  .lo-day-product-wrapper .lo-day-product .lo-day-product-hed {
+    margin-bottom: 7px; }
+  .lo-day-product-wrapper .lo-day-product .lo-day-product-img {
+    margin: 0 auto; }
+  .lo-day-product-wrapper .lo-day-product .lo-day-product-price,
+  .lo-day-product-wrapper .lo-day-product .lo-day-tip-hed {
+    padding-bottom: 75px; }
+  .lo-day-product-wrapper .lo-day-product .lo-buy-btn {
+    top: initial;
+    bottom: 10px;
+    opacity: 1; }
+    .lo-day-product-wrapper .lo-day-product .lo-buy-btn:hover {
+      background: #181818; }
+
+  /* Slick Slider Dots */
+  .slick-dots {
+    position: static; }
+    .slick-dots li {
+      margin: 0 2px; }
+      .slick-dots li button {
+        background-color: #d7d7d7;
+        border-radius: 50%;
+        transition: all .3s;
+        width: 10px;
+        height: 10px; }
+        .slick-dots li button:before {
+          content: ''; }
+      .slick-dots li.slick-active button {
+        transition: all .3s;
+        background-color: #3e3737; }
+
+  .slick-dotted.slick-slider {
+    margin-bottom: 50px; } }
+@media (max-width: 767px) {
+  body, html {
+    overflow: hidden;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Chrome, Safari, Opera */
+    backface-visibility: hidden; }
+
+  .visible-desktop-tablet {
+    display: none; }
+
+  .lo-intro-container {
+    background-image: url("../images/mobile/header-image.jpg");
+    height: 100vh;
+    width: 100vw; }
+
+  .lo-intro-overlay .lo-intro-hed {
+    font-size: 40px;
+    line-height: 1.325;
+    width: 100%;
+    font-family: "brandon-grotesque";
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 62px auto 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+  .lo-main-container {
+    display: none;
+    margin-top: 112px; }
+
+  .visible-mobile {
+    display: block; }
+
+  .lo-mobile-pager {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 40px;
+    display: none;
+    height: 60px; }
+    .lo-mobile-pager .lo-intro-pager-btn {
+      display: inline-block;
+      font-size: 12.75px;
+      font-family: "brandon-grotesque";
+      font-weight: 600;
+      color: #fff;
+      text-transform: uppercase;
+      line-height: 1.5;
+      text-align: center;
+      letter-spacing: 2.5px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      transition: all .3s;
+      padding: 10px 30px;
+      margin-right: -5px;
+      cursor: pointer;
+      height: 40px; }
+      .lo-mobile-pager .lo-intro-pager-btn.active, .lo-mobile-pager .lo-intro-pager-btn:hover {
+        background-color: #fff;
+        color: #000; }
+    .lo-mobile-pager .lo-intro-pager-btn {
+      font-size: 18px;
+      line-height: 1.474;
+      background-color: transparent;
+      height: 100%;
+      padding: 15px 12.5px;
+      margin: 0;
+      transition: none;
+      min-width: 150px; }
+      .lo-mobile-pager .lo-intro-pager-btn .mobile-pager-txt {
+        opacity: .502; }
+      .lo-mobile-pager .lo-intro-pager-btn.active {
+        background-color: transparent;
+        color: #fff;
+        opacity: 1;
+        transition: none; }
+        .lo-mobile-pager .lo-intro-pager-btn.active .mobile-pager-txt {
+          opacity: 1; }
+      .lo-mobile-pager .lo-intro-pager-btn:hover {
+        color: #fff;
+        background-color: transparent; }
+      .lo-mobile-pager .lo-intro-pager-btn:nth-child(3) {
+        min-width: 175px; }
+    .lo-mobile-pager.visible-mobile-pager {
+      position: fixed;
+      top: 62px;
+      z-index: 100;
+      background-color: #D6D2D3;
+      display: flex;
+      overflow-x: auto;
+      background-color: #80a6fb;
+      transform: translateZ(0); }
+
+  .lo-cta-mobile {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+    .lo-cta-mobile:before {
+      display: block;
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      padding-left: 7.5px; }
+
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-hed {
+    width: 100%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-name {
+      display: none; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-underline {
+      display: none; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-hed .lo-day-hed {
+      font-size: 39px;
+      line-height: 1.1;
+      font-weight: 200;
+      margin-bottom: 10px; }
+  .lo-day-main .lo-day-main-col .lo-day-main-txt-body {
+    width: 100%; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .link-copy {
+      text-decoration: underline;
+      transition: opacity .3s; }
+      .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .link-copy:hover {
+        opacity: .7; }
+    .lo-day-main .lo-day-main-col .lo-day-main-txt-body .lo-day-copy .em-copy {
+      font-style: italic; }
+
+  .lo-day-product-wrapper .lo-day-product .lo-day-product-hed {
+    line-height: 1.5; }
+  .lo-day-product-wrapper .lo-day-product .lo-day-product-price {
+    font-size: 14px;
+    letter-spacing: 7px; } }
+
+/*# sourceMappingURL=style.css.map */

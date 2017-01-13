@@ -1,0 +1,56 @@
+OLAY JAS:
+
+	TUES
+	- finish desktop for olay (need to add product images for Steps 2 - 4)
+	- ribbon styling
+
+	WED
+	- add product images for Steps 2 - 4
+	- put up on afe
+	- review desktop styling w/ Alyssa and check tablet breakpoints/styling
+	- moving mio skincare image on hover
+
+	THURS
+	- tablet: update hed section
+	- tablet: add new tablet images from alyssa
+	- tablet: update step # and mobile hed to move w/ step copy
+	- tablet: bring in widths/paddings/step-text-tablet mixin ~850px - 991px
+	- tablet: design QA + finish tablet
+	- mobile: begin
+
+	FRI
+	- mobile: QA (sit w/ Alyssa)
+	- mobile: decrease margin at end of Step 4
+	- mobile: end
+	- mobile: fix landing page explore prompt positioning
+	- mobile: fix absolute positioned elements from colliding
+	- GA tags
+	- mobile: make solution for absolute positioned elements fix more consistent (marigns/margin-tops all over the place)
+	- test on actual phones (chrome, ff, safari) for iphone and android
+
+	MON
+	- center mobile lander arrow
+	- update mobile Buy Now CTA
+	- iphone -> in ff/chrome/safari, only 1st number hig
+
+	TUES
+	- remove hidden-* classes and use display: block and display: none (maybe?)
+	- code cleanup (start w/ js, then css, then html)
+	- edit/mk feedback qa stuff
+	- upload zip to admin
+	- add admin html
+	- send to Brian for GA QA
+
+	WED
+	- QA on iphone and ipad (and fix mobile lander cutting off)
+	- Carolina Constas image + text more left shifted
+	- lighter back to top button
+	- show mobile lander image's physical head (push down w/ margin top?)
+	- move mobile text up and left a bit (similar spacing as text has horizontally)
+	- nice-to-haves
+	
+	THURS
+	- fix positioning for overlay items on mobile lander (everything was slightly shifted dd the photo credit wasn't showing on iOS)
+
+	Final Olay Tweaks (nice to haves):
+	- swipe on scroll for mobile lander

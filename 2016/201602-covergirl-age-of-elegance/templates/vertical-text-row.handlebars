@@ -1,0 +1,21 @@
+<!-- Vertical Text Row Partial -->
+<div class="row vertical-text-row">
+
+	<div class="full-image-container">
+		<img class="hidden-xs" src="{{ imageContainer.images.desktop }}">
+		<img class="hidden-sm hidden-md hidden-lg" src="{{ imageContainer.images.mobile }}">
+	</div>
+	
+	<div class="overlay sheryl-sandberg">
+		<!-- Single Column for all text (quote + character) -->
+		<div class="col-xs-12">
+			<div class="vertical-text-overlay">
+			{{> text }}
+			{{> char }}	
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+{{> mobile-text }}

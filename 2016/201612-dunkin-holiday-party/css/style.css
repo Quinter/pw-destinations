@@ -1,0 +1,1026 @@
+/* Some of these already exist in our production CSS file. Including here for local dev purposes. */
+@font-face {
+  font-family: 'RedVevet';
+  src: url("http://www.purewow.com/static/webfonts/RedVevet/RedVevet.eot");
+  src: url("http://www.purewow.com/static/webfonts/RedVevet/RedVevet.woff2") format("woff2"), url("http://www.purewow.com/static/webfonts/RedVevet/RedVevet.woff") format("woff"), url("http://www.purewow.com/static/webfonts/RedVevet/RedVevet.ttf") format("truetype"), url("http://www.purewow.com/static/webfonts/RedVevet/RedVevet.svg#RedVevet") format("svg"), url("http://www.purewow.com/static/webfonts/RedVevet/RedVevet.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+.dunkin-outer-container h2 {
+  font-size: 12.5px;
+  line-height: 21.5px;
+  font-family: "brandon-grotesque";
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #4e4f52;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+.dunkin-outer-container h3 {
+  font-size: 54px;
+  font-family: "Chronicle Display A","Chronicle Display B";
+  font-weight: 200;
+  line-height: 1.1;
+  color: #000;
+  margin: 7px 0 21px -3px;
+  text-align: left;
+  letter-spacing: -.5px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 518px; }
+.dunkin-outer-container p, .dunkin-outer-container li {
+  color: #444343;
+  font-family: "freight-text-pro";
+  font-weight: 400;
+  font-size: 17.5px;
+  letter-spacing: 0;
+  line-height: 1.58em;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 500px; }
+  .dunkin-outer-container p a, .dunkin-outer-container li a {
+    color: #444343;
+    font-family: "freight-text-pro";
+    font-weight: 400;
+    font-size: 17.5px;
+    letter-spacing: 0;
+    line-height: 1.58em;
+    text-align: left;
+    text-decoration: underline; }
+    .dunkin-outer-container p a:hover, .dunkin-outer-container li a:hover {
+      opacity: 0.5;
+      text-decoration: underline; }
+
+.sponsored-content {
+  font-family: "brandon-grotesque";
+  letter-spacing: 2.75px;
+  font-size: 10.75px;
+  color: #1f1f1f;
+  font-weight: 600;
+  padding-right: 2px;
+  text-transform: uppercase;
+  line-height: 1.58em;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  display: inline; }
+
+/* General */
+.dunkin-outer-container {
+  max-width: 100vw;
+  margin: 0 auto; }
+
+.dunkin-hed-cta {
+  display: none; }
+
+.dunkin-container {
+  width: 100%; }
+
+#dunkin-back-top {
+  display: none; }
+
+.dunkin-link {
+  color: #000;
+  text-decoration: underline;
+  font-weight: bold; }
+
+.dunkin-influencer-link {
+  transition: opacity .3s ease; }
+  .dunkin-influencer-link:hover {
+    opacity: 0.7; }
+
+.dunkin-hairline {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+/* Head Section */
+.dunkin-head-section {
+  background-image: url("../images/desktop-images/header-image-desktop.jpg");
+  max-width: 100vw;
+  height: 80vh;
+  background-size: cover; }
+
+/* Head Section Text Column */
+.dunkin-head-text {
+  margin-top: 0px;
+  position: relative;
+  min-width: 365px;
+  top: 40%;
+  width: 60%;
+  left: 11%; }
+  .dunkin-head-text .dunkin-hed {
+    font-family: "brandon-grotesque";
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 9.5px;
+    line-height: 50px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .dunkin-head-text .dunkin-subhead {
+    position: relative;
+    margin: 0;
+    color: #000;
+    font-family: 'Chronicle Display A','Chronicle Display B';
+    font-weight: 300;
+    font-size: 82px;
+    letter-spacing: 1.25px;
+    line-height: 75px;
+    padding-bottom: 22px;
+    text-align: center;
+    text-transform: uppercase; }
+  .dunkin-head-text .dunkin-thirdhead {
+    font-family: "RedVevet";
+    color: #393a3c;
+    font-size: 44.5px;
+    line-height: 26px;
+    text-align: center; }
+
+.img-col-right {
+  width: 70%;
+  float: right; }
+  .img-col-right .slide-photo-credit {
+    font-family: "brandon-grotesque";
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 7.5px;
+    text-align: right;
+    color: #b7b7b7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right; }
+
+.dunkin-container .main-photo-credit {
+  display: block;
+  cursor: pointer;
+  font-family: "brandon-grotesque";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #c3c3c3;
+  font-size: 9.25px;
+  line-height: 10px;
+  letter-spacing: 1.75px;
+  transition: opacity .3s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: right;
+  padding-top: 8px;
+  padding-right: 5px; }
+  .dunkin-container .main-photo-credit:hover {
+    opacity: 0.7; }
+
+.main-article {
+  max-width: 1460px;
+  margin: 70px auto; }
+  .main-article.grey-color .row {
+    margin-bottom: 0 !important;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: 8%;
+    padding-right: 8%; }
+    .main-article.grey-color .row .main-article-image .iframe-wrapper {
+      width: 100%;
+      padding-left: 0; }
+    .main-article.grey-color .row .main-article-content {
+      padding-left: 5%;
+      padding-right: 0px; }
+  .main-article .recipe-button {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11.75px;
+    font-family: "Brandon-Grotesque";
+    font-weight: 600;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 2.6px;
+    color: #ffffff;
+    background-color: #f27676;
+    border: 2px solid #fff;
+    border-radius: 1.5px;
+    text-decoration: none;
+    padding: 15px 50px;
+    position: relative;
+    top: 25px; }
+    .main-article .recipe-button:hover {
+      text-decoration: none; }
+  .main-article .short-row {
+    height: 325px !important;
+    margin-bottom: 50px;
+    display: block; }
+  .main-article .row {
+    height: 520px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: inline-block;
+    margin-bottom: 75px;
+    margin-right: -25px; }
+    .main-article .row .main-article-image-credit a {
+      display: block;
+      cursor: pointer;
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 9.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      transition: opacity .3s;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: left;
+      padding-top: 8px;
+      padding-left: 5px; }
+      .main-article .row .main-article-image-credit a:hover {
+        opacity: 0.7; }
+    .main-article .row .main-article-image {
+      width: 50%;
+      position: relative !important;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    .main-article .row .main-article-content {
+      width: 50%;
+      padding-left: 2%;
+      padding-right: 11%;
+      position: relative !important;
+      float: right;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    .main-article .row .right-article-content {
+      width: 48%;
+      padding-left: 13%;
+      padding-right: 2%;
+      position: relative !important;
+      float: left;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+    .main-article .row .right-article-image {
+      padding-right: 0 !important; }
+    .main-article .row .right-article-image-credit .dunkin-photo-credit {
+      display: block;
+      cursor: default;
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 9.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      transition: opacity .3s;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: right;
+      padding-top: 8px;
+      padding-left: 0px;
+      padding-right: 5px; }
+    .main-article .row .right-article-image-credit a {
+      display: block;
+      cursor: pointer;
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 9.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      transition: opacity .3s;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-align: right;
+      padding-top: 8px;
+      padding-left: 0px;
+      padding-right: 5px; }
+      .main-article .row .right-article-image-credit a:hover {
+        opacity: 0.7; }
+    .main-article .row .list-article-content {
+      float: left;
+      width: 50%;
+      padding-left: 5%;
+      padding-right: 3%;
+      position: relative !important;
+      position: absolute;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      z-index: 2; }
+      .main-article .row .list-article-content ul {
+        list-style-type: none;
+        padding-left: 0;
+        display: block;
+        width: 550px;
+        margin: 39px 0 10px 0; }
+        .main-article .row .list-article-content ul li {
+          line-height: 2.75em;
+          padding-left: 2%;
+          display: inline-block;
+          width: 100%; }
+          .main-article .row .list-article-content ul li p {
+            line-height: 2.1em; }
+          .main-article .row .list-article-content ul li .list {
+            font-family: 'RedVevet';
+            font-size: 40px;
+            padding-right: 10px;
+            float: left;
+            line-height: 1.2em; }
+
+.block-article {
+  height: 900px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block; }
+  .block-article .block-article-image-credit {
+    float: right;
+    top: -55px;
+    position: relative;
+    padding-right: 10px; }
+    .block-article .block-article-image-credit a {
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 9.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      transition: opacity .3s;
+      -webkit-font-smoothing: antialiased; }
+      .block-article .block-article-image-credit a:hover {
+        opacity: 0.7; }
+    .block-article .block-article-image-credit .dunkin-photo-credit {
+      margin-top: 10px;
+      font-family: "brandon-grotesque";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #c3c3c3;
+      font-size: 9.25px;
+      line-height: 10px;
+      letter-spacing: 1.75px;
+      -webkit-font-smoothing: antialiased; }
+  .block-article .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .block-article .block-article-image {
+    width: 100%;
+    height: 525px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    overflow: hidden; }
+    .block-article .block-article-image img {
+      width: 100%;
+      position: relative; }
+  .block-article .block-article-content {
+    width: 40%;
+    position: relative;
+    min-width: 680px;
+    padding: 40px 90px 70px;
+    margin: -18% 0 0 5%;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .block-article .centered-block-content {
+    position: relative !important;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.dunkin-header-wrap {
+  margin: 75px auto 30px;
+  padding-left: 6.5%;
+  min-width: 1280px;
+  position: relative; }
+  .dunkin-header-wrap .dunkin-products-hed {
+    font-size: 12.5px;
+    line-height: 21.5px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4e4f52;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+    vertical-align: middle;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 3%; }
+  .dunkin-header-wrap .dunkin-products-subhed {
+    font-size: 50px;
+    font-family: "Chronicle Display A","Chronicle Display B";
+    font-weight: 200;
+    line-height: 1.1;
+    color: #000;
+    margin: 25px 0px 60px -3px;
+    text-align: left;
+    letter-spacing: -.5px;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-left: 3%; }
+
+.dunkin-products {
+  display: table;
+  margin: 0px auto 150px;
+  min-width: 1280px;
+  position: relative; }
+  .dunkin-products .dunkin-product-wrapper {
+    position: relative;
+    float: left; }
+    .dunkin-products .dunkin-product-wrapper .product-inner-wrapper {
+      width: 343px;
+      background-color: #fff;
+      box-shadow: -3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+      box-sizing: border-box;
+      margin: 0 auto; }
+      .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper {
+        padding: 20px 40px 30px; }
+        .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper p, .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper li {
+          font-size: 16.25px;
+          margin: 0 0 20px; }
+        .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper a.recipe {
+          font-size: 11px;
+          line-height: 17px;
+          font-family: "brandon-grotesque";
+          text-transform: uppercase;
+          font-weight: 400;
+          color: #f27676;
+          letter-spacing: 3px;
+          text-align: left;
+          padding-bottom: 0; }
+          .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper a.recipe:hover {
+            opacity: 0.6;
+            box-shadow: 0 0 0 0; }
+        .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper .dunkin-product-hed {
+          font-size: 12.75px;
+          line-height: 25.75px;
+          font-family: "brandon-grotesque";
+          text-transform: uppercase;
+          font-weight: 600;
+          color: #181818;
+          letter-spacing: 4px;
+          vertical-align: middle;
+          text-align: left;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          margin: 0px 5px 11px 0px; }
+    .dunkin-products .dunkin-product-wrapper .dunkin-day-product {
+      position: relative;
+      display: inline-block;
+      width: 320px;
+      margin: 0 35px;
+      vertical-align: top;
+      cursor: pointer; }
+
+.grey-color {
+  background-color: #f2f2f2;
+  width: 100%; }
+
+.iframe-wrapper {
+  width: 500px;
+  margin: 0 auto; }
+
+@media screen and (min-width: 1286px) {
+  .block-article {
+    height: 1050px; }
+    .block-article .block-article-image {
+      height: 700px; } }
+@media screen and (max-width: 1460px) {
+  .dunkin-header-wrap {
+    padding-left: 0.5%; } }
+/* ------------------------------------------------------------ *\
+	Ipad Landscape Styles
+\* ------------------------------------------------------------ */
+@media screen and (max-width: 1024px) {
+  h3 {
+    font-size: 40px; }
+
+  #container {
+    max-width: 435px; }
+
+  .dunkin-header-wrap {
+    padding-left: 0px; }
+
+  .main-article {
+    display: inline-block; }
+    .main-article .row {
+      height: 400px; }
+      .main-article .row .list-article-image {
+        z-index: 1; }
+
+  .dunkin-head-section {
+    background-position: -130px 0px; }
+    .dunkin-head-section .dunkin-head-text {
+      width: 60%;
+      margin: 0 0;
+      left: 0; }
+      .dunkin-head-section .dunkin-head-text .dunkin-hed, .dunkin-head-section .dunkin-head-text .dunkin-subhead {
+        text-align: center; }
+      .dunkin-head-section .dunkin-head-text .dunkin-subhead {
+        font-size: 82px; }
+      .dunkin-head-section .dunkin-head-text .dunkin-thirdhead {
+        font-size: 45px; }
+
+  .dunkin-outer-container {
+    margin-top: 25px;
+    display: inline-block; }
+
+  .dunkin-products {
+    min-width: 980px; }
+    .dunkin-products .dunkin-product-wrapper .product-inner-wrapper {
+      width: 305px; }
+
+  .block-article {
+    height: 725px; }
+    .block-article .centered-block-content {
+      z-index: 10; }
+    .block-article .block-article-content {
+      z-index: 11; }
+    .block-article .block-article-image {
+      height: 400px; }
+
+  .main-article.grey-color .row {
+    height: 550px; }
+
+  .iframe-wrapper {
+    padding-left: 25px; } }
+/* ------------------------------------------------------------ *\
+	Ipad Vertical Styles
+\* ------------------------------------------------------------ */
+@media screen and (max-width: 768px) {
+  .block-article {
+    height: 100%;
+    margin-top: 0px; }
+    .block-article .block-article-image img {
+      top: 0; }
+    .block-article .block-article-image-credit {
+      top: -455px; }
+      .block-article .block-article-image-credit a {
+        color: #ffffff; }
+        .block-article .block-article-image-credit a:hover {
+          opacity: 0.7; }
+      .block-article .block-article-image-credit .dunkin-photo-credit {
+        margin-top: 10px;
+        font-family: "brandon-grotesque";
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #464646;
+        font-size: 9.25px;
+        line-height: 10px;
+        letter-spacing: 1.75px;
+        -webkit-font-smoothing: antialiased; }
+    .block-article .centered-block-content {
+      width: 40%;
+      position: relative;
+      min-width: 680px;
+      padding: 40px 90px 70px;
+      margin: -18% 0 0 5%;
+      background-color: #fff;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      transform: none;
+      top: 0;
+      left: 0; }
+
+  .dunkin-head-section {
+    background-position: -510px 0px;
+    height: 70vh; }
+    .dunkin-head-section .dunkin-head-text {
+      top: 60%;
+      width: 60%; }
+      .dunkin-head-section .dunkin-head-text .dunkin-hed {
+        font-size: 14px;
+        letter-spacing: 6.5px; }
+      .dunkin-head-section .dunkin-head-text .dunkin-subhead {
+        line-height: 75px;
+        font-size: 74px;
+        letter-spacing: 5px;
+        font-weight: 200;
+        padding-bottom: 0px; }
+
+  .dunkin-header-wrap .dunkin-products-subhed {
+    font-size: 47px; }
+
+  .dunkin-products {
+    min-width: 755px;
+    margin: 50px auto 100px; }
+    .dunkin-products .dunkin-product-wrapper .product-inner-wrapper {
+      width: 225px; }
+      .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper {
+        padding: 20px 20px 30px; }
+        .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper p, .dunkin-products .dunkin-product-wrapper .product-inner-wrapper .product-text-wrapper li {
+          font-size: 16px;
+          line-height: 1.5em; }
+
+  .dunkin-outer-container p {
+    max-width: 100%; }
+
+  .short-article {
+    height: 825px !important; }
+
+  .main-article {
+    height: 950px; }
+    .main-article.grey-color {
+      height: 860px; }
+      .main-article.grey-color .row .main-article-content {
+        padding-left: 0px; }
+    .main-article .row {
+      display: -webkit-box;
+      /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+      display: -moz-box;
+      /* OLD: Firefox (buggy) */
+      display: -ms-flexbox;
+      /* MID: IE 10 */
+      display: -webkit-flex;
+      /* NEW, Chrome 21?28, Safari 6.1+ */
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      -moz-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      margin-bottom: 75px;
+      margin-right: 0px; }
+      .main-article .row .list-article-content.col-sm-6-push.down-content {
+        top: 175px !important;
+        z-index: 15; }
+      .main-article .row .main-article-image {
+        padding-left: 0;
+        padding-right: 0;
+        top: 0;
+        transform: none; }
+        .main-article .row .main-article-image .iframe-wrapper {
+          margin: 30px auto 0px;
+          padding-left: 0px;
+          width: 545px; }
+      .main-article .row .main-article-content {
+        width: 100%;
+        position: relative;
+        transform: none;
+        top: 0;
+        padding-left: 5%;
+        padding-right: 5%; }
+      .main-article .row .main-article-image-credit a {
+        text-align: right;
+        padding-right: 5px; }
+      .main-article .row .right-article-content {
+        width: 100%;
+        position: relative;
+        transform: none;
+        padding-left: 5%;
+        padding-right: 5%; }
+      .main-article .row .col-sm-6-pull {
+        width: 100%;
+        order: 1;
+        -webkit-order: 1;
+        padding-left: 0;
+        padding-right: 0; }
+        .main-article .row .col-sm-6-pull.main-article-content {
+          max-width: 550px;
+          margin: 50px auto 0; }
+      .main-article .row .col-sm-6-push {
+        width: 100%;
+        margin-top: 0px;
+        order: 2;
+        -webkit-order: 2;
+        max-width: 565px;
+        margin: 10px auto 0;
+        top: 0;
+        padding-left: 10px;
+        padding-right: 10px; }
+        .main-article .row .col-sm-6-push.up-content {
+          top: -75px;
+          z-index: 15; }
+        .main-article .row .col-sm-6-push.down-content {
+          top: 50px !important;
+          z-index: 15; } }
+/* ------------------------------------------------------------ *\
+	Iphone 6 to 6 Plus Styles
+\* ------------------------------------------------------------ */
+@media screen and (max-width: 414px) {
+  .dunkin-outer-container h2 {
+    margin: 0 0 7px 2px;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #717171;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    text-align: left; }
+  .dunkin-outer-container h3 {
+    font-size: 38px;
+    letter-spacing: -.5px;
+    font-family: "Chronicle Display A","Chronicle Display B";
+    font-weight: 200;
+    line-height: 1.1;
+    color: #000;
+    margin: 7px 0 18px -3px;
+    text-align: left;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .dunkin-outer-container p {
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    color: #444343; }
+    .dunkin-outer-container p a {
+      font-size: 17px;
+      line-height: 25px; }
+
+  #dunkin-inner {
+    width: 100vw;
+    max-width: 100%; }
+
+  .block-article {
+    margin-bottom: 0px; }
+    .block-article .block-article-image-credit .dunkin-photo-credit {
+      color: #ffffff; }
+    .block-article .block-article-image-credit a {
+      color: #ffffff; }
+
+  .main-article {
+    margin-top: 75px; }
+    .main-article.grey-color {
+      height: 825px; }
+    .main-article.short-article {
+      height: 575px !important; }
+    .main-article .iframe-wrapper {
+      width: 100% !important;
+      margin: 20px auto 20px !important; }
+    .main-article .row {
+      margin-left: 0;
+      margin-right: 0; }
+      .main-article .row .list-article-image {
+        top: -50px; }
+        .main-article .row .list-article-image img {
+          max-width: 100vw; }
+      .main-article .row .list-article-content.col-sm-6-push.down-content {
+        top: 150px !important; }
+      .main-article .row .list-article-content ul {
+        width: 100%;
+        margin: 30px 0 10px 0; }
+        .main-article .row .list-article-content ul li .list {
+          line-height: 1.5em; }
+        .main-article .row .list-article-content ul li p {
+          line-height: 1.25em; }
+          .main-article .row .list-article-content ul li p a {
+            line-height: 1.25em; }
+    .main-article:first-child {
+      margin-top: 0; }
+
+  .block-article {
+    display: block; }
+    .block-article .block-article-image {
+      width: 100vw; }
+    .block-article .block-article-content {
+      min-width: 340px;
+      margin: -33% auto 0;
+      padding: 20px 20px 0px; }
+      .block-article .block-article-content .sponsored-content {
+        font-size: 11px; }
+
+  .dunkin-container {
+    overflow: hidden; }
+
+  #dunkin-back-top {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(70, 67, 67, 0.65);
+    z-index: 100; }
+
+  .dunkin-back-top-icon {
+    display: block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.71);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: relative; }
+
+  .dunkin-back-top-icon:before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+  /* Head Section */
+  .dunkin-head-section {
+    background-image: url("../images/mobile-images/mobile-header.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Head Section Text Column */ }
+    .dunkin-head-section .dunkin-head-text {
+      margin-top: 0px;
+      position: relative;
+      min-width: 365px;
+      top: 50%;
+      width: 100%;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .dunkin-head-section .dunkin-head-text .dunkin-hed {
+        color: #393a3c;
+        font-size: 13px;
+        letter-spacing: 4px;
+        line-height: 32px;
+        text-align: center;
+        font-family: "brandon-grotesque";
+        font-weight: 600;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+      .dunkin-head-section .dunkin-head-text .dunkin-subhead {
+        color: #000;
+        font-family: 'Chronicle Display A','Chronicle Display B',serif;
+        font-weight: 300;
+        font-size: 57px;
+        letter-spacing: 1px;
+        line-height: 55px;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+      .dunkin-head-section .dunkin-head-text .dunkin-thirdhead {
+        font-size: 28px; }
+
+  .main-article.grey-color .col-sm-6-pull {
+    padding-left: 25px;
+    padding-right: 25px; }
+
+  .main-article {
+    height: 625px; }
+    .main-article .main-article-image-credit .dunkin-photo-credit, .main-article .main-article-image-credit a {
+      text-align: right;
+      padding-left: 0;
+      padding-right: 5px; }
+    .main-article .row .right-article-content {
+      margin-top: 50px !important;
+      margin-bottom: 25px; }
+    .main-article .row .col-sm-6-push {
+      margin-top: 20px;
+      padding-left: 25px;
+      padding-right: 25px; }
+      .main-article .row .col-sm-6-push.up-content {
+        top: -25px; }
+    .main-article .row h3.small-subhed {
+      font-size: 36px;
+      padding-left: 20%;
+      margin-top: 42px; }
+    .main-article .row h2.small-hed {
+      font-size: 160px; }
+
+  .main-photo-credit-mobile {
+    display: block;
+    cursor: pointer;
+    font-family: "brandon-grotesque";
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c3c3c3;
+    font-size: 9.25px;
+    line-height: 10px;
+    letter-spacing: 1.75px;
+    transition: opacity .3s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: right;
+    position: absolute;
+    top: 96vh;
+    right: 8px;
+    z-index: 30; }
+    .main-photo-credit-mobile:hover {
+      opacity: 0.7; }
+
+  .dunkin-products {
+    min-width: 100%; }
+
+  .dunkin-hed-cta {
+    position: relative;
+    top: 50% !important;
+    cursor: pointer;
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: 0 auto; }
+    .dunkin-hed-cta .dunkin-hed-cta-arrow {
+      font-size: 40px;
+      width: 45px;
+      height: 45px;
+      font-weight: 500;
+      background-color: rgba(255, 255, 255, 0.3);
+      border-radius: 50%;
+      display: inline-block;
+      color: #000;
+      transform: rotate(90deg);
+      position: relative;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg); }
+      .dunkin-hed-cta .dunkin-hed-cta-arrow:before {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+
+  .dunkin-header-wrap {
+    margin: 75px auto 20px;
+    width: 100%;
+    min-width: 100%;
+    padding-left: 25px;
+    padding-right: 25px; }
+    .dunkin-header-wrap .dunkin-products-hed {
+      padding-left: 0px;
+      font-size: 11px;
+      letter-spacing: 2.75px;
+      margin: 0 0 10px 0px;
+      line-height: 19px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    .dunkin-header-wrap .dunkin-products-subhed {
+      font-size: 38px;
+      padding-left: 0px;
+      letter-spacing: -.5px;
+      font-weight: 200;
+      line-height: 1.1;
+      color: #000;
+      margin: 0px 0 26px -3px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+
+  .dunkin-products {
+    width: 100%;
+    margin: 0 auto; }
+    .dunkin-products .dunkin-product-wrapper {
+      height: 100%;
+      margin: 0 auto;
+      padding-bottom: 30px; }
+      .dunkin-products .dunkin-product-wrapper .product-inner-wrapper {
+        width: 100%;
+        box-shadow: 0px 0px 11px 1.75px rgba(0, 0, 0, 0.1); } }
+@media screen and (max-width: 375px) {
+  .dunkin-outer-container h2 {
+    font-size: 11px;
+    letter-spacing: 2.75px;
+    margin: 0 0 10px 2px;
+    line-height: 19px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; } }
+/* ------------------------------------------------------------ *\
+	Samsung S5 Styles
+\* ------------------------------------------------------------ */
+@media screen and (max-width: 360px) {
+  .block-article {
+    height: 825px; }
+
+  .main-article {
+    margin: 50px auto 0px;
+    height: 700px; }
+
+  .main-article.short-article {
+    height: 625px !important; }
+
+  .main-article.grey-color {
+    height: 850px; }
+
+  .dunkin-hed-cta {
+    top: 48% !important; } }
+
+/*# sourceMappingURL=style.css.map */

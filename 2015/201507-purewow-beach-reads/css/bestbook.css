@@ -1,0 +1,1315 @@
+/* ==========================================================================
+   Normalize.scss settings
+   ========================================================================== */
+/**
+ * Includes legacy browser support IE6/7
+ *
+ * Set to false if you want to drop support for IE6 and IE7
+ */
+/* Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *  `em` units.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Addresses styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 8/9/10.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *  Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *  and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *  `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *  Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ *  Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Corrects text not wrapping in Firefox 3.
+ * 4. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/* ==========================================================================
+   Normalize.scss settings
+   ========================================================================== */
+/**
+ * Includes legacy browser support IE6/7
+ *
+ * Set to false if you want to drop support for IE6 and IE7
+ */
+/* Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *  `em` units.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Addresses styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 8/9/10.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *  Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *  and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *  `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *  Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ *  Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Corrects text not wrapping in Firefox 3.
+ * 4. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+input,
+textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+label {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'manusregular';
+  src: url("http://www.purewow.com/static/2015/05_12_coach/css/webfonts/graphics_manus-webfont.eot");
+  src: url("http://www.purewow.com/static/2015/05_12_coach/css/webfonts/graphics_manus-webfont.eot?#iefix") format("embedded-opentype"), url("http://www.purewow.com/static/2015/05_12_coach/css/webfonts/graphics_manus-webfont.woff2") format("woff2"), url("http://www.purewow.com/static/2015/05_12_coach/css/webfonts/graphics_manus-webfont.woff") format("woff"), url("http://www.purewow.com/static/2015/05_12_coach/css/webfonts/graphics_manus-webfont.ttf") format("truetype"), url("http://www.purewow.com/static/2015/05_12_coach/css/webfonts/graphics_manus-webfont.svg#manusregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* #706f6f */
+/*
+#main {
+    @include container();
+     @include respond-to(handhelds) {overflow:auto;height: 100%;}
+  }
+*/
+@-webkit-keyframes cd-bounce-1 {
+  0% {
+    -webkit-transform: scale(1); }
+  60% {
+    -webkit-transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1); } }
+@-moz-keyframes cd-bounce-1 {
+  0% {
+    -moz-transform: scale(1); }
+  60% {
+    -moz-transform: scale(1.2); }
+  100% {
+    -moz-transform: scale(1); } }
+@keyframes cd-bounce-1 {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  60% {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2); }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+.jumbotron {
+  background: transparent; }
+
+/* LAYOUT */
+#main.bestbook {
+  width: 100%;
+  margin-top: 55px; }
+  #main.bestbook .container__wrap {
+    background: white;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto; }
+    #main.bestbook .container__wrap:after {
+      content: " ";
+      display: block;
+      clear: both; }
+  @media only screen and (min-width: 767px) and (max-width: 766px) {
+    #main.bestbook .row {
+      max-width: 800px;
+      margin: 0 auto; } }
+  #main.bestbook .title {
+    text-align: center;
+    position: relative;
+    height: 450px; }
+    @media only screen and (max-width: 766px) {
+      #main.bestbook .title {
+        margin-bottom: 0.2em;
+        height: 400px; } }
+    #main.bestbook .title .title-container {
+      display: inline-block;
+      position: relative;
+      top: 30%;
+      padding: 30px;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      text-align: center; }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .title .title-container {
+          padding: 0 0 15px; } }
+    #main.bestbook .title h2 {
+      font-family: "BrandonGrotesque-Regular";
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .title h2 {
+          font-size: 0.8em;
+          font-family: "BrandonGrotesque-Bold"; } }
+    #main.bestbook .title p {
+      font-family: "BrandonGrotesque-Light";
+      font-size: 16.5px;
+      line-height: 1.6;
+      text-align: center;
+      max-width: 800px;
+      margin: 10px auto;
+      color: #4b4b4b;
+      letter-spacing: .5px;
+      padding: 15px 60px 18px;
+      font-style: normal; }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .title p {
+          padding: 0 30px;
+          font-size: 16px; } }
+    #main.bestbook .title .social-list {
+      padding-left: 0; }
+  #main.bestbook .print-pdf {
+    text-transform: uppercase;
+    font-family: "BrandonGrotesque-Bold";
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+    #main.bestbook .print-pdf .icon-print {
+      font-size: 31px; }
+  #main.bestbook .book-sign-up-module {
+    position: fixed;
+    left: 0;
+    bottom: 15%;
+    width: 350px;
+    -webkit-box-shadow: 0px 0px 4px 1px rgba(212, 212, 212, 0.4);
+    -moz-box-shadow: 0px 0px 4px 1px rgba(212, 212, 212, 0.4);
+    box-shadow: 0px 0px 4px 1px rgba(212, 212, 212, 0.4);
+    z-index: 1;
+    display: none;
+    position: static;
+    -webkit-transition: border .4s ease;
+    transition: border .4s ease; }
+    @media only screen and (min-width: 1217px) {
+      #main.bestbook .book-sign-up-module {
+        border: 1px solid transparent; } }
+    @media only screen and (min-width: 1217px) {
+      #main.bestbook .book-sign-up-module:hover {
+        border: 1px solid #406CFB;
+        border-left: 1px solid transparent; } }
+    #main.bestbook .book-sign-up-module:hover .media-body {
+      color: #406CFB; }
+    @media only screen and (min-width: 1217px) {
+      #main.bestbook .book-sign-up-module {
+        position: fixed; } }
+    #main.bestbook .book-sign-up-module .media-header {
+      border-bottom: none;
+      min-height: 33px;
+      padding: 0;
+      position: relative; }
+      #main.bestbook .book-sign-up-module .media-header .close {
+        position: relative;
+        right: 0;
+        top: 6px;
+        z-index: 1;
+        width: 25px;
+        height: 25px;
+        border-radius: 4px;
+        opacity: 0.4; }
+        @media only screen and (max-width: 766px) {
+          #main.bestbook .book-sign-up-module .media-header .close {
+            display: none; } }
+        @media only screen and (min-width: 768px) and (max-width: 1216px) {
+          #main.bestbook .book-sign-up-module .media-header .close {
+            display: none; } }
+        @media only screen and (min-width: 767px) and (max-width: 766px) {
+          #main.bestbook .book-sign-up-module .media-header .close {
+            display: none; } }
+      #main.bestbook .book-sign-up-module .media-header .close-icon:before, #main.bestbook .book-sign-up-module .media-header .close-icon:after {
+        width: 25px;
+        height: 1px; }
+    #main.bestbook .book-sign-up-module .media {
+      padding: 0 4px 20px 10px;
+      background: white;
+      position: relative; }
+    #main.bestbook .book-sign-up-module .media-body {
+      font-size: 18px;
+      line-height: 1.2;
+      padding: 0 30px 0 0px;
+      -webkit-transition: color .4s ease;
+      transition: color .4s ease; }
+      #main.bestbook .book-sign-up-module .media-body:before, #main.bestbook .book-sign-up-module .media-body:after {
+        border-right: 1px solid;
+        content: '';
+        display: block;
+        height: 13px;
+        margin-top: -6px;
+        position: absolute;
+        -moz-transform: rotate(140deg);
+        -o-transform: rotate(140deg);
+        -webkit-transform: rotate(140deg);
+        transform: rotate(140deg);
+        right: 30px;
+        top: 65%;
+        width: 0;
+        color: #000;
+        margin-right: 8px; }
+      #main.bestbook .book-sign-up-module .media-body:after {
+        color: #000;
+        margin-top: 4px;
+        -moz-transform: rotate(40deg);
+        -o-transform: rotate(40deg);
+        -webkit-transform: rotate(40deg);
+        transform: rotate(40deg); }
+    #main.bestbook .book-sign-up-module .media-heading {
+      color: #406CFB;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 1.6;
+      font-family: "BrandonGrotesque-Bold";
+      letter-spacing: 1px; }
+    #main.bestbook .book-sign-up-module .cat-icon-img.icon-books {
+      font-size: 71px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 9px 0 0;
+      width: 71px;
+      height: 71px;
+      line-height: 71px;
+      color: #406CFB; }
+      #main.bestbook .book-sign-up-module .cat-icon-img.icon-books:before {
+        color: #406CFB; }
+  #main.bestbook .print-row {
+    text-align: center;
+    padding: 60px; }
+  #main.bestbook .book-item {
+    padding: 90px 0 116px;
+    border-bottom: 1px solid #eaeaea; }
+    @media only screen and (max-width: 766px) {
+      #main.bestbook .book-item {
+        padding: 30px 0; } }
+    #main.bestbook .book-item .btn-buy-container {
+      list-style: none;
+      margin: 1em 0; }
+      #main.bestbook .book-item .btn-buy-container li {
+        display: inline-block; }
+    #main.bestbook .book-item .number__col .num {
+      font-family: "BrandonGrotesque-Bold";
+      font-size: 115px;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+      color: #406cfb; }
+      @media only screen and (min-width: 768px) and (max-width: 1216px) {
+        #main.bestbook .book-item .number__col .num {
+          font-size: 100px; } }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .book-item .number__col .num {
+          font-size: 39px;
+          line-height: 50px; } }
+    #main.bestbook .book-item .headline-container {
+      text-align: left;
+      display: inline-block;
+      width: 100%;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0 8.3333333333%; }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .book-item .headline-container {
+          line-height: 50px; } }
+      #main.bestbook .book-item .headline-container .headline-container__col {
+        width: 25%;
+        float: left;
+        text-align: center; }
+      #main.bestbook .book-item .headline-container .headline-container__col--wide {
+        width: 75%;
+        float: right;
+        margin-right: 0;
+        display: table;
+        height: 170px; }
+      #main.bestbook .book-item .headline-container .headline-container__col__media-heading-wrapper {
+        display: table-cell;
+        vertical-align: middle; }
+      #main.bestbook .book-item .headline-container .media-heading {
+        font-family: "BrandonGrotesque-Regular";
+        font-size: 25px;
+        color: rbg(32, 32, 32);
+        font-style: normal;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 1.2;
+        letter-spacing: 3px;
+        text-align: left; }
+        @media only screen and (min-width: 768px) and (max-width: 1216px) {
+          #main.bestbook .book-item .headline-container .media-heading {
+            font-size: 19px; } }
+        @media only screen and (min-width: 767px) and (max-width: 766px) {
+          #main.bestbook .book-item .headline-container .media-heading {
+            font-size: 22px; } }
+        @media only screen and (max-width: 766px) {
+          #main.bestbook .book-item .headline-container .media-heading {
+            font-size: 16px;
+            padding-top: 0;
+            letter-spacing: 0; } }
+    #main.bestbook .book-item img {
+      -webkit-transition: opacity .4s ease;
+      transition: opacity .4s ease;
+      opacity: 1; }
+      #main.bestbook .book-item img:hover {
+        opacity: .7; }
+    #main.bestbook .book-item img.mobile {
+      display: none; }
+      @media only screen and (min-width: 767px) and (max-width: 766px) {
+        #main.bestbook .book-item img.mobile {
+          max-width: 150px;
+          display: block; } }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .book-item img.mobile {
+          max-width: 120px;
+          margin: 20px auto;
+          display: block; } }
+    #main.bestbook .book-item .social-share {
+      list-style: none;
+      text-align: center;
+      display: inline-block;
+      padding-left: 0;
+      margin-top: 2em; }
+      #main.bestbook .book-item .social-share li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 10px; }
+        #main.bestbook .book-item .social-share li .ico-circle {
+          display: inline-block; }
+      @media only screen and (max-width: 766px) {
+        #main.bestbook .book-item .social-share {
+          display: none; } }
+
+body {
+  height: 100%;
+  font-family: "BrandonGrotesque-Light";
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-name: fontfix;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0.1s; }
+
+@-webkit-keyframes fontfix {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 1; } }
+.item {
+  display: block;
+  margin: 0 2px 32px;
+  text-align: center; }
+  .item h2 {
+    font-family: "BrandonGrotesque-Bold";
+    font-size: 18px;
+    color: #191f70; }
+    .item h2.short {
+      margin-bottom: 29px; }
+  .item .img-responsive {
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 auto 1em; }
+  .item p {
+    font-family: "BrandonGrotesque-Light";
+    font-size: 18px;
+    color: #1d1d1d;
+    min-height: 59px; }
+    .item p i {
+      font-size: 13px;
+      line-height: 33px;
+      padding-top: 8px; }
+
+.backtop {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  z-index: 2;
+  display: none; }
+  @media only screen and (max-width: 766px) {
+    .backtop {
+      right: 0; } }
+  .backtop a {
+    font-family: "BrandonGrotesque-Light";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.25em;
+    padding-left: .5em;
+    border-bottom: none;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease; }
+    .backtop a:hover .arrow-up {
+      background: black; }
+      @media only screen and (max-width: 766px) {
+        .backtop a:hover .arrow-up {
+          background-color: rgba(212, 212, 212, 0.7); } }
+    .backtop a:hover span {
+      /* bottom:-.75em; */ }
+    @media only screen and (max-width: 766px) {
+      .backtop a {
+        padding: 1em; } }
+  .backtop .arrow-up {
+    display: inline-block;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0px 7px 15px 0px rgba(212, 212, 212, 0.2);
+    -moz-box-shadow: 0px 7px 15px 0px rgba(212, 212, 212, 0.2);
+    box-shadow: 0px 7px 15px 0px rgba(212, 212, 212, 0.2);
+    /* border:2px solid black; */
+    /* background-color: rgba(255,255,255,0.4); */
+    background-color: rgba(212, 212, 212, 0.7);
+    color: white; }
+    .backtop .arrow-up:before {
+      content: '\e603';
+      font-family: "icomoon";
+      text-align: center;
+      width: 60px;
+      top: 15px;
+      position: relative;
+      -ms-transform: rotate(-90deg);
+      /* IE 9 */
+      -webkit-transform: rotate(-90deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(-90deg);
+      font-style: normal;
+      display: inline-block; }
+
+.socialplug {
+  text-align: center;
+  margin: 1em auto; }
+  .socialplug .fb-like.social-likes__widget {
+    margin-top: 0; }
+  .socialplug img {
+    padding-right: 10px; }
+  @media only screen and (min-width: 767px) and (max-width: 766px) {
+    .socialplug {
+      float: none;
+      margin: 0 auto;
+      position: static; } }
+  @media only screen and (max-width: 766px) {
+    .socialplug {
+      float: none;
+      margin: 0 auto;
+      position: static; } }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+  .pretty .row {
+    max-width: 100%; }
+
+  .col-sm-6 {
+    width: 33.33333333333333%; } }
+body {
+  background: url("../img/header-image-1.png") no-repeat;
+  background-size: 100% 450px; }
+  @media only screen and (max-width: 766px) {
+    body {
+      background: url("../img/book-mobile-header-image.png") repeat-x;
+      background-size: auto 350px; } }
+
+.title .title-container h1 {
+  font-size: 9.5em;
+  font-family: "manusregular";
+  color: #f2f2fd;
+  line-height: 0.7;
+  text-align: center;
+  margin: 0.09em 0; }
+  @media only screen and (max-width: 766px) {
+    .title .title-container h1 {
+      font-size: 5em;
+      margin-top: 10px;
+      margin-bottom: 20px; } }
+  @media only screen and (min-width: 768px) and (max-width: 1216px) {
+    .title .title-container h1 {
+      font-size: 10em; } }
+.title .title-container h2 {
+  font-size: 1.18em;
+  font-family: "BrandonGrotesque-Regular";
+  color: #e8e8fe;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 0.19em;
+  text-align: center; }
+  .title .title-container h2 span {
+    font-size: 1.3em; }
+.title .title-container span.big-num {
+  font-size: 1.33em; }
+
+@media only screen and (max-width: 766px) {
+  .container__wrap {
+    text-align: center;
+    padding: 0px 10px; } }
+.container__wrap .btn-buy-container, .container__wrap .print-row {
+  text-align: left;
+  padding-left: 0.1em; }
+  @media only screen and (max-width: 766px) {
+    .container__wrap .btn-buy-container, .container__wrap .print-row {
+      text-align: center; } }
+  .container__wrap .btn-buy-container .btn-buy, .container__wrap .btn-buy-container .btn-print-booklist, .container__wrap .print-row .btn-buy, .container__wrap .print-row .btn-print-booklist {
+    border: 2px solid #406cfb;
+    background-color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 12px 50px; }
+    .container__wrap .btn-buy-container .btn-buy .btn-text, .container__wrap .btn-buy-container .btn-print-booklist .btn-text, .container__wrap .print-row .btn-buy .btn-text, .container__wrap .print-row .btn-print-booklist .btn-text {
+      font-size: 14.5px;
+      font-family: "BrandonGrotesque-Bold";
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #406cfb; }
+    .container__wrap .btn-buy-container .btn-buy:hover, .container__wrap .btn-buy-container .btn-print-booklist:hover, .container__wrap .print-row .btn-buy:hover, .container__wrap .print-row .btn-print-booklist:hover {
+      background: #406cfb;
+      transition: all 0.2s linear; }
+      .container__wrap .btn-buy-container .btn-buy:hover .btn-text, .container__wrap .btn-buy-container .btn-print-booklist:hover .btn-text, .container__wrap .print-row .btn-buy:hover .btn-text, .container__wrap .print-row .btn-print-booklist:hover .btn-text {
+        color: #fff;
+        transition: all 0.2s linear; }
+  .container__wrap .btn-buy-container .btn-print-booklist div, .container__wrap .print-row .btn-print-booklist div {
+    display: inline-block; }
+    .container__wrap .btn-buy-container .btn-print-booklist div .icon-print, .container__wrap .print-row .btn-print-booklist div .icon-print {
+      margin-right: 20px; }
+    .container__wrap .btn-buy-container .btn-print-booklist div .print-text, .container__wrap .print-row .btn-print-booklist div .print-text {
+      vertical-align: 25%; }
+.container__wrap .number__col, .container__wrap .text__col {
+  margin-top: 6em; }
+.container__wrap .number__col {
+  position: relative;
+  top: -10px;
+  text-align: center; }
+.container__wrap h1 {
+  font-family: "BrandonGrotesque-Light";
+  font-size: 3.06em;
+  color: #202020;
+  line-height: 1.1em;
+  letter-spacing: 0.13em;
+  text-transform: uppercase; }
+.container__wrap h2 {
+  font-family: "BrandonGrotesque-Light";
+  font-size: 1em;
+  color: #202020;
+  line-height: 2.5em;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  margin-top: 3px; }
+.container__wrap .item-p {
+  font-family: 'AvenirLTStd-Book';
+  font-size: 1.13em;
+  color: #383838;
+  line-height: 1.85em;
+  margin-bottom: 40px; }
+  .container__wrap .item-p a {
+    border-bottom: 1px solid; }
+    .container__wrap .item-p a:hover {
+      border: 1px solid white; }
+@media only screen and (max-width: 766px) {
+  .container__wrap img {
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%; } }
+.container__wrap .first {
+  padding-top: 0px !important;
+  margin-top: -65px !important; }
+.container__wrap .last {
+  padding-top: 80px !important; }
