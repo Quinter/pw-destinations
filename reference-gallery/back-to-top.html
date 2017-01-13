@@ -1,0 +1,90 @@
+<!-- Created by AC -->
+<!-- HTML -->
+
+<!-- The elements/selectors start w/ an abbreviation of the destination. So in this case, the 'cg' in 'cg-back-top' stands for CoverGirl. -->
+
+<!-- Back To Top Icon -->
+<div id="cg-back-top" data-gae-track="event" data-gae-category="destination" data-gae-action="click" data-gae-label="back_top_01_mobile">
+	<span class="icon-slideshow-arrow-left cg-back-top-icon"></span>
+</div>
+
+<!-- CSS -->
+<style>
+	#cg-back-top {
+		display: none;
+		position: fixed;
+		bottom: 25px;
+		right: 25px;
+		height: 45px;
+		width: 45px;
+		border-radius: 50%;
+	    background-color: rgba(70, 67, 67, 0.65);
+		z-index: 100; 
+	}
+
+	.cg-back-top-icon {
+		display: block;
+		height: 45px;
+		width: 45px;
+		border-radius: 50%;
+		font-size: 30px;
+		color: rgba(255, 255, 255, 0.71);
+		-webkit-transform: rotate(90deg); 
+		   -moz-transform: rotate(90deg); 
+			-ms-transform: rotate(90deg); 
+				transform: rotate(90deg); 
+		position: relative;
+	}
+
+	.cg-back-top-icon:before {
+	    display: block;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+		-webkit-transform: translate(-50%,-50%);
+		   -moz-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+				transform: translate(-50%,-50%);		    
+	}
+</style>
+
+<!-- JS -->
+<script>
+
+$(document).ready(function() {
+
+ 	if ( $(window).width() < 768 ) {
+  		var backTop = $("#lo-back-top"),
+  			viewportHeight = $(window).height();
+
+  		backTopBehavior(backTop);
+  		
+  		//Mobile-only functions
+		function backTopBehavior(backTopBtn) {
+			backTopBtn.on('click touchstart', function() {
+				scrollToTopOf($("body,html"), 63);
+			});
+
+			$(window).on('scroll touchmove', function() {
+				if ( $(window).scrollTop() > viewportHeight ) {
+					backTopBtn.fadeIn();
+				} else {
+					backTopBtn.fadeOut();
+				}
+			});		
+		}	
+  	}
+
+	//we've been reusing this function a lot. definitely a good candidate for our eventual destination.js file.
+	function scrollToTopOf(selector, moreOffset) {
+		$("body,html").animate({
+			scrollTop: selector.offset().top - moreOffset
+		}, 500);
+		return false;
+	};
+   
+
+})	
+
+
+</script>

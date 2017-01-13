@@ -1,0 +1,121 @@
+<!-- Full Size Mobile Lander -->
+<!-- Created by AC -->
+
+<!-- 
+Notes:
+
+The general idea is that the "mobile lander" is a div that is full width, full height, and "fixed" to the screen (i.e. no scrolling is allowed). The mobile lander is what a user visiting the destination on mobile will see first. A tap or swipe will cause the mobile lander to fade out and show the "main container" which contains the main content for the destination.
+
+For the example below, we have a large "intro container" which is styled as shown at www.purewow.com/feature/how-to-get-healthier-hair-in-just-7-days. On mobile, we update the styling so that this intro container becomes a mobile lander as described above. Note the example code below has been simplified in order to get the general idea across as clearly as possible.
+
+The intro container typically has an absolutely positioned and centered div containing some text and a CTA prompting the user to tap/swipe through.
+
+The elements/selectors start w/ an abbreviation of the destination. So in this case, the 'lo' in 'lo-intro-container' stands for L'Oreal.
+
+-->
+
+<!-- Example -->
+<!-- HTML -->
+
+<!-- Intro Container -->
+<div class="lo-intro-container">
+	<!-- typically an overlay with some text and the CTA -->
+</div>
+
+<!-- Main Content Container -->
+<div class="lo-main-container">
+	<!-- the main content for your destination -->
+</div>
+
+
+<!-- CSS (as SCSS) -->
+<style>
+	/* Some commonly used Mixins */
+	@mixin prefix-transform($value) {
+		-webkit-transform: $value;
+		   -moz-transform: $value;
+			-ms-transform: $value;
+				transform: $value;
+	}
+
+	@mixin center-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		@include prefix-transform($value: translate(-50%,-50%));
+	}
+
+	/* Desktop */
+	.lo-intro-container {
+		width: 100vw;
+		max-width: 1920px;
+		margin: 0 auto;
+		background-image: url("../images/desktop/header-image.jpg");
+		background-size: cover;
+		background-position: center center;
+		min-height: 250px;
+		position: relative;
+	}	
+
+	/* Mobile */
+	.lo-intro-container {
+	    background-image: url("../images/mobile/header-image.jpg");
+	    height: 100vh;
+	}
+</style>
+
+<!-- JS -->
+<script>
+$(document).ready(function() {
+
+	//MOBILE
+	if ( $(window).width() < 768 ) {
+		var mobileLander = $(".lo-intro-container"),
+			mainContent = $(".lo-main-container");
+  		
+  		mobileLanderBehavior();
+
+		//fixed mobile lander behavior
+		function mobileLanderBehavior() {		
+			var startY = 0;
+
+			mobileLander.on('mousedown touchstart', function(e) {
+				startY = e.originalEvent.touches[0].clientY;
+			});
+
+			mobileLander.on('mouseup touchend', function(e) {
+				var endY = e.originalEvent.changedTouches[0].clientY,
+					error = 5,
+					diff = startY + error - endY;
+
+				if ( diff <= error || diff >= 50 ) {
+					scrollToTopOf($("body,html"), 0);
+					showMainMobile();
+				}
+
+				startY = 0;
+			});
+		}
+
+		//Hide mobile lander and show main content
+		function showMainMobile() {
+			mainContent.show();
+
+			$("body,html").css({
+				"overflow": "auto",
+				"height": "auto"
+			});
+
+			mobileLander.fadeOut();
+		};				
+	}
+
+	//we've been reusing this function a lot. definitely a good candidate for our eventual destination.js file.
+	function scrollToTopOf(selector, moreOffset) {
+		$("body,html").animate({
+			scrollTop: selector.offset().top - moreOffset
+		}, 500);
+		return false;
+	};
+})	
+</script>
