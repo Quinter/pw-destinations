@@ -5,7 +5,7 @@ DESTINATION GULP TASKS//////////////////////////////////////////////////////////
 Gulp tasks for getting CSS and Data files production-ready and combining compiled Handlebars templates. 
 The tasks work but there are many areas for cleanup/refactor. Feel free to jump in and make updates.
 
-The tasks were written assuming the directory structure looks like:
+The tasks were written assuming the directory structure and filenames are:
 
 desti/
 	css/
@@ -31,19 +31,17 @@ desti/
 ///////////////////////////////////////////////////////////////////////////////////
 Instructions///////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
-1. Run 'npm install PACKAGE' for the following packages (ex. 'npm install gulp'):
-	gulp
-	gulp-concat
-	gulp-rename
-	gulp-uglify
-	gulp-notify
-	gulp-replace
+1. Copy the package.json file in the root of the destinations repository to the root of your destination directory.
 
-2. Update the variables in the File & Directory Names section below to match what you're using in your destination.
+2. Run 'npm install' in that same directory.
 
-3. Gulp tasks are now ready.
-	a. Run 'gulp masterTemplate' for combining compiled Handlebars templates into one file.
-	b. Run 'gulp watch' to watch for changes in your local CSS and Data (JSON) files.
+3. Update the variables in the File & Directory Names section below to match what you're using in your destination.
+
+4. Gulp tasks are now ready.
+	a. Run 'gulp masterTemplate' for combining compiled Handlebars templates into one templates file.  You can run this whenever.
+	b. Run 'gulp watch' to watch for changes in your local CSS and Data (JSON) files. DON'T RUN THIS UNTIL YOU'VE UPLOADED YOUR IMAGES TO ADMIN!!!
+		- This will run in the background and continuously update your production-copies of the CSS and Data 
+		  files whenever you save your local CSS and Data files.
 */
 
 //Required Packages
@@ -66,10 +64,15 @@ var compiledTemplates = './compiled-templates/*',
 	cssOutput = './css',
 
 	images = /\.+(\/images)/g,
+	
 	/*
-	images01 replaces prodstatics3azcdn1 in the URL that the admin zip path gives us:
+	The URL below can be found in the destination Admin entry, under the "Additional Tab" and above the "Upload Zip File" button in that tab.
+	'images01' replaces 'prodstatics3azcdn1' in the URL that the admin zip path gives us:
 	Ex. Admin Zip Path - http://prodstatics3azcdn1.purewow.com/static/2016/21768/
 			imgix Path - http://images01.purewow.com/static/2016/21768/
+
+	You'll also need to append the path to your destination's images directory to the end of the URL:
+	Ex. http://images01.purewow.com/static/2016/21768/baileys-201610/images'
 	*/
 	imgixUrl = 'http://images01.purewow.com/static/2016/21768/baileys-201610/images';
 
