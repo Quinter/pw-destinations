@@ -1,0 +1,14 @@
+<div class="whbm-product">
+	<img src={{ image }} alt="" class="whbm-product-img">
+	<h3 class="whbm-product-hed">{{{ hed }}}</h3>
+
+	{{#if subhed}}
+	<h4 class="whbm-product-subhed">{{{ subhed }}}</h4>
+	{{/if}}
+
+	<div class="whbm-product-price">{{ price }}</div>
+	
+	<a class="whbm-buy-wrapper" href={{ link }} {{{ ga-tags }}}target="_blank">
+		<div class="whbm-buy">Buy Now</div>
+	</a>
+</div>
