@@ -7,11 +7,24 @@
 	<div class="whbm-intro">
 		<div class="col col-img col-1-2">
 			<img class="whbm-intro-img" src={{ image }} alt="">
+			{{#if credit-link}}
+				<a class="whbm-credit-link" href={{ credit-link }} {{{ credit-ga-tags }}} target="_blank">{{ credit-text }}</a>
+				{{else}}
+				<p class="whbm-credit">{{ photo-credit }}</p>
+			{{/if}}
 		</div>
 
 		<div class="col col-text col-1-2">
-			<h2 class="whbm-intro-hed">{{{ hed }}}</h1>
+			<h1 class="whbm-intro-hed">{{{ hed }}}</h1>
+			<h2 class="whbm-intro-subhed">{{{ subhed }}}</h2>
 			<p class="whbm-intro-copy">{{{ copy }}}</p>
+			<p class="whbm-intro-copy">{{{ copy-two }}}
+			{{#if credit-link}}
+				<a class="whbm-credit-link" href={{ credit-link }} {{{ credit-ga-tags }}} target="_blank">{{ credit-text }}</a>
+				{{else}}
+				<p class="whbm-credit-mobile">{{ photo-credit }}</p>
+			{{/if}}
+			</p>
 		</div>
 	</div>
 	{{/with}}

@@ -11,8 +11,6 @@ Handlebars.partials['preview'] = template({"compiler":[7,">= 4.0.0"],"main":func
     + ((stack1 = ((helper = (helper = helpers.hed || (depth0 != null ? depth0.hed : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"hed","hash":{},"data":data}) : helper))) != null ? stack1 : "")
     + "</h2>\n\n			<div class=\"whbm-preview-cta\" "
     + ((stack1 = ((helper = (helper = helpers["ga-tags"] || (depth0 != null ? depth0["ga-tags"] : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ga-tags","hash":{},"data":data}) : helper))) != null ? stack1 : "")
-    + " >\n				<span class=\"text-cta\">"
-    + alias4(((helper = (helper = helpers.cta || (depth0 != null ? depth0.cta : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"cta","hash":{},"data":data}) : helper)))
-    + "</span>\n				<span class=\"icon-thin-arrow whbm-arrow-icon only-mobile\"></span>\n			</div>\n		</div>\n	</div>\n</div>";
+    + " >\n				<span class=\"icon-thin-arrow whbm-arrow-icon only-mobile\"></span>\n			</div>\n		</div>\n	</div>\n</div>";
 },"useData":true});
 })();

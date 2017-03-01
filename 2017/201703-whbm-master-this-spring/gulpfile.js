@@ -72,7 +72,7 @@ var gulp = require('gulp'),
 	replace = require('gulp-replace');
 
 //File & Directory Names
-var compiledTemplates = 'js/compiled-templates/*',
+var compiledTemplates = './compiled-templates/*',
 	allTemplates = 'all_templates.js', 
 	localData = 'js/data_local.js',
 	prodData = 'data_prod.js',

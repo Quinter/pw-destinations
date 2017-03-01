@@ -193,18 +193,46 @@ node.parentNode.insertBefore(gads, node);
 	<link href="http://staticcdn12.purewow.com/v_2013/css/social-likes_flat_nav_compatible.css" rel="stylesheet">
 
 	<!-- Include CSS specific to this destination -->
-	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />	
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
 	<link rel="stylesheet" type="text/css" href="css/style_local.css" />
+
 	<!-- Chronicle font -->
 	<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/6567052/647844/css/fonts.css"/>
+
+<style>
+    header.fixed-header {
+        height: 62px;
+        background-color: salmon;
+        width: 100vw;
+        position: fixed;
+        top: 0px !important;
+        display: block;
+        z-index: 9999;        
+    }
+
+    header.fixed-header * {
+        display: none;
+    }
+
+    @media (max-width: 767px) {
+        header.fixed-header {
+            height: 55px;
+        }
+    }
+</style>
 
 	<!-- Handlebars Runtime JS 4.0.5 CDN (requires pre-compiled templates) -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.runtime.min.js"></script>
 
 	<!-- Include JS specific to this destination -->
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
 	<script type="text/javascript" src="js/data_local.js"></script>
 	<script type="text/javascript" src="js/all_templates.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
+
+
+
 
 	<!-- Moat Tag -->
 	<script type="text/javascript">(function(){var a=document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.async=!0;b.src="http://s.moatads.com/purewow783ixBj69/moatcontent.js";a.parentNode.insertBefore(b,a)})();</script>
